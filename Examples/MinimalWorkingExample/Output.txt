@@ -1,0 +1,12 @@
+Bus b3 has changed in voltage (pu) by 9.90281601181795E-07
+Bus b2 has changed in voltage (pu) by 0.000152791122413823
+Bus b4 has changed in voltage (pu) by 6.14747056342346E-05
+Bus b5 has changed in voltage (pu) by 6.94041141638226E-05
+Bus b9 has changed in voltage (pu) by 0.00919099297670996
+Bus b10 has changed in voltage (pu) by 0.00938955885082126
+Bus b11 has changed in voltage (pu) by 0.00822162582756408
+Bus b12 has changed in voltage (pu) by 0.00929166004717853
+Bus b1 has changed in voltage (pu) by 0.000152776792402134
+Bus b8 has changed in voltage (pu) by 0.00775142309783684
+Bus b7 has changed in voltage (pu) by 0.00794701668149591
+Bus b6 has changed in voltage (pu) by 0.00785302751323394

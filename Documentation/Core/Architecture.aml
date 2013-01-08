@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d84a8c76-b80a-4721-9a1e-c36cecfc6ead" revisionNumber="1">
+  <developerSDKTechnologyOverviewArchitectureDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!-- <autoOutline /> -->
+
+      <para>This article illustrates the component architecture of ElecNetKit.</para>
+    </introduction>
+
+    <!-- Add one or more top-level section elements.  These are collapsible.
+         If using <autoOutline />, add an address attribute to identify it
+         and specify a title so that it can be jumped to with a hyperlink. -->
+    <section address="BlockDiagram">
+      <title>Block Diagram And Description</title>
+      <content>
+        <!-- Uncomment this to create a sub-section outline
+        <autoOutline /> -->
+        <para>The components in ElecNetKit interact in the fashion demonstrated in the block digram, below.</para>
+        <mediaLink>
+          <image placement="center" xlink:href="BlockDiagram"/>
+        </mediaLink>
+        <para>The core components of ElecNetKit are:</para>
+        <definitionTable>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference> is responsible
+              for coordinating the entire experimentation / simulation process. It invokes all other modules at the
+              appropriate time and tightly controls access to the <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference> to ensure reliability
+              of results.
+            </para>
+          </definition>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference> 'abstracts away' the complexity of the raw simulator software interface.
+              Upon receiving commands from the <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>, it sends and extracts data to and from the underlying simulation engine.
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference>s are not directly interacted with for the purposes of running network experiments. The only
+              time that <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference>s should be directly used is when passed to <codeEntityReference qualifyHint="false" autoUpgrade="true">M:ElecNetKit.Simulator.NetworkController.#ctor(ElecNetKit.Simulator.ISimulator)</codeEntityReference>.
+              In most cases, however, this is not necessary - <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>s are capable of automatically detecting and using available simulators.
+              For more information, see <link xlink:href="b36ba47f-638b-47f4-853a-58f5049dc794" />.
+            </para>
+          </definition>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.Experimentation.IExperimentor</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.Experimentation.IExperimentor</codeEntityReference> defines an interface for conducting experiments on the simulated network.
+              When the <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference> runs a simulation,
+              it invokes the assigned <codeEntityReference qualifyHint="false">T:ElecNetKit.Experimentation.IExperimentor</codeEntityReference>, alerting it to the current state of the electrical network and expecting
+              a list of simulator commands that will be used to manipulate the network.
+            </para>
+          </definition>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.Transform.IResultsTransform</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.Transform.IResultsTransform</codeEntityReference> class offers a way to read the network
+              results both before and after the experiment is undertaken, and can modify the
+              results and topology of the final network immediately before it is returned by the
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>. This allows for perturb-and-observe style measurements, or
+              logarithmic scaling of results, for example.
+            </para>
+          </definition>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference> represents the entire electrical network
+              that is being operated upon. For futher information, see <link xlink:href="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c">Traversing the Network Model</link>.
+            </para>
+          </definition>
+          <definedTerm>
+            <codeEntityReference qualifyHint="false">T:ElecNetKit.Graphing.INetworkGraph</codeEntityReference>
+          </definedTerm>
+          <definition>
+            <para>
+              The <codeEntityReference qualifyHint="false">T:ElecNetKit.Graphing.INetworkGraph</codeEntityReference> interface specifies a consistent means for producing
+              visual representations of <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>s. Some graphs are included
+              with ElecNetKit for convenience. These are discussed in <link xlink:href="1201915e-1e35-440e-94ba-729903b0f473" />.
+            </para>
+          </definition>
+        </definitionTable>
+        <para>
+          To get a feel for the interaction between these modules, take a look at the <link xlink:href="58652f95-5bc9-47fe-a12b-9edbe5170171" /> example.
+        </para>
+      </content>
+    </section>
+    <relatedTopics>
+      <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>
+      <codeEntityReference qualifyHint="false">T:ElecNetKit.Experimentation.IExperimentor</codeEntityReference>
+      <codeEntityReference qualifyHint="false">T:ElecNetKit.Transform.IResultsTransform</codeEntityReference>
+      <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>
+      <codeEntityReference qualifyHint="false">T:ElecNetKit.Graphing.INetworkGraph</codeEntityReference>
+    </relatedTopics>
+  </developerSDKTechnologyOverviewArchitectureDocument>
+</topic>
