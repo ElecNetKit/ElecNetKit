@@ -71,7 +71,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Serialization" />
@@ -95,7 +94,6 @@
     <Compile Include="NetworkModelling\Tracing.cs" />
     <Compile Include="Convenience\IEnumerableExt.cs" />
     <Compile Include="Simulator\ElecNetKitEnginesNamespaceDoc.cs" />
-    <Compile Include="Simulator\ISimulatorMetaData.cs" />
     <Compile Include="Simulator\NamespaceDoc.cs" />
     <Compile Include="Transform\DifferenceTransform.cs" />
     <Compile Include="Transform\NamespaceDoc.cs" />

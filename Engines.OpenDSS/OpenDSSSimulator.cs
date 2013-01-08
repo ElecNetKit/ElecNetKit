@@ -8,7 +8,6 @@ using System.Windows;
 using ElecNetKit.NetworkModelling;
 using ElecNetKit.Util;
 using ElecNetKit.Simulator;
-using System.ComponentModel.Composition;
 using System.Numerics;
 
 namespace ElecNetKit.Engines
@@ -20,8 +19,6 @@ namespace ElecNetKit.Engines
     /// If you're looking to get information, obtain results etc, use a
     /// <see cref="NetworkController"/> instead.
     /// </summary>
-    [Export(typeof(ISimulator))]
-    [ExportMetadata("Name","OpenDSS")]
     public class OpenDSSSimulator : ISimulator
     {
         /// <summary>
