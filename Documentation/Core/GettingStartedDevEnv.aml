@@ -24,50 +24,55 @@
 
     <!-- One or more procedure or section with procedure -->
     <procedure>
-      <title>Procedure title</title>
+      <title>Setting Up a Development Environment on Windows</title>
       <steps class="ordered">
         <step>
           <content>
-            <para>First step</para>
+            <para>
+              Navigate to the <externalLink >
+                <linkText>Visual Studio Express 2012 for Windows Desktop Download Page</linkText>
+                <linkUri>http://www.microsoft.com/visualstudio/eng/products/visual-studio-express-for-windows-desktop</linkUri>
+              </externalLink>, and download the installer.
+            </para>
           </content>
         </step>
         <step>
           <content>
-            <para>Second step</para>
+            <para>
+              Follow through the installation procedure. Don't forget to register Visual Studio at some stage - you get temporarily locked out of the environment if you leave it for more than 30 days.
+            </para>
+          </content>
+        </step>
+        <step>
+          <content>
+            <para>
+              Once Visual Studio is installed, a simulator backend needs to be installed for ElecNetKit. Currently, the only simulator supported by ElecNetKit is <externalLink>
+                <linkText>OpenDSS</linkText>
+                <linkUri>http://www.smartgrid.epri.com/SimulationTool.aspx</linkUri>
+              </externalLink>. Go to the <externalLink>
+              <linkText>OpenDSS download page</linkText>
+              <linkUri>http://sourceforge.net/projects/electricdss/</linkUri>
+              </externalLink>, download the latest version and follow the installer prompts. Ensure that the default feature set is installed: 
+            </para>
+            <mediaLink>
+              <caption>OpenDSS Feature Install Set required for use with ElecNetKit</caption>
+              <image xlink:href="OpenDSSFeatureSet" />
+            </mediaLink>
           </content>
         </step>
       </steps>
-      <!-- <conclusion>Optional conclusion</conclusion> -->
+      <conclusion>
+        <content>
+          <para>That's it! You've installed everything you need to run network experiments using ElecNetKit.</para>
+        </content>
+      </conclusion>
     </procedure>
-
-    <!-- Optional additional procedure or section with procedure -->
-    <section address="Section1">
-      <title>Optional section title</title>
-      <content>
-        <procedure>
-          <title>Procedure #2</title>
-          <steps class="ordered">
-            <step>
-              <content>
-                <para>First step</para>
-              </content>
-            </step>
-            <step>
-              <content>
-                <para>Second step</para>
-              </content>
-            </step>
-          </steps>
-          <!-- <conclusion>Optional conclusion</conclusion> -->
-        </procedure>
-      </content>
-    </section>
-
-    <!-- Optional next steps info
+ 
     <nextSteps>
-      <content><para>Next steps info goes here</para></content>
+      <content><para>Now that you've installed a working development environment, you might want to try the simple example <link xlink:href="58652f95-5bc9-47fe-a12b-9edbe5170171" />.
+    </para></content>
     </nextSteps>
-    -->
+ 
 
     <relatedTopics>
       <!-- One or more of the following:
