@@ -54,8 +54,6 @@
               Upon receiving commands from the <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>, it sends and extracts data to and from the underlying simulation engine.
               <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference>s are not directly interacted with for the purposes of running network experiments. The only
               time that <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.ISimulator</codeEntityReference>s should be directly used is when passed to <codeEntityReference qualifyHint="false" autoUpgrade="true">M:ElecNetKit.Simulator.NetworkController.#ctor(ElecNetKit.Simulator.ISimulator)</codeEntityReference>.
-              In most cases, however, this is not necessary - <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>s are capable of automatically detecting and using available simulators.
-              For more information, see <link xlink:href="b36ba47f-638b-47f4-853a-58f5049dc794" />.
             </para>
           </definition>
           <definedTerm>

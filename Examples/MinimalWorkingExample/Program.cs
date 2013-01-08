@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 #region Usings
-using ElecNetKit.Simulator;         //Contains NetworkController
-using ElecNetKit.Transform;         //Contains DifferenceTransform
+using ElecNetKit.Simulator; //Contains NetworkController
+using ElecNetKit.Transform; //Contains DifferenceTransform
+using ElecNetKit.Engines;   //Contains OpenDSSSimulator
 #endregion
 namespace MinimalWorkingExample
 {
@@ -17,7 +18,8 @@ namespace MinimalWorkingExample
         {
             //Setup a network controller and choose a network definition file
             // appropriate to the simulator in use
-            NetworkController controller = new NetworkController();
+            NetworkController controller = 
+                new NetworkController(new OpenDSSSimulator());
             //Set this to the absolute path to the IEEE13mod.dss file, e.g.
             controller.NetworkFilename = @"C:\temp\IEEE13mod.dss";
 

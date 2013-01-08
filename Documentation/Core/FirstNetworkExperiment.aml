@@ -117,12 +117,6 @@
               Note that the implementation of <codeEntityReference qualifyHint="false">T:ElecNetKit.Experimentation.IExperimentor</codeEntityReference> in this example returns a list of strings that define commands to run on the network. These commands are specific syntax to OpenDSS, the simulator used in this example, and will not work in another simulator.
             </para>
           </listItem>
-          <listItem>
-            <para>
-              You many notice that a particular simulator was never specified in code. <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference>s automatically detect and use any available simulator, and so in this case, simply adding the reference to <codeInline>ElecNetKit.Engines.OpenDSS</codeInline> was sufficient.
-              This will not be the case in all applications, however. For more information on the method that ElecNetKit uses to choose simulators, take a look at the <codeEntityReference qualifyHint="false">T:ElecNetKit.Simulator.NetworkController</codeEntityReference> documentation, and read <link xlink:href="b36ba47f-638b-47f4-853a-58f5049dc794" />.
-            </para>
-          </listItem>
         </list>
       </content>
     </section>
