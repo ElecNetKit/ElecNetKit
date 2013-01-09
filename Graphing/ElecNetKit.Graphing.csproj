@@ -80,6 +80,8 @@
     <Compile Include="AdaptiveGradients\MinValue.cs" />
     <Compile Include="AdaptiveGradients\NamespaceDoc.cs" />
     <Compile Include="AdaptiveGradients\StaticValue.cs" />
+    <Compile Include="Controls\GraphHost.cs" />
+    <Compile Include="Controls\GraphHostWindow.cs" />
     <Compile Include="Controls\NamespaceDoc.cs" />
     <Compile Include="Controls\VisualHost.cs" />
     <Compile Include="Graphs\NamespaceDoc.cs" />
