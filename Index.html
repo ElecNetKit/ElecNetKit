@@ -1,0 +1,1367 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>ElecNetKit Documentation - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm" target="TopicContent">Getting Started</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/949e4556-eeed-4aea-b580-9cebbdbdab6d.htm" target="TopicContent">Setting up a Development Environment</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/58652f95-5bc9-47fe-a12b-9edbe5170171.htm" target="TopicContent">Walkthrough: A Minimal Working Example</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c.htm" target="TopicContent">Traversing the Network Model</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3dc0672f-1764-496f-a2dc-a8a4f5c73520.htm" target="TopicContent">Example Networks Package</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d84a8c76-b80a-4721-9a1e-c36cecfc6ead.htm" target="TopicContent">ElecNetKit Architecture</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1201915e-1e35-440e-94ba-729903b0f473.htm" target="TopicContent">Graphing with ElecNetKit</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Engines.htm" target="TopicContent">ElecNetKit.Engines Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm" target="TopicContent">OpenDSSSimulator Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" target="TopicContent">OpenDSSSimulator Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Engines_OpenDSSSimulator__ctor.htm" target="TopicContent">OpenDSSSimulator Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Engines_OpenDSSSimulator.htm" target="TopicContent">OpenDSSSimulator Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" target="TopicContent">GetNetworkModel Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" target="TopicContent">PrepareNetwork Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" target="TopicContent">RunCommand Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Engines_OpenDSSSimulator.htm" target="TopicContent">OpenDSSSimulator Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" target="TopicContent">ResultAccuracy Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Experimentation.htm" target="TopicContent">ElecNetKit.Experimentation Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm" target="TopicContent">ChainExperimentor Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" target="TopicContent">ChainExperimentor Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" target="TopicContent">ChainExperimentor Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Experimentation_ChainExperimentor.htm" target="TopicContent">ChainExperimentor Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" target="TopicContent">Experiment Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Experimentation_ChainExperimentor.htm" target="TopicContent">ChainExperimentor Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" target="TopicContent">Experimentors Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Experimentation_IExperimentor.htm" target="TopicContent">IExperimentor Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Experimentation_IExperimentor.htm" target="TopicContent">IExperimentor Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Experimentation_IExperimentor.htm" target="TopicContent">IExperimentor Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Experimentation_IExperimentor_Experiment.htm" target="TopicContent">Experiment Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Graphing.htm" target="TopicContent">ElecNetKit.Graphing Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_IElementLocatable.htm" target="TopicContent">IElementLocatable Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_IElementLocatable.htm" target="TopicContent">IElementLocatable Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_IElementLocatable.htm" target="TopicContent">IElementLocatable Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_IElementLocatable_GetObjectAtLocation.htm" target="TopicContent">GetObjectAtLocation Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_IElementSelectable.htm" target="TopicContent">IElementSelectable Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_IElementSelectable.htm" target="TopicContent">IElementSelectable Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_IElementSelectable.htm" target="TopicContent">IElementSelectable Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_IElementSelectable_SelectedElement.htm" target="TopicContent">SelectedElement Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_INetworkGraph.htm" target="TopicContent">INetworkGraph Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" target="TopicContent">INetworkGraph Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_INetworkGraph.htm" target="TopicContent">INetworkGraph Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_INetworkGraph_Draw.htm" target="TopicContent">Draw Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_INetworkGraph.htm" target="TopicContent">INetworkGraph Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_INetworkGraph_ImgCoords.htm" target="TopicContent">ImgCoords Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_INetworkGraph_Margin.htm" target="TopicContent">Margin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_INetworkGraph_Network.htm" target="TopicContent">Network Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_IPresentationMode.htm" target="TopicContent">IPresentationMode Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_IPresentationMode.htm" target="TopicContent">IPresentationMode Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_IPresentationMode.htm" target="TopicContent">IPresentationMode Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_IPresentationMode_PresentationMode.htm" target="TopicContent">PresentationMode Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_TreeGraph.htm" target="TopicContent">TreeGraph Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_TreeGraph.htm" target="TopicContent">TreeGraph Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph__ctor.htm" target="TopicContent">TreeGraph Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_TreeGraph.htm" target="TopicContent">TreeGraph Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_Draw.htm" target="TopicContent">Draw Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_GetObjectAtLocation.htm" target="TopicContent">GetObjectAtLocation Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_ScaledLocation.htm" target="TopicContent">ScaledLocation Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_ScaledRectangle.htm" target="TopicContent">ScaledRectangle Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledLocation.htm" target="TopicContent">UnscaledLocation Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" target="TopicContent">UnscaledRectangle Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_TreeGraph.htm" target="TopicContent">TreeGraph Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_TreeGraph_ImgCoords.htm" target="TopicContent">ImgCoords Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_TreeGraph_Margin.htm" target="TopicContent">Margin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_TreeGraph_Network.htm" target="TopicContent">Network Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_TreeGraph_PresentationMode.htm" target="TopicContent">PresentationMode Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Graphing_AdaptiveGradients.htm" target="TopicContent">ElecNetKit.Graphing.AdaptiveGradients Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" target="TopicContent">AdaptiveGradient Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" target="TopicContent">AdaptiveGradient Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient__ctor.htm" target="TopicContent">AdaptiveGradient Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" target="TopicContent">AdaptiveGradient Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" target="TopicContent">BlueBlackRedGradient Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" target="TopicContent">BlueRedGradient Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" target="TopicContent">ResetAutoData Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" target="TopicContent">AdaptiveGradientMap(T) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" target="TopicContent">AdaptiveGradientMap(T) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" target="TopicContent">AdaptiveGradientMap(T) Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" target="TopicContent">AdaptiveGradientMap(T) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1_Map.htm" target="TopicContent">Map Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" target="TopicContent">AdaptiveGradientMapBuilder Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" target="TopicContent">AdaptiveGradientMapBuilder Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder__ctor.htm" target="TopicContent">AdaptiveGradientMapBuilder Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" target="TopicContent">AdaptiveGradientMapBuilder Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" target="TopicContent">BuildGradientMap(T) Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" target="TopicContent">AdaptiveGradientMapBuilder Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" target="TopicContent">NumSamples Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" target="TopicContent">AdaptiveGradientStop Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" target="TopicContent">AdaptiveGradientStop Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop__ctor.htm" target="TopicContent">AdaptiveGradientStop Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" target="TopicContent">AdaptiveGradientStop Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" target="TopicContent">Anchor Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" target="TopicContent">Color Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" target="TopicContent">IAdaptiveGradientAnchor Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" target="TopicContent">IAdaptiveGradientAnchor Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" target="TopicContent">IAdaptiveGradientAnchor Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_Reset.htm" target="TopicContent">Reset Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" target="TopicContent">IAdaptiveGradientAnchor Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" target="TopicContent">AnchorValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" target="TopicContent">MaxValue Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" target="TopicContent">MaxValue Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue__ctor.htm" target="TopicContent">MaxValue Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" target="TopicContent">MaxValue Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_Reset.htm" target="TopicContent">Reset Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" target="TopicContent">MaxValue Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" target="TopicContent">AnchorValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" target="TopicContent">MinValue Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" target="TopicContent">MinValue Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue__ctor.htm" target="TopicContent">MinValue Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" target="TopicContent">MinValue Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_Reset.htm" target="TopicContent">Reset Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" target="TopicContent">MinValue Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_MinValue_AnchorValue.htm" target="TopicContent">AnchorValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" target="TopicContent">StaticValue Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" target="TopicContent">StaticValue Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue__ctor.htm" target="TopicContent">StaticValue Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" target="TopicContent">StaticValue Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" target="TopicContent">Reset Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" target="TopicContent">StaticValue Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_AnchorValue.htm" target="TopicContent">AnchorValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Graphing_Controls.htm" target="TopicContent">ElecNetKit.Graphing.Controls Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm" target="TopicContent">GraphHost Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHost.htm" target="TopicContent">GraphHost Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_GraphHost__ctor.htm" target="TopicContent">GraphHost Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHost.htm" target="TopicContent">GraphHost Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" target="TopicContent">RefreshGraph Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHost.htm" target="TopicContent">GraphHost Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Controls_GraphHost_Graph.htm" target="TopicContent">Graph Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ElecNetKit_Graphing_Controls_GraphHost.htm" target="TopicContent">GraphHost Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" target="TopicContent">GraphHostWindow Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" target="TopicContent">GraphHostWindow Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow__ctor.htm" target="TopicContent">GraphHostWindow Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" target="TopicContent">GraphHostWindow Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" target="TopicContent">RefreshGraph Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_StartGraphHostWindow.htm" target="TopicContent">StartGraphHostWindow Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" target="TopicContent">GraphHostWindow Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" target="TopicContent">Graph Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_VisualHost__ctor.htm" target="TopicContent">VisualHost Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ElecNetKit_Graphing_Controls_VisualHost_DrawingProperty.htm" target="TopicContent">DrawingProperty Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportPNG.htm" target="TopicContent">ExportPNG Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportXPS.htm" target="TopicContent">ExportXPS Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" target="TopicContent">GetVisualChild Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Controls_VisualHost_OnPropertyChanged.htm" target="TopicContent">OnPropertyChanged Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Controls_VisualHost_Drawing.htm" target="TopicContent">Drawing Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Controls_VisualHost_VisualChildrenCount.htm" target="TopicContent">VisualChildrenCount Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_ElecNetKit_Graphing_Controls_VisualHost.htm" target="TopicContent">VisualHost Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ElecNetKit_Graphing_Controls_VisualHost_PropertyChanged.htm" target="TopicContent">PropertyChanged Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Graphing_Graphs.htm" target="TopicContent">ElecNetKit.Graphing.Graphs Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" target="TopicContent">FeederProfileGraph Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" target="TopicContent">FeederProfileGraph Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph__ctor.htm" target="TopicContent">FeederProfileGraph Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" target="TopicContent">FeederProfileGraph Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Draw.htm" target="TopicContent">Draw Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" target="TopicContent">FeederProfileGraph Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_ImgCoords.htm" target="TopicContent">ImgCoords Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Margin.htm" target="TopicContent">Margin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Network.htm" target="TopicContent">Network Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_PresentationMode.htm" target="TopicContent">PresentationMode Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" target="TopicContent">SelectedElement Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" target="TopicContent">ValueTransformableTreeGraph Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" target="TopicContent">ValueTransformableTreeGraph Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph__ctor.htm" target="TopicContent">ValueTransformableTreeGraph Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" target="TopicContent">ValueTransformableTreeGraph Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BuildGradientMap.htm" target="TopicContent">BuildGradientMap Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_Draw.htm" target="TopicContent">Draw Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawBuses.htm" target="TopicContent">DrawBuses Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" target="TopicContent">DrawLines Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_GetObjectAtLocation.htm" target="TopicContent">GetObjectAtLocation Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" target="TopicContent">ValueTransformableTreeGraph Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorGradient.htm" target="TopicContent">BusColorGradient Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorTransform.htm" target="TopicContent">BusColorTransform Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMax.htm" target="TopicContent">BusSizeMax Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMin.htm" target="TopicContent">BusSizeMin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeTransform.htm" target="TopicContent">BusSizeTransform Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusVisibleTransform.htm" target="TopicContent">BusVisibleTransform Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_LineThickness.htm" target="TopicContent">LineThickness Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingColor.htm" target="TopicContent">RingColor Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceFromCenter.htm" target="TopicContent">RingDistanceFromCenter Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceTransform.htm" target="TopicContent">RingDistanceTransform Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingEnabledTransform.htm" target="TopicContent">RingEnabledTransform Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingThickness.htm" target="TopicContent">RingThickness Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Graphing_Util.htm" target="TopicContent">ElecNetKit.Graphing.Util Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" target="TopicContent">DrawingVisualSerialisers Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" target="TopicContent">DrawingVisualSerialisers Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" target="TopicContent">DrawingVisualSerialisers Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" target="TopicContent">LoadVisualFromByteArray Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" target="TopicContent">SaveVisualToByteArray Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" target="TopicContent">MagicGridSpacer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" target="TopicContent">MagicGridSpacer Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer__ctor.htm" target="TopicContent">MagicGridSpacer Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" target="TopicContent">MagicGridSpacer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer_GetGridSpacings.htm" target="TopicContent">GetGridSpacings Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" target="TopicContent">MagicGridSpacer Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxLines.htm" target="TopicContent">MaxLines Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxValue.htm" target="TopicContent">MaxValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MinValue.htm" target="TopicContent">MinValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" target="TopicContent">MagicGridSpacings Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" target="TopicContent">MagicGridSpacings Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings__ctor.htm" target="TopicContent">MagicGridSpacings Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" target="TopicContent">MagicGridSpacings Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" target="TopicContent">GetTicks Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" target="TopicContent">MagicGridSpacings Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_Interval.htm" target="TopicContent">Interval Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_LowerLimit.htm" target="TopicContent">LowerLimit Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_UpperLimit.htm" target="TopicContent">UpperLimit Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_NetworkModelling.htm" target="TopicContent">ElecNetKit.NetworkModelling Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_Bus.htm" target="TopicContent">Bus Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" target="TopicContent">Bus Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" target="TopicContent">Bus Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_Bus.htm" target="TopicContent">Bus Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_Bus.htm" target="TopicContent">Bus Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" target="TopicContent">BaseVoltage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" target="TopicContent">Location Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" target="TopicContent">Voltage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" target="TopicContent">VoltagePU Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_Generator.htm" target="TopicContent">Generator Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" target="TopicContent">Generator Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" target="TopicContent">Generator Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_Generator.htm" target="TopicContent">Generator Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_Generator.htm" target="TopicContent">Generator Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" target="TopicContent">Generation Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_Line.htm" target="TopicContent">Line Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_Line.htm" target="TopicContent">Line Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Line__ctor.htm" target="TopicContent">Line Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_Line.htm" target="TopicContent">Line Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_Line.htm" target="TopicContent">Line Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Line_Length.htm" target="TopicContent">Length Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_Load.htm" target="TopicContent">Load Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" target="TopicContent">Load Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" target="TopicContent">Load Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_Load.htm" target="TopicContent">Load Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_Load.htm" target="TopicContent">Load Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" target="TopicContent">ActualKVA Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="TopicContent">NetworkElement Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="TopicContent">NetworkElement Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkElement__ctor.htm" target="TopicContent">NetworkElement Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="TopicContent">NetworkElement Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" target="TopicContent">Connect Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" target="TopicContent">Connect Method (NetworkElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1.htm" target="TopicContent">Connect Method (NetworkElement, NetworkElement)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" target="TopicContent">Disconnect Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" target="TopicContent">Disconnect Method (NetworkElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect_1.htm" target="TopicContent">Disconnect Method (NetworkElement, NetworkElement)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="TopicContent">NetworkElement Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" target="TopicContent">ConnectedTo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" target="TopicContent">ElementType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" target="TopicContent">ID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" target="TopicContent">NetworkModel Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" target="TopicContent">NetworkModel Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkModel__ctor.htm" target="TopicContent">NetworkModel Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ElecNetKit_NetworkModelling_NetworkModel.htm" target="TopicContent">NetworkModel Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ElecNetKit_NetworkModelling_NetworkModel_networkBounds.htm" target="TopicContent">networkBounds Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_NetworkModel.htm" target="TopicContent">NetworkModel Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" target="TopicContent">FindNetworkBounds Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_NetworkModel_UpdateNetworkBounds.htm" target="TopicContent">UpdateNetworkBounds Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_NetworkModelling_NetworkModel.htm" target="TopicContent">NetworkModel Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_Buses.htm" target="TopicContent">Buses Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_Generators.htm" target="TopicContent">Generators Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_Lines.htm" target="TopicContent">Lines Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_Loads.htm" target="TopicContent">Loads Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_LosseskVA.htm" target="TopicContent">LosseskVA Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_NetworkBounds.htm" target="TopicContent">NetworkBounds Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_NetworkModelling_NetworkModel_SourceBus.htm" target="TopicContent">SourceBus Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_NetworkModelling_Tracing.htm" target="TopicContent">Tracing Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" target="TopicContent">Tracing Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_NetworkModelling_Tracing.htm" target="TopicContent">Tracing Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Tracing_BusesOnRouteToTarget.htm" target="TopicContent">BusesOnRouteToTarget Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Tracing_GetDirectLengthBetweenBuses.htm" target="TopicContent">GetDirectLengthBetweenBuses Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Tracing_TraceFromWithCallback.htm" target="TopicContent">TraceFromWithCallback Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_NetworkModelling_Tracing_TraceWithoutCrossingBuses.htm" target="TopicContent">TraceWithoutCrossingBuses Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Simulator.htm" target="TopicContent">ElecNetKit.Simulator Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Simulator_ISimulator.htm" target="TopicContent">ISimulator Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" target="TopicContent">ISimulator Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Simulator_ISimulator.htm" target="TopicContent">ISimulator Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" target="TopicContent">GetNetworkModel Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_ISimulator_PrepareNetwork.htm" target="TopicContent">PrepareNetwork Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" target="TopicContent">RunCommand Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Simulator_NetworkController.htm" target="TopicContent">NetworkController Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Simulator_NetworkController.htm" target="TopicContent">NetworkController Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_NetworkController__ctor.htm" target="TopicContent">NetworkController Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Simulator_NetworkController.htm" target="TopicContent">NetworkController Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_NetworkController_ClearNetworkCache.htm" target="TopicContent">ClearNetworkCache Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Simulator_NetworkController_Execute.htm" target="TopicContent">Execute Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Simulator_NetworkController.htm" target="TopicContent">NetworkController Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Simulator_NetworkController_CacheNetwork.htm" target="TopicContent">CacheNetwork Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Simulator_NetworkController_ExperimentDriver.htm" target="TopicContent">ExperimentDriver Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Simulator_NetworkController_Network.htm" target="TopicContent">Network Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Simulator_NetworkController_NetworkFilename.htm" target="TopicContent">NetworkFilename Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Simulator_NetworkController_ResultsTransformer.htm" target="TopicContent">ResultsTransformer Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Transform.htm" target="TopicContent">ElecNetKit.Transform Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Transform_DifferenceTransform.htm" target="TopicContent">DifferenceTransform Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" target="TopicContent">DifferenceTransform Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Transform_DifferenceTransform__ctor.htm" target="TopicContent">DifferenceTransform Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Transform_DifferenceTransform.htm" target="TopicContent">DifferenceTransform Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" target="TopicContent">PostExperimentHook Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" target="TopicContent">PreExperimentHook Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Transform_IResultsTransform.htm" target="TopicContent">IResultsTransform Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Transform_IResultsTransform.htm" target="TopicContent">IResultsTransform Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Transform_IResultsTransform.htm" target="TopicContent">IResultsTransform Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" target="TopicContent">PostExperimentHook Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" target="TopicContent">PreExperimentHook Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ElecNetKit_Util.htm" target="TopicContent">ElecNetKit.Util Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Util_Limits.htm" target="TopicContent">Limits Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Util_Limits.htm" target="TopicContent">Limits Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits__ctor.htm" target="TopicContent">Limits Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Util_Limits.htm" target="TopicContent">Limits Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" target="TopicContent">AutoDataReset Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm" target="TopicContent">ProcessData Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits_ProcessData.htm" target="TopicContent">ProcessData Method (IEnumerable(Double))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits_ProcessData_1.htm" target="TopicContent">ProcessData Method (Double)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits_ValueScaledToLimits.htm" target="TopicContent">ValueScaledToLimits Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_Limits_ValueUnscaledFromLimits.htm" target="TopicContent">ValueUnscaledFromLimits Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Util_Limits.htm" target="TopicContent">Limits Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_Limits_AutoMax.htm" target="TopicContent">AutoMax Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_Limits_AutoMin.htm" target="TopicContent">AutoMin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_Limits_LimitMax.htm" target="TopicContent">LimitMax Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_Limits_LimitMin.htm" target="TopicContent">LimitMin Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Util_NormalDist.htm" target="TopicContent">NormalDist Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Util_NormalDist.htm" target="TopicContent">NormalDist Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ElecNetKit_Util_NormalDist__ctor.htm" target="TopicContent">NormalDist Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist__ctor.htm" target="TopicContent">NormalDist Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist__ctor_1.htm" target="TopicContent">NormalDist Constructor (IEnumerable(Double))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist__ctor_2.htm" target="TopicContent">NormalDist Constructor (Double, Double)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Util_NormalDist.htm" target="TopicContent">NormalDist Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist_GetNextValue.htm" target="TopicContent">GetNextValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" target="TopicContent">GetZ Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_NormalDist_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Util_NormalDist.htm" target="TopicContent">NormalDist Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_NormalDist_Mean.htm" target="TopicContent">Mean Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_NormalDist_StdDev.htm" target="TopicContent">StdDev Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_NormalDist_Variance.htm" target="TopicContent">Variance Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" target="TopicContent">TwinKeyDictionary(TKeyX, TKeyY, TValue) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" target="TopicContent">TwinKeyDictionary(TKeyX, TKeyY, TValue) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" target="TopicContent">TwinKeyDictionary(TKeyX, TKeyY, TValue) Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" target="TopicContent">TwinKeyDictionary(TKeyX, TKeyY, TValue) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" target="TopicContent">Add Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" target="TopicContent">ContainsKey Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" target="TopicContent">ContainsKeyX Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyY.htm" target="TopicContent">ContainsKeyY Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Merge.htm" target="TopicContent">Merge Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeX.htm" target="TopicContent">MergeX Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeY.htm" target="TopicContent">MergeY Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" target="TopicContent">OnDeserialization Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" target="TopicContent">Remove Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" target="TopicContent">TwinKeyDictionary(TKeyX, TKeyY, TValue) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapX.htm" target="TopicContent">MapX Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapY.htm" target="TopicContent">MapY Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

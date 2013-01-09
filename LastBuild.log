@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="9/01/2013 4:35:18 PM">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;D:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Loading and initializing plug-ins...
+Additional Content Only plug-in is disabled and will not be loaded
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Data\Code\ElecNetKit\Engines.OpenDSS\ElecNetKit.Engines.OpenDSS.csproj
+    Found project &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\ElecNetKit.Engines.OpenDSS.csproj&#39;
+Source: D:\Data\Code\ElecNetKit\Graphing\ElecNetKit.Graphing.csproj
+    Found project &#39;D:\Data\Code\ElecNetKit\Graphing\ElecNetKit.Graphing.csproj&#39;
+Source: D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj
+    Found project &#39;D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\ElecNetKit.Core.dll&#39;
+
+References to include (excluding framework assemblies):
+    D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\ElecNetKit.Core.dll
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.dll
+    D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.dll
+    OpenDSSengine
+
+Copying XML comments files
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
+    D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
+    D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\CAE.Core.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0310
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Core&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Engines.OpenDSS&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Graphing&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
+  MRefBuilder (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 3 assemblies for reflection and 5 dependency assemblies.
+  Info: Wrote information on 11 namespaces, 38 types, and 189 members
+  XslTransform (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:07.8634
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0190
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 explicit interface implementations removed
+    19 local and base class EII elements removed
+    1516 inherited member elements removed
+    Last step completed in 00:00:00.0490
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.6.0
+Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.org&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\*.xml
+Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
+Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
+Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML
+Indexed 158044 members in 125 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:06.4234
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:02.8002
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+    Unique name M_ElecNetKit_Util_Limits_ProcessData_1 generated for M:ElecNetKit.Util.Limits.ProcessData(System.Double)
+    Unique name M_ElecNetKit_Util_NormalDist__ctor_1 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Collections.Generic.IEnumerable{System.Double})
+    Unique name M_ElecNetKit_Util_NormalDist__ctor_2 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Double,System.Double)
+    Last step completed in 00:00:00.7030
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\1_404_bullet.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\2_404_bullet.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\close.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\footer_slice.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\info_icon.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\online_icon.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\open.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\search.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\search_bk.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\tabLeftBG.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\tabRightBG.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\ui_om_collapse.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\ui_om_expand.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+Copying help branding...
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\branding\
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\body.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\head.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\CodeSnippet.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\Identity.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\InstrumentedLink.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\LanguageSpecificText.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-zh-TW.xslt
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\branding\
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding.xml
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-body.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-head.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-foot.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-collapsibleArea.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-codesnippet.xslt
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\1_404_bullet.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\2_404_bullet.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\alert_caution.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\alert_note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\alert_security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\CFW.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\close.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\favicon.ico
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\footer_slice.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\info_icon.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\online_icon.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\open.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pencil.GIF
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\search.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\search_bk.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\static.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\tabLeftBG.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\tabRightBG.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\ui_om_collapse.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\ui_om_expand.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\icons\xna.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\scripts\branding.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\styles\branding.css
+Copying help branding...
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\branding\
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\body.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\head.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\CodeSnippet.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\codesnippet-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\Identity.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\InstrumentedLink.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\LanguageSpecificText.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\index-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\search-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\toc-zh-TW.xslt
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website\branding\
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding.xml
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-cs-CZ.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-de-DE.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-US.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-es-ES.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-fr-FR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-it-IT.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ja-JP.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ko-KR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-pl-PL.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-pt-BR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-ru-RU.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-tr-TR.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-zh-CN.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-zh-TW.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-body.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-head.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-foot.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-collapsibleArea.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
+    D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-codesnippet.xslt
+    Last step completed in 00:00:05.1793
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+    D:\Data\Code\ElecNetKit\Documentation\Images\BlockDiagram.PNG -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\BlockDiagram.PNG
+    D:\Data\Code\ElecNetKit\Documentation\Images\FeederProfileGraph.png -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\FeederProfileGraph.png
+    D:\Data\Code\ElecNetKit\Documentation\Images\GraphOutput.png -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\GraphOutput.png
+    D:\Data\Code\ElecNetKit\Documentation\Images\MWETreeGraph.png -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\MWETreeGraph.png
+    D:\Data\Code\ElecNetKit\Documentation\Images\OpenDSSFeatureSet.png -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\OpenDSSFeatureSet.png
+    D:\Data\Code\ElecNetKit\Documentation\Images\ValueTransformableTreeGraph.png -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\Media\ValueTransformableTreeGraph.png
+Generating conceptual topic files
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\Index.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\Index.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\9e5ced0a-ca06-45d2-b65e-27c75e679471.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\DevEnv.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\DevEnv.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\949e4556-eeed-4aea-b580-9cebbdbdab6d.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\FirstNetworkExperiment.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\FirstNetworkExperiment.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\58652f95-5bc9-47fe-a12b-9edbe5170171.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\TraversingNetworkModel.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\GettingStarted\TraversingNetworkModel.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\ExampleNetworkPackage.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\ExampleNetworkPackage.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\3dc0672f-1764-496f-a2dc-a8a4f5c73520.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\Architecture.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\Architecture.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\d84a8c76-b80a-4721-9a1e-c36cecfc6ead.xml
+    Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml&#39;
+    D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\1201915e-1e35-440e-94ba-729903b0f473.xml
+    Last step completed in 00:00:00.1140
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00.0080
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01.5251
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00.0550
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Data\Code\ElecNetKit\Documentation\Help\Working\sandcastle.config
+D:\Data\Code\ElecNetKit\Documentation\Help\Working\conceptual.config
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.8751
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Transforms\skeleton_conceptual.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;ddueXml\*.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 7 elements in 7 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;HelpFileBuilderTokens.tokens&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\HelpFileBuilderTokens.tokens&#39;.
+  Info: SharedContentComponent: Found 1 files in HelpFileBuilderTokens.tokens.
+  Info: SharedContentComponent: Loaded 1 shared content items.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;_ContentMetadata_.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 7 elements in 1 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.6.0]
+      Code Block Component.  Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.6.0]
+      Multi-Format Output Component. Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedBack_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\conceptual_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\conceptual_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\conceptual_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;producttitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_topic&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Found 1 files in ResourceOverrides.items.
+  Info: SharedContentComponent: Loaded 159 shared content items.
+  Info: ResolveArtLinksComponent: Instantiating component.
+  Info: ResolveArtLinksComponent: Indexed 6 art targets.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: IfThenComponent: Instantiating component.
+  Info: BrandingComponent: Instantiating component.
+  Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
+  Info: SaveComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: Loading components for Website format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedBack_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\conceptual_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\conceptual_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\conceptual_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;producttitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_topic&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Found 1 files in ResourceOverrides.items.
+  Info: SharedContentComponent: Loaded 159 shared content items.
+  Info: ResolveArtLinksComponent: Instantiating component.
+  Info: ResolveArtLinksComponent: Indexed 6 art targets.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: IfThenComponent: Instantiating component.
+  Info: BrandingComponent: Instantiating component.
+  Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic 9e5ced0a-ca06-45d2-b65e-27c75e679471
+  Info: BuildAssembler: Building topic 949e4556-eeed-4aea-b580-9cebbdbdab6d
+  Info: BuildAssembler: Building topic 58652f95-5bc9-47fe-a12b-9edbe5170171
+  Warn: ResolveConceptualLinksComponent: [58652f95-5bc9-47fe-a12b-9edbe5170171] Invalid conceptual link target &#39;http://nuget.org/&#39;.
+  Warn: ResolveConceptualLinksComponent: [58652f95-5bc9-47fe-a12b-9edbe5170171] Invalid conceptual link target &#39;http://nuget.org/&#39;.
+  Info: BuildAssembler: Building topic dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c
+  Info: BuildAssembler: Building topic 3dc0672f-1764-496f-a2dc-a8a4f5c73520
+  Info: BuildAssembler: Building topic d84a8c76-b80a-4721-9a1e-c36cecfc6ead
+  Info: BuildAssembler: Building topic 1201915e-1e35-440e-94ba-729903b0f473
+  Info: Processed 7 topics
+    Last step completed in 00:01:39.7977
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.2.0)
+  Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Transforms\skeleton.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 194170 elements in 410 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\_InheritedDocs_.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 158044 elements in 126 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder, version 1.9.6.0]
+      Show Missing Documentation Component. Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved
+  http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.6.0]
+      Code Block Component.  Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.6.0]
+      Multi-Format Output Component. Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;producttitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_topic&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Found 1 files in ResourceOverrides.items.
+  Info: SharedContentComponent: Loaded 571 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: BrandingComponent: Instantiating component.
+  Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
+  Info: SaveComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: Loading components for Website format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Program Files (x86)\Sandcastle\Presentation\VS2010\Content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\Content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;producttitle&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_topic&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text_to&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ResourceOverrides.items&#39;.
+  Info: SharedContentComponent: Found 1 files in ResourceOverrides.items.
+  Info: SharedContentComponent: Loaded 571 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: BrandingComponent: Instantiating component.
+  Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:ElecNetKit.Engines
+  Info: BuildAssembler: Building topic T:ElecNetKit.Engines.OpenDSSSimulator
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Engines.OpenDSSSimulator
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Engines.OpenDSSSimulator
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Engines.OpenDSSSimulator
+  Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.GetNetworkModel
+  Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.PrepareNetwork(System.String)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Engines.OpenDSSSimulator.ResultAccuracy
+  Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.RunCommand(System.String)
+  Info: BuildAssembler: Building topic N:ElecNetKit.Experimentation
+  Info: BuildAssembler: Building topic T:ElecNetKit.Experimentation.ChainExperimentor
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Experimentation.ChainExperimentor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Experimentation.ChainExperimentor
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Experimentation.ChainExperimentor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Experimentation.ChainExperimentor.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Experimentation.ChainExperimentor.Experiment(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Experimentation.ChainExperimentor.Experimentors
+  Info: BuildAssembler: Building topic T:ElecNetKit.Experimentation.IExperimentor
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Experimentation.IExperimentor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Experimentation.IExperimentor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Experimentation.IExperimentor.Experiment(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic N:ElecNetKit.Graphing
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.IElementLocatable
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.IElementLocatable
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.IElementLocatable
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.IElementLocatable.GetObjectAtLocation(System.Windows.Point)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.IElementSelectable
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.IElementSelectable
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.IElementSelectable
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.IElementSelectable.SelectedElement
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.INetworkGraph
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.INetworkGraph
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.INetworkGraph
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.INetworkGraph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.INetworkGraph.Draw
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.INetworkGraph.ImgCoords
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.INetworkGraph.Margin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.INetworkGraph.Network
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.IPresentationMode
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.IPresentationMode
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.IPresentationMode
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.IPresentationMode.PresentationMode
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.TreeGraph
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.TreeGraph
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.TreeGraph
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.TreeGraph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.Draw
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.GetObjectAtLocation(System.Windows.Point)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.TreeGraph.ImgCoords
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.TreeGraph.Margin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.TreeGraph.Network
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.TreeGraph.PresentationMode
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.ScaledLocation(System.Windows.Point)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.ScaledRectangle(System.Windows.Rect)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.UnscaledLocation(System.Windows.Point)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.TreeGraph.UnscaledRectangle(System.Windows.Rect)
+  Info: BuildAssembler: Building topic N:ElecNetKit.Graphing.AdaptiveGradients
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient.BlueBlackRedGradient
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient.BlueRedGradient
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient.ResetAutoData
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap`1
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap`1
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap`1
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap`1.#ctor(System.Double[],`0[])
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap`1.Map(System.Double)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder.#ctor(ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient,System.UInt32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder.BuildGradientMap``1(System.Func{System.Windows.Media.Color,``0})
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder.NumSamples
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop.#ctor(System.Windows.Media.Color,ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop.Anchor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop.Color
+  Warn: ShowMissingComponent: [P:ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop.Color] Missing &lt;summary&gt; documentation
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor.AnchorValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor.Reset
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.MaxValue
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.MaxValue
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.MaxValue
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.MaxValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MaxValue.#ctor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.MaxValue.AnchorValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MaxValue.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MaxValue.Reset
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.MinValue
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.MinValue
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.MinValue
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.MinValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MinValue.#ctor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.MinValue.AnchorValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MinValue.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.MinValue.Reset
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.AdaptiveGradients.StaticValue
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.AdaptiveGradients.StaticValue
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.AdaptiveGradients.StaticValue
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.AdaptiveGradients.StaticValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.StaticValue.#ctor(System.Double)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.AdaptiveGradients.StaticValue.AnchorValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.StaticValue.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.AdaptiveGradients.StaticValue.Reset
+  Info: BuildAssembler: Building topic N:ElecNetKit.Graphing.Controls
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Controls.GraphHost
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Controls.GraphHost
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Controls.GraphHost
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Controls.GraphHost
+  Info: BuildAssembler: Building topic Events.T:ElecNetKit.Graphing.Controls.GraphHost
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.GraphHost.#ctor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Controls.GraphHost.Graph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.GraphHost.RefreshGraph
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Controls.GraphHostWindow
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Controls.GraphHostWindow
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Controls.GraphHostWindow
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Controls.GraphHostWindow
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.GraphHostWindow.#ctor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Controls.GraphHostWindow.Graph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.GraphHostWindow.RefreshGraph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.GraphHostWindow.StartGraphHostWindow(ElecNetKit.Graphing.INetworkGraph)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic Events.T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic Fields.T:ElecNetKit.Graphing.Controls.VisualHost
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.VisualHost.#ctor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Controls.VisualHost.Drawing
+  Info: BuildAssembler: Building topic F:ElecNetKit.Graphing.Controls.VisualHost.DrawingProperty
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.VisualHost.ExportPNG(System.String,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.VisualHost.ExportXPS(System.Uri)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.VisualHost.GetVisualChild(System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Controls.VisualHost.OnPropertyChanged(System.String)
+  Info: BuildAssembler: Building topic E:ElecNetKit.Graphing.Controls.VisualHost.PropertyChanged
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Controls.VisualHost.VisualChildrenCount
+  Info: BuildAssembler: Building topic N:ElecNetKit.Graphing.Graphs
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Graphs.FeederProfileGraph
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Graphs.FeederProfileGraph
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Graphs.FeederProfileGraph
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Graphs.FeederProfileGraph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.FeederProfileGraph.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.FeederProfileGraph.Draw
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.FeederProfileGraph.ImgCoords
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.FeederProfileGraph.Margin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.FeederProfileGraph.Network
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.FeederProfileGraph.PresentationMode
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.FeederProfileGraph.SelectedElement
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BuildGradientMap(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusColorGradient
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusColorTransform
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusSizeMax
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusSizeMin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusSizeTransform
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.BusVisibleTransform
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.Draw
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.DrawBuses(ElecNetKit.NetworkModelling.NetworkModel,ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap{System.Tuple{System.Windows.Media.Brush,System.Windows.Media.Pen}},ElecNetKit.Util.Limits,System.Windows.Media.Pen,System.Windows.Media.DrawingContext)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.DrawLines(ElecNetKit.NetworkModelling.NetworkModel,ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap{System.Tuple{System.Windows.Media.Brush,System.Windows.Media.Pen}},System.Windows.Media.DrawingContext)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.GetObjectAtLocation(System.Windows.Point)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.LineThickness
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.RingColor
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.RingDistanceFromCenter
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.RingDistanceTransform
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.RingEnabledTransform
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph.RingThickness
+  Info: BuildAssembler: Building topic N:ElecNetKit.Graphing.Util
+  Warn: ShowMissingComponent: [N:ElecNetKit.Graphing.Util] Missing &lt;summary&gt; documentation
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Util.DrawingVisualSerialisers
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Util.DrawingVisualSerialisers
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Util.DrawingVisualSerialisers
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.DrawingVisualSerialisers.LoadVisualFromByteArray(System.Byte[])
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.DrawingVisualSerialisers.SaveVisualToByteArray(System.Windows.Media.Visual)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Util.MagicGridSpacer
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Util.MagicGridSpacer
+  Info: ShowMissingComponent: [M:ElecNetKit.Graphing.Util.MagicGridSpacer.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Util.MagicGridSpacer
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Util.MagicGridSpacer
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.MagicGridSpacer.#ctor
+  Info: ShowMissingComponent: [M:ElecNetKit.Graphing.Util.MagicGridSpacer.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.MagicGridSpacer.GetGridSpacings
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacer.MaxLines
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacer.MaxValue
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacer.MinValue
+  Info: BuildAssembler: Building topic T:ElecNetKit.Graphing.Util.MagicGridSpacings
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Graphing.Util.MagicGridSpacings
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Graphing.Util.MagicGridSpacings
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Graphing.Util.MagicGridSpacings
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.MagicGridSpacings.#ctor(System.Double,System.Double,System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Graphing.Util.MagicGridSpacings.GetTicks
+  Warn: ShowMissingComponent: [M:ElecNetKit.Graphing.Util.MagicGridSpacings.GetTicks] Missing &lt;returns&gt; documentation
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacings.Interval
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacings.LowerLimit
+  Info: BuildAssembler: Building topic P:ElecNetKit.Graphing.Util.MagicGridSpacings.UpperLimit
+  Info: BuildAssembler: Building topic N:ElecNetKit.NetworkModelling
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Bus
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Bus
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Bus
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Bus
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Bus.#ctor(System.String,System.Numerics.Complex,System.Double,System.Nullable{System.Windows.Point})
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.BaseVoltage
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.Location
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.Voltage
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.VoltagePU
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Generator
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Generator
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Generator
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Generator
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Generator.#ctor(System.String,System.Numerics.Complex)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Generator.Generation
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Line
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Line
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Line
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Line
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Line.#ctor(System.String,System.Double)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Line.Length
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Load
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Load
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Load
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Load
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Load.#ctor(System.String,System.Numerics.Complex)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Load.ActualKVA
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.NetworkElement
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.NetworkElement
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.NetworkElement
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.NetworkElement
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.Connect
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.Disconnect
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ElementType
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ID
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.NetworkModel
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.NetworkModel
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.NetworkModel
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.NetworkModel
+  Info: BuildAssembler: Building topic Fields.T:ElecNetKit.NetworkModelling.NetworkModel
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkModel.#ctor(System.Collections.Generic.Dictionary{System.String,ElecNetKit.NetworkModelling.Bus},System.Collections.ObjectModel.Collection{ElecNetKit.NetworkModelling.Line},System.Collections.ObjectModel.Collection{ElecNetKit.NetworkModelling.Load},System.Collections.ObjectModel.Collection{ElecNetKit.NetworkModelling.Generator},System.Numerics.Complex,ElecNetKit.NetworkModelling.Bus)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.Buses
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkModel.FindNetworkBounds
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.Generators
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.Lines
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.Loads
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.LosseskVA
+  Info: BuildAssembler: Building topic F:ElecNetKit.NetworkModelling.NetworkModel.networkBounds
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.NetworkBounds
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.SourceBus
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkModel.UpdateNetworkBounds
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Tracing
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Tracing
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Tracing
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.BusesOnRouteToTarget(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.GetDirectLengthBetweenBuses(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.TraceFromWithCallback(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{ElecNetKit.NetworkModelling.Bus},System.Action{ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Line,ElecNetKit.NetworkModelling.Bus})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.TraceWithoutCrossingBuses(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{ElecNetKit.NetworkModelling.Bus})
+  Info: BuildAssembler: Building topic N:ElecNetKit.Simulator
+  Info: BuildAssembler: Building topic T:ElecNetKit.Simulator.ISimulator
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Simulator.ISimulator
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Simulator.ISimulator
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.ISimulator.GetNetworkModel
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.ISimulator.PrepareNetwork(System.String)
+  Warn: ShowMissingComponent: [M:ElecNetKit.Simulator.ISimulator.PrepareNetwork(System.String)] Missing &lt;param name=&quot;filename&quot;/&gt; documentation
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.ISimulator.RunCommand(System.String)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Simulator.NetworkController
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Simulator.NetworkController
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Simulator.NetworkController
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Simulator.NetworkController
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.NetworkController.#ctor(ElecNetKit.Simulator.ISimulator)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Simulator.NetworkController.CacheNetwork
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.NetworkController.ClearNetworkCache
+  Info: BuildAssembler: Building topic M:ElecNetKit.Simulator.NetworkController.Execute
+  Info: BuildAssembler: Building topic P:ElecNetKit.Simulator.NetworkController.ExperimentDriver
+  Info: BuildAssembler: Building topic P:ElecNetKit.Simulator.NetworkController.Network
+  Info: BuildAssembler: Building topic P:ElecNetKit.Simulator.NetworkController.NetworkFilename
+  Info: BuildAssembler: Building topic P:ElecNetKit.Simulator.NetworkController.ResultsTransformer
+  Info: BuildAssembler: Building topic N:ElecNetKit.Transform
+  Info: BuildAssembler: Building topic T:ElecNetKit.Transform.DifferenceTransform
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Transform.DifferenceTransform
+  Info: ShowMissingComponent: [M:ElecNetKit.Transform.DifferenceTransform.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Transform.DifferenceTransform
+  Info: BuildAssembler: Building topic M:ElecNetKit.Transform.DifferenceTransform.#ctor
+  Info: ShowMissingComponent: [M:ElecNetKit.Transform.DifferenceTransform.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Transform.DifferenceTransform.PostExperimentHook(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Transform.DifferenceTransform.PreExperimentHook(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Transform.IResultsTransform
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Transform.IResultsTransform
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Transform.IResultsTransform
+  Info: BuildAssembler: Building topic M:ElecNetKit.Transform.IResultsTransform.PostExperimentHook(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Transform.IResultsTransform.PreExperimentHook(ElecNetKit.NetworkModelling.NetworkModel)
+  Info: BuildAssembler: Building topic N:ElecNetKit.Util
+  Info: BuildAssembler: Building topic T:ElecNetKit.Util.Limits
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Util.Limits
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Util.Limits
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Util.Limits
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.Util.Limits.ProcessData
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.AutoDataReset
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.AutoMax
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.AutoMin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.LimitMax
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.LimitMin
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.ProcessData(System.Collections.Generic.IEnumerable{System.Double})
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.ProcessData(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.ValueScaledToLimits(System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.ValueUnscaledFromLimits(System.Double)
+  Info: BuildAssembler: Building topic T:ElecNetKit.Util.NormalDist
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Util.NormalDist
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Util.NormalDist
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Util.NormalDist
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.Util.NormalDist.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.#ctor(System.Collections.Generic.IEnumerable{System.Double})
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.#ctor(System.Double,System.Double)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.GetNextValue
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.GetZ
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.NormalDist.Mean
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.NormalDist.StdDev
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.NormalDist.ToString
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.NormalDist.Variance
+  Info: BuildAssembler: Building topic T:ElecNetKit.Util.TwinKeyDictionary`3
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Util.TwinKeyDictionary`3
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Util.TwinKeyDictionary`3
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.Util.TwinKeyDictionary`3
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Add(`0,`1,`2)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.ContainsKey(`0,`1)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.ContainsKeyX(`0)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.ContainsKeyY(`1)
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.TwinKeyDictionary`3.MapX
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.TwinKeyDictionary`3.MapY
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Merge(ElecNetKit.Util.TwinKeyDictionary{`0,`1,`2})
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.MergeX(System.Collections.Generic.Dictionary{`0,System.Collections.Generic.Dictionary{`1,`2}})
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.MergeY(System.Collections.Generic.Dictionary{`1,System.Collections.Generic.Dictionary{`0,`2}})
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.OnDeserialization(System.Object)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Remove(`0,`1)
+  Info: Processed 348 topics
+    Last step completed in 00:03:46.0599
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:01.3241
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.6.0
+Copyright &#184; 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1
+Processed 355 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKitDocs.hhk
+Saving HTML Help 1 table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKitDocs.hhc
+
+Processing website files in D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website
+Processed 355 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:03.9762
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0150
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 10 seconds
+  
+  357	Topics
+  
+  4,785	Local links
+  
+  916	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 619,815 bytes
+  
+  Compression decreased file by 3,089,331 bytes.
+  
+    Last step completed in 00:00:15.4529
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:03.6732
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 461 files for the website content
+    Last step completed in 00:00:02.2991
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.8040
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 01/09/2013 04:41 PM.  Total time: 00:06:19.8297
+
+</buildStep>
+</shfbBuild>

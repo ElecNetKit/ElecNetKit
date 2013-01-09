@@ -1,0 +1,170 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Walkthrough: A Minimal Working Example</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="58652f95-5bc9-47fe-a12b-9edbe5170171" /><meta name="Description" content="This walkthrough demonstrates a (very) simple use-case of ElecNetKit. The goal of this experiment is to measure the change in network voltages due to loads increasing by 10%." /><meta name="Microsoft.Help.ContentType" content="How To" /><meta name="BrandingAware" content="'true'" /><link type="text/css" rel="stylesheet" href="./../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"><!----></script><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">Walkthrough: A Minimal Working Example</td><td class="OH_tdRunningTitleColumn">ElecNetKit Documentation</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="introduction"><p>This walkthrough demonstrates a (very) simple use-case of ElecNetKit. The goal of this experiment is to measure the change in network voltages due to loads increasing by 10%.</p></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Prerequisites</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>Before you get started with this walkthrough, make sure you've got a proper environment set up for using ElecNetKit. More instructions are provided in <a href="949e4556-eeed-4aea-b580-9cebbdbdab6d.htm" target="">Setting up a Development Environment</a>.</p><h3 class="procedureSubHeading">A Minimal Working Example</h3><div class="subSection"><ul><li><p>
+              Before we start coding, download the <a href="3dc0672f-1764-496f-a2dc-a8a4f5c73520.htm" target="">Example Networks Package</a>, and locate the file <em>IEEE13mod.dss</em>. We'll run our experiment on this network.
+            </p></li><li><p>
+              Create a new <span class="ui">Visual C# console application</span> targeting the <span class="ui">.NET Framework 4.5</span>. Name it <span class="input">MinimalWorkingExample</span>.
+            </p></li><li><p>
+              Add the following references (either from local copies, with <span class="ui">Project | Add Reference...</span> or with <span class="nolink">NuGet</span>, using <span class="ui">Project | Manage NuGet Packages...</span>):
+            </p><ul><li><span class="code">ElecNetKit.Core</span> - contains the core functionality of ElecNetKit,
+                </li><li><span class="code">ElecNetKit.Engines.OpenDSS</span> - provides access to the OpenDSS Simulator, and
+                </li><li><span class="code">System.Numerics</span> - required for interacting with complex numbers.
+                </li></ul></li><li><p>
+              We need to write an experimentor that increases the size of each load by 10%. Choose <span class="ui">Project | Add Class ...</span> and type the name <span class="input">LoadScalingExperimentor</span>.
+            </p></li><li><p>
+              Modify the <em>LoadScalingExperimentor.cs</em> file as shown:
+            </p><div id="ID0EADAGAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EADAGAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EADAGAAAAA_tabimgleft"></div><div id="ID0EADAGAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EADAGAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EADAGAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EADAGAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EADAGAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EADAGAAAAA_tabimgright"></div></div><div id="ID0EADAGAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EADAGAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EADAGAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EADAGAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EADAGAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EADAGAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EADAGAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EADAGAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> System.Linq;
+<span class="highlight-keyword">using</span> ElecNetKit.Experimentation;
+
+<span class="highlight-keyword">namespace</span> MinimalWorkingExample
+{
+    <span class="highlight-keyword">class</span> LoadScalingExperimentor : IExperimentor
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">double</span> LoadScalingFactor { <span class="highlight-keyword">set</span>; <span class="highlight-keyword">get</span>; }
+
+        <span class="highlight-comment">//Convenience constructor, to set scaling factor when object is initialised.</span> 
+        <span class="highlight-keyword">public</span> LoadScalingExperimentor(<span class="highlight-keyword">double</span> factor)
+        {
+            LoadScalingFactor = factor;
+        }
+
+        <span class="highlight-comment">//Implements IExperimentor.Experiment()</span> 
+        <span class="highlight-keyword">public</span> List&lt;<span class="highlight-keyword">string</span>&gt; Experiment(ElecNetKit.NetworkModelling.NetworkModel Network)
+        {
+            <span class="highlight-keyword">return</span> Network.Loads.Select(
+                load =&gt; String.Format(<span class="highlight-literal">"edit load.{0} kW={1:F6} kVAr={2:F6}"</span>,
+                                      load.ID,
+                                      load.ActualKVA.Real * LoadScalingFactor,
+                                      load.ActualKVA.Imaginary * LoadScalingFactor
+                                      )
+                    ).ToList();
+        }
+    }
+}</pre></div><div id="ID0EADAGAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using System;
+using System.Collections.Generic;
+using System.Linq;
+using ElecNetKit.Experimentation;
+
+namespace MinimalWorkingExample
+{
+    class LoadScalingExperimentor : IExperimentor
+    {
+        public double LoadScalingFactor { set; get; }
+
+        //Convenience constructor, to set scaling factor when object is initialised. 
+        public LoadScalingExperimentor(double factor)
+        {
+            LoadScalingFactor = factor;
+        }
+
+        //Implements IExperimentor.Experiment() 
+        public List&lt;string&gt; Experiment(ElecNetKit.NetworkModelling.NetworkModel Network)
+        {
+            return Network.Loads.Select(
+                load =&gt; String.Format("edit load.{0} kW={1:F6} kVAr={2:F6}",
+                                      load.ID,
+                                      load.ActualKVA.Real * LoadScalingFactor,
+                                      load.ActualKVA.Imaginary * LoadScalingFactor
+                                      )
+                    ).ToList();
+        }
+    }
+}</pre></div><div id="ID0EADAGAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EADAGAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EADAGAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EADAGAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EADAGAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EADAGAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EADAGAAAAA');</script></li><li><p>
+              Now, we're ready to chain it all together. Add the following <span class="code">using</span> directives at the top of the <em>Program.cs</em> file:
+            </p><div id="ID0EACAGAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAGAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EACAGAAAAA_tabimgleft"></div><div id="ID0EACAGAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EACAGAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EACAGAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EACAGAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EACAGAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EACAGAAAAA_tabimgright"></div></div><div id="ID0EACAGAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAGAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAGAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAGAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAGAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAGAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAGAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAGAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> ElecNetKit.Simulator; <span class="highlight-comment">//Contains NetworkController</span> 
+<span class="highlight-keyword">using</span> ElecNetKit.Transform; <span class="highlight-comment">//Contains DifferenceTransform</span> 
+<span class="highlight-keyword">using</span> ElecNetKit.Engines;   <span class="highlight-comment">//Contains OpenDSSSimulator</span></pre></div><div id="ID0EACAGAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using ElecNetKit.Simulator; //Contains NetworkController 
+using ElecNetKit.Transform; //Contains DifferenceTransform 
+using ElecNetKit.Engines;   //Contains OpenDSSSimulator</pre></div><div id="ID0EACAGAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACAGAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACAGAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACAGAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACAGAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACAGAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAGAAAAA');</script></li><li><p>
+              Add the following code to your <span class="code">Main()</span> method:
+            </p><div id="ID0EBBAGAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBBAGAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBBAGAAAAA_tabimgleft"></div><div id="ID0EBBAGAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBAGAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBBAGAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EBBAGAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBBAGAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBBAGAAAAA_tabimgright"></div></div><div id="ID0EBBAGAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBBAGAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBBAGAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBBAGAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBBAGAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBBAGAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBBAGAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBBAGAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">//Setup a network controller and choose a network definition file</span> 
+<span class="highlight-comment">// appropriate to the simulator in use</span>
+NetworkController controller = 
+    <span class="highlight-keyword">new</span> NetworkController(<span class="highlight-keyword">new</span> OpenDSSSimulator());
+<span class="highlight-comment">//Set this to the absolute path to the IEEE13mod.dss file, e.g.</span>
+controller.NetworkFilename = <span class="highlight-literal">@"C:\temp\IEEE13mod.dss"</span>;
+
+<span class="highlight-comment">//Add our new experiment, with +10% load scaling.</span>
+controller.ExperimentDriver = <span class="highlight-keyword">new</span> LoadScalingExperimentor(<span class="highlight-number">1.1</span>);
+
+<span class="highlight-comment">//Use a DifferenceTransform so that the controller returns the</span> 
+<span class="highlight-comment">// differences between pre- and post- experiment voltages.</span>
+controller.ResultsTransformer = <span class="highlight-keyword">new</span> DifferenceTransform();
+
+<span class="highlight-comment">//Run the simulation</span>
+controller.Execute();
+
+<span class="highlight-comment">//Output the change in voltage at every network bus.</span> 
+<span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> bus <span class="highlight-keyword">in</span> controller.Network.Buses.Values)
+{
+    System.Diagnostics.Debug.WriteLine(
+    <span class="highlight-literal">"Bus "</span> + bus.ID + <span class="highlight-literal">" has changed in voltage (pu) by "</span>
+    + bus.VoltagePU.Magnitude);
+}</pre></div><div id="ID0EBBAGAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>//Setup a network controller and choose a network definition file 
+// appropriate to the simulator in use
+NetworkController controller = 
+    new NetworkController(new OpenDSSSimulator());
+//Set this to the absolute path to the IEEE13mod.dss file, e.g.
+controller.NetworkFilename = @"C:\temp\IEEE13mod.dss";
+
+//Add our new experiment, with +10% load scaling.
+controller.ExperimentDriver = new LoadScalingExperimentor(1.1);
+
+//Use a DifferenceTransform so that the controller returns the 
+// differences between pre- and post- experiment voltages.
+controller.ResultsTransformer = new DifferenceTransform();
+
+//Run the simulation
+controller.Execute();
+
+//Output the change in voltage at every network bus. 
+foreach (var bus in controller.Network.Buses.Values)
+{
+    System.Diagnostics.Debug.WriteLine(
+    "Bus " + bus.ID + " has changed in voltage (pu) by "
+    + bus.VoltagePU.Magnitude);
+}</pre></div><div id="ID0EBBAGAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBAGAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBAGAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBAGAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBAGAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBAGAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBBAGAAAAA');</script><p>
+              Don't forget to change the path in the above code to the location of the <em>IEEE13mod.dss</em> file!
+            </p></li><li><p>Build and run the project. You should get output that looks like:</p><div id="ID0EAAAGAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAAGAAAAA_tabs"></div><div id="ID0EAAAGAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAAGAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAAGAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAAGAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAAGAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAAGAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAAGAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAAGAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>Bus b3 has changed in voltage (pu) by 9.90281601181795E-07
+Bus b2 has changed in voltage (pu) by 0.000152791122413823
+Bus b4 has changed in voltage (pu) by 6.14747056342346E-05
+Bus b5 has changed in voltage (pu) by 6.94041141638226E-05
+Bus b9 has changed in voltage (pu) by 0.00919099297670996
+Bus b10 has changed in voltage (pu) by 0.00938955885082126
+Bus b11 has changed in voltage (pu) by 0.00822162582756408
+Bus b12 has changed in voltage (pu) by 0.00929166004717853
+Bus b1 has changed in voltage (pu) by 0.000152776792402134
+Bus b8 has changed in voltage (pu) by 0.00775142309783684
+Bus b7 has changed in voltage (pu) by 0.00794701668149591
+Bus b6 has changed in voltage (pu) by 0.00785302751323394</pre></div><div id="ID0EAAAGAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Bus b3 has changed in voltage (pu) by 9.90281601181795E-07
+Bus b2 has changed in voltage (pu) by 0.000152791122413823
+Bus b4 has changed in voltage (pu) by 6.14747056342346E-05
+Bus b5 has changed in voltage (pu) by 6.94041141638226E-05
+Bus b9 has changed in voltage (pu) by 0.00919099297670996
+Bus b10 has changed in voltage (pu) by 0.00938955885082126
+Bus b11 has changed in voltage (pu) by 0.00822162582756408
+Bus b12 has changed in voltage (pu) by 0.00929166004717853
+Bus b1 has changed in voltage (pu) by 0.000152776792402134
+Bus b8 has changed in voltage (pu) by 0.00775142309783684
+Bus b7 has changed in voltage (pu) by 0.00794701668149591
+Bus b6 has changed in voltage (pu) by 0.00785302751323394</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAAGAAAAA');</script></li></ul></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><ul><li>
+              Note that the implementation of <span sdata="cer" target="T:ElecNetKit.Experimentation.IExperimentor"><a href="T_ElecNetKit_Experimentation_IExperimentor.htm" target="">IExperimentor</a></span> in this example returns a list of strings that define commands to run on the network. These commands are specific syntax to OpenDSS, the simulator used in this example, and will not work in another simulator.
+            </li></ul><a id="graphing"><!----></a><h3 class="procedureSubHeading">Displaying Network Graphs</h3><div class="subSection"><ul><li><p>Add the following references to your project:</p><ul><li><p>
+                Using either <span class="ui">NuGet</span> or <span class="ui">Project | Add References...</span>:
+              </p><ul><li><span class="code">ElecNetKit.Graphing</span> - provides access to graphing functionality.</li></ul></li><li><p>Using <span class="ui">Project | Add References... | Assemblies | Framework</span>:
+          </p><ul><li><span class="code">PresentationCore</span></li><li><span class="code">PresentationFramework</span></li><li><span class="code">System.Xaml</span></li><li><span class="code">WindowsBase</span></li></ul><p>
+              This last set of references are required because ElecNetKit uses Windows Presentation Foundation (WPF) for graphing. In a WPF application, you will not need to add these references - the graphing components will Just Work™.
+            </p></li></ul></li><li><p>Add the following <span class="code">using</span> directives, right underneath the currently existing ones:</p><div id="ID0EACACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACACAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EACACAAAAA_tabimgleft"></div><div id="ID0EACACAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EACACAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EACACAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EACACAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EACACAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EACACAAAAA_tabimgright"></div></div><div id="ID0EACACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> ElecNetKit.Graphing.Graphs;   <span class="highlight-comment">//Contains ValueTransformableTreeGraph</span> 
+<span class="highlight-keyword">using</span> ElecNetKit.Graphing.Controls; <span class="highlight-comment">//Contains GraphHostWindow.</span></pre></div><div id="ID0EACACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using ElecNetKit.Graphing.Graphs;   //Contains ValueTransformableTreeGraph 
+using ElecNetKit.Graphing.Controls; //Contains GraphHostWindow.</pre></div><div id="ID0EACACAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACACAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACACAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACACAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACACAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EACACAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACACAAAAA');</script></li><li><p>Add the following code at the very bottom of your <span class="code">Main()</span> method:</p><div id="ID0EABACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EABACAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EABACAAAAA_tabimgleft"></div><div id="ID0EABACAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EABACAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EABACAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EABACAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EABACAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EABACAAAAA_tabimgright"></div></div><div id="ID0EABACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EABACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EABACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EABACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EABACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EABACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EABACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EABACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">var</span> graph = <span class="highlight-keyword">new</span> ValueTransformableTreeGraph();  <span class="highlight-comment">// make a new graph.</span>
+graph.Network = controller.Network;             <span class="highlight-comment">// assign the output of the experiment to the graph.</span>
+GraphHostWindow.StartGraphHostWindow(graph);    <span class="highlight-comment">// put the graph in a window and display it.</span></pre></div><div id="ID0EABACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>var graph = new ValueTransformableTreeGraph();  // make a new graph.
+graph.Network = controller.Network;             // assign the output of the experiment to the graph.
+GraphHostWindow.StartGraphHostWindow(graph);    // put the graph in a window and display it.</pre></div><div id="ID0EABACAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABACAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABACAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABACAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABACAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABACAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EABACAAAAA');</script></li><li><p>That's it! Build and run the program, and behold your lovely new graph:</p><div class="ps_mediaNear"><div class="caption">Graph Output</div><img alt="Graph Output" src="./../media/GraphOutput.png" /></div></li></ul></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Additional Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>The ElecNetKit Graphing suite is very powerful, and what you've seen here is a very simple example. You might like to take a look at <a href="1201915e-1e35-440e-94ba-729903b0f473.htm" target="">Graphing with ElecNetKit</a> for more information as to what's available.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Next Steps</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>Now that you've set up a development environment and built a minimal working example, you might like to read about <a href="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c.htm" target="">Traversing the Network Model</a>.</p></div></div></div></div><div id="OH_footer" class="OH_footer"><p /><div class="OH_feedbacklink"><a href="mailto:?subject=ElecNetKit+Documentation+Walkthrough%3a+A+Minimal+Working+Example+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed."></a></div></div></body></html>

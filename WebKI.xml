@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="ActualKVA property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" />
+  <HelpKINode Title="AdaptiveGradient class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+  <HelpKINode Title="AdaptiveGradient class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+  <HelpKINode Title="AdaptiveGradient class">
+    <HelpKINode Title="about AdaptiveGradient class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdaptiveGradient.AdaptiveGradient constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient__ctor.htm" />
+  <HelpKINode Title="AdaptiveGradient.BlueBlackRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" />
+  <HelpKINode Title="AdaptiveGradient.BlueRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" />
+  <HelpKINode Title="AdaptiveGradient.ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ProcessData.htm" />
+  <HelpKINode Title="AdaptiveGradient.ResetAutoData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" />
+  <HelpKINode Title="AdaptiveGradientMap(Of T) class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="AdaptiveGradientMap(Of T) class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="AdaptiveGradientMap(Of T) class">
+    <HelpKINode Title="about AdaptiveGradientMap(Of T) class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdaptiveGradientMap(Of T).AdaptiveGradientMap constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" />
+  <HelpKINode Title="AdaptiveGradientMap(Of T).Map method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1_Map.htm" />
+  <HelpKINode Title="AdaptiveGradientMap&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="AdaptiveGradientMap&lt;T&gt; class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="AdaptiveGradientMap&lt;T&gt; class">
+    <HelpKINode Title="about AdaptiveGradientMap&lt;T&gt; class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdaptiveGradientMap&lt;T&gt;.AdaptiveGradientMap constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" />
+  <HelpKINode Title="AdaptiveGradientMap&lt;T&gt;.Map method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1_Map.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder class">
+    <HelpKINode Title="about AdaptiveGradientMapBuilder class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdaptiveGradientMapBuilder.AdaptiveGradientMapBuilder constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder__ctor.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder.BuildGradientMap(Of T) method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder.BuildGradientMap&lt;T&gt; method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" />
+  <HelpKINode Title="AdaptiveGradientMapBuilder.NumSamples property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" />
+  <HelpKINode Title="AdaptiveGradientStop class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+  <HelpKINode Title="AdaptiveGradientStop class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+  <HelpKINode Title="AdaptiveGradientStop class">
+    <HelpKINode Title="about AdaptiveGradientStop class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdaptiveGradientStop.AdaptiveGradientStop constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop__ctor.htm" />
+  <HelpKINode Title="AdaptiveGradientStop.Anchor property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
+  <HelpKINode Title="AdaptiveGradientStop.Color property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" />
+  <HelpKINode Title="Add method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
+  <HelpKINode Title="Anchor property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
+  <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" />
+  <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" />
+  <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MinValue_AnchorValue.htm" />
+  <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_AnchorValue.htm" />
+  <HelpKINode Title="AutoDataReset method" Url="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" />
+  <HelpKINode Title="AutoMax property" Url="html/P_ElecNetKit_Util_Limits_AutoMax.htm" />
+  <HelpKINode Title="AutoMin property" Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
+  <HelpKINode Title="BaseVoltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
+  <HelpKINode Title="BlueBlackRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" />
+  <HelpKINode Title="BlueRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" />
+  <HelpKINode Title="BuildGradientMap method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BuildGradientMap.htm" />
+  <HelpKINode Title="BuildGradientMap(Of T) method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" />
+  <HelpKINode Title="BuildGradientMap&lt;T&gt; method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" />
+  <HelpKINode Title="Bus class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" />
+  <HelpKINode Title="Bus class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm" />
+  <HelpKINode Title="Bus class">
+    <HelpKINode Title="about Bus class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Bus.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Bus.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bus.BaseVoltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
+  <HelpKINode Title="Bus.Bus constructor" Url="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
+  <HelpKINode Title="Bus.Location property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" />
+  <HelpKINode Title="Bus.Voltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" />
+  <HelpKINode Title="Bus.VoltagePU property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
+  <HelpKINode Title="BusColorGradient property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorGradient.htm" />
+  <HelpKINode Title="BusColorTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorTransform.htm" />
+  <HelpKINode Title="Buses property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Buses.htm" />
+  <HelpKINode Title="BusesOnRouteToTarget method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_BusesOnRouteToTarget.htm" />
+  <HelpKINode Title="BusSizeMax property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMax.htm" />
+  <HelpKINode Title="BusSizeMin property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMin.htm" />
+  <HelpKINode Title="BusSizeTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeTransform.htm" />
+  <HelpKINode Title="BusVisibleTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusVisibleTransform.htm" />
+  <HelpKINode Title="CacheNetwork property" Url="html/P_ElecNetKit_Simulator_NetworkController_CacheNetwork.htm" />
+  <HelpKINode Title="ChainExperimentor class" Url="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+  <HelpKINode Title="ChainExperimentor class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+  <HelpKINode Title="ChainExperimentor class">
+    <HelpKINode Title="about ChainExperimentor class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChainExperimentor.ChainExperimentor constructor" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" />
+  <HelpKINode Title="ChainExperimentor.Experiment method" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
+  <HelpKINode Title="ChainExperimentor.Experimentors property" Url="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" />
+  <HelpKINode Title="ClearNetworkCache method" Url="html/M_ElecNetKit_Simulator_NetworkController_ClearNetworkCache.htm" />
+  <HelpKINode Title="Color property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" />
+  <HelpKINode Title="Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" />
+  <HelpKINode Title="ConnectedTo property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" />
+  <HelpKINode Title="ContainsKey method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" />
+  <HelpKINode Title="ContainsKeyX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" />
+  <HelpKINode Title="ContainsKeyY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyY.htm" />
+  <HelpKINode Title="DifferenceTransform class" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
+  <HelpKINode Title="DifferenceTransform class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm" />
+  <HelpKINode Title="DifferenceTransform class">
+    <HelpKINode Title="about DifferenceTransform class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Transform_DifferenceTransform__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Transform_DifferenceTransform.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DifferenceTransform.DifferenceTransform constructor" Url="html/M_ElecNetKit_Transform_DifferenceTransform__ctor.htm" />
+  <HelpKINode Title="DifferenceTransform.PostExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" />
+  <HelpKINode Title="DifferenceTransform.PreExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" />
+  <HelpKINode Title="Disconnect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" />
+  <HelpKINode Title="Draw method" Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Draw.htm" />
+  <HelpKINode Title="Draw method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_Draw.htm" />
+  <HelpKINode Title="Draw method" Url="html/M_ElecNetKit_Graphing_INetworkGraph_Draw.htm" />
+  <HelpKINode Title="Draw method" Url="html/M_ElecNetKit_Graphing_TreeGraph_Draw.htm" />
+  <HelpKINode Title="DrawBuses method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawBuses.htm" />
+  <HelpKINode Title="Drawing property" Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_Drawing.htm" />
+  <HelpKINode Title="DrawingProperty field" Url="html/F_ElecNetKit_Graphing_Controls_VisualHost_DrawingProperty.htm" />
+  <HelpKINode Title="DrawingVisualSerialisers class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+  <HelpKINode Title="DrawingVisualSerialisers class" Url="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+  <HelpKINode Title="DrawingVisualSerialisers class">
+    <HelpKINode Title="about DrawingVisualSerialisers class" Url="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawingVisualSerialisers.LoadVisualFromByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
+  <HelpKINode Title="DrawingVisualSerialisers.SaveVisualToByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
+  <HelpKINode Title="DrawLines method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" />
+  <HelpKINode Title="ElecNetKit.Engines namespace" Url="html/N_ElecNetKit_Engines.htm" />
+  <HelpKINode Title="ElecNetKit.Engines.OpenDSSSimulator class" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+  <HelpKINode Title="ElecNetKit.Engines.OpenDSSSimulator class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+  <HelpKINode Title="ElecNetKit.Experimentation namespace" Url="html/N_ElecNetKit_Experimentation.htm" />
+  <HelpKINode Title="ElecNetKit.Experimentation.ChainExperimentor class" Url="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+  <HelpKINode Title="ElecNetKit.Experimentation.ChainExperimentor class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
+  <HelpKINode Title="ElecNetKit.Experimentation.IExperimentor interface" Url="html/AllMembers_T_ElecNetKit_Experimentation_IExperimentor.htm" />
+  <HelpKINode Title="ElecNetKit.Experimentation.IExperimentor interface" Url="html/T_ElecNetKit_Experimentation_IExperimentor.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing namespace" Url="html/N_ElecNetKit_Graphing.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients namespace" Url="html/N_ElecNetKit_Graphing_AdaptiveGradients.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradient class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap(Of T) class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap(Of T) class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMap&lt;T&gt; class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientMapBuilder class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.AdaptiveGradientStop class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor interface" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.IAdaptiveGradientAnchor interface" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.MaxValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.MaxValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.MinValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.MinValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.StaticValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.AdaptiveGradients.StaticValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls namespace" Url="html/N_ElecNetKit_Graphing_Controls.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.GraphHost class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.GraphHost class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.GraphHostWindow class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.GraphHostWindow class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.VisualHost class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Controls.VisualHost class" Url="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Graphs namespace" Url="html/N_ElecNetKit_Graphing_Graphs.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Graphs.FeederProfileGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Graphs.FeederProfileGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Graphs.ValueTransformableTreeGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IElementLocatable interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementLocatable.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IElementLocatable interface" Url="html/T_ElecNetKit_Graphing_IElementLocatable.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IElementSelectable interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementSelectable.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IElementSelectable interface" Url="html/T_ElecNetKit_Graphing_IElementSelectable.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.INetworkGraph interface" Url="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.INetworkGraph interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IPresentationMode interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IPresentationMode.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.IPresentationMode interface" Url="html/T_ElecNetKit_Graphing_IPresentationMode.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.TreeGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_TreeGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.TreeGraph class" Url="html/T_ElecNetKit_Graphing_TreeGraph.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util namespace" Url="html/N_ElecNetKit_Graphing_Util.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.DrawingVisualSerialisers class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.DrawingVisualSerialisers class" Url="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.MagicGridSpacer class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.MagicGridSpacer class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.MagicGridSpacings class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+  <HelpKINode Title="ElecNetKit.Graphing.Util.MagicGridSpacings class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling namespace" Url="html/N_ElecNetKit_NetworkModelling.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Bus class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Bus class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Generator class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Generator class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Line class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Line.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Line class" Url="html/T_ElecNetKit_NetworkModelling_Line.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Load class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Load class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElement class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkModel class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  <HelpKINode Title="ElecNetKit.Simulator namespace" Url="html/N_ElecNetKit_Simulator.htm" />
+  <HelpKINode Title="ElecNetKit.Simulator.ISimulator interface" Url="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" />
+  <HelpKINode Title="ElecNetKit.Simulator.ISimulator interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm" />
+  <HelpKINode Title="ElecNetKit.Simulator.NetworkController class" Url="html/AllMembers_T_ElecNetKit_Simulator_NetworkController.htm" />
+  <HelpKINode Title="ElecNetKit.Simulator.NetworkController class" Url="html/T_ElecNetKit_Simulator_NetworkController.htm" />
+  <HelpKINode Title="ElecNetKit.Transform namespace" Url="html/N_ElecNetKit_Transform.htm" />
+  <HelpKINode Title="ElecNetKit.Transform.DifferenceTransform class" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
+  <HelpKINode Title="ElecNetKit.Transform.DifferenceTransform class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm" />
+  <HelpKINode Title="ElecNetKit.Transform.IResultsTransform interface" Url="html/AllMembers_T_ElecNetKit_Transform_IResultsTransform.htm" />
+  <HelpKINode Title="ElecNetKit.Transform.IResultsTransform interface" Url="html/T_ElecNetKit_Transform_IResultsTransform.htm" />
+  <HelpKINode Title="ElecNetKit.Util namespace" Url="html/N_ElecNetKit_Util.htm" />
+  <HelpKINode Title="ElecNetKit.Util.Limits class" Url="html/AllMembers_T_ElecNetKit_Util_Limits.htm" />
+  <HelpKINode Title="ElecNetKit.Util.Limits class" Url="html/T_ElecNetKit_Util_Limits.htm" />
+  <HelpKINode Title="ElecNetKit.Util.NormalDist class" Url="html/AllMembers_T_ElecNetKit_Util_NormalDist.htm" />
+  <HelpKINode Title="ElecNetKit.Util.NormalDist class" Url="html/T_ElecNetKit_Util_NormalDist.htm" />
+  <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="ElementType property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" />
+  <HelpKINode Title="Execute method" Url="html/M_ElecNetKit_Simulator_NetworkController_Execute.htm" />
+  <HelpKINode Title="Experiment method" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
+  <HelpKINode Title="Experiment method" Url="html/M_ElecNetKit_Experimentation_IExperimentor_Experiment.htm" />
+  <HelpKINode Title="ExperimentDriver property" Url="html/P_ElecNetKit_Simulator_NetworkController_ExperimentDriver.htm" />
+  <HelpKINode Title="Experimentors property" Url="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" />
+  <HelpKINode Title="ExportPNG method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportPNG.htm" />
+  <HelpKINode Title="ExportXPS method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportXPS.htm" />
+  <HelpKINode Title="FeederProfileGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+  <HelpKINode Title="FeederProfileGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+  <HelpKINode Title="FeederProfileGraph class">
+    <HelpKINode Title="about FeederProfileGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FeederProfileGraph.Draw method" Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Draw.htm" />
+  <HelpKINode Title="FeederProfileGraph.FeederProfileGraph constructor" Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph__ctor.htm" />
+  <HelpKINode Title="FeederProfileGraph.ImgCoords property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_ImgCoords.htm" />
+  <HelpKINode Title="FeederProfileGraph.Margin property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Margin.htm" />
+  <HelpKINode Title="FeederProfileGraph.Network property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Network.htm" />
+  <HelpKINode Title="FeederProfileGraph.PresentationMode property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_PresentationMode.htm" />
+  <HelpKINode Title="FeederProfileGraph.SelectedElement property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
+  <HelpKINode Title="FindNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" />
+  <HelpKINode Title="Generation property" Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
+  <HelpKINode Title="Generator class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
+  <HelpKINode Title="Generator class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm" />
+  <HelpKINode Title="Generator class">
+    <HelpKINode Title="about Generator class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Generator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Generator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Generator.Generation property" Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
+  <HelpKINode Title="Generator.Generator constructor" Url="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
+  <HelpKINode Title="Generators property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Generators.htm" />
+  <HelpKINode Title="GetDirectLengthBetweenBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_GetDirectLengthBetweenBuses.htm" />
+  <HelpKINode Title="GetGridSpacings method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer_GetGridSpacings.htm" />
+  <HelpKINode Title="GetNetworkModel method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" />
+  <HelpKINode Title="GetNetworkModel method" Url="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" />
+  <HelpKINode Title="GetNextValue method" Url="html/M_ElecNetKit_Util_NormalDist_GetNextValue.htm" />
+  <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_GetObjectAtLocation.htm" />
+  <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_IElementLocatable_GetObjectAtLocation.htm" />
+  <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_GetObjectAtLocation.htm" />
+  <HelpKINode Title="GetTicks method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" />
+  <HelpKINode Title="GetVisualChild method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" />
+  <HelpKINode Title="GetZ method" Url="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" />
+  <HelpKINode Title="Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" />
+  <HelpKINode Title="Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHost_Graph.htm" />
+  <HelpKINode Title="GraphHost class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+  <HelpKINode Title="GraphHost class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+  <HelpKINode Title="GraphHost class">
+    <HelpKINode Title="about GraphHost class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphHost.Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHost_Graph.htm" />
+  <HelpKINode Title="GraphHost.GraphHost constructor" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost__ctor.htm" />
+  <HelpKINode Title="GraphHost.RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" />
+  <HelpKINode Title="GraphHostWindow class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+  <HelpKINode Title="GraphHostWindow class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+  <HelpKINode Title="GraphHostWindow class">
+    <HelpKINode Title="about GraphHostWindow class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphHostWindow.Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" />
+  <HelpKINode Title="GraphHostWindow.GraphHostWindow constructor" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow__ctor.htm" />
+  <HelpKINode Title="GraphHostWindow.RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" />
+  <HelpKINode Title="GraphHostWindow.StartGraphHostWindow method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_StartGraphHostWindow.htm" />
+  <HelpKINode Title="IAdaptiveGradientAnchor interface" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+  <HelpKINode Title="IAdaptiveGradientAnchor interface" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+  <HelpKINode Title="IAdaptiveGradientAnchor interface">
+    <HelpKINode Title="about IAdaptiveGradientAnchor interface" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAdaptiveGradientAnchor.AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" />
+  <HelpKINode Title="IAdaptiveGradientAnchor.ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_ProcessData.htm" />
+  <HelpKINode Title="IAdaptiveGradientAnchor.Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_Reset.htm" />
+  <HelpKINode Title="ID property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" />
+  <HelpKINode Title="IElementLocatable interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementLocatable.htm" />
+  <HelpKINode Title="IElementLocatable interface" Url="html/T_ElecNetKit_Graphing_IElementLocatable.htm" />
+  <HelpKINode Title="IElementLocatable interface">
+    <HelpKINode Title="about IElementLocatable interface" Url="html/T_ElecNetKit_Graphing_IElementLocatable.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementLocatable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_IElementLocatable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IElementLocatable.GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_IElementLocatable_GetObjectAtLocation.htm" />
+  <HelpKINode Title="IElementSelectable interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementSelectable.htm" />
+  <HelpKINode Title="IElementSelectable interface" Url="html/T_ElecNetKit_Graphing_IElementSelectable.htm" />
+  <HelpKINode Title="IElementSelectable interface">
+    <HelpKINode Title="about IElementSelectable interface" Url="html/T_ElecNetKit_Graphing_IElementSelectable.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementSelectable.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_IElementSelectable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IElementSelectable.SelectedElement property" Url="html/P_ElecNetKit_Graphing_IElementSelectable_SelectedElement.htm" />
+  <HelpKINode Title="IExperimentor interface" Url="html/AllMembers_T_ElecNetKit_Experimentation_IExperimentor.htm" />
+  <HelpKINode Title="IExperimentor interface" Url="html/T_ElecNetKit_Experimentation_IExperimentor.htm" />
+  <HelpKINode Title="IExperimentor interface">
+    <HelpKINode Title="about IExperimentor interface" Url="html/T_ElecNetKit_Experimentation_IExperimentor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Experimentation_IExperimentor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Experimentation_IExperimentor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExperimentor.Experiment method" Url="html/M_ElecNetKit_Experimentation_IExperimentor_Experiment.htm" />
+  <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_ImgCoords.htm" />
+  <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_ImgCoords.htm" />
+  <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_TreeGraph_ImgCoords.htm" />
+  <HelpKINode Title="INetworkGraph interface" Url="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" />
+  <HelpKINode Title="INetworkGraph interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm" />
+  <HelpKINode Title="INetworkGraph interface">
+    <HelpKINode Title="about INetworkGraph interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_INetworkGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_INetworkGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INetworkGraph.Draw method" Url="html/M_ElecNetKit_Graphing_INetworkGraph_Draw.htm" />
+  <HelpKINode Title="INetworkGraph.ImgCoords property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_ImgCoords.htm" />
+  <HelpKINode Title="INetworkGraph.Margin property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_Margin.htm" />
+  <HelpKINode Title="INetworkGraph.Network property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_Network.htm" />
+  <HelpKINode Title="Interval property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_Interval.htm" />
+  <HelpKINode Title="IPresentationMode interface" Url="html/AllMembers_T_ElecNetKit_Graphing_IPresentationMode.htm" />
+  <HelpKINode Title="IPresentationMode interface" Url="html/T_ElecNetKit_Graphing_IPresentationMode.htm" />
+  <HelpKINode Title="IPresentationMode interface">
+    <HelpKINode Title="about IPresentationMode interface" Url="html/T_ElecNetKit_Graphing_IPresentationMode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_IPresentationMode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_IPresentationMode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPresentationMode.PresentationMode property" Url="html/P_ElecNetKit_Graphing_IPresentationMode_PresentationMode.htm" />
+  <HelpKINode Title="IResultsTransform interface" Url="html/AllMembers_T_ElecNetKit_Transform_IResultsTransform.htm" />
+  <HelpKINode Title="IResultsTransform interface" Url="html/T_ElecNetKit_Transform_IResultsTransform.htm" />
+  <HelpKINode Title="IResultsTransform interface">
+    <HelpKINode Title="about IResultsTransform interface" Url="html/T_ElecNetKit_Transform_IResultsTransform.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Transform_IResultsTransform.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Transform_IResultsTransform.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IResultsTransform.PostExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" />
+  <HelpKINode Title="IResultsTransform.PreExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" />
+  <HelpKINode Title="ISimulator interface" Url="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" />
+  <HelpKINode Title="ISimulator interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm" />
+  <HelpKINode Title="ISimulator interface">
+    <HelpKINode Title="about ISimulator interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Simulator_ISimulator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISimulator.GetNetworkModel method" Url="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" />
+  <HelpKINode Title="ISimulator.PrepareNetwork method" Url="html/M_ElecNetKit_Simulator_ISimulator_PrepareNetwork.htm" />
+  <HelpKINode Title="ISimulator.RunCommand method" Url="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" />
+  <HelpKINode Title="Length property" Url="html/P_ElecNetKit_NetworkModelling_Line_Length.htm" />
+  <HelpKINode Title="LimitMax property" Url="html/P_ElecNetKit_Util_Limits_LimitMax.htm" />
+  <HelpKINode Title="LimitMin property" Url="html/P_ElecNetKit_Util_Limits_LimitMin.htm" />
+  <HelpKINode Title="Limits class" Url="html/AllMembers_T_ElecNetKit_Util_Limits.htm" />
+  <HelpKINode Title="Limits class" Url="html/T_ElecNetKit_Util_Limits.htm" />
+  <HelpKINode Title="Limits class">
+    <HelpKINode Title="about Limits class" Url="html/T_ElecNetKit_Util_Limits.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Util_Limits.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Util_Limits__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Util_Limits.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Util_Limits.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Limits.AutoDataReset method" Url="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" />
+  <HelpKINode Title="Limits.AutoMax property" Url="html/P_ElecNetKit_Util_Limits_AutoMax.htm" />
+  <HelpKINode Title="Limits.AutoMin property" Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
+  <HelpKINode Title="Limits.LimitMax property" Url="html/P_ElecNetKit_Util_Limits_LimitMax.htm" />
+  <HelpKINode Title="Limits.LimitMin property" Url="html/P_ElecNetKit_Util_Limits_LimitMin.htm" />
+  <HelpKINode Title="Limits.Limits constructor" Url="html/M_ElecNetKit_Util_Limits__ctor.htm" />
+  <HelpKINode Title="Limits.ProcessData method" Url="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm" />
+  <HelpKINode Title="Limits.ValueScaledToLimits method" Url="html/M_ElecNetKit_Util_Limits_ValueScaledToLimits.htm" />
+  <HelpKINode Title="Limits.ValueUnscaledFromLimits method" Url="html/M_ElecNetKit_Util_Limits_ValueUnscaledFromLimits.htm" />
+  <HelpKINode Title="Line class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Line.htm" />
+  <HelpKINode Title="Line class" Url="html/T_ElecNetKit_NetworkModelling_Line.htm" />
+  <HelpKINode Title="Line class">
+    <HelpKINode Title="about Line class" Url="html/T_ElecNetKit_NetworkModelling_Line.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Line.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Line__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Line.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Line.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Line.Length property" Url="html/P_ElecNetKit_NetworkModelling_Line_Length.htm" />
+  <HelpKINode Title="Line.Line constructor" Url="html/M_ElecNetKit_NetworkModelling_Line__ctor.htm" />
+  <HelpKINode Title="Lines property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Lines.htm" />
+  <HelpKINode Title="LineThickness property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_LineThickness.htm" />
+  <HelpKINode Title="Load class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" />
+  <HelpKINode Title="Load class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm" />
+  <HelpKINode Title="Load class">
+    <HelpKINode Title="about Load class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Load.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Load.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Load.ActualKVA property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" />
+  <HelpKINode Title="Load.Load constructor" Url="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" />
+  <HelpKINode Title="Loads property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Loads.htm" />
+  <HelpKINode Title="LoadVisualFromByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
+  <HelpKINode Title="Location property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" />
+  <HelpKINode Title="LosseskVA property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_LosseskVA.htm" />
+  <HelpKINode Title="LowerLimit property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_LowerLimit.htm" />
+  <HelpKINode Title="MagicGridSpacer class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+  <HelpKINode Title="MagicGridSpacer class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+  <HelpKINode Title="MagicGridSpacer class">
+    <HelpKINode Title="about MagicGridSpacer class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MagicGridSpacer.GetGridSpacings method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer_GetGridSpacings.htm" />
+  <HelpKINode Title="MagicGridSpacer.MagicGridSpacer constructor" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer__ctor.htm" />
+  <HelpKINode Title="MagicGridSpacer.MaxLines property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxLines.htm" />
+  <HelpKINode Title="MagicGridSpacer.MaxValue property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxValue.htm" />
+  <HelpKINode Title="MagicGridSpacer.MinValue property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MinValue.htm" />
+  <HelpKINode Title="MagicGridSpacings class" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+  <HelpKINode Title="MagicGridSpacings class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+  <HelpKINode Title="MagicGridSpacings class">
+    <HelpKINode Title="about MagicGridSpacings class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MagicGridSpacings.GetTicks method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" />
+  <HelpKINode Title="MagicGridSpacings.Interval property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_Interval.htm" />
+  <HelpKINode Title="MagicGridSpacings.LowerLimit property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_LowerLimit.htm" />
+  <HelpKINode Title="MagicGridSpacings.MagicGridSpacings constructor" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings__ctor.htm" />
+  <HelpKINode Title="MagicGridSpacings.UpperLimit property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_UpperLimit.htm" />
+  <HelpKINode Title="Map method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1_Map.htm" />
+  <HelpKINode Title="MapX property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapX.htm" />
+  <HelpKINode Title="MapY property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapY.htm" />
+  <HelpKINode Title="Margin property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Margin.htm" />
+  <HelpKINode Title="Margin property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_Margin.htm" />
+  <HelpKINode Title="Margin property" Url="html/P_ElecNetKit_Graphing_TreeGraph_Margin.htm" />
+  <HelpKINode Title="MaxLines property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxLines.htm" />
+  <HelpKINode Title="MaxValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+  <HelpKINode Title="MaxValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+  <HelpKINode Title="MaxValue class">
+    <HelpKINode Title="about MaxValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaxValue property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxValue.htm" />
+  <HelpKINode Title="MaxValue.AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" />
+  <HelpKINode Title="MaxValue.MaxValue constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue__ctor.htm" />
+  <HelpKINode Title="MaxValue.ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_ProcessData.htm" />
+  <HelpKINode Title="MaxValue.Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_Reset.htm" />
+  <HelpKINode Title="Mean property" Url="html/P_ElecNetKit_Util_NormalDist_Mean.htm" />
+  <HelpKINode Title="Merge method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Merge.htm" />
+  <HelpKINode Title="MergeX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeX.htm" />
+  <HelpKINode Title="MergeY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeY.htm" />
+  <HelpKINode Title="MinValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+  <HelpKINode Title="MinValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+  <HelpKINode Title="MinValue class">
+    <HelpKINode Title="about MinValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinValue property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MinValue.htm" />
+  <HelpKINode Title="MinValue.AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MinValue_AnchorValue.htm" />
+  <HelpKINode Title="MinValue.MinValue constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue__ctor.htm" />
+  <HelpKINode Title="MinValue.ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_ProcessData.htm" />
+  <HelpKINode Title="MinValue.Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_Reset.htm" />
+  <HelpKINode Title="Network property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Network.htm" />
+  <HelpKINode Title="Network property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_Network.htm" />
+  <HelpKINode Title="Network property" Url="html/P_ElecNetKit_Graphing_TreeGraph_Network.htm" />
+  <HelpKINode Title="Network property" Url="html/P_ElecNetKit_Simulator_NetworkController_Network.htm" />
+  <HelpKINode Title="networkBounds field" Url="html/F_ElecNetKit_NetworkModelling_NetworkModel_networkBounds.htm" />
+  <HelpKINode Title="NetworkBounds property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_NetworkBounds.htm" />
+  <HelpKINode Title="NetworkController class" Url="html/AllMembers_T_ElecNetKit_Simulator_NetworkController.htm" />
+  <HelpKINode Title="NetworkController class" Url="html/T_ElecNetKit_Simulator_NetworkController.htm" />
+  <HelpKINode Title="NetworkController class">
+    <HelpKINode Title="about NetworkController class" Url="html/T_ElecNetKit_Simulator_NetworkController.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Simulator_NetworkController.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Simulator_NetworkController__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Simulator_NetworkController.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Simulator_NetworkController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkController.CacheNetwork property" Url="html/P_ElecNetKit_Simulator_NetworkController_CacheNetwork.htm" />
+  <HelpKINode Title="NetworkController.ClearNetworkCache method" Url="html/M_ElecNetKit_Simulator_NetworkController_ClearNetworkCache.htm" />
+  <HelpKINode Title="NetworkController.Execute method" Url="html/M_ElecNetKit_Simulator_NetworkController_Execute.htm" />
+  <HelpKINode Title="NetworkController.ExperimentDriver property" Url="html/P_ElecNetKit_Simulator_NetworkController_ExperimentDriver.htm" />
+  <HelpKINode Title="NetworkController.Network property" Url="html/P_ElecNetKit_Simulator_NetworkController_Network.htm" />
+  <HelpKINode Title="NetworkController.NetworkController constructor" Url="html/M_ElecNetKit_Simulator_NetworkController__ctor.htm" />
+  <HelpKINode Title="NetworkController.NetworkFilename property" Url="html/P_ElecNetKit_Simulator_NetworkController_NetworkFilename.htm" />
+  <HelpKINode Title="NetworkController.ResultsTransformer property" Url="html/P_ElecNetKit_Simulator_NetworkController_ResultsTransformer.htm" />
+  <HelpKINode Title="NetworkElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  <HelpKINode Title="NetworkElement class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  <HelpKINode Title="NetworkElement class">
+    <HelpKINode Title="about NetworkElement class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkElement.Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" />
+  <HelpKINode Title="NetworkElement.ConnectedTo property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" />
+  <HelpKINode Title="NetworkElement.Disconnect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" />
+  <HelpKINode Title="NetworkElement.ElementType property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" />
+  <HelpKINode Title="NetworkElement.ID property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" />
+  <HelpKINode Title="NetworkElement.NetworkElement constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement__ctor.htm" />
+  <HelpKINode Title="NetworkFilename property" Url="html/P_ElecNetKit_Simulator_NetworkController_NetworkFilename.htm" />
+  <HelpKINode Title="NetworkModel class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  <HelpKINode Title="NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  <HelpKINode Title="NetworkModel class">
+    <HelpKINode Title="about NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkModel.Buses property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Buses.htm" />
+  <HelpKINode Title="NetworkModel.FindNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" />
+  <HelpKINode Title="NetworkModel.Generators property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Generators.htm" />
+  <HelpKINode Title="NetworkModel.Lines property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Lines.htm" />
+  <HelpKINode Title="NetworkModel.Loads property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Loads.htm" />
+  <HelpKINode Title="NetworkModel.LosseskVA property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_LosseskVA.htm" />
+  <HelpKINode Title="NetworkModel.networkBounds field" Url="html/F_ElecNetKit_NetworkModelling_NetworkModel_networkBounds.htm" />
+  <HelpKINode Title="NetworkModel.NetworkBounds property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_NetworkBounds.htm" />
+  <HelpKINode Title="NetworkModel.NetworkModel constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel__ctor.htm" />
+  <HelpKINode Title="NetworkModel.SourceBus property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_SourceBus.htm" />
+  <HelpKINode Title="NetworkModel.UpdateNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_UpdateNetworkBounds.htm" />
+  <HelpKINode Title="NormalDist class" Url="html/AllMembers_T_ElecNetKit_Util_NormalDist.htm" />
+  <HelpKINode Title="NormalDist class" Url="html/T_ElecNetKit_Util_NormalDist.htm" />
+  <HelpKINode Title="NormalDist class">
+    <HelpKINode Title="about NormalDist class" Url="html/T_ElecNetKit_Util_NormalDist.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Util_NormalDist.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_Util_NormalDist__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Util_NormalDist.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Util_NormalDist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NormalDist.GetNextValue method" Url="html/M_ElecNetKit_Util_NormalDist_GetNextValue.htm" />
+  <HelpKINode Title="NormalDist.GetZ method" Url="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" />
+  <HelpKINode Title="NormalDist.Mean property" Url="html/P_ElecNetKit_Util_NormalDist_Mean.htm" />
+  <HelpKINode Title="NormalDist.NormalDist constructor" Url="html/Overload_ElecNetKit_Util_NormalDist__ctor.htm" />
+  <HelpKINode Title="NormalDist.StdDev property" Url="html/P_ElecNetKit_Util_NormalDist_StdDev.htm" />
+  <HelpKINode Title="NormalDist.ToString method" Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
+  <HelpKINode Title="NormalDist.Variance property" Url="html/P_ElecNetKit_Util_NormalDist_Variance.htm" />
+  <HelpKINode Title="NumSamples property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" />
+  <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
+  <HelpKINode Title="OnPropertyChanged method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_OnPropertyChanged.htm" />
+  <HelpKINode Title="OpenDSSSimulator class" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+  <HelpKINode Title="OpenDSSSimulator class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+  <HelpKINode Title="OpenDSSSimulator class">
+    <HelpKINode Title="about OpenDSSSimulator class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OpenDSSSimulator.GetNetworkModel method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" />
+  <HelpKINode Title="OpenDSSSimulator.OpenDSSSimulator constructor" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator__ctor.htm" />
+  <HelpKINode Title="OpenDSSSimulator.PrepareNetwork method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
+  <HelpKINode Title="OpenDSSSimulator.ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
+  <HelpKINode Title="OpenDSSSimulator.RunCommand method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
+  <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" />
+  <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" />
+  <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" />
+  <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" />
+  <HelpKINode Title="PrepareNetwork method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
+  <HelpKINode Title="PrepareNetwork method" Url="html/M_ElecNetKit_Simulator_ISimulator_PrepareNetwork.htm" />
+  <HelpKINode Title="PresentationMode property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_PresentationMode.htm" />
+  <HelpKINode Title="PresentationMode property" Url="html/P_ElecNetKit_Graphing_IPresentationMode_PresentationMode.htm" />
+  <HelpKINode Title="PresentationMode property" Url="html/P_ElecNetKit_Graphing_TreeGraph_PresentationMode.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ProcessData.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_ProcessData.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_ProcessData.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_ProcessData.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_ProcessData.htm" />
+  <HelpKINode Title="ProcessData method" Url="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm" />
+  <HelpKINode Title="PropertyChanged event" Url="html/E_ElecNetKit_Graphing_Controls_VisualHost_PropertyChanged.htm" />
+  <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" />
+  <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" />
+  <HelpKINode Title="Remove method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" />
+  <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_Reset.htm" />
+  <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_Reset.htm" />
+  <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_Reset.htm" />
+  <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" />
+  <HelpKINode Title="ResetAutoData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" />
+  <HelpKINode Title="ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
+  <HelpKINode Title="ResultsTransformer property" Url="html/P_ElecNetKit_Simulator_NetworkController_ResultsTransformer.htm" />
+  <HelpKINode Title="RingColor property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingColor.htm" />
+  <HelpKINode Title="RingDistanceFromCenter property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceFromCenter.htm" />
+  <HelpKINode Title="RingDistanceTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceTransform.htm" />
+  <HelpKINode Title="RingEnabledTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingEnabledTransform.htm" />
+  <HelpKINode Title="RingThickness property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingThickness.htm" />
+  <HelpKINode Title="RunCommand method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
+  <HelpKINode Title="RunCommand method" Url="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" />
+  <HelpKINode Title="SaveVisualToByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
+  <HelpKINode Title="ScaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledLocation.htm" />
+  <HelpKINode Title="ScaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledRectangle.htm" />
+  <HelpKINode Title="SelectedElement property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
+  <HelpKINode Title="SelectedElement property" Url="html/P_ElecNetKit_Graphing_IElementSelectable_SelectedElement.htm" />
+  <HelpKINode Title="SourceBus property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_SourceBus.htm" />
+  <HelpKINode Title="StartGraphHostWindow method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_StartGraphHostWindow.htm" />
+  <HelpKINode Title="StaticValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+  <HelpKINode Title="StaticValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+  <HelpKINode Title="StaticValue class">
+    <HelpKINode Title="about StaticValue class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StaticValue.AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_AnchorValue.htm" />
+  <HelpKINode Title="StaticValue.ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_ProcessData.htm" />
+  <HelpKINode Title="StaticValue.Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" />
+  <HelpKINode Title="StaticValue.StaticValue constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue__ctor.htm" />
+  <HelpKINode Title="StdDev property" Url="html/P_ElecNetKit_Util_NormalDist_StdDev.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
+  <HelpKINode Title="TraceFromWithCallback method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceFromWithCallback.htm" />
+  <HelpKINode Title="TraceWithoutCrossingBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceWithoutCrossingBuses.htm" />
+  <HelpKINode Title="Tracing class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  <HelpKINode Title="Tracing class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  <HelpKINode Title="Tracing class">
+    <HelpKINode Title="about Tracing class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tracing.BusesOnRouteToTarget method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_BusesOnRouteToTarget.htm" />
+  <HelpKINode Title="Tracing.GetDirectLengthBetweenBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_GetDirectLengthBetweenBuses.htm" />
+  <HelpKINode Title="Tracing.TraceFromWithCallback method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceFromWithCallback.htm" />
+  <HelpKINode Title="Tracing.TraceWithoutCrossingBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceWithoutCrossingBuses.htm" />
+  <HelpKINode Title="TreeGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_TreeGraph.htm" />
+  <HelpKINode Title="TreeGraph class" Url="html/T_ElecNetKit_Graphing_TreeGraph.htm" />
+  <HelpKINode Title="TreeGraph class">
+    <HelpKINode Title="about TreeGraph class" Url="html/T_ElecNetKit_Graphing_TreeGraph.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_TreeGraph.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_TreeGraph__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_TreeGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_TreeGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TreeGraph.Draw method" Url="html/M_ElecNetKit_Graphing_TreeGraph_Draw.htm" />
+  <HelpKINode Title="TreeGraph.GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_GetObjectAtLocation.htm" />
+  <HelpKINode Title="TreeGraph.ImgCoords property" Url="html/P_ElecNetKit_Graphing_TreeGraph_ImgCoords.htm" />
+  <HelpKINode Title="TreeGraph.Margin property" Url="html/P_ElecNetKit_Graphing_TreeGraph_Margin.htm" />
+  <HelpKINode Title="TreeGraph.Network property" Url="html/P_ElecNetKit_Graphing_TreeGraph_Network.htm" />
+  <HelpKINode Title="TreeGraph.PresentationMode property" Url="html/P_ElecNetKit_Graphing_TreeGraph_PresentationMode.htm" />
+  <HelpKINode Title="TreeGraph.ScaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledLocation.htm" />
+  <HelpKINode Title="TreeGraph.ScaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledRectangle.htm" />
+  <HelpKINode Title="TreeGraph.TreeGraph constructor" Url="html/M_ElecNetKit_Graphing_TreeGraph__ctor.htm" />
+  <HelpKINode Title="TreeGraph.UnscaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledLocation.htm" />
+  <HelpKINode Title="TreeGraph.UnscaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class">
+    <HelpKINode Title="about TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).Add method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).ContainsKey method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).ContainsKeyX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).ContainsKeyY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyY.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).MapX property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapX.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).MapY property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapY.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).Merge method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Merge.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).MergeX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeX.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).MergeY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeY.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).OnDeserialization method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).Remove method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" />
+  <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue).TwinKeyDictionary constructor" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class">
+    <HelpKINode Title="about TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.Add method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.ContainsKey method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.ContainsKeyX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.ContainsKeyY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyY.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.MapX property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapX.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.MapY property" Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapY.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.Merge method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Merge.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.MergeX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeX.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.MergeY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_MergeY.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.OnDeserialization method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.Remove method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" />
+  <HelpKINode Title="TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt;.TwinKeyDictionary constructor" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" />
+  <HelpKINode Title="UnscaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledLocation.htm" />
+  <HelpKINode Title="UnscaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" />
+  <HelpKINode Title="UpdateNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_UpdateNetworkBounds.htm" />
+  <HelpKINode Title="UpperLimit property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_UpperLimit.htm" />
+  <HelpKINode Title="ValueScaledToLimits method" Url="html/M_ElecNetKit_Util_Limits_ValueScaledToLimits.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph class">
+    <HelpKINode Title="about ValueTransformableTreeGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueTransformableTreeGraph.BuildGradientMap method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BuildGradientMap.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusColorGradient property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorGradient.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusColorTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorTransform.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusSizeMax property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMax.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusSizeMin property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMin.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusSizeTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeTransform.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.BusVisibleTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusVisibleTransform.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.Draw method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_Draw.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.DrawBuses method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawBuses.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.DrawLines method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_GetObjectAtLocation.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.LineThickness property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_LineThickness.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.RingColor property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingColor.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.RingDistanceFromCenter property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceFromCenter.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.RingDistanceTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceTransform.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.RingEnabledTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingEnabledTransform.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.RingThickness property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingThickness.htm" />
+  <HelpKINode Title="ValueTransformableTreeGraph.ValueTransformableTreeGraph constructor" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph__ctor.htm" />
+  <HelpKINode Title="ValueUnscaledFromLimits method" Url="html/M_ElecNetKit_Util_Limits_ValueUnscaledFromLimits.htm" />
+  <HelpKINode Title="Variance property" Url="html/P_ElecNetKit_Util_NormalDist_Variance.htm" />
+  <HelpKINode Title="VisualChildrenCount property" Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_VisualChildrenCount.htm" />
+  <HelpKINode Title="VisualHost class" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+  <HelpKINode Title="VisualHost class" Url="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+  <HelpKINode Title="VisualHost class">
+    <HelpKINode Title="about VisualHost class" Url="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VisualHost.Drawing property" Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_Drawing.htm" />
+  <HelpKINode Title="VisualHost.DrawingProperty field" Url="html/F_ElecNetKit_Graphing_Controls_VisualHost_DrawingProperty.htm" />
+  <HelpKINode Title="VisualHost.ExportPNG method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportPNG.htm" />
+  <HelpKINode Title="VisualHost.ExportXPS method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportXPS.htm" />
+  <HelpKINode Title="VisualHost.GetVisualChild method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" />
+  <HelpKINode Title="VisualHost.OnPropertyChanged method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_OnPropertyChanged.htm" />
+  <HelpKINode Title="VisualHost.PropertyChanged event" Url="html/E_ElecNetKit_Graphing_Controls_VisualHost_PropertyChanged.htm" />
+  <HelpKINode Title="VisualHost.VisualChildrenCount property" Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_VisualChildrenCount.htm" />
+  <HelpKINode Title="VisualHost.VisualHost constructor" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost__ctor.htm" />
+  <HelpKINode Title="Voltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" />
+  <HelpKINode Title="VoltagePU property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
+</HelpKI>
