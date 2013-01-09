@@ -6,3 +6,4 @@ MetricResults/
 TestResults/
 packages/
 *.asv
+*.nupkg

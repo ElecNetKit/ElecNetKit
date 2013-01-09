@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ElecNetKit.Engines.OpenDSS")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("The OpenDSS engine for ElecNetKit.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ElecNetKit.Engines.OpenDSS")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("Fabian Tamp")]
+[assembly: AssemblyProduct("ElecNetKit")]
+[assembly: AssemblyCopyright("© 2012-13")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

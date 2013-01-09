@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CAE")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ElecNetKit.Core")]
+[assembly: AssemblyDescription("ElecNetKit is a toolkit for building simulation experiments for electrical network models.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CAE")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("Fabian Tamp")]
+[assembly: AssemblyProduct("ElecNetKit.Core")]
+[assembly: AssemblyCopyright("© 2012 Fabian Tamp")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
