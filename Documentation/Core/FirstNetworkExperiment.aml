@@ -15,19 +15,13 @@
       <para>This walkthrough demonstrates a (very) simple use-case of ElecNetKit. The goal of this experiment is to measure the change in network voltages due to loads increasing by 10%.</para>
     </introduction>
 
-    <!-- <prerequisites><content>Optional prerequisites info</content></prerequisites> -->
+    <prerequisites><content>
+      <para>Before you get started with this walkthrough, make sure you've got a proper environment set up for using ElecNetKit. More instructions are provided in <link xlink:href="949e4556-eeed-4aea-b580-9cebbdbdab6d" />.</para></content></prerequisites>
 
     <!-- One or more procedure or section with procedure -->
     <procedure>
       <title>A Minimal Working Example</title>
       <steps class="bullet">
-        <step>
-          <content>
-            <para>
-              First, make sure you've got a proper environment set up for using ElecNetKit. More instructions are provided in <link xlink:href="949e4556-eeed-4aea-b580-9cebbdbdab6d" />.
-            </para>
-          </content>
-        </step>
         <step>
           <content>
             <para>
@@ -45,7 +39,7 @@
         <step>
           <content>
             <para>
-              Add the following references (either from local copies or with <link xlink:href="http://nuget.org/">NuGet</link>):
+              Add the following references (either from local copies, with <ui>Project | Add Reference...</ui> or with <link xlink:href="http://nuget.org/">NuGet</link>, using <ui>Project | Manage NuGet Packages...</ui>):
             </para>
             <list class="bullet">
               <listItem>
@@ -86,7 +80,7 @@
             <para>
               Now, we're ready to chain it all together. Add the following <codeInline>using</codeInline> directives at the top of the <fictitiousUri>Program.cs</fictitiousUri> file:
             </para>
-            <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="Usings" />
+            <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="UsingsMWE" />
           </content>
         </step>
         <step>
@@ -94,7 +88,7 @@
             <para>
               Add the following code to your <codeInline>Main()</codeInline> method:
             </para>
-            <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="Main" />
+            <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="MainMWE" />
             <para>
               Don't forget to change the path in the above code to the location of the <fictitiousUri>IEEE13mod.dss</fictitiousUri> file!
             </para>
@@ -109,7 +103,7 @@
       </steps>
     </procedure>
     <section>
-      <title>Additional Remarks</title>
+      <title>Remarks</title>
       <content>
         <list class="bullet">
           <listItem>
@@ -120,11 +114,79 @@
         </list>
       </content>
     </section>
-    <!-- Optional next steps info
+    <procedure>
+      <title>Displaying Network Graphs</title>
+      <steps class="bullet">
+        <step>
+          <content>
+            <para>Add the following references to your project:</para>
+          <list class="nobullet">
+            <listItem>
+              <para>
+                Using either <ui>NuGet</ui> or <ui>Project | Add References...</ui>:
+              </para>
+              <list class="bullet">
+                <listItem>
+                  <para><codeInline>ElecNetKit.Graphing</codeInline> - provides access to graphing functionality.</para>
+                </listItem>
+              </list>
+            </listItem>
+          <listItem>
+            <para>Using <ui>Project | Add References... | Assemblies | Framework</ui>:
+          </para>
+            <list class="bullet">
+              <listItem>
+                <para><codeInline>PresentationCore</codeInline></para>
+              </listItem>
+            <listItem>
+                <para><codeInline>PresentationFramework</codeInline></para>
+              </listItem>
+          <listItem>
+                <para><codeInline>System.Xaml</codeInline></para>
+              </listItem>
+            <listItem>
+                <para><codeInline>WindowsBase</codeInline></para>
+              </listItem>
+            </list>
+            <para>
+              This last set of references are required because ElecNetKit uses Windows Presentation Foundation (WPF) for graphing. In a WPF application, you will not need to add these references - the graphing components will Just Work&#8482;.
+            </para>
+          </listItem>
+          </list>
+          </content>
+        </step>
+        <step>
+          <content>
+            <para>Add the following <codeInline>using</codeInline> directives, right underneath the currently existing ones:</para>
+          <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="UsingsGraphing" />
+          </content>
+        </step>
+      <step>
+          <content>
+            <para>Add the following code at the very bottom of your <codeInline>Main()</codeInline> method:</para>
+          <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="MainGraphing" />
+          </content>
+        </step>
+        <step>
+          <content>
+            <para>That's it! Build and run the program, and behold your lovely new graph:</para>
+            <mediaLink>
+              <caption>Graph Output</caption>
+              <image xlink:href="GraphOutput"/>
+            </mediaLink>
+          </content>
+        </step>
+      </steps>
+    </procedure>
+    <section><title>Additional Remarks</title>
+    <content>
+      <para>The ElecNetKit Graphing suite is very powerful, and what you've seen here is a very simple example. You might like to take a look at <link xlink:href="1201915e-1e35-440e-94ba-729903b0f473"/> for more information as to what's available.</para>
+    </content></section>
+    
     <nextSteps>
-      <content><para>Next steps info goes here</para></content>
+      <content><para>Now that you've set up a development environment and built a minimal working example, you might like to read about <link xlink:href="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c" />.</para></content>
     </nextSteps>
-    -->
+    
 
     <relatedTopics>
       <!-- One or more of the following:

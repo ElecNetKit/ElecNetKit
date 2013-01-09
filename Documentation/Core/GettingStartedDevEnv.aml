@@ -17,7 +17,7 @@
            zero (0) to limit it to top-level sections only.  -->
       <!-- <autoOutline /> -->
 
-      <para>Required introduction</para>
+      <para>This article walks you through the procedure of setting up a development and experimentation environment on Windows, using ElecNetKit with the OpenDSS simulator.</para>
     </introduction>
 
     <!-- <prerequisites><content>Optional prerequisites info</content></prerequisites> -->

@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
+  <Topic id="9e5ced0a-ca06-45d2-b65e-27c75e679471" visible="True" isExpanded="true">
+    <Topic id="949e4556-eeed-4aea-b580-9cebbdbdab6d" visible="True" title="Setting up a Development Environment" />
+    <Topic id="58652f95-5bc9-47fe-a12b-9edbe5170171" visible="True" title="Walkthrough - A Minimal Working Example" />
+    <Topic id="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c" visible="True" title="Traversing the Network Model" />
+  </Topic>
   <Topic id="d84a8c76-b80a-4721-9a1e-c36cecfc6ead" visible="True" isSelected="true" title="ElecNetKit Architecture" />
-  <Topic id="58652f95-5bc9-47fe-a12b-9edbe5170171" visible="True" title="Walkthrough - A Minimal Working Example" />
-  <Topic id="9e5ced0a-ca06-45d2-b65e-27c75e679471" visible="True" />
-  <Topic id="1201915e-1e35-440e-94ba-729903b0f473" visible="True" title="An Introduction to Graphing with ElecNetKit" />
-  <Topic id="949e4556-eeed-4aea-b580-9cebbdbdab6d" visible="True" title="Getting Started - Development Environment" />
-  <Topic id="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c" visible="True" title="Traversing the Network Model" />
+  <Topic id="1201915e-1e35-440e-94ba-729903b0f473" visible="True" title="Graphing with ElecNetKit" />
 </Topics>

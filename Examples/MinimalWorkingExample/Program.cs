@@ -4,18 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-#region Usings
+#region UsingsMWE
 using ElecNetKit.Simulator; //Contains NetworkController
 using ElecNetKit.Transform; //Contains DifferenceTransform
 using ElecNetKit.Engines;   //Contains OpenDSSSimulator
 #endregion
+#region UsingsGraphing
+using ElecNetKit.Graphing.Graphs;   //Contains ValueTransformableTreeGraph
+using ElecNetKit.Graphing.Controls; //Contains GraphHostWindow.
+#endregion
+
 namespace MinimalWorkingExample
 {
     class Program
     {
-        #region Main
         static void Main(string[] args)
         {
+#region MainMWE
             //Setup a network controller and choose a network definition file
             // appropriate to the simulator in use
             NetworkController controller = 
@@ -40,8 +45,12 @@ namespace MinimalWorkingExample
                 "Bus " + bus.ID + " has changed in voltage (pu) by "
                 + bus.VoltagePU.Magnitude);
             }
-            
+#endregion
+#region MainGraphing
+            var graph = new ValueTransformableTreeGraph();  // make a new graph.
+            graph.Network = controller.Network;             // assign the output of the experiment to the graph.
+            GraphHostWindow.StartGraphHostWindow(graph);    // put the graph in a window and display it.
+#endregion
         }
-        #endregion
     }
 }

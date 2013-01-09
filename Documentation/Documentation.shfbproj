@@ -81,7 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Core\Architecture.aml" />
-    <None Include="Core\Choosing A Simulator.aml" />
     <None Include="Core\FirstNetworkExperiment.aml" />
     <None Include="Core\Getting Started.aml" />
     <None Include="Core\GettingStartedDevEnv.aml" />
@@ -96,6 +95,10 @@
     <Image Include="Images\BlockDiagram.png">
       <ImageId>BlockDiagram</ImageId>
       <AlternateText>ElecNetKit Block Diagram</AlternateText>
+    </Image>
+    <Image Include="Images\OpenDSSFeatureSet.png">
+      <ImageId>OpenDSSFeatureSet</ImageId>
+      <AlternateText>OpenDSS Feature Set</AlternateText>
     </Image>
   </ItemGroup>
   <ItemGroup>
