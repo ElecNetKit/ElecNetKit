@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="008ceb6e-d2d9-4989-b0ff-a732def35f3d" Title="Getting Started" Url="html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm">
+  <HelpTOCNode Id="84497603-566c-43cd-9faf-b53d3e951f01" Title="Getting Started" Url="html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm">
     <HelpTOCNode Title="Setting up a Development Environment" Url="html/949e4556-eeed-4aea-b580-9cebbdbdab6d.htm" />
     <HelpTOCNode Title="Walkthrough: A Minimal Working Example" Url="html/58652f95-5bc9-47fe-a12b-9edbe5170171.htm" />
     <HelpTOCNode Title="Traversing the Network Model" Url="html/dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c.htm" />
@@ -9,72 +9,72 @@
   <HelpTOCNode Title="Example Networks Package" Url="html/3dc0672f-1764-496f-a2dc-a8a4f5c73520.htm" />
   <HelpTOCNode Title="ElecNetKit Architecture" Url="html/d84a8c76-b80a-4721-9a1e-c36cecfc6ead.htm" />
   <HelpTOCNode Title="Graphing with ElecNetKit" Url="html/1201915e-1e35-440e-94ba-729903b0f473.htm" />
-  <HelpTOCNode Id="fc4c84dd-f322-48b3-8c80-42158cdc8bde" Title="ElecNetKit.Engines Namespace" Url="html/N_ElecNetKit_Engines.htm">
-    <HelpTOCNode Id="4fb86f4d-e579-4768-a1d8-94cda1f6fd49" Title="OpenDSSSimulator Class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm">
+  <HelpTOCNode Id="3e7b096b-9e4b-4d6b-9ed9-12801a28666d" Title="ElecNetKit.Engines Namespace" Url="html/N_ElecNetKit_Engines.htm">
+    <HelpTOCNode Id="99a392cf-ae1c-4597-9ad0-6b4e570d0cba" Title="OpenDSSSimulator Class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm">
       <HelpTOCNode Title="OpenDSSSimulator Members" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
       <HelpTOCNode Title="OpenDSSSimulator Constructor " Url="html/M_ElecNetKit_Engines_OpenDSSSimulator__ctor.htm" />
-      <HelpTOCNode Id="900df3c5-966a-467a-846f-d22df813d319" Title="OpenDSSSimulator Methods" Url="html/Methods_T_ElecNetKit_Engines_OpenDSSSimulator.htm">
+      <HelpTOCNode Id="b8c39612-a7cb-461f-923c-40f4b0eac9ff" Title="OpenDSSSimulator Methods" Url="html/Methods_T_ElecNetKit_Engines_OpenDSSSimulator.htm">
         <HelpTOCNode Title="GetNetworkModel Method " Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" />
         <HelpTOCNode Title="PrepareNetwork Method " Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
         <HelpTOCNode Title="RunCommand Method " Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5201ea69-23c8-4de3-9a2c-3a0a8dbe304d" Title="OpenDSSSimulator Properties" Url="html/Properties_T_ElecNetKit_Engines_OpenDSSSimulator.htm">
+      <HelpTOCNode Id="5ad3916e-a4bb-4bb2-b186-5323aab8d934" Title="OpenDSSSimulator Properties" Url="html/Properties_T_ElecNetKit_Engines_OpenDSSSimulator.htm">
         <HelpTOCNode Title="ResultAccuracy Property " Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="6540ac6c-5137-4842-994d-79413f3adb97" Title="ElecNetKit.Experimentation Namespace" Url="html/N_ElecNetKit_Experimentation.htm">
-    <HelpTOCNode Id="6b1b9454-0a33-4367-bb3a-c24335a3e546" Title="ChainExperimentor Class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm">
+  <HelpTOCNode Id="633d4b3c-5283-467f-9c0a-a939a4a3a4a7" Title="ElecNetKit.Experimentation Namespace" Url="html/N_ElecNetKit_Experimentation.htm">
+    <HelpTOCNode Id="1fbe39a3-e427-40ac-9062-4a43e899f602" Title="ChainExperimentor Class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm">
       <HelpTOCNode Title="ChainExperimentor Members" Url="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
       <HelpTOCNode Title="ChainExperimentor Constructor " Url="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" />
-      <HelpTOCNode Id="42df1225-5742-4615-b80b-ce62a8e88d25" Title="ChainExperimentor Methods" Url="html/Methods_T_ElecNetKit_Experimentation_ChainExperimentor.htm">
+      <HelpTOCNode Id="82c923ba-3479-4142-b842-0612bafeb9ff" Title="ChainExperimentor Methods" Url="html/Methods_T_ElecNetKit_Experimentation_ChainExperimentor.htm">
         <HelpTOCNode Title="Experiment Method " Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ef853340-2f8d-4f71-83f9-1943591a1c24" Title="ChainExperimentor Properties" Url="html/Properties_T_ElecNetKit_Experimentation_ChainExperimentor.htm">
+      <HelpTOCNode Id="6b042e17-b74d-4204-9fe8-0bf160edbdad" Title="ChainExperimentor Properties" Url="html/Properties_T_ElecNetKit_Experimentation_ChainExperimentor.htm">
         <HelpTOCNode Title="Experimentors Property " Url="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="50bfec2d-e55b-43ab-ab47-5d27cbdeb8d7" Title="IExperimentor Interface" Url="html/T_ElecNetKit_Experimentation_IExperimentor.htm">
+    <HelpTOCNode Id="0df752b9-5b6f-4273-be68-b762f424a3eb" Title="IExperimentor Interface" Url="html/T_ElecNetKit_Experimentation_IExperimentor.htm">
       <HelpTOCNode Title="IExperimentor Members" Url="html/AllMembers_T_ElecNetKit_Experimentation_IExperimentor.htm" />
-      <HelpTOCNode Id="f68564cc-cb03-4acc-b462-c0b82fbb73c7" Title="IExperimentor Methods" Url="html/Methods_T_ElecNetKit_Experimentation_IExperimentor.htm">
+      <HelpTOCNode Id="1790c5e9-a6f5-4c6c-a161-9e50f111ccbb" Title="IExperimentor Methods" Url="html/Methods_T_ElecNetKit_Experimentation_IExperimentor.htm">
         <HelpTOCNode Title="Experiment Method " Url="html/M_ElecNetKit_Experimentation_IExperimentor_Experiment.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="428b56ea-6298-4580-bbd4-6b402a8eae9a" Title="ElecNetKit.Graphing Namespace" Url="html/N_ElecNetKit_Graphing.htm">
-    <HelpTOCNode Id="e83918e1-2f04-4540-a895-6bf4196058f4" Title="IElementLocatable Interface" Url="html/T_ElecNetKit_Graphing_IElementLocatable.htm">
+  <HelpTOCNode Id="6cb7c8f8-dbdf-4587-8e42-5a8b653838bc" Title="ElecNetKit.Graphing Namespace" Url="html/N_ElecNetKit_Graphing.htm">
+    <HelpTOCNode Id="fae82c49-bad4-4f06-97fc-33def35d6a14" Title="IElementLocatable Interface" Url="html/T_ElecNetKit_Graphing_IElementLocatable.htm">
       <HelpTOCNode Title="IElementLocatable Members" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementLocatable.htm" />
-      <HelpTOCNode Id="fde081b2-427a-4e7b-9913-756ba9cafc73" Title="IElementLocatable Methods" Url="html/Methods_T_ElecNetKit_Graphing_IElementLocatable.htm">
+      <HelpTOCNode Id="1f3ac357-0185-4d68-9364-847bf0b97375" Title="IElementLocatable Methods" Url="html/Methods_T_ElecNetKit_Graphing_IElementLocatable.htm">
         <HelpTOCNode Title="GetObjectAtLocation Method " Url="html/M_ElecNetKit_Graphing_IElementLocatable_GetObjectAtLocation.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="495562d3-3c53-45ae-8255-752c37f460ba" Title="IElementSelectable Interface" Url="html/T_ElecNetKit_Graphing_IElementSelectable.htm">
+    <HelpTOCNode Id="c936d54d-1922-42cf-98dd-f807568b8a5d" Title="IElementSelectable Interface" Url="html/T_ElecNetKit_Graphing_IElementSelectable.htm">
       <HelpTOCNode Title="IElementSelectable Members" Url="html/AllMembers_T_ElecNetKit_Graphing_IElementSelectable.htm" />
-      <HelpTOCNode Id="8a6d4816-8dab-419b-8d19-90f83f1779b6" Title="IElementSelectable Properties" Url="html/Properties_T_ElecNetKit_Graphing_IElementSelectable.htm">
+      <HelpTOCNode Id="582ce27d-da17-4ec1-8b83-0c1a0016293a" Title="IElementSelectable Properties" Url="html/Properties_T_ElecNetKit_Graphing_IElementSelectable.htm">
         <HelpTOCNode Title="SelectedElement Property " Url="html/P_ElecNetKit_Graphing_IElementSelectable_SelectedElement.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="24a6ac5f-165c-4e30-b016-baba6311ac97" Title="INetworkGraph Interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm">
+    <HelpTOCNode Id="e8985547-6ec5-41e6-a639-b7ddd6d443b6" Title="INetworkGraph Interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm">
       <HelpTOCNode Title="INetworkGraph Members" Url="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" />
-      <HelpTOCNode Id="563423d4-45f0-475b-a404-d3992e103eaa" Title="INetworkGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_INetworkGraph.htm">
+      <HelpTOCNode Id="3f1c4412-f588-4afb-87cf-0808918b9b5b" Title="INetworkGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_INetworkGraph.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M_ElecNetKit_Graphing_INetworkGraph_Draw.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f3c41131-0178-4853-9f3b-1a4e8b43604d" Title="INetworkGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_INetworkGraph.htm">
+      <HelpTOCNode Id="816d25ad-6120-4b5f-a04d-f303648e11a0" Title="INetworkGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_INetworkGraph.htm">
         <HelpTOCNode Title="ImgCoords Property " Url="html/P_ElecNetKit_Graphing_INetworkGraph_ImgCoords.htm" />
         <HelpTOCNode Title="Margin Property " Url="html/P_ElecNetKit_Graphing_INetworkGraph_Margin.htm" />
         <HelpTOCNode Title="Network Property " Url="html/P_ElecNetKit_Graphing_INetworkGraph_Network.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="515936c8-3e52-48b2-8b2e-03a03a0574c2" Title="IPresentationMode Interface" Url="html/T_ElecNetKit_Graphing_IPresentationMode.htm">
+    <HelpTOCNode Id="889abdd4-4bf6-446c-b255-1d1e559a9c40" Title="IPresentationMode Interface" Url="html/T_ElecNetKit_Graphing_IPresentationMode.htm">
       <HelpTOCNode Title="IPresentationMode Members" Url="html/AllMembers_T_ElecNetKit_Graphing_IPresentationMode.htm" />
-      <HelpTOCNode Id="3da65480-060a-4b26-a499-a6c7da95f883" Title="IPresentationMode Properties" Url="html/Properties_T_ElecNetKit_Graphing_IPresentationMode.htm">
+      <HelpTOCNode Id="6c2e6ff2-cee8-47a2-a16a-45d527e344c6" Title="IPresentationMode Properties" Url="html/Properties_T_ElecNetKit_Graphing_IPresentationMode.htm">
         <HelpTOCNode Title="PresentationMode Property " Url="html/P_ElecNetKit_Graphing_IPresentationMode_PresentationMode.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9b1cdf1d-c334-4444-aaef-82c763f33ea6" Title="TreeGraph Class" Url="html/T_ElecNetKit_Graphing_TreeGraph.htm">
+    <HelpTOCNode Id="6d0ed7ea-8165-4321-b3d6-43f175fa01fa" Title="TreeGraph Class" Url="html/T_ElecNetKit_Graphing_TreeGraph.htm">
       <HelpTOCNode Title="TreeGraph Members" Url="html/AllMembers_T_ElecNetKit_Graphing_TreeGraph.htm" />
       <HelpTOCNode Title="TreeGraph Constructor " Url="html/M_ElecNetKit_Graphing_TreeGraph__ctor.htm" />
-      <HelpTOCNode Id="bfe0ff11-44ec-47fe-95cf-354fb2836bc5" Title="TreeGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_TreeGraph.htm">
+      <HelpTOCNode Id="d61d1f0a-a4c6-41f4-8936-7ec5dbfbd91f" Title="TreeGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_TreeGraph.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M_ElecNetKit_Graphing_TreeGraph_Draw.htm" />
         <HelpTOCNode Title="GetObjectAtLocation Method " Url="html/M_ElecNetKit_Graphing_TreeGraph_GetObjectAtLocation.htm" />
         <HelpTOCNode Title="ScaledLocation Method " Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledLocation.htm" />
@@ -82,7 +82,7 @@
         <HelpTOCNode Title="UnscaledLocation Method " Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledLocation.htm" />
         <HelpTOCNode Title="UnscaledRectangle Method " Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5083202f-c58b-489b-9e57-ca81cc87bccb" Title="TreeGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_TreeGraph.htm">
+      <HelpTOCNode Id="5580ecb6-ca67-493e-b2a0-7179d3c9879b" Title="TreeGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_TreeGraph.htm">
         <HelpTOCNode Title="ImgCoords Property " Url="html/P_ElecNetKit_Graphing_TreeGraph_ImgCoords.htm" />
         <HelpTOCNode Title="Margin Property " Url="html/P_ElecNetKit_Graphing_TreeGraph_Margin.htm" />
         <HelpTOCNode Title="Network Property " Url="html/P_ElecNetKit_Graphing_TreeGraph_Network.htm" />
@@ -90,138 +90,138 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="8123b5d9-fe06-4163-8cc9-20b840e5dba2" Title="ElecNetKit.Graphing.AdaptiveGradients Namespace" Url="html/N_ElecNetKit_Graphing_AdaptiveGradients.htm">
-    <HelpTOCNode Id="fc1ac363-edd9-4099-9752-f42d3e3f4294" Title="AdaptiveGradient Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm">
+  <HelpTOCNode Id="95f8618a-697a-4fa6-bc9a-0ca04685a1f2" Title="ElecNetKit.Graphing.AdaptiveGradients Namespace" Url="html/N_ElecNetKit_Graphing_AdaptiveGradients.htm">
+    <HelpTOCNode Id="217e21f9-d117-497d-b04b-016590a5880b" Title="AdaptiveGradient Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm">
       <HelpTOCNode Title="AdaptiveGradient Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
       <HelpTOCNode Title="AdaptiveGradient Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient__ctor.htm" />
-      <HelpTOCNode Id="21f52e11-7a83-49b3-a33e-023285c0c4a7" Title="AdaptiveGradient Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm">
+      <HelpTOCNode Id="40815b3a-e94b-448e-83f9-1dc720f05dbe" Title="AdaptiveGradient Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm">
         <HelpTOCNode Title="BlueBlackRedGradient Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" />
         <HelpTOCNode Title="BlueRedGradient Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" />
         <HelpTOCNode Title="ProcessData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ProcessData.htm" />
         <HelpTOCNode Title="ResetAutoData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b4213fd8-22ed-4c84-a35d-d839dc5dccbf" Title="AdaptiveGradientMap(T) Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm">
+    <HelpTOCNode Id="58bb1a13-6437-4528-b876-a22cf44f82e3" Title="AdaptiveGradientMap(T) Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm">
       <HelpTOCNode Title="AdaptiveGradientMap(T) Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm" />
       <HelpTOCNode Title="AdaptiveGradientMap(T) Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1__ctor.htm" />
-      <HelpTOCNode Id="6cd3a08d-4839-4f4f-8084-8095764d50a0" Title="AdaptiveGradientMap(T) Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm">
+      <HelpTOCNode Id="6b4756a6-1b1a-4fd4-a3c5-1cee70594b20" Title="AdaptiveGradientMap(T) Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1.htm">
         <HelpTOCNode Title="Map Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMap_1_Map.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ab5418b9-5c90-44a3-8efc-d5c0f1667093" Title="AdaptiveGradientMapBuilder Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
+    <HelpTOCNode Id="437383a1-020f-40e0-be82-80edd8040491" Title="AdaptiveGradientMapBuilder Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
       <HelpTOCNode Title="AdaptiveGradientMapBuilder Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm" />
       <HelpTOCNode Title="AdaptiveGradientMapBuilder Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder__ctor.htm" />
-      <HelpTOCNode Id="d51ab6a5-de75-4093-967f-c8aa7ecc321b" Title="AdaptiveGradientMapBuilder Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
+      <HelpTOCNode Id="59611877-10f6-4bcf-9b02-6b3cf154a2ae" Title="AdaptiveGradientMapBuilder Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
         <HelpTOCNode Title="BuildGradientMap(T) Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_BuildGradientMap__1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="706c69d3-758e-49ea-8a9b-256e655b83b6" Title="AdaptiveGradientMapBuilder Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
+      <HelpTOCNode Id="2acc8548-eb8a-412b-94e0-5579b395a056" Title="AdaptiveGradientMapBuilder Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder.htm">
         <HelpTOCNode Title="NumSamples Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5db9d53d-8dc1-4ebc-ab9a-df3b8e0c701e" Title="AdaptiveGradientStop Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm">
+    <HelpTOCNode Id="ee54cab8-7597-40c5-a762-38eed17eacee" Title="AdaptiveGradientStop Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm">
       <HelpTOCNode Title="AdaptiveGradientStop Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm" />
       <HelpTOCNode Title="AdaptiveGradientStop Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop__ctor.htm" />
-      <HelpTOCNode Id="51357097-c483-461f-b37c-e816bb30da6e" Title="AdaptiveGradientStop Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm">
+      <HelpTOCNode Id="07bd4ae3-7d6d-4abb-a5b4-a05cea332150" Title="AdaptiveGradientStop Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop.htm">
         <HelpTOCNode Title="Anchor Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
         <HelpTOCNode Title="Color Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="da60b9d9-c5b1-4f86-adce-09ab87a54091" Title="IAdaptiveGradientAnchor Interface" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
+    <HelpTOCNode Id="c52974b3-011e-4200-af1d-31de944e8679" Title="IAdaptiveGradientAnchor Interface" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
       <HelpTOCNode Title="IAdaptiveGradientAnchor Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm" />
-      <HelpTOCNode Id="48103b04-edf7-45de-b421-221f8b520289" Title="IAdaptiveGradientAnchor Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
+      <HelpTOCNode Id="912249a5-7b10-4111-9365-9a459993dd6a" Title="IAdaptiveGradientAnchor Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
         <HelpTOCNode Title="ProcessData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_ProcessData.htm" />
         <HelpTOCNode Title="Reset Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_Reset.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="df1ba638-6531-43fa-8369-6f11482506b7" Title="IAdaptiveGradientAnchor Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
+      <HelpTOCNode Id="d2e9ec4f-274d-45c5-9830-5e1f1e5c53aa" Title="IAdaptiveGradientAnchor Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor.htm">
         <HelpTOCNode Title="AnchorValue Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="19bfdd19-789a-4cd1-b9fb-2ddac974dfd5" Title="MaxValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
+    <HelpTOCNode Id="5656f70e-3147-44f7-be4f-55e4911060d6" Title="MaxValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
       <HelpTOCNode Title="MaxValue Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm" />
       <HelpTOCNode Title="MaxValue Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue__ctor.htm" />
-      <HelpTOCNode Id="0ea71742-b782-45f4-ba10-e6290765b4b9" Title="MaxValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
+      <HelpTOCNode Id="7dba74ef-e6ff-4f95-84db-63bbaaa91a2d" Title="MaxValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
         <HelpTOCNode Title="ProcessData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_ProcessData.htm" />
         <HelpTOCNode Title="Reset Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_Reset.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="be0471b9-0111-4555-ae43-8b0e560e6660" Title="MaxValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
+      <HelpTOCNode Id="0da5b47c-7eb1-4b46-b582-96a2b2fac8cc" Title="MaxValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MaxValue.htm">
         <HelpTOCNode Title="AnchorValue Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5bba7250-f3e7-483d-9df4-4386c88750a6" Title="MinValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
+    <HelpTOCNode Id="69d34e4d-da4e-46d6-8a43-503263d175fd" Title="MinValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
       <HelpTOCNode Title="MinValue Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm" />
       <HelpTOCNode Title="MinValue Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue__ctor.htm" />
-      <HelpTOCNode Id="c3cafc59-2fc4-4108-aea5-60fc3b0a151c" Title="MinValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
+      <HelpTOCNode Id="da69d114-2d19-4053-9aca-ab51e4cdcaaa" Title="MinValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
         <HelpTOCNode Title="ProcessData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_ProcessData.htm" />
         <HelpTOCNode Title="Reset Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_Reset.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="af13fc99-d6b2-4663-a390-5358a8e9be2a" Title="MinValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
+      <HelpTOCNode Id="4867fff3-0957-4ef1-80da-d9fc6db75846" Title="MinValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_MinValue.htm">
         <HelpTOCNode Title="AnchorValue Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MinValue_AnchorValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bbc618c0-564e-448f-a87b-e52c5046b4f6" Title="StaticValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
+    <HelpTOCNode Id="7ac6b8d9-ecca-45f5-a43d-13de22f9853a" Title="StaticValue Class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
       <HelpTOCNode Title="StaticValue Members" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
       <HelpTOCNode Title="StaticValue Constructor " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue__ctor.htm" />
-      <HelpTOCNode Id="57309fcf-b131-407f-b576-a696b493b88f" Title="StaticValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
+      <HelpTOCNode Id="68e1e552-afc1-495b-b3df-5057b48362ba" Title="StaticValue Methods" Url="html/Methods_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
         <HelpTOCNode Title="ProcessData Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_ProcessData.htm" />
         <HelpTOCNode Title="Reset Method " Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c282b04e-ee12-4a51-b8b7-d6b7f6770d9f" Title="StaticValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
+      <HelpTOCNode Id="b6342f37-6f6b-470d-9ffa-b61c5e8d99b1" Title="StaticValue Properties" Url="html/Properties_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm">
         <HelpTOCNode Title="AnchorValue Property " Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_AnchorValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="429c4895-8c99-4eca-9bd9-a46d2f884533" Title="ElecNetKit.Graphing.Controls Namespace" Url="html/N_ElecNetKit_Graphing_Controls.htm">
-    <HelpTOCNode Id="a42d9364-0dbf-4027-a8a9-14cf12cceee6" Title="GraphHost Class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm">
+  <HelpTOCNode Id="e14fb628-b7e9-4f28-8c07-9413c3088b22" Title="ElecNetKit.Graphing.Controls Namespace" Url="html/N_ElecNetKit_Graphing_Controls.htm">
+    <HelpTOCNode Id="29f7e6a1-0578-4730-907d-60000b03834e" Title="GraphHost Class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHost.htm">
       <HelpTOCNode Title="GraphHost Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
       <HelpTOCNode Title="GraphHost Constructor " Url="html/M_ElecNetKit_Graphing_Controls_GraphHost__ctor.htm" />
-      <HelpTOCNode Id="c281ad76-2242-409b-92a8-2cc0d855222e" Title="GraphHost Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHost.htm">
+      <HelpTOCNode Id="2c296ec0-165a-4ceb-9296-fa9c7112494a" Title="GraphHost Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHost.htm">
         <HelpTOCNode Title="RefreshGraph Method " Url="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3abd29de-af63-4f6a-a485-e4122b20f4fd" Title="GraphHost Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHost.htm">
+      <HelpTOCNode Id="eb10613c-93a4-4c19-a6d6-7e6e6de86b7f" Title="GraphHost Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHost.htm">
         <HelpTOCNode Title="Graph Property " Url="html/P_ElecNetKit_Graphing_Controls_GraphHost_Graph.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GraphHost Events" Url="html/Events_T_ElecNetKit_Graphing_Controls_GraphHost.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="abd21a48-75e7-4e74-904d-9bf7e42b24ae" Title="GraphHostWindow Class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
+    <HelpTOCNode Id="699869f9-dc9a-40ed-9b47-4a70248ab00c" Title="GraphHostWindow Class" Url="html/T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
       <HelpTOCNode Title="GraphHostWindow Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm" />
       <HelpTOCNode Title="GraphHostWindow Constructor " Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow__ctor.htm" />
-      <HelpTOCNode Id="b55cef2e-93f8-4357-81f2-164d4dc977b1" Title="GraphHostWindow Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
+      <HelpTOCNode Id="8c7d7516-f8a6-4c8e-a6c8-c40ae1dba11f" Title="GraphHostWindow Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
         <HelpTOCNode Title="RefreshGraph Method " Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" />
         <HelpTOCNode Title="StartGraphHostWindow Method " Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_StartGraphHostWindow.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0f04008e-6d91-4182-ace8-94afd5a0521b" Title="GraphHostWindow Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
+      <HelpTOCNode Id="29c3951c-8a8c-44d9-96d8-d4dc48a7aff1" Title="GraphHostWindow Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_GraphHostWindow.htm">
         <HelpTOCNode Title="Graph Property " Url="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="587262e9-b8c4-4147-9186-3639665215d2" Title="VisualHost Class" Url="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm">
+    <HelpTOCNode Id="55ba28f9-c369-4eb4-a878-a5a0f9270018" Title="VisualHost Class" Url="html/T_ElecNetKit_Graphing_Controls_VisualHost.htm">
       <HelpTOCNode Title="VisualHost Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Controls_VisualHost.htm" />
       <HelpTOCNode Title="VisualHost Constructor " Url="html/M_ElecNetKit_Graphing_Controls_VisualHost__ctor.htm" />
-      <HelpTOCNode Id="bdc30e24-e91a-471c-bd2b-797009b31edd" Title="VisualHost Fields" Url="html/Fields_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
+      <HelpTOCNode Id="c620060c-c218-4883-9e54-144996344a55" Title="VisualHost Fields" Url="html/Fields_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
         <HelpTOCNode Title="DrawingProperty Field" Url="html/F_ElecNetKit_Graphing_Controls_VisualHost_DrawingProperty.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="970d46c3-89ef-4997-af57-2d131d84129e" Title="VisualHost Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
+      <HelpTOCNode Id="90927a60-8e70-41b8-8ee5-b9e4bf28f19e" Title="VisualHost Methods" Url="html/Methods_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
         <HelpTOCNode Title="ExportPNG Method " Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportPNG.htm" />
         <HelpTOCNode Title="ExportXPS Method " Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_ExportXPS.htm" />
         <HelpTOCNode Title="GetVisualChild Method " Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" />
         <HelpTOCNode Title="OnPropertyChanged Method " Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_OnPropertyChanged.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6267f58d-cad9-4479-b4d2-deb1ee22a959" Title="VisualHost Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
+      <HelpTOCNode Id="a853ee76-3be1-4dab-b7de-f2f94cad0da4" Title="VisualHost Properties" Url="html/Properties_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
         <HelpTOCNode Title="Drawing Property " Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_Drawing.htm" />
         <HelpTOCNode Title="VisualChildrenCount Property " Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_VisualChildrenCount.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="bcf042ab-41bc-405b-9e95-e7f62277b015" Title="VisualHost Events" Url="html/Events_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
+      <HelpTOCNode Id="b0a0e4c1-e8c4-475a-b807-ec8e067a5fe1" Title="VisualHost Events" Url="html/Events_T_ElecNetKit_Graphing_Controls_VisualHost.htm">
         <HelpTOCNode Title="PropertyChanged Event" Url="html/E_ElecNetKit_Graphing_Controls_VisualHost_PropertyChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="d7203c8d-4a89-4021-ad99-9304ee61305a" Title="ElecNetKit.Graphing.Graphs Namespace" Url="html/N_ElecNetKit_Graphing_Graphs.htm">
-    <HelpTOCNode Id="a8836b05-d6b7-4478-a712-868cbddc62c1" Title="FeederProfileGraph Class" Url="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
+  <HelpTOCNode Id="9e3252c4-ee1d-4611-a9b3-9bb7cf39455d" Title="ElecNetKit.Graphing.Graphs Namespace" Url="html/N_ElecNetKit_Graphing_Graphs.htm">
+    <HelpTOCNode Id="48ba9c56-0d51-481d-a41e-48be30d7e046" Title="FeederProfileGraph Class" Url="html/T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
       <HelpTOCNode Title="FeederProfileGraph Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm" />
       <HelpTOCNode Title="FeederProfileGraph Constructor " Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph__ctor.htm" />
-      <HelpTOCNode Id="ee29c28e-2d5d-45e7-95e3-8e0f21ba347c" Title="FeederProfileGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
+      <HelpTOCNode Id="e6c0870c-c887-4320-9914-17f4e4260402" Title="FeederProfileGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Draw.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2589fc5f-dcac-4ef4-a4d9-89aa45cb82f5" Title="FeederProfileGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
+      <HelpTOCNode Id="bc7a2880-ecb6-4b76-9169-2ae2eef3ed12" Title="FeederProfileGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_FeederProfileGraph.htm">
         <HelpTOCNode Title="ImgCoords Property " Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_ImgCoords.htm" />
         <HelpTOCNode Title="Margin Property " Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Margin.htm" />
         <HelpTOCNode Title="Network Property " Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_Network.htm" />
@@ -229,17 +229,17 @@
         <HelpTOCNode Title="SelectedElement Property " Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="510bb04c-e447-4b85-9689-c38a5a3b7f14" Title="ValueTransformableTreeGraph Class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
+    <HelpTOCNode Id="075cbc31-7fac-46b1-942a-e96c4568ed93" Title="ValueTransformableTreeGraph Class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
       <HelpTOCNode Title="ValueTransformableTreeGraph Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
       <HelpTOCNode Title="ValueTransformableTreeGraph Constructor " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph__ctor.htm" />
-      <HelpTOCNode Id="5d8be746-aad7-4d77-8010-aa0dcb30d19a" Title="ValueTransformableTreeGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
+      <HelpTOCNode Id="2afb9992-6569-438e-881c-37c0324bee50" Title="ValueTransformableTreeGraph Methods" Url="html/Methods_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
         <HelpTOCNode Title="BuildGradientMap Method " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BuildGradientMap.htm" />
         <HelpTOCNode Title="Draw Method " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_Draw.htm" />
         <HelpTOCNode Title="DrawBuses Method " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawBuses.htm" />
         <HelpTOCNode Title="DrawLines Method " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" />
         <HelpTOCNode Title="GetObjectAtLocation Method " Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_GetObjectAtLocation.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9380269a-9c79-4111-8cac-512f5c8da2c1" Title="ValueTransformableTreeGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
+      <HelpTOCNode Id="d44c6ed4-fee0-4dbf-88d3-353dc92b00d7" Title="ValueTransformableTreeGraph Properties" Url="html/Properties_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm">
         <HelpTOCNode Title="BusColorGradient Property " Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorGradient.htm" />
         <HelpTOCNode Title="BusColorTransform Property " Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorTransform.htm" />
         <HelpTOCNode Title="BusSizeMax Property " Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMax.htm" />
@@ -255,105 +255,105 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="d311018b-7c1b-41fd-8879-414ed89ab9ac" Title="ElecNetKit.Graphing.Util Namespace" Url="html/N_ElecNetKit_Graphing_Util.htm">
-    <HelpTOCNode Id="78206358-6054-4f43-8558-1c85145b5b57" Title="DrawingVisualSerialisers Class" Url="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm">
+  <HelpTOCNode Id="d0c958e9-652f-4588-8f7e-26150d25080e" Title="ElecNetKit.Graphing.Util Namespace" Url="html/N_ElecNetKit_Graphing_Util.htm">
+    <HelpTOCNode Id="2cbe0f0d-886f-4e2c-af22-54fe36060ee8" Title="DrawingVisualSerialisers Class" Url="html/T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm">
       <HelpTOCNode Title="DrawingVisualSerialisers Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm" />
-      <HelpTOCNode Id="f2c7e11d-07ac-49eb-9fba-75c969bd93a9" Title="DrawingVisualSerialisers Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm">
+      <HelpTOCNode Id="b8ae0516-5a5d-4ad8-b7f0-1a6b555a71c2" Title="DrawingVisualSerialisers Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_DrawingVisualSerialisers.htm">
         <HelpTOCNode Title="LoadVisualFromByteArray Method " Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
         <HelpTOCNode Title="SaveVisualToByteArray Method " Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="47b3640e-07df-400a-9e75-57b957b12abf" Title="MagicGridSpacer Class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
+    <HelpTOCNode Id="3a3c6b67-b949-4788-88a0-2a986ea45559" Title="MagicGridSpacer Class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
       <HelpTOCNode Title="MagicGridSpacer Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm" />
       <HelpTOCNode Title="MagicGridSpacer Constructor " Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer__ctor.htm" />
-      <HelpTOCNode Id="a5305da3-e99c-4541-9e08-d76b3cb5c1dd" Title="MagicGridSpacer Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
+      <HelpTOCNode Id="12a4b6c8-c76f-43fb-ae66-2c0aa28a0e95" Title="MagicGridSpacer Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
         <HelpTOCNode Title="GetGridSpacings Method " Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer_GetGridSpacings.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c449939c-d98b-40b4-8682-6734f62ff683" Title="MagicGridSpacer Properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
+      <HelpTOCNode Id="1f2836bb-636e-4aee-975f-d8ecfda8a620" Title="MagicGridSpacer Properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacer.htm">
         <HelpTOCNode Title="MaxLines Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxLines.htm" />
         <HelpTOCNode Title="MaxValue Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MaxValue.htm" />
         <HelpTOCNode Title="MinValue Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacer_MinValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0d425418-d4dc-4297-9917-73317fdd3dae" Title="MagicGridSpacings Class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
+    <HelpTOCNode Id="204f00a3-582c-41d1-8eb4-2b1d051ce530" Title="MagicGridSpacings Class" Url="html/T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
       <HelpTOCNode Title="MagicGridSpacings Members" Url="html/AllMembers_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm" />
       <HelpTOCNode Title="MagicGridSpacings Constructor " Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings__ctor.htm" />
-      <HelpTOCNode Id="312926c2-515e-47aa-9738-cbd584e5e0c7" Title="MagicGridSpacings Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
+      <HelpTOCNode Id="7873818e-f952-414a-bde8-0afeb2ccc86b" Title="MagicGridSpacings Methods" Url="html/Methods_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
         <HelpTOCNode Title="GetTicks Method " Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0618b828-0550-4457-a4c7-8ab7defc3dee" Title="MagicGridSpacings Properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
+      <HelpTOCNode Id="4f22c16f-33b3-452a-bd2c-a5d88627172c" Title="MagicGridSpacings Properties" Url="html/Properties_T_ElecNetKit_Graphing_Util_MagicGridSpacings.htm">
         <HelpTOCNode Title="Interval Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_Interval.htm" />
         <HelpTOCNode Title="LowerLimit Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_LowerLimit.htm" />
         <HelpTOCNode Title="UpperLimit Property " Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_UpperLimit.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="b00e3b3f-fe12-445f-a67e-ca9ad6eb9c6e" Title="ElecNetKit.NetworkModelling Namespace" Url="html/N_ElecNetKit_NetworkModelling.htm">
-    <HelpTOCNode Id="c7137ce9-e6e2-4297-941a-5b822efc8815" Title="Bus Class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm">
+  <HelpTOCNode Id="af8d1fab-ae2b-430f-85df-08c4be304a01" Title="ElecNetKit.NetworkModelling Namespace" Url="html/N_ElecNetKit_NetworkModelling.htm">
+    <HelpTOCNode Id="107c73b4-11f4-4195-be10-760363acb9a4" Title="Bus Class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm">
       <HelpTOCNode Title="Bus Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" />
       <HelpTOCNode Title="Bus Constructor " Url="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
       <HelpTOCNode Title="Bus Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Bus.htm" />
-      <HelpTOCNode Id="cd773edc-87d0-494f-902f-2167878f4919" Title="Bus Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Bus.htm">
+      <HelpTOCNode Id="dade2f53-8129-4ef0-9259-2f48dab8bc6e" Title="Bus Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Bus.htm">
         <HelpTOCNode Title="BaseVoltage Property " Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
         <HelpTOCNode Title="Location Property " Url="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" />
         <HelpTOCNode Title="Voltage Property " Url="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" />
         <HelpTOCNode Title="VoltagePU Property " Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9349423d-659d-487c-803b-7f54cec4f8a3" Title="Generator Class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm">
+    <HelpTOCNode Id="b21bfd54-b075-41b9-911a-bb047782603b" Title="Generator Class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm">
       <HelpTOCNode Title="Generator Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
       <HelpTOCNode Title="Generator Constructor " Url="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
       <HelpTOCNode Title="Generator Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Generator.htm" />
-      <HelpTOCNode Id="ea58e498-d95d-42ba-aa31-41325f4e7f9d" Title="Generator Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Generator.htm">
+      <HelpTOCNode Id="942787f8-1ff3-4242-ba02-ef0129b0dab7" Title="Generator Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Generator.htm">
         <HelpTOCNode Title="Generation Property " Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="af064d2e-387a-4fdc-bad6-cb5829c20e0f" Title="Line Class" Url="html/T_ElecNetKit_NetworkModelling_Line.htm">
+    <HelpTOCNode Id="aafb5170-2097-4743-845d-09299f553ff0" Title="Line Class" Url="html/T_ElecNetKit_NetworkModelling_Line.htm">
       <HelpTOCNode Title="Line Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Line.htm" />
       <HelpTOCNode Title="Line Constructor " Url="html/M_ElecNetKit_NetworkModelling_Line__ctor.htm" />
       <HelpTOCNode Title="Line Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Line.htm" />
-      <HelpTOCNode Id="8c6cbe73-a720-45e7-b158-f5e740b6eae8" Title="Line Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Line.htm">
+      <HelpTOCNode Id="f2a47977-0714-4949-a969-7106615f9e30" Title="Line Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Line.htm">
         <HelpTOCNode Title="Length Property " Url="html/P_ElecNetKit_NetworkModelling_Line_Length.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="20d6fe39-2c07-4033-99b7-9d22d09a56f0" Title="Load Class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm">
+    <HelpTOCNode Id="e7fbad30-ea31-447e-93ad-941f0c9d6c82" Title="Load Class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm">
       <HelpTOCNode Title="Load Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" />
       <HelpTOCNode Title="Load Constructor " Url="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" />
       <HelpTOCNode Title="Load Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Load.htm" />
-      <HelpTOCNode Id="c05185d1-953e-4256-8722-0ba85db48434" Title="Load Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Load.htm">
+      <HelpTOCNode Id="810ea0c9-b288-4261-9c78-2fc7412358ce" Title="Load Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Load.htm">
         <HelpTOCNode Title="ActualKVA Property " Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="24946a97-ede4-422b-b297-46513101a25b" Title="NetworkElement Class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm">
+    <HelpTOCNode Id="d7d0774e-3c78-47b1-8127-79931d030bae" Title="NetworkElement Class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm">
       <HelpTOCNode Title="NetworkElement Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
       <HelpTOCNode Title="NetworkElement Constructor " Url="html/M_ElecNetKit_NetworkModelling_NetworkElement__ctor.htm" />
-      <HelpTOCNode Id="5fcd26fe-5a29-4e66-8cca-fd8777681744" Title="NetworkElement Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkElement.htm">
-        <HelpTOCNode Id="4ac41822-3ff3-4c91-be00-bda676c46876" Title="Connect Method " Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm">
+      <HelpTOCNode Id="2c4913f4-8baf-4b15-84e7-9b2705397e47" Title="NetworkElement Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkElement.htm">
+        <HelpTOCNode Id="bc4074dc-7222-4ecc-8908-e11bfccb0ffc" Title="Connect Method " Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm">
           <HelpTOCNode Title="Connect Method (NetworkElement)" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" />
           <HelpTOCNode Title="Connect Method (NetworkElement, NetworkElement)" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="013c4902-ac3f-49c1-8ac0-00720704b158" Title="Disconnect Method " Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm">
+        <HelpTOCNode Id="efdbb5dd-d437-4322-b3ee-5a0a65abdbd2" Title="Disconnect Method " Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm">
           <HelpTOCNode Title="Disconnect Method (NetworkElement)" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" />
           <HelpTOCNode Title="Disconnect Method (NetworkElement, NetworkElement)" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e92f5300-596b-4b42-a5fb-b356de802c88" Title="NetworkElement Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElement.htm">
+      <HelpTOCNode Id="6140a07f-942e-43e0-a22c-8ed006aed6ba" Title="NetworkElement Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElement.htm">
         <HelpTOCNode Title="ConnectedTo Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" />
         <HelpTOCNode Title="ElementType Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" />
         <HelpTOCNode Title="ID Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b59d5fb5-3f35-46ca-9086-68b27c90cfc4" Title="NetworkModel Class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm">
+    <HelpTOCNode Id="6517c11b-e034-4f8e-ad46-753cc0af0a57" Title="NetworkModel Class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm">
       <HelpTOCNode Title="NetworkModel Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
       <HelpTOCNode Title="NetworkModel Constructor " Url="html/M_ElecNetKit_NetworkModelling_NetworkModel__ctor.htm" />
-      <HelpTOCNode Id="1622d5c9-3b43-4598-b3cf-015c29ed6fa5" Title="NetworkModel Fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
+      <HelpTOCNode Id="46c0de54-1ca7-4220-a901-78dabb8316da" Title="NetworkModel Fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
         <HelpTOCNode Title="networkBounds Field" Url="html/F_ElecNetKit_NetworkModelling_NetworkModel_networkBounds.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b9878f48-54b1-4c23-a628-67b94ca657a9" Title="NetworkModel Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
+      <HelpTOCNode Id="cb12a3d2-32c3-4e60-ad0d-e1894f36dd90" Title="NetworkModel Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
         <HelpTOCNode Title="FindNetworkBounds Method " Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" />
         <HelpTOCNode Title="UpdateNetworkBounds Method " Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_UpdateNetworkBounds.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a473a54b-16b8-44e8-abb4-54500463528d" Title="NetworkModel Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
+      <HelpTOCNode Id="2f9d3875-672d-4ed6-9789-61a2bfadb32a" Title="NetworkModel Properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkModel.htm">
         <HelpTOCNode Title="Buses Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Buses.htm" />
         <HelpTOCNode Title="Generators Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Generators.htm" />
         <HelpTOCNode Title="Lines Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Lines.htm" />
@@ -363,9 +363,9 @@
         <HelpTOCNode Title="SourceBus Property " Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_SourceBus.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8af0468b-93f8-4f01-a7e1-73140555fcb2" Title="Tracing Class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm">
+    <HelpTOCNode Id="7ffb6752-7541-49f2-a591-6826873dbbb3" Title="Tracing Class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm">
       <HelpTOCNode Title="Tracing Members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
-      <HelpTOCNode Id="84de7b1b-c3fc-4935-a833-2e222d9764e9" Title="Tracing Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Tracing.htm">
+      <HelpTOCNode Id="85c4c38c-d015-44e3-b3fd-208fd3942aae" Title="Tracing Methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Tracing.htm">
         <HelpTOCNode Title="BusesOnRouteToTarget Method " Url="html/M_ElecNetKit_NetworkModelling_Tracing_BusesOnRouteToTarget.htm" />
         <HelpTOCNode Title="GetDirectLengthBetweenBuses Method " Url="html/M_ElecNetKit_NetworkModelling_Tracing_GetDirectLengthBetweenBuses.htm" />
         <HelpTOCNode Title="TraceFromWithCallback Method " Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceFromWithCallback.htm" />
@@ -373,23 +373,23 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="64025240-66c9-4215-a160-926f75fa39f4" Title="ElecNetKit.Simulator Namespace" Url="html/N_ElecNetKit_Simulator.htm">
-    <HelpTOCNode Id="ce87d098-72aa-4623-9033-f612386fcc9c" Title="ISimulator Interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm">
+  <HelpTOCNode Id="aa4bf161-f18c-4170-aa97-5ffb133e5331" Title="ElecNetKit.Simulator Namespace" Url="html/N_ElecNetKit_Simulator.htm">
+    <HelpTOCNode Id="a6e7def4-bd2c-4adc-a60d-da190bfc4fa7" Title="ISimulator Interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm">
       <HelpTOCNode Title="ISimulator Members" Url="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" />
-      <HelpTOCNode Id="41068323-0667-415b-9a7b-c3bb5fabb23f" Title="ISimulator Methods" Url="html/Methods_T_ElecNetKit_Simulator_ISimulator.htm">
+      <HelpTOCNode Id="484a07c1-b1fa-4bb0-b169-ecf03ddf74bc" Title="ISimulator Methods" Url="html/Methods_T_ElecNetKit_Simulator_ISimulator.htm">
         <HelpTOCNode Title="GetNetworkModel Method " Url="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" />
         <HelpTOCNode Title="PrepareNetwork Method " Url="html/M_ElecNetKit_Simulator_ISimulator_PrepareNetwork.htm" />
         <HelpTOCNode Title="RunCommand Method " Url="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="be3d37f3-ce2a-4647-8888-084e9b07cd70" Title="NetworkController Class" Url="html/T_ElecNetKit_Simulator_NetworkController.htm">
+    <HelpTOCNode Id="71a618d3-5ce1-43c9-b2b9-72f0cb73567b" Title="NetworkController Class" Url="html/T_ElecNetKit_Simulator_NetworkController.htm">
       <HelpTOCNode Title="NetworkController Members" Url="html/AllMembers_T_ElecNetKit_Simulator_NetworkController.htm" />
       <HelpTOCNode Title="NetworkController Constructor " Url="html/M_ElecNetKit_Simulator_NetworkController__ctor.htm" />
-      <HelpTOCNode Id="dc9cb2e9-ade0-4bfd-a3f6-831b302b2362" Title="NetworkController Methods" Url="html/Methods_T_ElecNetKit_Simulator_NetworkController.htm">
+      <HelpTOCNode Id="c8d99044-32dc-40be-b19f-a1ea04924a09" Title="NetworkController Methods" Url="html/Methods_T_ElecNetKit_Simulator_NetworkController.htm">
         <HelpTOCNode Title="ClearNetworkCache Method " Url="html/M_ElecNetKit_Simulator_NetworkController_ClearNetworkCache.htm" />
         <HelpTOCNode Title="Execute Method " Url="html/M_ElecNetKit_Simulator_NetworkController_Execute.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="dac09d21-816c-4ea5-8b37-adc0d3f3cb28" Title="NetworkController Properties" Url="html/Properties_T_ElecNetKit_Simulator_NetworkController.htm">
+      <HelpTOCNode Id="a94cc894-1cae-4087-befb-c2f3e610d39a" Title="NetworkController Properties" Url="html/Properties_T_ElecNetKit_Simulator_NetworkController.htm">
         <HelpTOCNode Title="CacheNetwork Property " Url="html/P_ElecNetKit_Simulator_NetworkController_CacheNetwork.htm" />
         <HelpTOCNode Title="ExperimentDriver Property " Url="html/P_ElecNetKit_Simulator_NetworkController_ExperimentDriver.htm" />
         <HelpTOCNode Title="Network Property " Url="html/P_ElecNetKit_Simulator_NetworkController_Network.htm" />
@@ -398,65 +398,65 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="20733377-8a10-4d99-9f3a-023483b6bc8a" Title="ElecNetKit.Transform Namespace" Url="html/N_ElecNetKit_Transform.htm">
-    <HelpTOCNode Id="85fc0312-c22f-4321-b9ed-d9f0fde424f3" Title="DifferenceTransform Class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm">
+  <HelpTOCNode Id="2f200116-a817-48de-b0f9-3f048df31998" Title="ElecNetKit.Transform Namespace" Url="html/N_ElecNetKit_Transform.htm">
+    <HelpTOCNode Id="9e65fcf3-510e-4a09-8f06-4e23e434504e" Title="DifferenceTransform Class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm">
       <HelpTOCNode Title="DifferenceTransform Members" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
       <HelpTOCNode Title="DifferenceTransform Constructor " Url="html/M_ElecNetKit_Transform_DifferenceTransform__ctor.htm" />
-      <HelpTOCNode Id="f58dce73-4bfd-4d0a-8330-3e3909795554" Title="DifferenceTransform Methods" Url="html/Methods_T_ElecNetKit_Transform_DifferenceTransform.htm">
+      <HelpTOCNode Id="f7937298-f064-47ce-bde1-5278fad7ea03" Title="DifferenceTransform Methods" Url="html/Methods_T_ElecNetKit_Transform_DifferenceTransform.htm">
         <HelpTOCNode Title="PostExperimentHook Method " Url="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" />
         <HelpTOCNode Title="PreExperimentHook Method " Url="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9d8b2c4a-ec44-4f12-a7d8-5e1e7e10d43c" Title="IResultsTransform Interface" Url="html/T_ElecNetKit_Transform_IResultsTransform.htm">
+    <HelpTOCNode Id="4c4c9127-3c80-4e79-9299-3529a44ad854" Title="IResultsTransform Interface" Url="html/T_ElecNetKit_Transform_IResultsTransform.htm">
       <HelpTOCNode Title="IResultsTransform Members" Url="html/AllMembers_T_ElecNetKit_Transform_IResultsTransform.htm" />
-      <HelpTOCNode Id="73b6edf8-bf21-496e-b21b-24f028e585ed" Title="IResultsTransform Methods" Url="html/Methods_T_ElecNetKit_Transform_IResultsTransform.htm">
+      <HelpTOCNode Id="a640a646-1a5c-4e6d-9ea1-28cfd887c29d" Title="IResultsTransform Methods" Url="html/Methods_T_ElecNetKit_Transform_IResultsTransform.htm">
         <HelpTOCNode Title="PostExperimentHook Method " Url="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" />
         <HelpTOCNode Title="PreExperimentHook Method " Url="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="fe2f5135-08b6-48c5-a9fb-db6f36a39cef" Title="ElecNetKit.Util Namespace" Url="html/N_ElecNetKit_Util.htm">
-    <HelpTOCNode Id="db0b8488-21de-48fc-8f55-15472c9e98ae" Title="Limits Class" Url="html/T_ElecNetKit_Util_Limits.htm">
+  <HelpTOCNode Id="8a99d1d8-bbb3-42f0-8a51-2cf5ce55c61b" Title="ElecNetKit.Util Namespace" Url="html/N_ElecNetKit_Util.htm">
+    <HelpTOCNode Id="5265d57b-ccea-4cc6-b477-c92712a8957c" Title="Limits Class" Url="html/T_ElecNetKit_Util_Limits.htm">
       <HelpTOCNode Title="Limits Members" Url="html/AllMembers_T_ElecNetKit_Util_Limits.htm" />
       <HelpTOCNode Title="Limits Constructor " Url="html/M_ElecNetKit_Util_Limits__ctor.htm" />
-      <HelpTOCNode Id="a7bf3138-e14b-47e5-ba05-27a7ca9df5cd" Title="Limits Methods" Url="html/Methods_T_ElecNetKit_Util_Limits.htm">
+      <HelpTOCNode Id="2319fc7d-2b8a-429a-a2e0-73cdcc5ef448" Title="Limits Methods" Url="html/Methods_T_ElecNetKit_Util_Limits.htm">
         <HelpTOCNode Title="AutoDataReset Method " Url="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" />
-        <HelpTOCNode Id="f1f31e3c-4db2-4f4f-958c-8bb2aa57ce2a" Title="ProcessData Method " Url="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm">
+        <HelpTOCNode Id="c39cbd5e-9aaf-4797-8489-424dcdbc3c5f" Title="ProcessData Method " Url="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm">
           <HelpTOCNode Title="ProcessData Method (IEnumerable(Double))" Url="html/M_ElecNetKit_Util_Limits_ProcessData.htm" />
           <HelpTOCNode Title="ProcessData Method (Double)" Url="html/M_ElecNetKit_Util_Limits_ProcessData_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ValueScaledToLimits Method " Url="html/M_ElecNetKit_Util_Limits_ValueScaledToLimits.htm" />
         <HelpTOCNode Title="ValueUnscaledFromLimits Method " Url="html/M_ElecNetKit_Util_Limits_ValueUnscaledFromLimits.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2e9419d0-fcbe-48ca-b05f-189ba729c3ec" Title="Limits Properties" Url="html/Properties_T_ElecNetKit_Util_Limits.htm">
+      <HelpTOCNode Id="9e078dbd-4436-4cff-9190-50ea8d1c2c22" Title="Limits Properties" Url="html/Properties_T_ElecNetKit_Util_Limits.htm">
         <HelpTOCNode Title="AutoMax Property " Url="html/P_ElecNetKit_Util_Limits_AutoMax.htm" />
         <HelpTOCNode Title="AutoMin Property " Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
         <HelpTOCNode Title="LimitMax Property " Url="html/P_ElecNetKit_Util_Limits_LimitMax.htm" />
         <HelpTOCNode Title="LimitMin Property " Url="html/P_ElecNetKit_Util_Limits_LimitMin.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d411c934-a962-434e-99f7-9c44d2f93a89" Title="NormalDist Class" Url="html/T_ElecNetKit_Util_NormalDist.htm">
+    <HelpTOCNode Id="5c958702-0b36-40a9-aa39-d2070cbd4f86" Title="NormalDist Class" Url="html/T_ElecNetKit_Util_NormalDist.htm">
       <HelpTOCNode Title="NormalDist Members" Url="html/AllMembers_T_ElecNetKit_Util_NormalDist.htm" />
-      <HelpTOCNode Id="6295fb2a-3cb5-4caf-8af5-a57ef04329e6" Title="NormalDist Constructor " Url="html/Overload_ElecNetKit_Util_NormalDist__ctor.htm">
+      <HelpTOCNode Id="8e199c20-a110-4224-b214-8d96e3c6ccdb" Title="NormalDist Constructor " Url="html/Overload_ElecNetKit_Util_NormalDist__ctor.htm">
         <HelpTOCNode Title="NormalDist Constructor " Url="html/M_ElecNetKit_Util_NormalDist__ctor.htm" />
         <HelpTOCNode Title="NormalDist Constructor (IEnumerable(Double))" Url="html/M_ElecNetKit_Util_NormalDist__ctor_1.htm" />
         <HelpTOCNode Title="NormalDist Constructor (Double, Double)" Url="html/M_ElecNetKit_Util_NormalDist__ctor_2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9ace4cad-45e8-4706-b1b4-e3c2bd2c03a4" Title="NormalDist Methods" Url="html/Methods_T_ElecNetKit_Util_NormalDist.htm">
+      <HelpTOCNode Id="01255410-9a55-466f-bbff-de941c19d3d0" Title="NormalDist Methods" Url="html/Methods_T_ElecNetKit_Util_NormalDist.htm">
         <HelpTOCNode Title="GetNextValue Method " Url="html/M_ElecNetKit_Util_NormalDist_GetNextValue.htm" />
         <HelpTOCNode Title="GetZ Method " Url="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="05349bf4-b54c-469f-a452-1df3a43ab327" Title="NormalDist Properties" Url="html/Properties_T_ElecNetKit_Util_NormalDist.htm">
+      <HelpTOCNode Id="5df1ab89-2895-4f23-b80e-498b0d2614f0" Title="NormalDist Properties" Url="html/Properties_T_ElecNetKit_Util_NormalDist.htm">
         <HelpTOCNode Title="Mean Property " Url="html/P_ElecNetKit_Util_NormalDist_Mean.htm" />
         <HelpTOCNode Title="StdDev Property " Url="html/P_ElecNetKit_Util_NormalDist_StdDev.htm" />
         <HelpTOCNode Title="Variance Property " Url="html/P_ElecNetKit_Util_NormalDist_Variance.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1064e051-ab50-4d54-8334-6289c06b3efe" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
+    <HelpTOCNode Id="0f84d5ac-9b1b-4f7f-948f-43b0d8d4f71a" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
       <HelpTOCNode Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Members" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
       <HelpTOCNode Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Constructor " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3__ctor.htm" />
-      <HelpTOCNode Id="521bfbeb-2732-4893-9d61-90fd93f2fe95" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Methods" Url="html/Methods_T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
+      <HelpTOCNode Id="e0cde72a-0a99-457a-a653-a9d91bc0c194" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Methods" Url="html/Methods_T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
         <HelpTOCNode Title="Add Method " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
         <HelpTOCNode Title="ContainsKey Method " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" />
         <HelpTOCNode Title="ContainsKeyX Method " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" />
@@ -467,7 +467,7 @@
         <HelpTOCNode Title="OnDeserialization Method " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
         <HelpTOCNode Title="Remove Method " Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="72e511a0-6c25-429a-b678-5a6e80bdc065" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Properties" Url="html/Properties_T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
+      <HelpTOCNode Id="8b69918c-396b-4d59-91ce-2b7dd328b29e" Title="TwinKeyDictionary(TKeyX, TKeyY, TValue) Properties" Url="html/Properties_T_ElecNetKit_Util_TwinKeyDictionary_3.htm">
         <HelpTOCNode Title="MapX Property " Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapX.htm" />
         <HelpTOCNode Title="MapY Property " Url="html/P_ElecNetKit_Util_TwinKeyDictionary_3_MapY.htm" />
       </HelpTOCNode>

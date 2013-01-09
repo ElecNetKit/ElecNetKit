@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="9/01/2013 4:35:18 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="10/01/2013 10:10:43 AM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;D:\Program Files (x86)\Sandcastle\&#39;
@@ -18,35 +18,32 @@ Source: D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj
     Found project &#39;D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.dll&#39;
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.dll&#39;
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\ElecNetKit.Core.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.dll&#39;
 
 References to include (excluding framework assemblies):
-    D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\ElecNetKit.Core.dll
-    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.dll
-    D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.dll
+    D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.dll
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.dll
+    D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.dll
     OpenDSSengine
 
 Copying XML comments files
-    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\x86\Debug\ElecNetKit.Engines.OpenDSS.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
-    D:\Data\Code\ElecNetKit\Graphing\bin\x86\Debug\ElecNetKit.Graphing.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
-    D:\Data\Code\ElecNetKit\Core\bin\x86\Debug\CAE.Core.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
+    D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
+    D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.xml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0310
+    Last step completed in 00:00:00.0610
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Core&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Engines.OpenDSS&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;ElecNetKit.Graphing&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Data\Code\ElecNetKit\Documentation\Help\Working\GenerateRefInfo.proj]
   MRefBuilder (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 3 assemblies for reflection and 5 dependency assemblies.
@@ -54,18 +51,18 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): 
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:07.8634
+    Last step completed in 00:00:08.1915
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 explicit interface implementations removed
     19 local and base class EII elements removed
     1516 inherited member elements removed
-    Last step completed in 00:00:00.0490
+    Last step completed in 00:00:00.0280
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -80,13 +77,13 @@ Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFra
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\*.xml
 Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
 Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
-Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML
+Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml
 Indexed 158044 members in 125 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:06.4234
+    Last step completed in 00:00:07.7124
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -98,7 +95,7 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:02.8002
+    Last step completed in 00:00:03.5702
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -107,7 +104,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ElecNetKit_Util_Limits_ProcessData_1 generated for M:ElecNetKit.Util.Limits.ProcessData(System.Double)
     Unique name M_ElecNetKit_Util_NormalDist__ctor_1 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Collections.Generic.IEnumerable{System.Double})
     Unique name M_ElecNetKit_Util_NormalDist__ctor_2 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Double,System.Double)
-    Last step completed in 00:00:00.7030
+    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -499,7 +496,7 @@ D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Co
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:05.1793
+    Last step completed in 00:00:01.5671
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -528,23 +525,23 @@ Generating conceptual topic files
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Architecture.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\d84a8c76-b80a-4721-9a1e-c36cecfc6ead.xml
     Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml&#39;
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\1201915e-1e35-440e-94ba-729903b0f473.xml
-    Last step completed in 00:00:00.1140
+    Last step completed in 00:00:00.3010
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -553,20 +550,20 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.5251
+    Last step completed in 00:00:02.0531
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:00.0550
+    Last step completed in 00:00:00.0480
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\sandcastle.config
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\conceptual.config
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.8751
+    Last step completed in 00:00:00.4970
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
@@ -712,7 +709,7 @@ Building conceptual help topics...
   Info: BuildAssembler: Building topic d84a8c76-b80a-4721-9a1e-c36cecfc6ead
   Info: BuildAssembler: Building topic 1201915e-1e35-440e-94ba-729903b0f473
   Info: Processed 7 topics
-    Last step completed in 00:01:39.7977
+    Last step completed in 00:01:37.9406
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -771,7 +768,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML&#39;.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\CAE.Core.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\_InheritedDocs_.xml&#39;.
   Info: CopyFromIndexComponent: Indexed 158044 elements in 126 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -1273,13 +1270,14 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.OnDeserialization(System.Object)
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Remove(`0,`1)
   Info: Processed 348 topics
-    Last step completed in 00:03:46.0599
+    Last step completed in 00:03:19.4534
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:01.3241
+    Did not delete folder &#39;D:\Data\Code\ElecNetKit\Documentation\Help\.git&#39; as it contains read-only or hidden folders/files
+    Last step completed in 00:00:00.7160
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1301,11 +1299,11 @@ Processed 355 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:03.9762
+    Last step completed in 00:00:05.1043
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -1313,7 +1311,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0150
+    Last step completed in 00:00:00.0170
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -1328,7 +1326,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 10 seconds
+  Compile time: 0 minutes, 8 seconds
   
   357	Topics
   
@@ -1342,20 +1340,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 619,815 bytes
+  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 619,825 bytes
   
-  Compression decreased file by 3,089,331 bytes.
+  Compression decreased file by 3,089,321 bytes.
   
-    Last step completed in 00:00:15.4529
+    Last step completed in 00:00:14.9439
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:03.6732
+    Last step completed in 00:00:02.3691
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1365,15 +1363,15 @@ Copied 200 files
 Copied 300 files
 Copied 400 files
 Copied 461 files for the website content
-    Last step completed in 00:00:02.2991
+    Last step completed in 00:00:01.2351
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.8040
+    Last step completed in 00:00:00.6760
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 01/09/2013 04:41 PM.  Total time: 00:06:19.8297
+Build completed successfully at 01/10/2013 10:16 AM.  Total time: 00:05:46.9158
 
 </buildStep>
 </shfbBuild>
