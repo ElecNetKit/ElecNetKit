@@ -16,6 +16,7 @@ using ElecNetKit.Graphing.Controls; //Contains GraphHostWindow.
 
 namespace MinimalWorkingExample
 {
+    using ElecNetKit.NetworkModelling;
     class Program
     {
         static void Main(string[] args)
@@ -51,6 +52,22 @@ namespace MinimalWorkingExample
             graph.Network = controller.Network;             // assign the output of the experiment to the graph.
             GraphHostWindow.StartGraphHostWindow(graph);    // put the graph in a window and display it.
 #endregion
+            otherGraph(controller.Network);
+        }
+
+        static void otherGraph(NetworkModel network)
+        {
+            #region ValueTransform
+            var graph = new ValueTransformableTreeGraph(); //new graph
+            graph.BusSizeMin = 2;
+            graph.BusSizeMax = 10;
+            graph.BusSizeTransform = bus => bus.VoltagePU.Magnitude;
+            graph.BusColorTransform = bus => bus.VoltagePU.Magnitude;
+            graph.RingEnabledTransform = bus => bus.ConnectedTo.OfType<Generator>().Any();
+            graph.RingDistanceTransform = bus => 2; //constant
+            graph.Network = network;
+            #endregion
+            GraphHostWindow.StartGraphHostWindow(graph);
         }
     }
 }

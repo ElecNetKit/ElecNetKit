@@ -5,6 +5,7 @@
     <Topic id="58652f95-5bc9-47fe-a12b-9edbe5170171" visible="True" title="Walkthrough: A Minimal Working Example" />
     <Topic id="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c" visible="True" title="Traversing the Network Model" />
   </Topic>
+  <Topic id="3dc0672f-1764-496f-a2dc-a8a4f5c73520" visible="True" isSelected="true" title="Example Networks Package" />
   <Topic id="d84a8c76-b80a-4721-9a1e-c36cecfc6ead" visible="True" title="ElecNetKit Architecture" />
-  <Topic id="1201915e-1e35-440e-94ba-729903b0f473" visible="True" isSelected="true" title="Graphing with ElecNetKit" />
+  <Topic id="1201915e-1e35-440e-94ba-729903b0f473" visible="True" title="Graphing with ElecNetKit" />
 </Topics>

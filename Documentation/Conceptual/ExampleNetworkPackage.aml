@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="9e5ced0a-ca06-45d2-b65e-27c75e679471" revisionNumber="1">
-  <developerOrientationDocument
+<topic id="3dc0672f-1764-496f-a2dc-a8a4f5c73520" revisionNumber="1">
+  <developerSampleDocument
     xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
     xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -11,37 +11,27 @@
     -->
 
     <introduction>
-      <para>This section takes you through some of the basic tasks required to set up and get started with ElecNetKit.</para>
-    </introduction>
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!-- <autoOutline /> -->
 
-    <inThisSection>
+      <para>This article contains a links to sample networks package.</para>
+    </introduction>
+    <section address="Section1">
       <content>
         <list class="bullet">
           <listItem>
-            <para>
-              <link xlink:href="949e4556-eeed-4aea-b580-9cebbdbdab6d" /> covers the installation of Visual Studio and OpenDSS.</para>
-          </listItem>
-          <listItem>
-            <para>
-              <link xlink:href="58652f95-5bc9-47fe-a12b-9edbe5170171" /> walks through the steps required to run, output and graph the results of a simple network experiment.
-            </para>
-          </listItem>
-          <listItem>
-            <para>
-              <link xlink:href="dbdbbdc6-bd5c-4f0c-87a1-a5bdeb27b02c" />  covers the exploration of ElecNetKit electrical network models, including topology traversal (what's connected to what), and obtaining characteristics and results.
-            </para>
+            <para>You can download the <externalLink>
+              <linkText>Sample Networks Package here</linkText>
+              <linkUri>../Resources/SampleNetworks.zip</linkUri>
+            </externalLink>
+          </para>
           </listItem>
         </list>
       </content>
-    </inThisSection>
-
-    <!--<reference>
-      <content></content>
-    </reference>-->
-
-    <!-- <relatedSections>Optional related sections info</relatedSections> -->
-
-    <!-- <externalResources>Optional external resources section</externalResources> -->
+    </section>
 
     <relatedTopics>
       <!-- One or more of the following:
@@ -76,5 +66,5 @@
       <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
       -->
     </relatedTopics>
-  </developerOrientationDocument>
+  </developerSampleDocument>
 </topic>

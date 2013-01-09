@@ -3,52 +3,79 @@
   <developerConceptualDocument
     xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-
-    <!--
-    <summary>
-      <para>Optional summary abstract</para>
-    </summary>
-    -->
-
     <introduction>
-      <!-- Uncomment this to generate an outline of the section and sub-section
-           titles.  Specify a numeric value as the inner text to limit it to
-           a specific number of sub-topics when creating the outline.  Specify
-           zero (0) to limit it to top-level sections only.  -->
-      <!-- <autoOutline /> -->
-
-      <para>Required introduction</para>
+      <para>This article discusses techniques for accessing properties of electrical network elements, and for navigating between elements of the electrical network model.</para>
+      <autoOutline lead="none" excludeRelatedTopics="true" />
     </introduction>
-
-    <!-- Add one or more top-level section elements.  These are collapsible.
-         If using <autoOutline />, add an address attribute to identify it
-         and specify a title so that it can be jumped to with a hyperlink. -->
-    <section address="Section1">
-      <title>Optional section title</title>
+    <section address="accessingProperties">
+      <title>Accessing Network Element Properties</title>
       <content>
-        <!-- Uncomment this to create a sub-section outline
-        <autoOutline /> -->
-        <para>Add one or more sections with content</para>
+        <para>Each <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElement</codeEntityReference> has a number of properties that define network characteristics. For information on which properties are defined by which network elements, see:
+      </para>
+        <list class="bullet">
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Bus</codeEntityReference>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Generator</codeEntityReference>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Line</codeEntityReference>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Load</codeEntityReference>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElement</codeEntityReference>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>
+            </para>
+          </listItem>
+        </list>
       </content>
-      <!-- If a section contains a sections element, its content creates
-           sub-sections.  These are not collapsible.
-      <sections>
-          <section address="SubSection1">
-              <title>Sub-section 1</title>
-              <content>
-                  <para>Sub-section content.</para>
-              </content>
-          </section>
-          <section address="SubSection2">
-              <title>Sub-section 2</title>
-              <content>
-                  <para>Sub-section content.</para>
-              </content>
-          </section>
-      </sections> -->
+    </section>
+    <section address="topology">
+      <title>Traversing the Network Topology</title>
+      <content>
+        <para>
+          Upon obtaining a <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>, networks can be explored in a consistent manner. The <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference> object maintains separate lists of <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Bus</codeEntityReference>es, <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Line</codeEntityReference>s, <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Generator</codeEntityReference>s and <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Load</codeEntityReference>s, and the relationships between them. Each network element has
+          the property <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo</codeEntityReference>, which maintains a list of all <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElement</codeEntityReference>s that a specific element is connected to. When used in conjunction with <externalLink>
+            <linkText>LINQ</linkText>
+            <linkUri>http://msdn.microsoft.com/en-us/library/vstudio/bb397926.aspx</linkUri>
+          </externalLink>, means that executing complex queries for circuit details
+          can be done in very few lines of code. It is strongly recommended that users familiarise themselves with LINQ if planning to traverse network topologies in ElecNetKit. The <link xlink:href="#seeAlsoSection">Related Content</link> section contains a number of resources useful for understanding LINQ.
+        </para>
+        <para>
+          As an example of ElecNetKit model traversal, the code below finds all lines connected to a bus where
+          the voltage is higher at the other end. This could be used iteratively, for example,
+          to analytically detect the presence of DG when coordinated between a subset of
+          network buses.
+        </para>
+        <code source="../Examples/Snippets/FindUpstreamConns.cs" language="c#" />
+      </content>
     </section>
 
     <relatedTopics>
+      <externalLink>
+        <linkText>LINQ on MSDN</linkText>
+        <linkUri>http://msdn.microsoft.com/en-us/library/vstudio/bb397926.aspx</linkUri>
+      </externalLink>
+      <externalLink>
+        <linkText>Getting started with LINQ (C#) on MSDN</linkText>
+        <linkUri>http://msdn.microsoft.com/en-us/library/vstudio/bb397933.aspx</linkUri>
+      </externalLink>
       <!-- One or more of the following:
            - A local link
            - An external link

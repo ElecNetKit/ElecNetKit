@@ -28,7 +28,7 @@
     <HelpAttributes />
     <NamespaceSummaries />
     <PlugInConfigurations>
-      <PlugInConfig id="Additional Content Only" enabled="True">
+      <PlugInConfig id="Additional Content Only" enabled="False">
         <configuration />
       </PlugInConfig>
     </PlugInConfigurations>
@@ -38,7 +38,7 @@
     <SandcastlePath />
     <WorkingPath />
     <BuildAssemblerVerbosity>AllMessages</BuildAssemblerVerbosity>
-    <HelpFileFormat>HtmlHelp1</HelpFileFormat>
+    <HelpFileFormat>HtmlHelp1, Website</HelpFileFormat>
     <IndentHtml>False</IndentHtml>
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
     <KeepLogFile>True</KeepLogFile>
@@ -49,7 +49,7 @@
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <PresentationStyle>VS2010</PresentationStyle>
-    <Preliminary>True</Preliminary>
+    <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>ElecNetKit Documentation</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
@@ -76,33 +76,37 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Conceptual" />
+    <Folder Include="Conceptual\GettingStarted" />
     <Folder Include="Images" />
     <Folder Include="Resources" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Core\Architecture.aml" />
-    <None Include="Core\FirstNetworkExperiment.aml" />
-    <None Include="Core\Getting Started.aml" />
-    <None Include="Core\GettingStartedDevEnv.aml" />
-    <None Include="Core\Introduction to Graphing.aml" />
-    <None Include="Core\TraversingNetworkModel.aml" />
-    <ResourceItems Include="Resources\IEEE13mod.dss" />
   </ItemGroup>
   <ItemGroup>
     <ContentLayout Include="Layout.content" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Images\BlockDiagram.png">
+    <Image Include="Images\BlockDiagram.PNG">
       <ImageId>BlockDiagram</ImageId>
-      <AlternateText>ElecNetKit Block Diagram</AlternateText>
+      <AlternateText>Block Diagram</AlternateText>
+    </Image>
+    <Image Include="Images\FeederProfileGraph.png">
+      <ImageId>FeederProfileGraph</ImageId>
+      <AlternateText>Feeder Profile Graph</AlternateText>
     </Image>
     <Image Include="Images\GraphOutput.png">
       <ImageId>GraphOutput</ImageId>
       <AlternateText>Graph Output</AlternateText>
     </Image>
+    <Image Include="Images\MWETreeGraph.png">
+      <ImageId>MWETreeGraph</ImageId>
+      <AlternateText>MWETree Graph</AlternateText>
+    </Image>
     <Image Include="Images\OpenDSSFeatureSet.png">
       <ImageId>OpenDSSFeatureSet</ImageId>
       <AlternateText>OpenDSS Feature Set</AlternateText>
+    </Image>
+    <Image Include="Images\ValueTransformableTreeGraph.png">
+      <ImageId>ValueTransformableTreeGraph</ImageId>
+      <AlternateText>Value Transformable Tree Graph</AlternateText>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +125,19 @@
       <Project>{b5815a66-d475-44b2-8c9a-696718cee002}</Project>
       <Private>True</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Conceptual\Architecture.aml" />
+    <None Include="Conceptual\ExampleNetworkPackage.aml" />
+    <None Include="Conceptual\GettingStarted\DevEnv.aml" />
+    <None Include="Conceptual\GettingStarted\FirstNetworkExperiment.aml" />
+    <None Include="Conceptual\GettingStarted\Index.aml" />
+    <None Include="Conceptual\GettingStarted\TraversingNetworkModel.aml" />
+    <None Include="Conceptual\Graphing.aml" />
+    <None Include="Resources\SampleNetworks.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceItems Include="ResourceOverrides.items" />
   </ItemGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />

@@ -25,7 +25,7 @@
         <step>
           <content>
             <para>
-              Before we start coding, download the example network package, and locate the file <fictitiousUri>IEEE13mod.dss</fictitiousUri>. We'll run our experiment on this network.
+              Before we start coding, download the <link xlink:href="3dc0672f-1764-496f-a2dc-a8a4f5c73520" />, and locate the file <localUri>IEEE13mod.dss</localUri>. We'll run our experiment on this network.
             </para>
           </content>
         </step>
@@ -70,7 +70,7 @@
         <step>
           <content>
             <para>
-              Modify the <fictitiousUri>LoadScalingExperimentor.cs</fictitiousUri> file as shown:
+              Modify the <localUri>LoadScalingExperimentor.cs</localUri> file as shown:
             </para>
             <code language="c#" source="../Examples/MinimalWorkingExample/LoadScalingExperimentor.cs" />
           </content>
@@ -78,7 +78,7 @@
         <step>
           <content>
             <para>
-              Now, we're ready to chain it all together. Add the following <codeInline>using</codeInline> directives at the top of the <fictitiousUri>Program.cs</fictitiousUri> file:
+              Now, we're ready to chain it all together. Add the following <codeInline>using</codeInline> directives at the top of the <localUri>Program.cs</localUri> file:
             </para>
             <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="UsingsMWE" />
           </content>
@@ -90,7 +90,7 @@
             </para>
             <code language="c#" source="../Examples/MinimalWorkingExample/Program.cs" region="MainMWE" />
             <para>
-              Don't forget to change the path in the above code to the location of the <fictitiousUri>IEEE13mod.dss</fictitiousUri> file!
+              Don't forget to change the path in the above code to the location of the <localUri>IEEE13mod.dss</localUri> file!
             </para>
           </content>
         </step>
@@ -114,7 +114,7 @@
         </list>
       </content>
     </section>
-    <procedure>
+    <procedure address="graphing">
       <title>Displaying Network Graphs</title>
       <steps class="bullet">
         <step>

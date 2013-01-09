@@ -3,26 +3,10 @@
   <developerWalkthroughDocument
     xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-
-    <!--
-    <summary>
-      <para>Optional summary abstract</para>
-    </summary>
-    -->
-
+    
     <introduction>
-      <!-- Uncomment this to generate an outline of the section and sub-section
-           titles.  Specify a numeric value as the inner text to limit it to
-           a specific number of sub-topics when creating the outline.  Specify
-           zero (0) to limit it to top-level sections only.  -->
-      <!-- <autoOutline /> -->
-
       <para>This article walks you through the procedure of setting up a development and experimentation environment on Windows, using ElecNetKit with the OpenDSS simulator.</para>
     </introduction>
-
-    <!-- <prerequisites><content>Optional prerequisites info</content></prerequisites> -->
-
-    <!-- One or more procedure or section with procedure -->
     <procedure>
       <title>Setting Up a Development Environment on Windows</title>
       <steps class="ordered">
