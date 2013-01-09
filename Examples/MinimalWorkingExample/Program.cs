@@ -42,7 +42,7 @@ namespace MinimalWorkingExample
             //Output the change in voltage at every network bus.
             foreach (var bus in controller.Network.Buses.Values)
             {
-                System.Diagnostics.Debug.WriteLine(
+                Console.WriteLine(
                 "Bus " + bus.ID + " has changed in voltage (pu) by "
                 + bus.VoltagePU.Magnitude);
             }

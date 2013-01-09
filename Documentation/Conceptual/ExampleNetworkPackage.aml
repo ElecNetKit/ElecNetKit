@@ -21,15 +21,15 @@
     </introduction>
     <section address="Section1">
       <content>
-        <list class="bullet">
-          <listItem>
-            <para>You can download the <externalLink>
-              <linkText>Sample Networks Package here</linkText>
-              <linkUri>../Resources/SampleNetworks.zip</linkUri>
-            </externalLink>
-          </para>
-          </listItem>
-        </list>
+        <para>
+          You can download the <externalLink>
+            <linkText>Sample Networks Package here</linkText>
+            <linkUri>../Resources/SampleNetworks.zip</linkUri>
+          </externalLink>.
+        </para>
+        <alert class="important">
+          <para>Please note that some of the sample files depend on other sample files, and as such, please ensure you maintain the original directory structure contained in the Sample Networks package.</para>
+        </alert>
       </content>
     </section>
 

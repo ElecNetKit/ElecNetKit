@@ -148,9 +148,14 @@
                 <para><codeInline>WindowsBase</codeInline></para>
               </listItem>
             </list>
-            <para>
-              This last set of references are required because ElecNetKit uses Windows Presentation Foundation (WPF) for graphing. In a WPF application, you will not need to add these references - the graphing components will Just Work&#8482;.
+            <alert class="tip">
+              <para>If you added <codeInline>ElecNetKit.Graphing</codeInline> with NuGet, these framework references should have been automatically added for you.
             </para>
+            </alert>
+            <alert class="note">
+              <para>This last set of framework references are required because ElecNetKit uses Windows Presentation Foundation (WPF) for graphing.
+              In a WPF application, you will not need to add these references - the graphing components will Just Work&#8482;.</para>
+            </alert>
           </listItem>
           </list>
           </content>
