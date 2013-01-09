@@ -75,7 +75,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Core" />
+    <Folder Include="Conceptual" />
     <Folder Include="Images" />
     <Folder Include="Resources" />
   </ItemGroup>
@@ -95,6 +95,10 @@
     <Image Include="Images\BlockDiagram.png">
       <ImageId>BlockDiagram</ImageId>
       <AlternateText>ElecNetKit Block Diagram</AlternateText>
+    </Image>
+    <Image Include="Images\GraphOutput.png">
+      <ImageId>GraphOutput</ImageId>
+      <AlternateText>Graph Output</AlternateText>
     </Image>
     <Image Include="Images\OpenDSSFeatureSet.png">
       <ImageId>OpenDSSFeatureSet</ImageId>
