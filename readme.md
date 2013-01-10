@@ -14,12 +14,15 @@ That specific example is a problem I had with my [undergraduate thesis](http://c
 ElecNetKit is implemented as a software library, using the Microsoft .NET framework, which means it's interoperable, powerful and simple to use.
 
 #Installing#
-You can grab ElecNetKit from the source here at github, or you can get binaries from NuGet.
+You can grab ElecNetKit from the source here at github, or you can get binaries from [NuGet](http://nuget.org/packages?q=ElecNetKit).
 
 #Documentation#
-The [ElecNetKit documentation](http://capnfabs.github.com/ElecNetKit/) contains a number of conceptual and 'getting started' topics that you may find helpful. In addition, the docs contains an extensive API documentation.
+The [ElecNetKit documentation](http://capnfabs.github.com/ElecNetKit/) contains a number of conceptual and [Getting Started](http://capnfabs.github.com/ElecNetKit/?topic=html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm) topics that you may find helpful. In addition, the docs contains an extensive API documentation. Documentation is also available as a [Compiled HTML Help File](http://capnfabs.github.com/ElecNetKit/ElecNetKitDocs.chm) if you're into that kind of thing.
 
 #Licence and Contrib#
 Licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-Contributions are always welcome. Particularly if you've got a favourite simulator that you'd like to add support for :)
+Contributions are always welcome, particularly if you've got a favourite simulator for which you'd like to add support :)
+
+#Acknowledgements
+ElecNetKit was started as part of an [undergraduate thesis project](http://capnfabs.net/static/thesis) and with sponsorship from the [Endeavour Energy Power Quality & Reliability Centre](http://www.elec.uow.edu.au/eepqrc/) at the [University of Wollongong](http://www.uow.edu.au).
