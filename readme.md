@@ -25,4 +25,4 @@ Licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0
 Contributions are always welcome, particularly if you've got a favourite simulator for which you'd like to add support :)
 
 #Acknowledgements
-ElecNetKit was started as part of an [undergraduate thesis project](http://capnfabs.net/static/thesis) and with sponsorship from the [Endeavour Energy Power Quality & Reliability Centre](http://www.elec.uow.edu.au/eepqrc/) at the [University of Wollongong](http://www.uow.edu.au).
+ElecNetKit was started as part of an [undergraduate thesis project](http://capnfabs.net/static/thesis) and with sponsorship from the [Endeavour Energy Power Quality & Reliability Centre](http://www.elec.uow.edu.au/eepqrc/) at the [University of Wollongong](http://www.uow.edu.au). Thanks also to [Phil Ciufo](www.uow.edu.au/~/ciufo/) for his input.
