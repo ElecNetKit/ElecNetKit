@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="10/01/2013 10:10:43 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="10/01/2013 10:59:18 AM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;D:\Program Files (x86)\Sandcastle\&#39;
@@ -35,11 +35,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0610
+    Last step completed in 00:00:00.0580
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -51,7 +51,7 @@ Generating reflection information...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:08.1915
+    Last step completed in 00:00:07.1524
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
@@ -62,7 +62,7 @@ Applying visibility properties to reflection information file
     0 explicit interface implementations removed
     19 local and base class EII elements removed
     1516 inherited member elements removed
-    Last step completed in 00:00:00.0280
+    Last step completed in 00:00:00.0310
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -83,7 +83,7 @@ Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:07.7124
+    Last step completed in 00:00:07.8434
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -95,7 +95,7 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:03.5702
+    Last step completed in 00:00:04.7113
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -104,7 +104,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ElecNetKit_Util_Limits_ProcessData_1 generated for M:ElecNetKit.Util.Limits.ProcessData(System.Double)
     Unique name M_ElecNetKit_Util_NormalDist__ctor_1 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Collections.Generic.IEnumerable{System.Double})
     Unique name M_ElecNetKit_Util_NormalDist__ctor_2 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Double,System.Double)
-    Last step completed in 00:00:00.0230
+    Last step completed in 00:00:00.1350
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -496,7 +496,7 @@ D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Co
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:01.5671
+    Last step completed in 00:00:01.9261
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -525,14 +525,14 @@ Generating conceptual topic files
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Architecture.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\d84a8c76-b80a-4721-9a1e-c36cecfc6ead.xml
     Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml&#39;
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\1201915e-1e35-440e-94ba-729903b0f473.xml
-    Last step completed in 00:00:00.3010
+    Last step completed in 00:00:00.1190
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -541,7 +541,7 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -550,20 +550,20 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.0531
+    Last step completed in 00:00:02.3741
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:00.0480
+    Last step completed in 00:00:00.0470
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\sandcastle.config
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\conceptual.config
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.4970
+    Last step completed in 00:00:00.5250
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
@@ -709,7 +709,7 @@ Building conceptual help topics...
   Info: BuildAssembler: Building topic d84a8c76-b80a-4721-9a1e-c36cecfc6ead
   Info: BuildAssembler: Building topic 1201915e-1e35-440e-94ba-729903b0f473
   Info: Processed 7 topics
-    Last step completed in 00:01:37.9406
+    Last step completed in 00:01:31.0722
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -1270,14 +1270,15 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.OnDeserialization(System.Object)
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Remove(`0,`1)
   Info: Processed 348 topics
-    Last step completed in 00:03:19.4534
+    Last step completed in 00:03:13.5711
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
     Did not delete folder &#39;D:\Data\Code\ElecNetKit\Documentation\Help\.git&#39; as it contains read-only or hidden folders/files
-    Last step completed in 00:00:00.7160
+    Did not delete folder &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Resources&#39; as it contains read-only or hidden folders/files
+    Last step completed in 00:00:01.0361
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1299,7 +1300,7 @@ Processed 355 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05.1043
+    Last step completed in 00:00:05.3473
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -1307,11 +1308,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0490
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -1326,7 +1327,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 8 seconds
+  Compile time: 0 minutes, 9 seconds
   
   357	Topics
   
@@ -1340,11 +1341,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 619,825 bytes
+  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 618,827 bytes
   
-  Compression decreased file by 3,089,321 bytes.
+  Compression decreased file by 3,091,124 bytes.
   
-    Last step completed in 00:00:14.9439
+    Last step completed in 00:00:16.7200
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -1353,7 +1354,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:02.3691
+    Last step completed in 00:00:02.0861
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1363,15 +1364,15 @@ Copied 200 files
 Copied 300 files
 Copied 400 files
 Copied 461 files for the website content
-    Last step completed in 00:00:01.2351
+    Last step completed in 00:00:02.2551
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.6760
+    Last step completed in 00:00:00.4520
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 01/10/2013 10:16 AM.  Total time: 00:05:46.9158
+Build completed successfully at 01/10/2013 11:04 AM.  Total time: 00:05:38.1563
 
 </buildStep>
 </shfbBuild>
