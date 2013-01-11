@@ -87,10 +87,12 @@
     <Compile Include="NetworkModelling\Bus.cs" />
     <Compile Include="NetworkModelling\NamespaceDoc.cs" />
     <Compile Include="NetworkModelling\NetworkElement.cs" />
+    <Compile Include="NetworkModelling\NetworkElementConnection.cs" />
     <Compile Include="NetworkModelling\NetworkModel.cs" />
     <Compile Include="NetworkModelling\Generator.cs" />
     <Compile Include="NetworkModelling\Line.cs" />
     <Compile Include="NetworkModelling\Load.cs" />
+    <Compile Include="NetworkModelling\Phased.cs" />
     <Compile Include="NetworkModelling\Tracing.cs" />
     <Compile Include="Convenience\IEnumerableExt.cs" />
     <Compile Include="Simulator\ElecNetKitEnginesNamespaceDoc.cs" />
