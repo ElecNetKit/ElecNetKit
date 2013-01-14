@@ -106,6 +106,8 @@ namespace ElecNetKit.NetworkModelling
                 X.ProcessData(bus.Location.Value.X);
                 Y.ProcessData(bus.Location.Value.Y);
             }
+            if (X.Count == 0 || Y.Count == 0)
+                return new Rect();
             return new Rect(X.AutoMin, Y.AutoMin, X.AutoMax - X.AutoMin, Y.AutoMax - Y.AutoMin);
         }
 

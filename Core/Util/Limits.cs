@@ -54,6 +54,7 @@ namespace ElecNetKit.Util
                 AutoMax = value;
             if (value < AutoMin)
                 AutoMin = value;
+            Count++;
         }
 
         /// <summary>
@@ -64,6 +65,7 @@ namespace ElecNetKit.Util
         {
             AutoMax = Math.Max(AutoMax, values.Max());
             AutoMin = Math.Min(AutoMin, values.Min());
+            Count += values.Count();
         }
 
         /// <summary>
@@ -73,6 +75,7 @@ namespace ElecNetKit.Util
         {
             AutoMin = double.PositiveInfinity;
             AutoMax = double.NegativeInfinity;
+            Count = 0;
         }
 
         /// <summary>
@@ -94,6 +97,11 @@ namespace ElecNetKit.Util
         /// A custom maximum for scaling values in the auto-space to a custom space.
         /// </summary>
         public double LimitMax { set; get; }
+
+        /// <summary>
+        /// Returns the number of data points processed by the <see cref="Limits"/>.
+        /// </summary>
+        public double Count { private set; get; }
 
         /// <summary>
         /// Unscales a value from the manual/custom space to the auto-space
