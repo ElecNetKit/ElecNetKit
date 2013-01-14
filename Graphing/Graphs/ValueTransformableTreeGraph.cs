@@ -251,7 +251,7 @@ namespace ElecNetKit.Graphing.Graphs
             //Draw all the lines.
             foreach (Line line in Network.Lines)
             {
-                if (line.ConnectedTo.Count != 2)
+                if (line.ConnectedTo.Count() != 2)
                     continue;
                 Bus bus1 = (Bus)line.ConnectedTo.ElementAt(0);
                 Bus bus2 = (Bus)line.ConnectedTo.ElementAt(1);

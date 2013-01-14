@@ -21,12 +21,14 @@ namespace ElecNetKit.NetworkModelling
     /// useful for graphing.
     /// </summary>
     [Serializable]
-    public class Bus : NetworkElement
+    public class Bus : NetworkElement, IDeserializationCallback
     {
         /// <summary>
         /// The single-phase voltage (in complex phasor notation) of the bus.
         /// </summary>
-        public Complex Voltage { set; get; }
+        public Complex Voltage { set { VoltagePhased[1] = value; } get { return VoltagePhased[1]; } }
+
+        public Phased<Complex> VoltagePhased { private set; get; }
 
         /// <summary>
         /// The XY location of the bus, in network coordinates, useful for graphing.
@@ -43,16 +45,16 @@ namespace ElecNetKit.NetworkModelling
         /// The voltage of the bus in p.u. terms, defined as
         /// <see cref="Voltage"/>/<see cref="BaseVoltage"/>.
         /// </summary>
-        public Complex VoltagePU
-        {
-            get
-            {
-                return Voltage / BaseVoltage;
-            }
-        }
+        public Complex VoltagePU { set { VoltagePUPhased[1] = value; } get { return VoltagePUPhased[1]; } }
+
+        [NonSerialized]
+        Phased<Complex> _VoltagePUPhased;
+
+        public Phased<Complex> VoltagePUPhased { get { return _VoltagePUPhased; } }
 
         /// <summary>
-        /// Instantiates a new <see cref="Bus"/>.
+        /// Instantiates a new <see cref="Bus"/>. This is the Single-phase
+        /// constructor. Use 
         /// </summary>
         /// <param name="ID">the ID of the bus. Should be unique among buses, but
         /// does not need to be unique amongst all network elements.</param>
@@ -63,11 +65,38 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="Location">The XY coordinates of the bus. Used for
         /// graphing the network.</param>
         public Bus(String ID, Complex Voltage, double BaseVoltage, Point? Location)
+            : this(ID, BaseVoltage, Location)
+        {
+            this.VoltagePhased = new PhasedValues<Complex>();
+            this.Voltage = Voltage;
+        }
+
+        public Bus(String ID, Phased<Complex> VoltagePhased, double BaseVoltage, Point? Location)
+            : this(ID, BaseVoltage, Location)
+        {
+            this.VoltagePhased = VoltagePhased;
+        }
+
+        protected Bus(String ID, double BaseVoltage, Point? Location)
+            : this()
         {
             this.ID = ID;
-            this.Voltage = Voltage;
             this.BaseVoltage = BaseVoltage;
             this.Location = Location;
+        }
+
+        protected Bus()
+        {
+            OnDeserialization(null);
+        }
+
+        public void OnDeserialization(object sender)
+        {
+            this._VoltagePUPhased = new PhasedEvaluated<Complex>(
+                idx => this.VoltagePhased[idx] / this.BaseVoltage, //get
+                (idx, val) => this.VoltagePhased[idx] = val * this.BaseVoltage, //set
+                () => this.VoltagePhased.Phases //count
+                );
         }
     }
 }
