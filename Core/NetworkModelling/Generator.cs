@@ -24,6 +24,8 @@ namespace ElecNetKit.NetworkModelling
         /// </summary>
         public Complex Generation { protected set; get; }
 
+        public Phased<Complex> GenerationPhased { protected set; get; }
+
         /// <summary>
         /// Instantiates a new <see cref="Generator"/>.
         /// </summary>

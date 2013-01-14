@@ -19,8 +19,10 @@ namespace ElecNetKit.NetworkModelling
         /// corresponds to a lagging power factor, a negative imaginary
         /// quantity corresponds to a leading power factor.
         /// </summary>
-        public Complex ActualKVA { protected set; get; }
-        
+        public Complex ActualKVA { set { ActualKVAPhased[1] = value; } get { return ActualKVAPhased[1]; } }
+
+        public Phased<Complex> ActualKVAPhased { private set; get; }
+                
         /// <summary>
         /// Instantiates a new <see cref="Load"/>.
         /// </summary>
@@ -30,6 +32,12 @@ namespace ElecNetKit.NetworkModelling
         {
             this.ID = ID;
             this.ActualKVA = ActualKVA;
+        }
+
+        public Load(String ID, Phased<Complex> ActualKVAPhased)
+        {
+            this.ID = ID;
+            this.ActualKVAPhased = ActualKVAPhased;
         }
     }
 }
