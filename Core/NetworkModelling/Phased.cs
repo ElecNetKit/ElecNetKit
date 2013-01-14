@@ -16,7 +16,7 @@ namespace ElecNetKit.NetworkModelling
     }
 
     [Serializable]
-    class PhasedValues<T> : Phased<T>, IDeserializationCallback
+    public class PhasedValues<T> : Phased<T>, IDeserializationCallback
     {
         Dictionary<int, T> phases;
 
@@ -59,7 +59,7 @@ namespace ElecNetKit.NetworkModelling
         }
     }
 
-    class PhasedEvaluated<T> : Phased<T>
+    public class PhasedEvaluated<T> : Phased<T>
     {
         Func<int, T> getEvaluator;
         Action<int, T> setEvaluator;

@@ -98,6 +98,11 @@ namespace ElecNetKit.NetworkModelling
             }
         }
 
+        public static void Disconnect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        {
+            elem1._ConnectedToPhased[phase1].Remove(new NetworkElementConnection(elem2,phase2));
+        }
+
         /// <summary>
         /// Connect this <see cref="NetworkElement"/> to another <see cref="NetworkElement"/>.
         /// </summary>
@@ -116,7 +121,15 @@ namespace ElecNetKit.NetworkModelling
             Disconnect(this, elem);
         }
 
-        public void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        public static void Connect(NetworkElement elem1, NetworkElement elem2, params int[] phases)
+        {
+            foreach (int phase in phases)
+            {
+                Connect(elem1, phase, elem2, phase);
+            }
+        }
+
+        public static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             if (ConnectionExists(elem1,phase1,elem2,phase2))
                 return;
@@ -132,7 +145,7 @@ namespace ElecNetKit.NetworkModelling
             elem2._ConnectedToPhased[phase2].Add(new NetworkElementConnection(elem1, phase1));
         }
 
-        public bool ConnectionExists(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        public static bool ConnectionExists(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             return elem1._ConnectedToPhased.PhaseExists(phase1) &&
                     elem1._ConnectedToPhased[phase1].Any(conn => conn.Element == elem2 && conn.Phase == phase2);
