@@ -9,7 +9,7 @@ namespace ElecNetKit.NetworkModelling
     /// A line connecting two buses in the electrical network model.
     /// </summary>
     [Serializable]
-    public class Line : NetworkElement
+    public class Line : PowerDeliveryElement
     {
         /// <summary>
         /// The length of the line.

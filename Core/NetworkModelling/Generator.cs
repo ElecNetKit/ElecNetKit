@@ -6,6 +6,7 @@ using System.Text;
 using ElecNetKit.Util;
 using System.Runtime.Serialization;
 using System.Numerics;
+using ElecNetKit.NetworkModelling.Phasing;
 
 namespace ElecNetKit.NetworkModelling
 {
@@ -14,7 +15,7 @@ namespace ElecNetKit.NetworkModelling
     /// in to the network.
     /// </summary>
      [Serializable]
-    public class Generator : NetworkElement
+    public class Generator : PowerConversionElement
     {
         /// <summary>
         /// The kVA that the <see cref="Generator"/> injects into the network.
@@ -22,7 +23,7 @@ namespace ElecNetKit.NetworkModelling
         /// the imaginary component represents the injected reactive (imaginary)
         /// power (kVAr).
         /// </summary>
-        public Complex Generation { protected set; get; }
+         public Complex Generation { get { return GenerationPhased[1]; } set { GenerationPhased[1] = value; } }
 
         public Phased<Complex> GenerationPhased { protected set; get; }
 
@@ -36,7 +37,14 @@ namespace ElecNetKit.NetworkModelling
         public Generator(String ID, Complex Generation)
         {
             this.ID = ID;
+            this.GenerationPhased = new PhasedValues<Complex>();
             this.Generation = Generation;
+        }
+
+        public Generator(String ID, Phased<Complex> Generation)
+        {
+            this.ID = ID;
+            this.GenerationPhased = Generation;
         }
     }
 }

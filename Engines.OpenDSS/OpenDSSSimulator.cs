@@ -136,20 +136,16 @@ namespace ElecNetKit.Engines
             do
             {
                 Line line = new Line(lines.Name, lines.Length);
-                String bus;
-                bus = lines.Bus1;
-                if (bus.Contains('.'))
-                    bus = bus.Substring(0, bus.IndexOf('.'));
-                if (Buses.ContainsKey(bus))
+                String bus1 = lines.Bus1;
+                if (bus1.Contains('.'))
+                    bus1 = bus1.Substring(0, bus1.IndexOf('.'));
+
+                String bus2 = lines.Bus2;
+                if (bus2.Contains('.'))
+                    bus2 = bus2.Substring(0, bus2.IndexOf('.'));
+                if (Buses.ContainsKey(bus1) && Buses.ContainsKey(bus2))
                 {
-                    line.Connect(Buses[bus]);
-                }
-                bus = lines.Bus2;
-                if (bus.Contains('.'))
-                    bus = bus.Substring(0, bus.IndexOf('.'));
-                if (Buses.ContainsKey(bus))
-                {
-                    line.Connect(Buses[bus]);
+                    line.Connect(Buses[bus1], Buses[bus2]);
                 }
                 results.Add(line);
             } while (lines.Next != 0);

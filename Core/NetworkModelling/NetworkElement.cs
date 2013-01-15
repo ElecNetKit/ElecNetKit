@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
 using System.Runtime.Serialization;
+using ElecNetKit.NetworkModelling.Phasing;
 
 namespace ElecNetKit.NetworkModelling
 {
@@ -22,7 +23,7 @@ namespace ElecNetKit.NetworkModelling
         public Phased<IReadOnlyCollection<NetworkElementConnection>> ConnectedToPhased { get { return (Phased<IReadOnlyCollection<NetworkElementConnection>>)_ConnectedToPhased; } }
 
         public IEnumerable<NetworkElement> ConnectedTo { get {
-            if (!_ConnectedToPhased.PhaseExists(1))
+            if (!_ConnectedToPhased.ContainsKey(1))
                 _ConnectedToPhased[1] = new Collection<NetworkElementConnection>();
             return _ConnectedToPhased[1].Select(conn => conn.Element); } }
 
@@ -44,40 +45,15 @@ namespace ElecNetKit.NetworkModelling
         {
             get
             {
-                return _ConnectedToPhased.Phases.SelectMany(phase => _ConnectedToPhased[phase].Select(conn => conn.Element)).Distinct();
+                return _ConnectedToPhased.Values.SelectMany(phaseVals => phaseVals.Select(conn => conn.Element)).Distinct();
             }
         }
 
-        public IEnumerable<NetworkElement> ConnectedOnAllMatchingPhases
+        public IEnumerable<NetworkElement> ConnectedOnAllActivePhases
         {
             get
             {
-                return ConnectedOnAllPhases.Where(elem => this._ConnectedToPhased.Phases.Select(phase => this._ConnectedToPhased[phase].Single(x => x.Element == elem).Phase == phase).Aggregate(true,(seed, val) => seed && val));
-            }
-        }
-
-        public IEnumerable<NetworkElement> ConnectedOnAllPhases
-        {
-            get
-            {
-                return _ConnectedToPhased.Phases.Aggregate<int,IEnumerable<NetworkElement>>(null, (seed, elem) => seed == null ? _ConnectedToPhased[elem].Select(conn=>conn.Element) : seed.Intersect(_ConnectedToPhased[elem].Select(conn=>conn.Element)));
-            }
-        }
-
-        /// <summary>
-        /// Connects two <see cref="NetworkElement"/> together. This is a single-phase operation.
-        /// </summary>
-        /// <param name="elem1">The first <see cref="NetworkElement"/>.</param>
-        /// <param name="elem2">The second <see cref="NetworkElement"/>.</param>
-        public static void Connect(NetworkElement elem1, NetworkElement elem2)
-        {
-            if (!elem1.ConnectedTo.Contains(elem2))
-            {
-                elem1._ConnectedToPhased[1].Add(new NetworkElementConnection(elem2, 1));
-            }
-            if (!elem2.ConnectedTo.Contains(elem1))
-            {
-                elem2._ConnectedToPhased[1].Add(new NetworkElementConnection(elem1, 1));
+                return _ConnectedToPhased.Where(kvp => kvp.Key != 0).Select(kvp => kvp.Value).Aggregate<IEnumerable<NetworkElementConnection>, IEnumerable<NetworkElement>>(null, (seed, elem) => seed == null ? elem.Select(conn => conn.Element) : seed.Intersect(elem.Select(conn => conn.Element)));
             }
         }
 
@@ -86,60 +62,65 @@ namespace ElecNetKit.NetworkModelling
         /// </summary>
         /// <param name="elem1">The first element to disconnect.</param>
         /// <param name="elem2">The second element to disconnect.</param>
-        public static void Disconnect(NetworkElement elem1, NetworkElement elem2)
+        protected static void Disconnect(NetworkElement elem1, NetworkElement elem2)
         {
-            foreach (var phase in elem1._ConnectedToPhased.Phases)
+            foreach (var connections in elem1._ConnectedToPhased.Values)
             {
-                elem1._ConnectedToPhased[phase].Remove(elem1._ConnectedToPhased[phase].Single(conn => conn.Element == elem2));
+                foreach (var deleteCon in connections.Where(conn => conn.Element == elem2))
+                {
+                    connections.Remove(deleteCon);
+                }
             }
-            foreach (var phase in elem2._ConnectedToPhased.Phases)
+            foreach (var connections in elem2._ConnectedToPhased.Values)
             {
-                elem2._ConnectedToPhased[phase].Remove(elem2._ConnectedToPhased[phase].Single(conn => conn.Element == elem1));
+                foreach (var deleteCon in connections.Where(conn => conn.Element == elem1))
+                {
+                    connections.Remove(deleteCon);
+                }
             }
         }
 
-        public static void Disconnect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        protected static void Disconnect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
+            if (!ConnectionExists(elem1, phase1, elem2, phase2))
+                return;
+
             elem1._ConnectedToPhased[phase1].Remove(new NetworkElementConnection(elem2,phase2));
-        }
-
-        /// <summary>
-        /// Connect this <see cref="NetworkElement"/> to another <see cref="NetworkElement"/>.
-        /// </summary>
-        /// <param name="elem">The <see cref="NetworkElement"/> to connect to.</param>
-        public void Connect(NetworkElement elem)
-        {
-            Connect(this, elem);
+            elem2._ConnectedToPhased[phase2].Remove(new NetworkElementConnection(elem1, phase1));
         }
 
         /// <summary>
         /// Disconnect this network element from another network element.
         /// </summary>
         /// <param name="elem">The <see cref="NetworkElement"/> to disconnect from.</param>
-        public void Disconnect(NetworkElement elem)
+        protected void Disconnect(NetworkElement elem)
         {
             Disconnect(this, elem);
         }
 
-        public static void Connect(NetworkElement elem1, NetworkElement elem2, params int[] phases)
+        protected static void ConnectBetween(NetworkElement thisElem, int thisElemPhase, NetworkElement elem1, int elem1Phase, NetworkElement elem2, int elem2Phase)
         {
-            foreach (int phase in phases)
-            {
-                Connect(elem1, phase, elem2, phase);
-            }
+            Connect(thisElem, thisElemPhase, elem1, elem1Phase);
+            Connect(thisElem, thisElemPhase, elem2, elem2Phase);
         }
 
-        public static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        protected void ConnectBetween(int thisElemPhase, NetworkElement elem1, int elem1Phase, NetworkElement elem2, int elem2Phase)
+        {
+            Connect(this, thisElemPhase, elem1, elem1Phase);
+            Connect(this, thisElemPhase, elem2, elem2Phase);
+        }
+
+        private static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             if (ConnectionExists(elem1,phase1,elem2,phase2))
                 return;
 
-            if (!elem1._ConnectedToPhased.PhaseExists(phase1))
+            if (!elem1._ConnectedToPhased.ContainsKey(phase1))
                 elem1._ConnectedToPhased[phase1] = new Collection<NetworkElementConnection>();
 
             elem1._ConnectedToPhased[phase1].Add(new NetworkElementConnection(elem2, phase2));
 
-            if (!elem2._ConnectedToPhased.PhaseExists(phase2))
+            if (!elem2._ConnectedToPhased.ContainsKey(phase2))
                 elem2._ConnectedToPhased[phase2] = new Collection<NetworkElementConnection>();
 
             elem2._ConnectedToPhased[phase2].Add(new NetworkElementConnection(elem1, phase1));
@@ -147,8 +128,13 @@ namespace ElecNetKit.NetworkModelling
 
         public static bool ConnectionExists(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
-            return elem1._ConnectedToPhased.PhaseExists(phase1) &&
+            return elem1._ConnectedToPhased.ContainsKey(phase1) &&
                     elem1._ConnectedToPhased[phase1].Any(conn => conn.Element == elem2 && conn.Phase == phase2);
+        }
+
+        public bool ConnectionExists(int thisElemPhase, NetworkElement otherElem, int otherElemPhase)
+        {
+            return ConnectionExists(this, thisElemPhase, otherElem, otherElemPhase);
         }
 
         /// <summary>

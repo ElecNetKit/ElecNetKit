@@ -5,6 +5,7 @@ using System.Text;
 
 using ElecNetKit.Util;using System.Runtime.Serialization;
 using System.Numerics;
+using ElecNetKit.NetworkModelling.Phasing;
 
 namespace ElecNetKit.NetworkModelling
 {
@@ -12,7 +13,7 @@ namespace ElecNetKit.NetworkModelling
     /// A kVA-absorbing load on the network.
     /// </summary>
     [Serializable]
-    public class Load : NetworkElement
+    public class Load : PowerConversionElement
     {
         /// <summary>
         /// The kVA absorbed by the load. A positive imaginary quantity
@@ -31,6 +32,7 @@ namespace ElecNetKit.NetworkModelling
         public Load(String ID, Complex ActualKVA)
         {
             this.ID = ID;
+            this.ActualKVAPhased = new PhasedValues<Complex>();
             this.ActualKVA = ActualKVA;
         }
 

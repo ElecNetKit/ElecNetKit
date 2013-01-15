@@ -9,6 +9,7 @@ using ElecNetKit.Util;
 using System.Runtime.Serialization;
 
 using System.Numerics;
+using ElecNetKit.NetworkModelling.Phasing;
 
 
 namespace ElecNetKit.NetworkModelling
@@ -65,37 +66,30 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="Location">The XY coordinates of the bus. Used for
         /// graphing the network.</param>
         public Bus(String ID, Complex Voltage, double BaseVoltage, Point? Location)
-            : this(ID, BaseVoltage, Location)
         {
             this.VoltagePhased = new PhasedValues<Complex>();
             this.Voltage = Voltage;
-        }
-
-        public Bus(String ID, Phased<Complex> VoltagePhased, double BaseVoltage, Point? Location)
-            : this(ID, BaseVoltage, Location)
-        {
-            this.VoltagePhased = VoltagePhased;
-        }
-
-        protected Bus(String ID, double BaseVoltage, Point? Location)
-            : this()
-        {
             this.ID = ID;
             this.BaseVoltage = BaseVoltage;
             this.Location = Location;
+            OnDeserialization(null);
         }
 
-        protected Bus()
+        public Bus(String ID, Phased<Complex> VoltagePhased, double BaseVoltage, Point? Location)
         {
+            this.VoltagePhased = VoltagePhased;
+            this.ID = ID;
+            this.BaseVoltage = BaseVoltage;
+            this.Location = Location;
             OnDeserialization(null);
         }
 
         public void OnDeserialization(object sender)
         {
-            this._VoltagePUPhased = new PhasedEvaluated<Complex>(
-                idx => this.VoltagePhased[idx] / this.BaseVoltage, //get
-                (idx, val) => this.VoltagePhased[idx] = val * this.BaseVoltage, //set
-                () => this.VoltagePhased.Phases //count
+            this._VoltagePUPhased = new PhasedEvaluated<Complex,Complex>(
+                from => from / this.BaseVoltage, //get
+                to => to * this.BaseVoltage, //set
+                VoltagePhased
                 );
         }
     }

@@ -92,7 +92,11 @@
     <Compile Include="NetworkModelling\Generator.cs" />
     <Compile Include="NetworkModelling\Line.cs" />
     <Compile Include="NetworkModelling\Load.cs" />
-    <Compile Include="NetworkModelling\Phased.cs" />
+    <Compile Include="NetworkModelling\Phasing\Phased.cs" />
+    <Compile Include="NetworkModelling\Phasing\PhasedEvaluated.cs" />
+    <Compile Include="NetworkModelling\Phasing\QueryableCollection.cs" />
+    <Compile Include="NetworkModelling\PowerConversionElement.cs" />
+    <Compile Include="NetworkModelling\PowerDeliveryElement.cs" />
     <Compile Include="NetworkModelling\Tracing.cs" />
     <Compile Include="Convenience\IEnumerableExt.cs" />
     <Compile Include="Simulator\ElecNetKitEnginesNamespaceDoc.cs" />

@@ -13,7 +13,7 @@ namespace Tests
     {
         public NetworkModel GetNetwork()
         {
-            NetworkController sim = new NetworkController(new BogusSimulator());
+            NetworkController sim = new NetworkController(null /*new BogusSimulator()*/);
             sim.Execute();
             return sim.Network;
         }

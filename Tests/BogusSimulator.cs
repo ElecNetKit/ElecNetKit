@@ -12,7 +12,7 @@ using System.Collections.ObjectModel;
 
 namespace Tests
 {
-       class BogusSimulator : ISimulator
+ /*      class BogusSimulator : ISimulator
        {
 
            public void RunCommand(string command)
@@ -41,40 +41,40 @@ namespace Tests
                Collection<Load> loads = new Collection<Load>();
                var load = new Load("611", c(170, 80));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["611"], 3);
+               load.ConnectBetween(, buses["611"], 3,0);
                load = new Load("645", c(170, 125));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["645"], 2);
+               load.ConnectBetween(, buses["645"], 2,0);
                load = new Load("646", c(230, 132));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["646"], 2,3);
+               load.ConnectBetween(, buses["646"], 2,3);
                load = new Load("652", c(128, 86));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["652"], 1);
+               load.ConnectBetween(, buses["652"], 1,0);
                load = new Load("670A", c(17, 10));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["670"], 1);
+               load.ConnectBetween(, buses["670"], 1,0);
                load = new Load("670B", c(66, 38));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["670"], 2);
+               load.ConnectBetween(, buses["670"], 2,0);
                load = new Load("670C", c(117, 68));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["670"], 3);
+               load.ConnectBetween(, buses["670"], 3,0);
                load = new Load("671", c(1155, 660));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["671"], 1,2,3);
+               load.ConnectBetween(, buses["671"], 1,2,3);
                load = new Load("675A", c(485, 190));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["675"], 1);
+               load.ConnectBetween(, buses["675"], 1);
                load = new Load("675B", c(68, 60));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["675"], 2);
+               load.ConnectBetween(, buses["675"], 2);
                load = new Load("675C", c(290, 212));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["675"], 3);
+               load.ConnectBetween(, buses["675"], 3);
                load = new Load("692", c(170, 151));
                loads.Add(load);
-               NetworkElement.Connect(load, buses["692"], 3,1);
+               load.ConnectBetween(, buses["692"], 3,1);
                return loads;
            }
 
@@ -187,5 +187,5 @@ namespace Tests
                volts[3] = p3 * 1000;
                return new Bus(ID, volts, BaseKV * 1000, coords);
            }
-     }
+     } */
 }

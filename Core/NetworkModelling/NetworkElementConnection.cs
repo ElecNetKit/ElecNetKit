@@ -31,7 +31,7 @@ namespace ElecNetKit.NetworkModelling
             if (obj == null || obj.GetType() != typeof(NetworkElementConnection))
                 return false;
 
-            return obj.Equals((NetworkElementConnection)obj);
+            return this.Equals((NetworkElementConnection)obj);
         }
 
         public static bool operator ==(NetworkElementConnection a, NetworkElementConnection b)
