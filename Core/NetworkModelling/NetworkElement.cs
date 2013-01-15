@@ -18,14 +18,21 @@ namespace ElecNetKit.NetworkModelling
         private Phased<Collection<NetworkElementConnection>> _ConnectedToPhased;
 
         /// <summary>
-        /// A set of other elements that the <see cref="NetworkElement"/> is connected to.
+        /// A set of other elements that the <see cref="NetworkElement"/> is connected to, arranged by phase.
         /// </summary>
         public Phased<IReadOnlyCollection<NetworkElementConnection>> ConnectedToPhased { get { return (Phased<IReadOnlyCollection<NetworkElementConnection>>)_ConnectedToPhased; } }
 
-        public IEnumerable<NetworkElement> ConnectedTo { get {
-            if (!_ConnectedToPhased.ContainsKey(1))
-                _ConnectedToPhased[1] = new Collection<NetworkElementConnection>();
-            return _ConnectedToPhased[1].Select(conn => conn.Element); } }
+        /// <summary>
+        /// A set of other elements that the <see cref="NetworkElement"/> is connected to. Incorporates
+        /// connections on any phase. This property can be safely used for analysis of balanced three-phase or single-phase networks.
+        /// </summary>
+        public IEnumerable<NetworkElement> ConnectedTo
+        {
+            get
+            {
+                return ConnectedToAnyPhase;
+            }
+        }
 
         /// <summary>
         /// The ID of this specific element.
@@ -41,6 +48,9 @@ namespace ElecNetKit.NetworkModelling
             _ConnectedToPhased = new PhasedValues<Collection<NetworkElementConnection>>();
         }
 
+        /// <summary>
+        /// All connected elements, across any phase.
+        /// </summary>
         public IEnumerable<NetworkElement> ConnectedToAnyPhase
         {
             get
@@ -49,6 +59,9 @@ namespace ElecNetKit.NetworkModelling
             }
         }
 
+        /// <summary>
+        /// All elements that are connected to this element across all active phases (and possibly across neutral, phase 0).
+        /// </summary>
         public IEnumerable<NetworkElement> ConnectedOnAllActivePhases
         {
             get
@@ -58,7 +71,8 @@ namespace ElecNetKit.NetworkModelling
         }
 
         /// <summary>
-        /// Disconnects two <see cref="NetworkElement"/> from each other.
+        /// Disconnects two <see cref="NetworkElement"/> from each other across all
+        /// phases.
         /// </summary>
         /// <param name="elem1">The first element to disconnect.</param>
         /// <param name="elem2">The second element to disconnect.</param>
@@ -80,17 +94,24 @@ namespace ElecNetKit.NetworkModelling
             }
         }
 
+        /// <summary>
+        /// Disconnects a specific phased connection between network elements.
+        /// </summary>
+        /// <param name="elem1">The first element to disconnect.</param>
+        /// <param name="phase1">The phase that the connection is currently on, for <paramref name="elem1"/>.</param>
+        /// <param name="elem2">The second element to disconnect.</param>
+        /// <param name="phase2">The phase that the connection is currently on, for <paramref name="elem2"/>.</param>
         protected static void Disconnect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             if (!ConnectionExists(elem1, phase1, elem2, phase2))
                 return;
 
-            elem1._ConnectedToPhased[phase1].Remove(new NetworkElementConnection(elem2,phase2));
+            elem1._ConnectedToPhased[phase1].Remove(new NetworkElementConnection(elem2, phase2));
             elem2._ConnectedToPhased[phase2].Remove(new NetworkElementConnection(elem1, phase1));
         }
 
         /// <summary>
-        /// Disconnect this network element from another network element.
+        /// Disconnect this network element from another network element across all phases.
         /// </summary>
         /// <param name="elem">The <see cref="NetworkElement"/> to disconnect from.</param>
         protected void Disconnect(NetworkElement elem)
@@ -98,21 +119,40 @@ namespace ElecNetKit.NetworkModelling
             Disconnect(this, elem);
         }
 
+        /// <summary>
+        /// Connect a <see cref="NetworkElement"/> between two other <see cref="NetworkElement"/>s, with a specific phasing.
+        /// </summary>
+        /// <param name="thisElem">The element to connect in between the other two elements.</param>
+        /// <param name="thisElemPhase">The phase of <paramref name="thisElem"/> that should be connected.</param>
+        /// <param name="elem1">The element to connect to <paramref name="thisElem"/> on one side.</param>
+        /// <param name="elem1Phase">The phase of <paramref name="elem1"/> that should be connected.</param>
+        /// <param name="elem2">The element to connect to <paramref name="thisElem"/> on the other side.</param>
+        /// <param name="elem2Phase">The phase of <paramref name="elem2"/> that should be connected.</param>
         protected static void ConnectBetween(NetworkElement thisElem, int thisElemPhase, NetworkElement elem1, int elem1Phase, NetworkElement elem2, int elem2Phase)
         {
             Connect(thisElem, thisElemPhase, elem1, elem1Phase);
             Connect(thisElem, thisElemPhase, elem2, elem2Phase);
         }
 
+        /// <summary>
+        /// Connects the <see cref="NetworkElement"/> between two other <see cref="NetworkElement"/>s, with a specific phasing.
+        /// </summary>
+        /// <param name="thisElemPhase">The phase that should be connected.</param>
+        /// <param name="elem1">The element to connect to this element on one side.</param>
+        /// <param name="elem1Phase">The phase of <paramref name="elem1"/> that should be connected.</param>
+        /// <param name="elem2">The element to connect to this element on the other side.</param>
+        /// <param name="elem2Phase">The phase of <paramref name="elem2"/> that should be connected.</param>
         protected void ConnectBetween(int thisElemPhase, NetworkElement elem1, int elem1Phase, NetworkElement elem2, int elem2Phase)
         {
             Connect(this, thisElemPhase, elem1, elem1Phase);
             Connect(this, thisElemPhase, elem2, elem2Phase);
         }
 
+        //Internal function for making a single connection. There is no such thing as a single-port network object, so
+        // this only gets called internally.
         private static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
-            if (ConnectionExists(elem1,phase1,elem2,phase2))
+            if (ConnectionExists(elem1, phase1, elem2, phase2))
                 return;
 
             if (!elem1._ConnectedToPhased.ContainsKey(phase1))
@@ -126,12 +166,27 @@ namespace ElecNetKit.NetworkModelling
             elem2._ConnectedToPhased[phase2].Add(new NetworkElementConnection(elem1, phase1));
         }
 
+        /// <summary>
+        /// Test if a specific connection between elements on specific phases exists.
+        /// </summary>
+        /// <param name="elem1">The first element to check.</param>
+        /// <param name="phase1">The phase of <paramref name="elem1"/> to check.</param>
+        /// <param name="elem2">The second element to check.</param>
+        /// <param name="phase2">The phase of <paramref name="elem2"/> to check.</param>
+        /// <returns><c>true</c> if the specifically requested connection exists.</returns>
         public static bool ConnectionExists(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             return elem1._ConnectedToPhased.ContainsKey(phase1) &&
                     elem1._ConnectedToPhased[phase1].Any(conn => conn.Element == elem2 && conn.Phase == phase2);
         }
 
+        /// <summary>
+        /// Test if a specific connection between this element and another element on specific phases exists.
+        /// </summary>
+        /// <param name="thisElemPhase">The phase of this element to check.</param>
+        /// <param name="otherElem">The second element to check.</param>
+        /// <param name="otherElemPhase">The phase of <paramref name="otherElem"/> to check.</param>
+        /// <returns><c>true</c> if the specifically requested connection exists.</returns>
         public bool ConnectionExists(int thisElemPhase, NetworkElement otherElem, int otherElemPhase)
         {
             return ConnectionExists(this, thisElemPhase, otherElem, otherElemPhase);
