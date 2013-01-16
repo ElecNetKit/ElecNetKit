@@ -24,7 +24,22 @@ namespace Tests
         public void TestModelConstructionIntegrityBalanced()
         {
             var network = GetNetwork("balanced");
+            ModelIntegrityAssertions(network);
+        }
 
+        [TestMethod]
+        public void TestModelSerialisationIntegrityBalanced()
+        {
+            var oldModel = GetNetwork("balanced");
+            var oldStream = new MemoryStream();
+            oldModel.Serialise(oldStream);
+            oldStream.Seek(0, SeekOrigin.Begin);
+            NetworkModel model = (NetworkModel)QuickSerialisers.Deserialise(oldStream);
+            ModelIntegrityAssertions(model);
+        }
+
+        public void ModelIntegrityAssertions(NetworkModel network)
+        {
             Assert.AreEqual(4, network.Buses.Count);
             Assert.AreEqual(4, network.Loads.Count);
             Assert.AreEqual(4, network.Lines.Count);
@@ -38,18 +53,6 @@ namespace Tests
         public bool ConnectedToElemWithID(NetworkElement thisElem, IEnumerable<NetworkElement> elements, String id)
         {
             return thisElem.ConnectedTo.Contains(elements.Single(x => x.ID == id));
-        }
-
-        [TestMethod]
-        public void TestModelIntegritySerialisationLoop()
-        {
-            var oldModel = GetNetwork("balanced");
-            var oldStream = new MemoryStream();
-            oldModel.Serialise(oldStream);
-            oldStream.Seek(0, SeekOrigin.Begin);
-            NetworkModel model = (NetworkModel)QuickSerialisers.Deserialise(oldStream);
-            Assert.Fail();
-
         }
     }
 }
