@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace ElecNetKit.NetworkModelling.Phasing
 {
+    /// <summary>
+    /// An implementation of <see cref="Phased{T}"/> that is read-only, works with objects
+    /// (as opposed to <see cref="PhasedEvaluated{TFrom,T}"/>, which only works with value types)
+    /// and returns 
+    /// </summary>
+    /// <typeparam name="TFrom"></typeparam>
+    /// <typeparam name="T"></typeparam>
     public class PhasedReadOnlyEvaluated<TFrom,T> : Phased<T>
     {
-        Func<TFrom, T> getTransform;
-        Phased<TFrom> basePhased;
+        protected Func<TFrom, T> getTransform;
+        protected Phased<TFrom> basePhased;
 
-        private PhasedReadOnlyEvaluated() { }
+        protected PhasedReadOnlyEvaluated() { }
 
         public PhasedReadOnlyEvaluated(Func<TFrom, T> getTransform, Phased<TFrom> basePhased)
         {

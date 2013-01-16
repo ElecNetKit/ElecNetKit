@@ -18,9 +18,6 @@ namespace ElecNetKit.NetworkModelling
         [NonSerialized]
         Phased<ReadOnlyCollection<NetworkElementConnection>> _ConnectedToPhasedReadOnly;
 
-        [NonSerialized]
-        private Dictionary<Collection<NetworkElementConnection>, ReadOnlyCollection<NetworkElementConnection>> _ConnectedToPhasedReadOnlyBuffer;
-
         private Phased<Collection<NetworkElementConnection>> _ConnectedToPhased;
 
 
@@ -218,15 +215,12 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="sender"></param>
         public virtual void OnDeserialization(object sender)
         {
-            _ConnectedToPhasedReadOnlyBuffer = new Dictionary<Collection<NetworkElementConnection>, ReadOnlyCollection<NetworkElementConnection>>();
-            _ConnectedToPhasedReadOnly = new PhasedReadOnlyEvaluated<Collection<NetworkElementConnection>,
-                                                         ReadOnlyCollection<NetworkElementConnection>
-                                                        >((x) =>
-                                                        {
-                                                            if (!_ConnectedToPhasedReadOnlyBuffer.ContainsKey(x))
-                                                                _ConnectedToPhasedReadOnlyBuffer[x] = new ReadOnlyCollection<NetworkElementConnection>(x);
-                                                            return _ConnectedToPhasedReadOnlyBuffer[x];
-                                                        }, _ConnectedToPhased);
+            _ConnectedToPhasedReadOnly =
+                new CachedPhasedReadOnlyEvaluated<Collection<NetworkElementConnection>,
+                                                  ReadOnlyCollection<NetworkElementConnection>
+                                                 >(x => new ReadOnlyCollection<NetworkElementConnection>(x),
+                                                   _ConnectedToPhased
+                                                  );
         }
     }
 }
