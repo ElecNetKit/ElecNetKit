@@ -63,10 +63,10 @@ namespace Tests
             Assert.AreEqual(4, network.Lines.Count);
             Assert.AreEqual(1, network.Generators.Count);
             Assert.AreEqual(3, network.Buses["b1"].ConnectedToAnyPhase.Count());
-            Assert.AreEqual(4, network.Buses["b1"].ConnectedToPhased.Count);
-            //3 connections per line, 6 for the load (3Phase+3Neutral).
-            Assert.AreEqual(3+3+6, network.Buses["b1"].ConnectedToPhased.Values.SelectMany(x=>x).Count());
-            //3 connections for one line, 2 for another, 2 for the load (1 load L-L).
+            Assert.AreEqual(3, network.Buses["b1"].ConnectedToPhased.Count);
+            //3 connections per line, 3 for the load.
+            Assert.AreEqual(3+3+3, network.Buses["b1"].ConnectedToPhased.Values.SelectMany(x=>x).Count());
+            //3 connections for one line, 2 for another, 2 for the load.
             Assert.AreEqual(3 + 2 + 2, network.Buses["b3"].ConnectedToPhased.Values.SelectMany(x => x).Count());
             foreach(var i in new[] {1,2,3,0})
                 Assert.IsTrue(NetworkElement.ConnectionExists(network.Buses["b4"], 1, network.Loads[3], 1));

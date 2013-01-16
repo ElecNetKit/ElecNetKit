@@ -116,7 +116,7 @@ namespace Tests
             var l2 = new Load("l2", pcV(2, 85000, 52674, 3, 85000, 52675));
             l2.ConnectWye(buses["b2"], 2, 3);
             var l3 = new Load("l3", pcV(1, 200000, 12940));
-            l3.Connect(1, buses["b3"], 1, 2);
+            l3.ConnectWye(buses["b3"], 1, 2);
             var l4 = new Load("l4", pc3(26666, 16527, 26666, 16527, 26666, 16527));
             l4.ConnectWye(buses["b4"], 1, 2, 3);
             loads.Add(l1);
