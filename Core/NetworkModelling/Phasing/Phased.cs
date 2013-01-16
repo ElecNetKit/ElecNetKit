@@ -31,5 +31,18 @@ namespace ElecNetKit.NetworkModelling.Phasing
     [Serializable]
     public class PhasedValues<T> : Dictionary<int,T>, Phased<T>
     {
+        /// <inheritdoc />
+        protected PhasedValues(SerializationInfo info, StreamingContext context) : base(info, context) { }
+        
+        /// <inheritdoc />
+        public override void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            base.GetObjectData(info, context);
+        }
+        
+        /// <summary>
+        /// Instantiates a new <see cref="PhasedValues{T}"/>.
+        /// </summary>
+        public PhasedValues() { }
     }
 }
