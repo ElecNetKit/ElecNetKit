@@ -38,7 +38,7 @@ namespace ElecNetKit.Graphing.Util
         {
             if (MinValue == MaxValue)
             {
-                throw new NotImplementedException();
+                return new MagicGridSpacings(MinValue - 1, 2 / MaxLines, MinValue + 1);
             }
 
             //find largest order of magnitude.
@@ -106,7 +106,8 @@ namespace ElecNetKit.Graphing.Util
 
         private int OrderOfMagnitude(double value)
         {
-            if (value == 0) return int.MinValue;
+            if (value == 0)
+                return int.MinValue;
             return (int)(Math.Log(Math.Abs(value)));
         }
     }
