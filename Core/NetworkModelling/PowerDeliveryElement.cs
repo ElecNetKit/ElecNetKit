@@ -13,6 +13,7 @@ namespace ElecNetKit.NetworkModelling
     /// <remarks>As far as the connection model goes, <see cref="PowerDeliveryElement"/>s are
     /// connected to between different <see cref="Bus"/>es. This should be viewed in contrast with
     /// <seealso cref="PowerDeliveryElement"/>.</remarks>
+    [Serializable]
     public abstract class PowerDeliveryElement : NetworkElement
     {
         /// <summary>

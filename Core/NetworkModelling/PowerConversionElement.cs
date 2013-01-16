@@ -13,6 +13,7 @@ namespace ElecNetKit.NetworkModelling
     /// <remarks>As far as the connection model goes, <see cref="PowerConversionElement"/>s are
     /// connected to a single <see cref="Bus"/>, with each <see cref="PowerConversionElement"/> phase being connected between <see cref="Bus"/>
     /// phases. This should be viewed in contrast with <seealso cref="PowerDeliveryElement"/>.</remarks>
+    [Serializable]
     public abstract class PowerConversionElement : NetworkElement
     {
         /// <summary>
