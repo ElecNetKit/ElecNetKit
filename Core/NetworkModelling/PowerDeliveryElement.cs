@@ -83,17 +83,6 @@ namespace ElecNetKit.NetworkModelling
 
         /// <summary>
         /// Connects this <see cref="PowerDeliveryElement"/> between two <see cref="Bus"/>es,
-        /// on phases 1,2,3 and neutral (Phase 0).
-        /// </summary>
-        ///<param name="bus1">The <see cref="Bus"/> to connect on one side of this <see cref="PowerDeliveryElement"/>.</param>
-        /// <param name="bus2">The <see cref="Bus"/> to connect on the other side of this <see cref="PowerDeliveryElement"/>.</param>
-        public void Connect3PhaseN(Bus bus1, Bus bus2)
-        {
-            Connect(bus1, bus2, 0, 1, 2, 3);
-        }
-
-        /// <summary>
-        /// Connects this <see cref="PowerDeliveryElement"/> between two <see cref="Bus"/>es,
         /// on phases 1,2,3.
         /// </summary>
         ///<param name="bus1">The <see cref="Bus"/> to connect on one side of this <see cref="PowerDeliveryElement"/>.</param>
@@ -106,14 +95,14 @@ namespace ElecNetKit.NetworkModelling
         /// <summary>
         /// Connects this <see cref="PowerDeliveryElement"/> between two <see cref="Bus"/>es. This method is for
         /// building three-phase balanced networks. Use
-        /// <see cref="Connect3Phase"/>, <see cref="Connect3PhaseN"/> and <see cref="Connect(int,Bus,int,Bus,int)"/>
-        /// for arbitrarily-phased networks.
+        /// <see cref="Connect3Phase"/>, <see cref="Connect(int,Bus,int,Bus,int)"/>, <see cref="Connect(Bus,Bus,int[])"/>
+        /// and <see cref="Connect(Bus,IEnumerable{int},Bus,IEnumerable{int})"/> for arbitrarily-phased networks.
         /// </summary>
         ///<param name="bus1">The <see cref="Bus"/> to connect on one side of this <see cref="PowerDeliveryElement"/>.</param>
         /// <param name="bus2">The <see cref="Bus"/> to connect on the other side of this <see cref="PowerDeliveryElement"/>.</param>
         public void Connect(Bus bus1, Bus bus2)
         {
-            Connect3PhaseN(bus1, bus2);
+            Connect3Phase(bus1, bus2);
         }
     }
 }

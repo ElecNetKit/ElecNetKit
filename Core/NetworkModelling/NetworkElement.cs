@@ -71,7 +71,7 @@ namespace ElecNetKit.NetworkModelling
         {
             get
             {
-                return _ConnectedToPhased.Where(kvp => kvp.Key != 0).Select(kvp => kvp.Value).Aggregate<IEnumerable<NetworkElementConnection>, IEnumerable<NetworkElement>>(null, (seed, elem) => seed == null ? elem.Select(conn => conn.Element) : seed.Intersect(elem.Select(conn => conn.Element)));
+                return _ConnectedToPhased.Values.Aggregate<IEnumerable<NetworkElementConnection>, IEnumerable<NetworkElement>>(null, (seed, elem) => seed == null ? elem.Select(conn => conn.Element) : seed.Intersect(elem.Select(conn => conn.Element)));
             }
         }
 
@@ -153,9 +153,14 @@ namespace ElecNetKit.NetworkModelling
             Connect(this, thisElemPhase, elem2, elem2Phase);
         }
 
-        //Internal function for making a single connection. There is no such thing as a single-port network object, so
-        // this only gets called internally.
-        private static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
+        /// <summary>
+        /// Connects a <see cref="NetworkElement"/> to a single other <see cref="NetworkElement"/>, with a specified phasing.
+        /// </summary>
+        /// <param name="elem1">The first element to connect.</param>
+        /// <param name="phase1">The phase of the first element to connect.</param>
+        /// <param name="elem2">The second element to connect.</param>
+        /// <param name="phase2">The phase of the second element to connect.</param>
+        protected static void Connect(NetworkElement elem1, int phase1, NetworkElement elem2, int phase2)
         {
             if (ConnectionExists(elem1, phase1, elem2, phase2))
                 return;
@@ -169,6 +174,17 @@ namespace ElecNetKit.NetworkModelling
                 elem2._ConnectedToPhased[phase2] = new Collection<NetworkElementConnection>();
 
             elem2._ConnectedToPhased[phase2].Add(new NetworkElementConnection(elem1, phase1));
+        }
+
+        /// <summary>
+        /// Connects this <see cref="NetworkElement"/> to a single other <see cref="NetworkElement"/>, with a specified phasing.
+        /// </summary>
+        /// <param name="thisPhase">The phase of this element to connect.</param>
+        /// <param name="connectTo">The other element to connect.</param>
+        /// <param name="connectToPhase">The phase of the other element to connect.</param>
+        protected void Connect(int thisPhase, NetworkElement connectTo, int connectToPhase)
+        {
+            Connect(this, thisPhase, connectTo, connectToPhase);
         }
 
         /// <summary>
