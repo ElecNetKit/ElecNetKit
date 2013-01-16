@@ -95,6 +95,7 @@
     <Compile Include="NetworkModelling\Phasing\NamespaceDoc.cs" />
     <Compile Include="NetworkModelling\Phasing\Phased.cs" />
     <Compile Include="NetworkModelling\Phasing\PhasedEvaluated.cs" />
+    <Compile Include="NetworkModelling\Phasing\PhasedReadOnlyEvaluated.cs" />
     <Compile Include="NetworkModelling\Phasing\QueryableCollection.cs" />
     <Compile Include="NetworkModelling\PowerConversionElement.cs" />
     <Compile Include="NetworkModelling\PowerDeliveryElement.cs" />

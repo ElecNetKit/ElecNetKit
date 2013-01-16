@@ -108,8 +108,9 @@ namespace ElecNetKit.NetworkModelling
         /// Reconstructs the <see cref="Bus"/> when it has just been deserialised.
         /// </summary>
         /// <param name="sender">Not used.</param>
-        public void OnDeserialization(object sender)
+        public override void OnDeserialization(object sender)
         {
+            base.OnDeserialization(sender);
             this._VoltagePUPhased = new PhasedEvaluated<Complex,Complex>(
                 from => from / this.BaseVoltage, //get
                 to => to * this.BaseVoltage, //set

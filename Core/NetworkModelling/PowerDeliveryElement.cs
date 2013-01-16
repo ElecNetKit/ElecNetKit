@@ -66,6 +66,22 @@ namespace ElecNetKit.NetworkModelling
         }
 
         /// <summary>
+        /// Connects this <see cref="PowerDeliveryElement"/> between <paramref name="bus1"/>
+        /// and <paramref name="bus2"/> on matching <paramref name="phases"/>.
+        /// </summary>
+        /// <param name="bus1">The first <see cref="Bus"/> to connect to.</param>
+        /// <param name="bus2">The second <see cref="Bus"/> to connect to.</param>
+        /// <param name="phases">The phases to connect the <see cref="PowerDeliveryElement"/>
+        /// to the <see cref="Bus"/>es on.</param>
+        public void Connect(Bus bus1, Bus bus2, params int[] phases)
+        {
+            foreach (var phase in phases)
+            {
+                Connect(phase, bus1, phase, bus2, phase);
+            }
+        }
+
+        /// <summary>
         /// Connects this <see cref="PowerDeliveryElement"/> between two <see cref="Bus"/>es,
         /// on phases 1,2,3 and neutral (Phase 0).
         /// </summary>
@@ -73,8 +89,7 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="bus2">The <see cref="Bus"/> to connect on the other side of this <see cref="PowerDeliveryElement"/>.</param>
         public void Connect3PhaseN(Bus bus1, Bus bus2)
         {
-            Connect(0, bus1, 0, bus2,0);
-            Connect3Phase(bus1, bus2);
+            Connect(bus1, bus2, 0, 1, 2, 3);
         }
 
         /// <summary>
@@ -85,8 +100,7 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="bus2">The <see cref="Bus"/> to connect on the other side of this <see cref="PowerDeliveryElement"/>.</param>
         public void Connect3Phase(Bus bus1, Bus bus2)
         {
-            for (int i = 1; i <= 3; i++)
-                Connect(i, bus1, i, bus2, i);
+            Connect(bus1, bus2, 1, 2, 3);
         }
 
         /// <summary>

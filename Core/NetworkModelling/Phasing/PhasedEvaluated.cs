@@ -81,7 +81,7 @@ namespace ElecNetKit.NetworkModelling.Phasing
         /// <inheritdoc />
         public ICollection<TTo> Values
         {
-            get { return new QueryableCollection<TFrom, TTo>(getTransform, setTransform, basePhased.Values); }
+            get { return new QueryableCollection<TFrom, TTo>(getTransform, basePhased.Values); }
         }
 
         /// <inheritdoc />

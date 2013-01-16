@@ -15,19 +15,16 @@ namespace ElecNetKit.NetworkModelling.Phasing
     public class QueryableCollection<TBase, TTo> : ICollection<TTo>
     {
         Func<TBase, TTo> transform;
-        Func<TTo, TBase> reverseTransform;
         ICollection<TBase> theBase;
 
         /// <summary>
         /// Instantiates a new <see cref="QueryableCollection{TBase,TTo}"/> with the specified translation functions and base <see cref="ICollection{T}"/>.
         /// </summary>
         /// <param name="transform">A function that transforms the elements of the base collection to <typeparamref name="TTo"/>.</param>
-        /// <param name="reverseTransform">A function that transforms elements of this collection back to the corresponding elements in the base collection.</param>
         /// <param name="theBase">The base collection.</param>
-        public QueryableCollection(Func<TBase, TTo> transform, Func<TTo, TBase> reverseTransform, ICollection<TBase> theBase)
+        public QueryableCollection(Func<TBase, TTo> transform, ICollection<TBase> theBase)
         {
             this.transform = transform;
-            this.reverseTransform = reverseTransform;
             this.theBase = theBase;
         }
 
@@ -51,7 +48,12 @@ namespace ElecNetKit.NetworkModelling.Phasing
         ///<inheritdoc />
         public bool Contains(TTo item)
         {
-            return theBase.Contains(reverseTransform(item));
+            foreach (var x in theBase)
+            {
+                if (item.Equals(transform(x)))
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>

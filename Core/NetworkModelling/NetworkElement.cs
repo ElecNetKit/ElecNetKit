@@ -13,14 +13,21 @@ namespace ElecNetKit.NetworkModelling
     /// model between elements of the electrical network.
     /// </summary>
     [Serializable]
-    public abstract class NetworkElement
+    public abstract class NetworkElement : IDeserializationCallback
     {
+        [NonSerialized]
+        Phased<ReadOnlyCollection<NetworkElementConnection>> _ConnectedToPhasedReadOnly;
+
+        [NonSerialized]
+        private Dictionary<Collection<NetworkElementConnection>, ReadOnlyCollection<NetworkElementConnection>> _ConnectedToPhasedReadOnlyBuffer;
+
         private Phased<Collection<NetworkElementConnection>> _ConnectedToPhased;
+
 
         /// <summary>
         /// A set of other elements that the <see cref="NetworkElement"/> is connected to, arranged by phase.
         /// </summary>
-        public Phased<IReadOnlyCollection<NetworkElementConnection>> ConnectedToPhased { get { return (Phased<IReadOnlyCollection<NetworkElementConnection>>)_ConnectedToPhased; } }
+        public Phased<ReadOnlyCollection<NetworkElementConnection>> ConnectedToPhased { get { return _ConnectedToPhasedReadOnly; } }
 
         /// <summary>
         /// A set of other elements that the <see cref="NetworkElement"/> is connected to. Incorporates
@@ -46,6 +53,7 @@ namespace ElecNetKit.NetworkModelling
         public NetworkElement()
         {
             _ConnectedToPhased = new PhasedValues<Collection<NetworkElementConnection>>();
+            OnDeserialization(null);
         }
 
         /// <summary>
@@ -202,6 +210,23 @@ namespace ElecNetKit.NetworkModelling
                 String typeStr = this.GetType().ToString();
                 return typeStr.Substring(typeStr.LastIndexOf(".") + 1);
             }
+        }
+
+        /// <summary>
+        /// Reconstructs the <see cref="NetworkElement"/> after deserialisation.
+        /// </summary>
+        /// <param name="sender"></param>
+        public virtual void OnDeserialization(object sender)
+        {
+            _ConnectedToPhasedReadOnlyBuffer = new Dictionary<Collection<NetworkElementConnection>, ReadOnlyCollection<NetworkElementConnection>>();
+            _ConnectedToPhasedReadOnly = new PhasedReadOnlyEvaluated<Collection<NetworkElementConnection>,
+                                                         ReadOnlyCollection<NetworkElementConnection>
+                                                        >((x) =>
+                                                        {
+                                                            if (!_ConnectedToPhasedReadOnlyBuffer.ContainsKey(x))
+                                                                _ConnectedToPhasedReadOnlyBuffer[x] = new ReadOnlyCollection<NetworkElementConnection>(x);
+                                                            return _ConnectedToPhasedReadOnlyBuffer[x];
+                                                        }, _ConnectedToPhased);
         }
     }
 }
