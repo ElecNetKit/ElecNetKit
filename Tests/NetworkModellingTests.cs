@@ -45,6 +45,17 @@ namespace Tests
             ModelIntegrityAssertionsBalanced(model);
         }
 
+        [TestMethod]
+        public void TestModelSerialisationIntegrityUnbalanced()
+        {
+            var oldModel = GetNetwork("unbalanced");
+            var oldStream = new MemoryStream();
+            oldModel.Serialise(oldStream);
+            oldStream.Seek(0, SeekOrigin.Begin);
+            NetworkModel model = (NetworkModel)QuickSerialisers.Deserialise(oldStream);
+            ModelIntegrityAssertionsUnbalanced(model);
+        }
+
         public void ModelIntegrityAssertionsUnbalanced(NetworkModel network)
         {
             Assert.AreEqual(4, network.Buses.Count);
@@ -59,8 +70,6 @@ namespace Tests
             Assert.AreEqual(3 + 2 + 2, network.Buses["b3"].ConnectedToPhased.Values.SelectMany(x => x).Count());
             foreach(var i in new[] {1,2,3,0})
                 Assert.IsTrue(NetworkElement.ConnectionExists(network.Buses["b4"], 1, network.Loads[3], 1));
-            
-
         }
 
         public void ModelIntegrityAssertionsBalanced(NetworkModel network)
