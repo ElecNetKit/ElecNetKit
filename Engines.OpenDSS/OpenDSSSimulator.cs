@@ -9,6 +9,7 @@ using ElecNetKit.NetworkModelling;
 using ElecNetKit.Util;
 using ElecNetKit.Simulator;
 using System.Numerics;
+using ElecNetKit.NetworkModelling.Phasing;
 
 namespace ElecNetKit.Engines
 {
@@ -92,9 +93,8 @@ namespace ElecNetKit.Engines
             OpenDSSengine.Circuit circuit = dss.ActiveCircuit;
             for (int busIdx = 0; busIdx < circuit.NumBuses; busIdx++)
             {
-                //voltages are stored in OpenDSS as a double[6].
-                // the numbers are stored in complex pairs, for positive,
-                // negative and zero sequence.
+                // voltages are stored in OpenDSS as a double[n], where n is the number of phases.
+                // the numbers are stored in complex pairs per phase.
                 var voltage = circuit.Buses[busIdx].Voltages;
 
                 String busID = circuit.Buses[busIdx].Name;
@@ -163,7 +163,7 @@ namespace ElecNetKit.Engines
             Collection<Load> results = new Collection<Load>();
             String[] loads = dss.ActiveCircuit.Loads.AllNames;
 
-            //more OpenDSS quirk handling. if there are no generators, OpenDSS returns
+            //more OpenDSS quirk handling. if there are no loads, OpenDSS returns
             // an array of length 1 with the item "NONE". go figure.
             if (loads[0] == "NONE")
             {
@@ -174,18 +174,53 @@ namespace ElecNetKit.Engines
             foreach (String loadName in loads)
             {
                 var dssLoad = dss.ActiveCircuit.CktElements["load." + loadName];
-                String busID = (String)dssLoad.Properties["bus1"].Val;
-                double kW = double.Parse(dssLoad.Properties["kW"].Val);
-                double kvar = double.Parse(dssLoad.Properties["kvar"].Val);
-
-                Load load = new Load(loadName, new Complex(kW, kvar));
-                if (Buses.ContainsKey(busID))
+                if (!dssLoad.Enabled)
+                    continue;
+                var rawPowers = (double[])dssLoad.Powers;
+                var powers = new PhasedValues<Complex>();
+                for (int i = 0; i < dssLoad.NumPhases; i++)
                 {
-                    load.Connect(Buses[busID]);
+                    powers[i + 1] = new Complex(rawPowers[2*i], rawPowers[2*i + 1]);
+                }
+
+                Load load = new Load(loadName, powers);
+
+                var busConnectionInfo = ResolveOpenDSSBusString((String)dssLoad.BusNames[0], dssLoad.NumPhases);
+                if (Buses.ContainsKey(busConnectionInfo.Item1))
+                {
+                    load.ConnectWye(Buses[busConnectionInfo.Item1],powers.Keys,busConnectionInfo.Item2);
                 }
                 results.Add(load);
             }
             return results;
+        }
+
+        /// <summary>
+        /// Translates an OpenDSS bus connection string into a bus ID and a set of phases.
+        /// </summary>
+        /// <param name="busConnString">The bus connection string from OpenDSS.</param>
+        /// <param name="numPhases"></param>
+        /// <returns></returns>
+        protected static Tuple<String, List<int>> ResolveOpenDSSBusString(String busConnString, int numPhases)
+        {
+            var parts = busConnString.Split('.');
+            List<int> phases;
+            //parts[0] is always the actual bus name, the rest is phasing.
+            if (parts.Length == 0)
+                throw new Exception();
+
+            phases = parts.Skip(1).Take(numPhases).Select(phaseStr => int.Parse(phaseStr)).ToList();
+
+            while (phases.Count < numPhases)
+            {
+                var autoFillPhase = (phases.Count > 0) ? phases[phases.Count - 1] + 1 : 1;
+                
+                if (autoFillPhase > 3)
+                    autoFillPhase = 1;
+                
+                phases.Add(autoFillPhase);
+            }
+            return new Tuple<String, List<int>>(parts[0], phases);
         }
 
         /// <summary>
