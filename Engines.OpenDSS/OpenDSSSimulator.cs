@@ -143,16 +143,13 @@ namespace ElecNetKit.Engines
             do
             {
                 Line line = new Line(lines.Name, lines.Length);
-                String bus1 = lines.Bus1;
-                if (bus1.Contains('.'))
-                    bus1 = bus1.Substring(0, bus1.IndexOf('.'));
 
-                String bus2 = lines.Bus2;
-                if (bus2.Contains('.'))
-                    bus2 = bus2.Substring(0, bus2.IndexOf('.'));
-                if (Buses.ContainsKey(bus1) && Buses.ContainsKey(bus2))
+                var bus1 = ResolveOpenDSSBusString(lines.Bus1, lines.Phases);
+                var bus2 = ResolveOpenDSSBusString(lines.Bus2, lines.Phases);
+                
+                if (Buses.ContainsKey(bus1.Item1) && Buses.ContainsKey(bus2.Item1))
                 {
-                    line.Connect(Buses[bus1], Buses[bus2]);
+                    line.Connect(Buses[bus1.Item1], bus1.Item2, Buses[bus2.Item1], bus2.Item2);
                 }
                 results.Add(line);
             } while (lines.Next != 0);

@@ -27,6 +27,35 @@ namespace Tests
         }
 
         [TestMethod]
+        public void TestLinesunbalanced()
+        {
+            var network = GetNetwork("Ex9_5_unbal");
+            var line = network.Lines.Single(l => l.ID == "b1-b2");
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b1"], 1));
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b2"], 2));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b1"], 2));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b2"], 3));
+            Assert.IsTrue(line.ConnectionExists(3, network.Buses["b1"], 3));
+            Assert.IsTrue(line.ConnectionExists(3, network.Buses["b2"], 1));
+
+            line = network.Lines.Single(l => l.ID == "b2-b4");
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b2"], 1));
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b4"], 1));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b2"], 2));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b4"], 2));
+            Assert.IsTrue(line.ConnectionExists(3, network.Buses["b2"], 3));
+            Assert.IsTrue(line.ConnectionExists(3, network.Buses["b4"], 3));
+
+            line = network.Lines.Single(l => l.ID == "b3-b4");
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b3"], 1));
+            Assert.IsTrue(line.ConnectionExists(1, network.Buses["b4"], 1));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b3"], 2));
+            Assert.IsTrue(line.ConnectionExists(2, network.Buses["b4"], 2));
+            Assert.AreEqual(4, line.ConnectedToPhased.Values.SelectMany(x=>x).Count());
+            
+        }
+
+        [TestMethod]
         public void TestBusesBalanced()
         {
             var network = GetNetwork("Ex9_5");
