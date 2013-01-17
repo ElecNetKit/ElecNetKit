@@ -18,18 +18,21 @@ namespace ElecNetKit.NetworkModelling
     public class Generator : PowerConversionElement
     {
         /// <summary>
-        /// The single-phase kVA that the <see cref="Generator"/> injects into the network for
-        /// a balanced three-phase or single-phase network.
+        /// The total kVA that the <see cref="Generator"/> injects into the network.
         /// The real component represents the real power (kW) and
         /// the imaginary component represents the injected reactive (imaginary)
         /// power (kVAr).
         /// </summary>
-         public Complex Generation { get { return GenerationPhased[1]; } set { GenerationPhased[1] = value; } }
-
-         /// <summary>
-         /// The total generation of the <see cref="Generator"/>, across all phases, in kVA.
-         /// </summary>
-         public Complex TotalGeneration { get { return GenerationPhased.Values.Aggregate((seed, element) => seed+element); } }
+         public Complex Generation
+         {
+             set
+             {
+                 if (GenerationPhased.Count != 1)
+                     throw new NotSupportedException("Can't set Generation for a multi-phase generator. Use GenerationPhased instead.");
+                 GenerationPhased[GenerationPhased.Keys.Single()] = value;
+             }
+             get { return GenerationPhased.Values.Aggregate((seed, elem) => seed + elem); }
+         }
 
          /// <summary>
          /// The kVA that the <see cref="Generator"/> injects into the network.
@@ -41,17 +44,19 @@ namespace ElecNetKit.NetworkModelling
 
         /// <summary>
         /// Instantiates a new <see cref="Generator"/>. This constructor is
-        /// for building single phase or 3-phase balanced networks only.
+        /// for building balanced networks only.
         /// </summary>
         /// <param name="ID">The ID of the generator. Must be unique among
         /// generators, but not among network elements.</param>
-        /// <param name="Generation">The single-phase generation (in kVA) of
+        /// <param name="Generation">The total generation (in kVA) of
         /// the generator.</param>
-        public Generator(String ID, Complex Generation)
+        /// <param name="NumPhases">The number of phases to split the total generation between.</param>
+        public Generator(String ID, Complex Generation, int NumPhases = 3)
         {
             this.ID = ID;
             this.GenerationPhased = new PhasedValues<Complex>();
-            this.Generation = Generation;
+            foreach (int phase in Enumerable.Range(1, NumPhases))
+                GenerationPhased[phase] = Generation / NumPhases;
         }
 
         /// <summary>

@@ -16,13 +16,21 @@ namespace ElecNetKit.NetworkModelling
     public class Load : PowerConversionElement
     {
         /// <summary>
-        /// The single-phase kVA absorbed by the load. A positive imaginary quantity
+        /// The total kVA absorbed by the load. A positive imaginary quantity
         /// corresponds to a lagging power factor, a negative imaginary
-        /// quantity corresponds to a leading power factor. This property assumes a
-        /// single-phase or balanced three-phase network. Use <see cref="ActualKVAPhased"/>
-        /// for analysis of other networks.
+        /// quantity corresponds to a leading power factor.
         /// </summary>
-        public Complex ActualKVA { set { ActualKVAPhased[1] = value; } get { return ActualKVAPhased[1]; } }
+        /// <seealso cref="ActualKVAPhased"/>
+        public Complex ActualKVA
+        {
+            set
+            {
+                if (ActualKVAPhased.Count != 1)
+                    throw new NotSupportedException("Can't set ActualKVA for a multi-phase load. Use ActualKVAPhased instead.");
+                ActualKVAPhased[ActualKVAPhased.Keys.Single()] = value;
+            }
+            get { return ActualKVAPhased.Values.Aggregate((seed, elem) => seed + elem); }
+        }
 
         /// <summary>
         /// The kVA absorbed by the load, by phase. A positive imaginary quantity
@@ -33,15 +41,17 @@ namespace ElecNetKit.NetworkModelling
                 
         /// <summary>
         /// Instantiates a new <see cref="Load"/>. This constructor is
-        /// for building single phase or 3-phase balanced networks only.
+        /// for building balanced networks only.
         /// </summary>
         /// <param name="ID">The ID of the load.</param>
-        /// <param name="ActualKVA">The single-phase kVA absorbed by the load.</param>
-        public Load(String ID, Complex ActualKVA)
+        /// <param name="ActualKVA">The total kVA absorbed by the load.</param>
+        /// <param name="NumPhases">The number of phases to split <paramref name="ActualKVA"/> between.</param>
+        public Load(String ID, Complex ActualKVA, int NumPhases = 3)
         {
             this.ID = ID;
             this.ActualKVAPhased = new PhasedValues<Complex>();
-            this.ActualKVA = ActualKVA;
+            foreach (int phase in Enumerable.Range(1, NumPhases))
+                ActualKVAPhased[phase] = ActualKVA / NumPhases;
         }
 
         /// <summary>
