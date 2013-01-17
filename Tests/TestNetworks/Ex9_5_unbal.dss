@@ -1,0 +1,39 @@
+clear
+!need to define a new circuit to set the base frequency. go figure.
+new circuit.mycktname
+set basefrequency=60
+clear
+
+!Pretty much an ideal voltage source.
+new circuit.Ex9_5 basekv=230 Bus1=b1 pu=1.00 R1=0.0001 X1=0.0001 R0=0.0001 basefreq=60 frequency=60
+
+new linecode.A nphases=3 r1=(0.01008 1.15 *) x1=(0.05040 1.15 *) c1=236425 units=km basefreq=60
+new linecode.B nphases=3 r1=(0.00744 1.15 *) x1=(0.03720 1.15 *) c1=178761 units=km basefreq=60
+new linecode.C nphases=3 r1=(0.01272 1.15 *) x1=(0.06360 1.15 *) c1=294090 units=km basefreq=60
+
+new line.b1-b2 bus1=b1.1.2.3 bus2=b2.2.3.1 phases=3 linecode=A length=1 units=km
+new line.b1-b3 bus1=b1 bus2=b3 phases=3 linecode=B length=1 units=km
+new line.b2-b4 bus1=b2 bus2=b4 phases=3 linecode=B length=1 units=km
+new line.b3-b4 bus1=b3.1.2 bus2=b4.1.2 phases=2 linecode=C length=1 units=km
+
+new load.l-b1 bus1=b1.1.2.3 phases=3 kV=230 kW=50000 kVAr=30990 status=fixed Vminpu=0.2 Vmaxpu=5 conn=delta
+new load.l-b2 bus1=b2.2.3.0 phases=2 kV=230 kW=170000 kVAr=105350 status=fixed Vminpu=0.2 Vmaxpu=5 conn=wye
+new load.l-b3 bus1=b3.1.2 phases=1 kV=230 kW=200000 kVAr=12940 status=fixed Vminpu=0.2 Vmaxpu=5 conn=delta
+new load.l-b4 bus1=b4 phases=3 kV=230 kW=80000 kVAr=49580 status=fixed Vminpu=0.2 Vmaxpu=5 conn=wye
+
+new generator.g-b4 bus1=b4 phases=3 kV=234.6 kW=318000 pf=1 model=1 status=fixed Vminpu=0.2 Vmaxpu=5 BaseFreq=60
+
+!Add meters on the immediately connected lines so we can measure everything.
+new energymeter.meter1 element=line.b1-b2 terminal=1
+new monitor.mon1 element=line.b1-b2  terminal=1  mode=0  action=save
+
+new energymeter.meter2 element=line.b1-b3 terminal=1
+new monitor.mon2 element=line.b1-b3  terminal=1  mode=0  action=save
+
+Set MaxIter=200
+Set VoltageBases=(230)
+CalcVoltageBases
+
+solve mode=snap
+
+buscoords Ex9_5_coords.dss

@@ -54,10 +54,12 @@
   <ItemGroup>
     <Compile Include="BogusSimulator.cs" />
     <Compile Include="FakePCElement.cs" />
+    <Compile Include="Helper\PrivateMemberAccessor.cs" />
     <Compile Include="NetworkModellingTests.cs" />
     <Compile Include="PowerConversionElementTests.cs" />
     <Compile Include="NetworkConnectionTests.cs" />
     <Compile Include="EvaluatedPhasedTests.cs" />
+    <Compile Include="OpenDSSTests.cs" />
     <Compile Include="Util\Limits.cs" />
     <Compile Include="QuickSerialisers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,10 +69,21 @@
       <Project>{98e9dc15-e039-4137-b7c1-d327ce6f16fe}</Project>
       <Name>ElecNetKit.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Engines.OpenDSS\ElecNetKit.Engines.OpenDSS.csproj">
+      <Project>{f522e1f7-b15c-4b21-9ec2-f941f0998a0b}</Project>
+      <Name>ElecNetKit.Engines.OpenDSS</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="TestNetworks\Ex9_5.dss" />
-    <None Include="TestNetworks\Ex9_5_coords.dss" />
+    <None Include="TestNetworks\Ex9_5.dss">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestNetworks\Ex9_5_coords.dss">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestNetworks\Ex9_5_unbal.dss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
