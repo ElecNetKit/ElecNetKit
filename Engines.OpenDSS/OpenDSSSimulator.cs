@@ -93,19 +93,26 @@ namespace ElecNetKit.Engines
             OpenDSSengine.Circuit circuit = dss.ActiveCircuit;
             for (int busIdx = 0; busIdx < circuit.NumBuses; busIdx++)
             {
-                // voltages are stored in OpenDSS as a double[n], where n is the number of phases.
+                var bus = circuit.Buses[busIdx];
+                // voltages are stored in OpenDSS as a double[2n], where n is the number of phases.
                 // the numbers are stored in complex pairs per phase.
-                var voltage = circuit.Buses[busIdx].Voltages;
+                var rawVoltage = bus.Voltages;
 
-                String busID = circuit.Buses[busIdx].Name;
+                String busID = bus.Name;
+                var phases = (int[])bus.Nodes;
+                PhasedValues<Complex> voltages = new PhasedValues<Complex>();
+                for (int i = 0; i < phases.Length; i++)
+                {
+                    voltages[phases[i]] = new Complex(rawVoltage[2 * i], rawVoltage[2 * i + 1]);
+                }
 
                 //NOTE NEGATIVE FOR THE BUS Y AXIS. The Y coordinate used
                 // by openDSS is opposite to that used in .net. So flip
                 // it here.
                 results.Add(busID, new Bus(busID,
-                                            new Complex(voltage[0], voltage[1]),
-                                            circuit.Buses[busIdx].kVBase * 1000,
-                                            circuit.Buses[busIdx].Coorddefined ? (Point?)new Point(circuit.Buses[busIdx].x, -circuit.Buses[busIdx].y) : null
+                                            voltages,
+                                            bus.kVBase * 1000,
+                                            bus.Coorddefined ? (Point?)new Point(bus.x, -bus.y) : null
                                           )
                             );
             }
