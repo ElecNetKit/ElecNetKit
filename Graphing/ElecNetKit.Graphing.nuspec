@@ -15,7 +15,7 @@
     <tags>electrical simulation electricity</tags>
     <dependencies>
             <group targetFramework=".NETFramework4.5">
-                <dependency id="ElecNetKit.Core" version="1.0.0.0" />
+                <dependency id="ElecNetKit.Core" version="1.1" />
             </group>
         </dependencies>
         <frameworkAssemblies>
