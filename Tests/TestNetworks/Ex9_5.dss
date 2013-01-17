@@ -29,6 +29,8 @@ new load.l-b2 bus1=b2 phases=3 kV=230 kW=170000 kVAr=105350 status=fixed Vminpu=
 new load.l-b3 bus1=b3 phases=3 kV=230 kW=200000 kVAr=123940 status=fixed Vminpu=0.8 Vmaxpu=1.2
 new load.l-b4 bus1=b4 phases=3 kV=230 kW=150000 kVAr=49580 status=fixed Vminpu=0.8 Vmaxpu=1.2
 
+new generator.g-b4 bus1=b4 phases=3 kV=234.6 kW=318000 pf=1 model=1 status=fixed Vminpu=0.2 Vmaxpu=5 BaseFreq=60
+
 !Add meters on the immediately connected lines so we can measure everything.
 new energymeter.meter1 element=line.b1-b2 terminal=1
 new energymeter.meter2 element=line.b1-b3 terminal=1

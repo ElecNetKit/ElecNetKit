@@ -1,6 +1,7 @@
 clear
 !need to define a new circuit to set the base frequency. go figure.
 new circuit.mycktname
+set defaultbasefrequency=60
 set basefrequency=60
 clear
 
@@ -21,7 +22,7 @@ new load.l-b2 bus1=b2.2.3.0 phases=2 kV=230 kW=170000 kVAr=105350 status=fixed V
 new load.l-b3 bus1=b3.1.2 phases=1 kV=230 kW=200000 kVAr=12940 status=fixed Vminpu=0.2 Vmaxpu=5 conn=delta
 new load.l-b4 bus1=b4 phases=3 kV=230 kW=80000 kVAr=49580 status=fixed Vminpu=0.2 Vmaxpu=5 conn=wye
 
-new generator.g-b4 bus1=b4 phases=3 kV=234.6 kW=318000 pf=1 model=1 status=fixed Vminpu=0.2 Vmaxpu=5 BaseFreq=60
+new generator.g-b4 bus1=b4.2.3 phases=2 kV=234.6 kW=318000 pf=1 model=1 status=fixed Vminpu=0.2 Vmaxpu=5 BaseFreq=60
 
 !Add meters on the immediately connected lines so we can measure everything.
 new energymeter.meter1 element=line.b1-b2 terminal=1

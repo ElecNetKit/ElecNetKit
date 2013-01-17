@@ -31,16 +31,42 @@ namespace Tests
         {
             var network = GetNetwork("Ex9_5_unbal");
             var load = network.Buses["b1"].ConnectedTo.OfType<Load>().Single();
-            AssertComplexEqual(new Complex(16381, 10280), load.ActualKVAPhased[1], 10);
-            AssertComplexEqual(new Complex(16852, 10108), load.ActualKVAPhased[2], 10);
-            AssertComplexEqual(new Complex(16766, 10602), load.ActualKVAPhased[3], 10);
+            AssertComplexEqual(new Complex(16963, 10361), load.ActualKVAPhased[1],    100);
+            AssertComplexEqual(new Complex(16491, 10571), load.ActualKVAPhased[2],    100);
+            AssertComplexEqual(new Complex(16545, 10058), load.ActualKVAPhased[3],    100);
 
             load = network.Buses["b2"].ConnectedTo.OfType<Load>().Single();
-            AssertComplexEqual(new Complex(85000, 52674), load.ActualKVAPhased[1], 10);
-            AssertComplexEqual(new Complex(85001, 52673), load.ActualKVAPhased[2], 10);
+            AssertComplexEqual(new Complex(85005, 52675), load.ActualKVAPhased[1],    100);
+            AssertComplexEqual(new Complex(84998, 52680), load.ActualKVAPhased[2],    100);
             Assert.IsFalse(load.ActualKVAPhased.ContainsKey(3), "Contains Phase 3");
             Assert.IsTrue(load.ConnectionExists(1,network.Buses["b2"],2));
             Assert.IsTrue(load.ConnectionExists(2,network.Buses["b2"],3));
+        }
+
+        [TestMethod]
+        public void TestGeneratorsBalanced()
+        {
+            var network = GetNetwork("Ex9_5");
+            var gen = network.Buses["b4"].ConnectedTo.OfType<Generator>().Single();
+            AssertComplexEqual(new Complex(318000/3, 0), gen.GenerationPhased[1],    100);
+            AssertComplexEqual(new Complex(318000/3, 0), gen.GenerationPhased[2],    100);
+            AssertComplexEqual(new Complex(318000/3, 0), gen.GenerationPhased[2],    100);
+            Assert.IsTrue(gen.ConnectionExists(1, network.Buses["b4"], 1));
+            Assert.IsTrue(gen.ConnectionExists(2, network.Buses["b4"], 2));
+            Assert.IsTrue(gen.ConnectionExists(3, network.Buses["b4"], 3));
+            Assert.AreEqual(3, gen.ConnectedToPhased.Values.SelectMany(x => x).Count());
+        }
+
+        [TestMethod]
+        public void TestGeneratorsUnbalanced()
+        {
+            var network = GetNetwork("Ex9_5_unbal");
+            var gen = network.Buses["b4"].ConnectedTo.OfType<Generator>().Single();
+            AssertComplexEqual(new Complex(159011, 1.15428), gen.GenerationPhased[1],    100);
+            AssertComplexEqual(new Complex(158995, 10.4573), gen.GenerationPhased[2],    100);
+            Assert.IsFalse(gen.GenerationPhased.ContainsKey(3), "Contains Phase 3");
+            Assert.IsTrue(gen.ConnectionExists(1, network.Buses["b4"], 2));
+            Assert.IsTrue(gen.ConnectionExists(2, network.Buses["b4"], 3));
         }
 
         public void AssertComplexEqual(Complex expected, Complex actual, double precision)

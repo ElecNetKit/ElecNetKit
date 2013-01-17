@@ -242,17 +242,22 @@ namespace ElecNetKit.Engines
             //loop through the generators, connect the appropriate buses and add them.
             foreach (String generatorName in generators)
             {
-
-
-                OpenDSSengine.CktElement dss_generator_reference = dss.ActiveCircuit.CktElements["generator." + generatorName];
-                String busID = (String)dss_generator_reference.Properties["bus1"].Val;
-                double[] powers = dss_generator_reference.Powers;
-                Complex dss_gen_amount = new Complex(-(powers[0] + powers[2] + powers[4]), -(powers[1] + powers[3] + powers[5]));
-
-                Generator gen = new Generator(generatorName, dss_gen_amount);
-                if (Buses.ContainsKey(busID))
+                var dssGenerator = dss.ActiveCircuit.CktElements["generator." + generatorName];
+                if (!dssGenerator.Enabled)
+                    continue;
+                var rawPowers = (double[])dssGenerator.Powers;
+                var powers = new PhasedValues<Complex>();
+                for (int i = 0; i < dssGenerator.NumPhases; i++)
                 {
-                    gen.Connect(Buses[busID]);
+                    powers[i + 1] = new Complex(-rawPowers[2 * i], -rawPowers[2 * i + 1]);
+                }
+                Generator gen = new Generator(generatorName, powers);
+
+
+                var busConnectionInfo = ResolveOpenDSSBusString((String)dssGenerator.BusNames[0], dssGenerator.NumPhases);
+                if (Buses.ContainsKey(busConnectionInfo.Item1))
+                {
+                    gen.ConnectWye(Buses[busConnectionInfo.Item1], powers.Keys, busConnectionInfo.Item2);
                 }
                 results.Add(gen);
             }
