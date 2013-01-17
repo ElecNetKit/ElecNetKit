@@ -12,10 +12,10 @@ new linecode.A nphases=3 r1=(0.01008 1.15 *) x1=(0.05040 1.15 *) c1=236425 units
 new linecode.B nphases=3 r1=(0.00744 1.15 *) x1=(0.03720 1.15 *) c1=178761 units=km basefreq=60
 new linecode.C nphases=3 r1=(0.01272 1.15 *) x1=(0.06360 1.15 *) c1=294090 units=km basefreq=60
 
-new line.b1-b2 bus1=b1.1.2.3 bus2=b2.2.3.1 phases=3 linecode=A length=1 units=km
-new line.b1-b3 bus1=b1 bus2=b3 phases=3 linecode=B length=1 units=km
-new line.b2-b4 bus1=b2 bus2=b4 phases=3 linecode=B length=1 units=km
-new line.b3-b4 bus1=b3.1.2 bus2=b4.1.2 phases=2 linecode=C length=1 units=km
+new line.b1-b2 bus1=b1.1.2.3 bus2=b2.2.3.1 linecode=A length=1 phases=3 units=km
+new line.b1-b3 bus1=b1 bus2=b3 linecode=B length=1 phases=3 units=km
+new line.b2-b4 bus1=b2 bus2=b4 linecode=B length=1 phases=3 units=km
+new line.b3-b4 bus1=b3.1.2 bus2=b4.1.2 linecode=C length=1 phases=2 units=km
 
 new load.l-b1 bus1=b1.1.2.3 phases=3 kV=230 kW=50000 kVAr=30990 status=fixed Vminpu=0.2 Vmaxpu=5 conn=delta
 new load.l-b2 bus1=b2.2.3.0 phases=2 kV=230 kW=170000 kVAr=105350 status=fixed Vminpu=0.2 Vmaxpu=5 conn=wye
