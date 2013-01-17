@@ -82,6 +82,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convenience\ComplexExtensions.cs" />
     <Compile Include="Experimentation\ChainExperimentor.cs" />
     <Compile Include="Experimentation\NamespaceDoc.cs" />
     <Compile Include="NetworkModelling\Bus.cs" />

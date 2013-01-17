@@ -7,6 +7,7 @@ using ElecNetKit.Util;
 using System.Runtime.Serialization;
 using System.Numerics;
 using ElecNetKit.NetworkModelling.Phasing;
+using ElecNetKit.Convenience;
 
 namespace ElecNetKit.NetworkModelling
 {
@@ -31,7 +32,7 @@ namespace ElecNetKit.NetworkModelling
                      throw new NotSupportedException("Can't set Generation for a multi-phase generator. Use GenerationPhased instead.");
                  GenerationPhased[GenerationPhased.Keys.Single()] = value;
              }
-             get { return GenerationPhased.Values.Aggregate((seed, elem) => seed + elem); }
+             get { return GenerationPhased.Values.Sum(); }
          }
 
          /// <summary>

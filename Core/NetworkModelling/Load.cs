@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using ElecNetKit.Util;using System.Runtime.Serialization;
+using ElecNetKit.Util;
+using System.Runtime.Serialization;
 using System.Numerics;
 using ElecNetKit.NetworkModelling.Phasing;
+using ElecNetKit.Convenience;
 
 namespace ElecNetKit.NetworkModelling
 {
@@ -29,7 +31,7 @@ namespace ElecNetKit.NetworkModelling
                     throw new NotSupportedException("Can't set ActualKVA for a multi-phase load. Use ActualKVAPhased instead.");
                 ActualKVAPhased[ActualKVAPhased.Keys.Single()] = value;
             }
-            get { return ActualKVAPhased.Values.Aggregate((seed, elem) => seed + elem); }
+            get { return ActualKVAPhased.Values.Sum(); }
         }
 
         /// <summary>
