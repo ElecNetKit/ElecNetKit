@@ -44,6 +44,7 @@
             </para>
           </listItem>
         </list>
+        <para>As a general pattern, phased properties (any property that contains information on a per-phase basis) has the word <codeInline>Phased</codeInline> as a suffix, e.g. <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.Bus.VoltagePhased</codeEntityReference> and <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToPhased</codeEntityReference>. These <codeInline>Phased</codeInline> properties often have a corresponding aggregate property useful for analysing single-phase or balanced three-phase networks. As an example, <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.Bus</codeEntityReference> has the property <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.Bus.Voltage</codeEntityReference>, which specifies the average voltage across all bus phases, as well as the aforementioned <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.Bus.VoltagePhased</codeEntityReference>. Likewise, <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElement</codeEntityReference> contains the property <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo</codeEntityReference>, which returns all elements connected on any phase, in addition to the phased equivalent <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToPhased</codeEntityReference>.</para>
       </content>
     </section>
     <section address="topology">
@@ -64,6 +65,7 @@
           network buses.
         </para>
         <code source="../Examples/Snippets/FindUpstreamConns.cs" language="c#" />
+        <para>As of version 1.1, <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference>s can also be traversed using the phased property <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToPhased</codeEntityReference>. The object model for phased connections is slightly different, with each element of <codeEntityReference qualifyHint="false">P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToPhased</codeEntityReference> specifying a target element and a target phase (see <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElementConnection</codeEntityReference>).</para>
       </content>
     </section>
 
