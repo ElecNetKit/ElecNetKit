@@ -11,14 +11,70 @@
             Instantiates a new <a href="T_ElecNetKit_NetworkModelling_Line.htm" target="">Line</a>.
             </div></td></tr></table><a href="#mainBody" target="">Back to Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
 							 
-						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" target="">Connect(NetworkElement)</a></td><td><div class="summary">
-            Connect this <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> to another <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.
-            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" target="">Disconnect(NetworkElement)</a></td><td><div class="summary">
-            Disconnect this network element from another network element.
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect.htm" target="">Connect(Bus, Bus)</a></td><td><div class="summary">
+             Connects this <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a> between two <a href="T_ElecNetKit_NetworkModelling_Bus.htm" target="">Bus</a>es. This method is for
+             building three-phase balanced networks. Use
+             <a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect3Phase.htm" target="">Connect3Phase(Bus, Bus)</a>, <a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_3.htm" target="">Connect(Int32, Bus, Int32, Bus, Int32)</a>, <a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_1.htm" target="">Connect(Bus, Bus, <span id="ID0EDDDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDDDAJBDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Int32<span id="ID0EBDDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBDDAJBDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a>
+             and <a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_2.htm" target="">Connect(Bus, IEnumerable<span id="ID0EHBDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EHBDAJBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>Int32<span id="ID0EFBDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFBDAJBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, Bus, IEnumerable<span id="ID0EDBDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDBDAJBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>Int32<span id="ID0EBBDAJBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBDAJBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>)</a> for arbitrarily-phased networks.
+             </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1.htm" target="">Connect(Int32, NetworkElement, Int32)</a></td><td><div class="summary">
+            Connects this <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> to a single other <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>, with a specified phasing.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_1.htm" target="">Connect(Bus, Bus, <span id="ID0EDABHBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABHBDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Int32<span id="ID0EBABHBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABHBDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Connects this <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a> between <span class="parameter">bus1</span>
+            and <span class="parameter">bus2</span> on matching <span class="parameter">phases</span>.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_2.htm" target="">Connect(Bus, IEnumerable<span id="ID0EHABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EHABGBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>Int32<span id="ID0EFABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFABGBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, Bus, IEnumerable<span id="ID0EDABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABGBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>Int32<span id="ID0EBABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABGBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>)</a></td><td><div class="summary">
+            Connects the <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a> on the phases in <span class="parameter">bus1AndLinePhases</span>
+            to the same phases on <span class="parameter">bus1</span>, and to the correspondingly-indexed phases <span class="parameter">bus2Phases</span>
+            on <span class="parameter">bus2</span>.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_3.htm" target="">Connect(Int32, Bus, Int32, Bus, Int32)</a></td><td><div class="summary">
+            Connects <span class="parameter">thisPhase</span> of this <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a> between
+            <span class="parameter">bus1Phase</span> of <span class="parameter">bus1</span> and <span class="parameter">bus2Phase</span>
+            of <span class="parameter">bus2</span>.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect3Phase.htm" target="">Connect3Phase</a></td><td><div class="summary">
+             Connects this <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a> between two <a href="T_ElecNetKit_NetworkModelling_Bus.htm" target="">Bus</a>es,
+             on phases 1,2,3.
+             </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" target="">PowerDeliveryElement</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_ConnectBetween_1.htm" target="">ConnectBetween(Int32, NetworkElement, Int32, NetworkElement, Int32)</a></td><td><div class="summary">
+            Connects the <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> between two other <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>s, with a specific phasing.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_ConnectionExists_1.htm" target="">ConnectionExists(Int32, NetworkElement, Int32)</a></td><td><div class="summary">
+            Test if a specific connection between this element and another element on specific phases exists.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" target="">Disconnect(NetworkElement)</a></td><td><div class="summary">
+            Disconnect this network element from another network element across all phases.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_ElecNetKit_NetworkModelling_NetworkElement_OnDeserialization.htm" target="">OnDeserialization</a></td><td><div class="summary">
+            Reconstructs the <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> after deserialisation.
             </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr></table><a href="#mainBody" target="">Back to Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
 							 
-						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" target="">ConnectedTo</a></td><td><div class="summary">
-            A set of other elements that the <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> is connected to.
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedOnAllActivePhases.htm" target="">ConnectedOnAllActivePhases</a></td><td><div class="summary">
+            All elements that are connected to this element across all active phases (and possibly across neutral, phase 0).
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" target="">ConnectedTo</a></td><td><div class="summary">
+            A set of other elements that the <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> is connected to. Incorporates
+            connections on any phase. This property can be safely used for analysis of balanced three-phase or single-phase networks.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToAnyPhase.htm" target="">ConnectedToAnyPhase</a></td><td><div class="summary">
+            All connected elements, across any phase.
+            </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToPhased.htm" target="">ConnectedToPhased</a></td><td><div class="summary">
+            A set of other elements that the <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a> is connected to, arranged by phase.
             </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" target="">ElementType</a></td><td><div class="summary">
             Gets a type-string for the element, e.g. 'Bus', 'Load', etc.
             </div> (Inherited from <a href="T_ElecNetKit_NetworkModelling_NetworkElement.htm" target="">NetworkElement</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" target="">ID</a></td><td><div class="summary">

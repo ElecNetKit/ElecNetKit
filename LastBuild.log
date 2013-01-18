@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="10/01/2013 10:59:18 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="D:\Data\Code\ElecNetKit\Documentation\Documentation.shfbproj" started="18/01/2013 12:24:24 PM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;D:\Program Files (x86)\Sandcastle\&#39;
@@ -18,28 +18,28 @@ Source: D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj
     Found project &#39;D:\Data\Code\ElecNetKit\Core\ElecNetKit.Core.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.dll&#39;
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.dll&#39;
-    Found assembly &#39;D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Release\ElecNetKit.Engines.OpenDSS.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Graphing\bin\Release\ElecNetKit.Graphing.dll&#39;
+    Found assembly &#39;D:\Data\Code\ElecNetKit\Core\bin\Release\ElecNetKit.Core.dll&#39;
 
 References to include (excluding framework assemblies):
-    D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.dll
-    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.dll
-    D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.dll
+    D:\Data\Code\ElecNetKit\Core\bin\Release\ElecNetKit.Core.dll
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Release\ElecNetKit.Engines.OpenDSS.dll
+    D:\Data\Code\ElecNetKit\Graphing\bin\Release\ElecNetKit.Graphing.dll
     OpenDSSengine
 
 Copying XML comments files
-    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Debug\ElecNetKit.Engines.OpenDSS.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
-    D:\Data\Code\ElecNetKit\Graphing\bin\Debug\ElecNetKit.Graphing.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
-    D:\Data\Code\ElecNetKit\Core\bin\Debug\ElecNetKit.Core.xml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml
+    D:\Data\Code\ElecNetKit\Engines.OpenDSS\bin\Release\ElecNetKit.Engines.OpenDSS.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
+    D:\Data\Code\ElecNetKit\Graphing\bin\Release\ElecNetKit.Graphing.XML -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
+    D:\Data\Code\ElecNetKit\Core\bin\Release\ElecNetKit.Core.xml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0580
+    Last step completed in 00:00:00.2210
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0440
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -47,22 +47,22 @@ Generating reflection information...
   MRefBuilder (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 3 assemblies for reflection and 5 dependency assemblies.
-  Info: Wrote information on 11 namespaces, 38 types, and 189 members
+  Info: Wrote information on 13 namespaces, 48 types, and 281 members
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:07.1524
+    Last step completed in 00:00:07.0544
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0360
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
-    0 explicit interface implementations removed
-    19 local and base class EII elements removed
-    1516 inherited member elements removed
-    Last step completed in 00:00:00.0310
+    3 explicit interface implementations removed
+    46 local and base class EII elements removed
+    1590 inherited member elements removed
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -78,12 +78,12 @@ Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtim
 Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Engines.OpenDSS.XML
 Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML
 Indexing D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml
-Indexed 158044 members in 125 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 158145 members in 125 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:07.8434
+    Last step completed in 00:00:07.3854
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -95,16 +95,34 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:04.7113
+    Last step completed in 00:00:03.4022
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
-    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+    Unique name M_ElecNetKit_NetworkModelling_Bus__ctor_1 generated for M:ElecNetKit.NetworkModelling.Bus.#ctor(System.String,System.Numerics.Complex,System.Double,System.Nullable{System.Windows.Point})
+    Unique name M_ElecNetKit_NetworkModelling_Generator__ctor_1 generated for M:ElecNetKit.NetworkModelling.Generator.#ctor(System.String,System.Numerics.Complex,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_Load__ctor_1 generated for M:ElecNetKit.NetworkModelling.Load.#ctor(System.String,System.Numerics.Complex,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Connect_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Connect(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_ConnectBetween_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.ConnectBetween(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_ConnectionExists_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.ConnectionExists(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
     Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect_1 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElement_Disconnect_2 generated for M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_NetworkElementConnection_Equals_1 generated for M:ElecNetKit.NetworkModelling.NetworkElementConnection.Equals(System.Object)
+    Unique name M_ElecNetKit_NetworkModelling_PowerConversionElement_Connect_1 generated for M:ElecNetKit.NetworkModelling.PowerConversionElement.Connect(System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_PowerConversionElement_ConnectWye_1 generated for M:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye(ElecNetKit.NetworkModelling.Bus,System.Int32[])
+    Unique name M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_1 generated for M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus,System.Int32[])
+    Unique name M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_2 generated for M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{System.Int32},ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{System.Int32})
+    Unique name M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect_3 generated for M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Add_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Add(System.Int32,`1)
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Remove_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Remove(System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2__ctor_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.#ctor(System.Func{`0,`1},ElecNetKit.NetworkModelling.Phasing.Phased{`0})
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Add_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Add(System.Int32,`1)
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Remove_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove(System.Int32)
+    Unique name M_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor_1 generated for M:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_ElecNetKit_Util_Limits_ProcessData_1 generated for M:ElecNetKit.Util.Limits.ProcessData(System.Double)
     Unique name M_ElecNetKit_Util_NormalDist__ctor_1 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Collections.Generic.IEnumerable{System.Double})
     Unique name M_ElecNetKit_Util_NormalDist__ctor_2 generated for M:ElecNetKit.Util.NormalDist.#ctor(System.Double,System.Double)
-    Last step completed in 00:00:00.1350
+    Last step completed in 00:00:00.0770
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -496,7 +514,7 @@ D:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Data\Co
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
     D:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:01.9261
+    Last step completed in 00:00:02.2031
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -525,23 +543,23 @@ Generating conceptual topic files
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Architecture.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\d84a8c76-b80a-4721-9a1e-c36cecfc6ead.xml
     Parsing topic file &#39;D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml&#39;
     D:\Data\Code\ElecNetKit\Documentation\Conceptual\Graphing.aml -&gt; D:\Data\Code\ElecNetKit\Documentation\Help\Working\ddueXml\1201915e-1e35-440e-94ba-729903b0f473.xml
-    Last step completed in 00:00:00.1190
+    Last step completed in 00:00:00.1750
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0940
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -550,20 +568,20 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.3741
+    Last step completed in 00:00:00.8280
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:00.0470
+    Last step completed in 00:00:00.0790
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\sandcastle.config
 D:\Data\Code\ElecNetKit\Documentation\Help\Working\conceptual.config
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.5250
+    Last step completed in 00:00:00.5200
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
@@ -643,7 +661,7 @@ Building conceptual help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194314 reference targets.
   Info: IfThenComponent: Instantiating component.
   Info: BrandingComponent: Instantiating component.
   Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
@@ -694,7 +712,7 @@ Building conceptual help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194314 reference targets.
   Info: IfThenComponent: Instantiating component.
   Info: BrandingComponent: Instantiating component.
   Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
@@ -709,7 +727,7 @@ Building conceptual help topics...
   Info: BuildAssembler: Building topic d84a8c76-b80a-4721-9a1e-c36cecfc6ead
   Info: BuildAssembler: Building topic 1201915e-1e35-440e-94ba-729903b0f473
   Info: Processed 7 topics
-    Last step completed in 00:01:31.0722
+    Last step completed in 00:01:57.9487
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -721,7 +739,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 194170 elements in 410 files.
+  Info: CopyFromIndexComponent: Indexed 194314 elements in 410 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -770,7 +788,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Graphing.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKit.Core.xml&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working\_InheritedDocs_.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 158044 elements in 126 files.
+  Info: CopyFromIndexComponent: Indexed 158145 elements in 126 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -848,7 +866,7 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194314 reference targets.
   Info: BrandingComponent: Instantiating component.
   Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
   Info: SaveComponent: Instantiating component.
@@ -901,10 +919,16 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194170 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194314 reference targets.
   Info: BrandingComponent: Instantiating component.
   Info: BrandingComponent: Branding Transform &quot;D:\Data\Code\ElecNetKit\Documentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
   Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:ElecNetKit.Convenience
+  Warn: ShowMissingComponent: [N:ElecNetKit.Convenience] Missing &lt;summary&gt; documentation
+  Info: BuildAssembler: Building topic T:ElecNetKit.Convenience.ComplexExtensions
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Convenience.ComplexExtensions
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.Convenience.ComplexExtensions
+  Info: BuildAssembler: Building topic M:ElecNetKit.Convenience.ComplexExtensions.Sum(System.Collections.Generic.IEnumerable{System.Numerics.Complex})
   Info: BuildAssembler: Building topic N:ElecNetKit.Engines
   Info: BuildAssembler: Building topic T:ElecNetKit.Engines.OpenDSSSimulator
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Engines.OpenDSSSimulator
@@ -913,6 +937,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.#ctor
   Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.GetNetworkModel
   Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.PrepareNetwork(System.String)
+  Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.ResolveOpenDSSBusString(System.String,System.Int32)
+  Warn: ShowMissingComponent: [M:ElecNetKit.Engines.OpenDSSSimulator.ResolveOpenDSSBusString(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:ElecNetKit.Engines.OpenDSSSimulator.ResolveOpenDSSBusString(System.String,System.Int32)] Missing &lt;param name=&quot;numPhases&quot;/&gt; documentation
   Info: BuildAssembler: Building topic P:ElecNetKit.Engines.OpenDSSSimulator.ResultAccuracy
   Info: BuildAssembler: Building topic M:ElecNetKit.Engines.OpenDSSSimulator.RunCommand(System.String)
   Info: BuildAssembler: Building topic N:ElecNetKit.Experimentation
@@ -1121,17 +1148,29 @@ Building reference help topics...
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Bus
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Bus
   Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Bus
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Bus.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Bus.#ctor(System.String,ElecNetKit.NetworkModelling.Phasing.Phased{System.Numerics.Complex},System.Double,System.Nullable{System.Windows.Point})
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Bus.#ctor(System.String,System.Numerics.Complex,System.Double,System.Nullable{System.Windows.Point})
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.BaseVoltage
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.Location
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Bus.OnDeserialization(System.Object)
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.Voltage
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.VoltagePhased
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.VoltagePU
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Bus.VoltagePUPhased
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Generator
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Generator
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.Generator] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.Generator] Unknown reference link target &#39;Overload:ConnectWye&#39;.
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Generator
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.Generator] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.Generator] Unknown reference link target &#39;Overload:ConnectWye&#39;.
   Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Generator
-  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Generator.#ctor(System.String,System.Numerics.Complex)
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Generator.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Generator.#ctor(System.String,ElecNetKit.NetworkModelling.Phasing.Phased{System.Numerics.Complex})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Generator.#ctor(System.String,System.Numerics.Complex,System.Int32)
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Generator.Generation
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Generator.GenerationPhased
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Line
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Line
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Line
@@ -1140,32 +1179,58 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Line.Length
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Load
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Load
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.Load] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.Load] Unknown reference link target &#39;Overload:ConnectWye&#39;.
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Load
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.Load] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.Load] Unknown reference link target &#39;Overload:ConnectWye&#39;.
   Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Load
-  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Load.#ctor(System.String,System.Numerics.Complex)
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Load.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Load.#ctor(System.String,ElecNetKit.NetworkModelling.Phasing.Phased{System.Numerics.Complex})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Load.#ctor(System.String,System.Numerics.Complex,System.Int32)
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Load.ActualKVA
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Load.ActualKVAPhased
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.NetworkElement
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.NetworkElement
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.NetworkElement
   Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.NetworkElement
   Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.Connect
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.ConnectBetween
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.ConnectionExists
   Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElement.Disconnect
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.#ctor
-  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement)
-  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Connect(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.ConnectBetween(ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.ConnectBetween(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedOnAllActivePhases
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
-  Warn: ResolveReferenceLinksComponent2: [P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedTo] Unknown reference link target &#39;T:System.Collections.Generic.IReadOnlyCollection`1&#39;.
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToAnyPhase
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ConnectedToPhased
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.ConnectionExists(ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.ConnectionExists(System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement)
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,ElecNetKit.NetworkModelling.NetworkElement)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.Disconnect(ElecNetKit.NetworkModelling.NetworkElement,System.Int32,ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ElementType
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElement.ID
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElement.OnDeserialization(System.Object)
+  Warn: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.NetworkElement.OnDeserialization(System.Object)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.NetworkElementConnection
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.NetworkElementConnection
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.NetworkElementConnection
+  Info: BuildAssembler: Building topic Operators.T:ElecNetKit.NetworkModelling.NetworkElementConnection
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.NetworkElementConnection
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.NetworkElementConnection.Equals
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.#ctor(ElecNetKit.NetworkModelling.NetworkElement,System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElementConnection.Element
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.Equals(ElecNetKit.NetworkModelling.NetworkElementConnection)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.Equals(System.Object)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.GetHashCode
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.op_Equality(ElecNetKit.NetworkModelling.NetworkElementConnection,ElecNetKit.NetworkModelling.NetworkElementConnection)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.op_Inequality(ElecNetKit.NetworkModelling.NetworkElementConnection,ElecNetKit.NetworkModelling.NetworkElementConnection)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkElementConnection.Phase
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkElementConnection.ToString
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.NetworkModel
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.NetworkModel
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.NetworkModel
@@ -1182,6 +1247,40 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.NetworkBounds
   Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.NetworkModel.SourceBus
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.NetworkModel.UpdateNetworkBounds
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.PowerConversionElement
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.PowerConversionElement
+  Info: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.PowerConversionElement.#ctor] Auto-documenting constructor
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.PowerConversionElement] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:ElecNetKit.NetworkModelling.PowerConversionElement] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.PowerConversionElement
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.PowerConversionElement] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Methods.T:ElecNetKit.NetworkModelling.PowerConversionElement] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.PowerConversionElement
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.PowerConversionElement.Connect
+  Warn: ResolveReferenceLinksComponent2: [Overload:ElecNetKit.NetworkModelling.PowerConversionElement.Connect] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Overload:ElecNetKit.NetworkModelling.PowerConversionElement.Connect] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerConversionElement.#ctor
+  Info: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.PowerConversionElement.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerConversionElement.Connect(ElecNetKit.NetworkModelling.Bus)
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.PowerConversionElement.Connect(ElecNetKit.NetworkModelling.Bus)] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.PowerConversionElement.Connect(ElecNetKit.NetworkModelling.Bus)] Unknown reference link target &#39;Overload:ConnectWye&#39;.
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerConversionElement.Connect(System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.IEnumerable{System.Int32})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye(ElecNetKit.NetworkModelling.Bus,System.Int32[])
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.PowerDeliveryElement
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.PowerDeliveryElement
+  Info: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.PowerDeliveryElement.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.PowerDeliveryElement
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.PowerDeliveryElement
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.#ctor
+  Info: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.PowerDeliveryElement.#ctor] Auto-documenting constructor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus,System.Int32[])
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{System.Int32},ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{System.Int32})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect(System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32,ElecNetKit.NetworkModelling.Bus,System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.PowerDeliveryElement.Connect3Phase(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus)
   Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Tracing
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Tracing
   Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Tracing
@@ -1189,6 +1288,94 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.GetDirectLengthBetweenBuses(ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Bus)
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.TraceFromWithCallback(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{ElecNetKit.NetworkModelling.Bus},System.Action{ElecNetKit.NetworkModelling.Bus,ElecNetKit.NetworkModelling.Line,ElecNetKit.NetworkModelling.Bus})
   Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Tracing.TraceWithoutCrossingBuses(ElecNetKit.NetworkModelling.Bus,System.Collections.Generic.IEnumerable{ElecNetKit.NetworkModelling.Bus})
+  Info: BuildAssembler: Building topic N:ElecNetKit.NetworkModelling.Phasing
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Fields.T:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2.#ctor(System.Func{`0,`1},ElecNetKit.NetworkModelling.Phasing.Phased{`0})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated`2.CacheTransform(`0)
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.Phased`1
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Add
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Remove
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{`0,`1},System.Func{`1,`0},ElecNetKit.NetworkModelling.Phasing.Phased{`0})
+  Warn: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{{`0,`1}},System.Func{{`1,`0}},ElecNetKit.NetworkModelling.Phasing.Phased{{`0}})] Missing &lt;param name=&quot;basePhased&quot;/&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{{`0,`1}},System.Func{{`1,`0}},ElecNetKit.NetworkModelling.Phasing.Phased{{`0}})] Unknown reference link target &#39;F:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.basePhased&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{{`0,`1}},System.Func{{`1,`0}},ElecNetKit.NetworkModelling.Phasing.Phased{{`0}})] Unknown reference link target &#39;F:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.basePhased&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{{`0,`1}},System.Func{{`1,`0}},ElecNetKit.NetworkModelling.Phasing.Phased{{`0}})] Unknown reference link target &#39;F:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.basePhased&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.#ctor(System.Func{{`0,`1}},System.Func{{`1,`0}},ElecNetKit.NetworkModelling.Phasing.Phased{{`0}})] Unknown reference link target &#39;F:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.basePhased&#39;.
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Add(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Add(System.Int32,`1)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Clear
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Contains(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.ContainsKey(System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.CopyTo(System.Collections.Generic.KeyValuePair{System.Int32,`1}[],System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Count
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.GetEnumerator
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.IsReadOnly
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Item(System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Keys
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Remove(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Remove(System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.TryGetValue(System.Int32,`1@)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated`2.Values
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2
+  Warn: ShowMissingComponent: [T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2] Missing &lt;typeparam name=&quot;TFrom&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Fields.T:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.#ctor
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Add
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.#ctor(System.Func{`0,`1},ElecNetKit.NetworkModelling.Phasing.Phased{`0})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Add(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Add(System.Int32,`1)
+  Info: BuildAssembler: Building topic F:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.basePhased
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Clear
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Contains(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.ContainsKey(System.Int32)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.CopyTo(System.Collections.Generic.KeyValuePair{System.Int32,`1}[],System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Count
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.GetEnumerator
+  Info: BuildAssembler: Building topic F:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.getTransform
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.IsReadOnly
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Item(System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Keys
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove(System.Collections.Generic.KeyValuePair{System.Int32,`1})
+  Warn: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove(System.Collections.Generic.KeyValuePair{{System.Int32,`1}})] Missing &lt;returns&gt; documentation
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove(System.Int32)
+  Warn: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Remove(System.Int32)] Missing &lt;returns&gt; documentation
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.TryGetValue(System.Int32,`1@)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated`2.Values
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1
+  Info: BuildAssembler: Building topic Overload:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1.#ctor
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.PhasedValues`1.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  Info: BuildAssembler: Building topic T:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2
+  Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2
+  Info: BuildAssembler: Building topic Methods.T:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2
+  Info: BuildAssembler: Building topic Properties.T:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.#ctor(System.Func{`0,`1},System.Collections.Generic.ICollection{`0})
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Add(`1)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Clear
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Contains(`1)
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.CopyTo(`1[],System.Int32)
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Count
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.GetEnumerator
+  Info: BuildAssembler: Building topic P:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.IsReadOnly
+  Info: BuildAssembler: Building topic M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Remove(`1)
+  Warn: ShowMissingComponent: [M:ElecNetKit.NetworkModelling.Phasing.QueryableCollection`2.Remove(`1)] Missing &lt;returns&gt; documentation
   Info: BuildAssembler: Building topic N:ElecNetKit.Simulator
   Info: BuildAssembler: Building topic T:ElecNetKit.Simulator.ISimulator
   Info: BuildAssembler: Building topic AllMembers.T:ElecNetKit.Simulator.ISimulator
@@ -1233,6 +1420,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.AutoDataReset
   Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.AutoMax
   Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.AutoMin
+  Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.Count
   Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.LimitMax
   Info: BuildAssembler: Building topic P:ElecNetKit.Util.Limits.LimitMin
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.Limits.ProcessData(System.Collections.Generic.IEnumerable{System.Double})
@@ -1269,8 +1457,8 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.MergeY(System.Collections.Generic.Dictionary{`1,System.Collections.Generic.Dictionary{`0,`2}})
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.OnDeserialization(System.Object)
   Info: BuildAssembler: Building topic M:ElecNetKit.Util.TwinKeyDictionary`3.Remove(`0,`1)
-  Info: Processed 348 topics
-    Last step completed in 00:03:13.5711
+  Info: Processed 492 topics
+    Last step completed in 00:05:16.0251
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -1278,7 +1466,7 @@ Combining conceptual and API intermediate TOC files...
 Clearing any prior web output
     Did not delete folder &#39;D:\Data\Code\ElecNetKit\Documentation\Help\.git&#39; as it contains read-only or hidden folders/files
     Did not delete folder &#39;D:\Data\Code\ElecNetKit\Documentation\Help\Resources&#39; as it contains read-only or hidden folders/files
-    Last step completed in 00:00:01.0361
+    Last step completed in 00:00:01.3911
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1290,29 +1478,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1
-Processed 355 HTML files
+Processed 499 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKitDocs.hhk
 Saving HTML Help 1 table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\ElecNetKitDocs.hhc
 
 Processing website files in D:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\Website
-Processed 355 HTML files
+Processed 499 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to D:\Data\Code\ElecNetKit\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05.3473
+    Last step completed in 00:00:04.9123
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0490
+    Last step completed in 00:00:00.0420
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -1327,13 +1515,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 9 seconds
+  Compile time: 0 minutes, 13 seconds
   
-  357	Topics
+  501	Topics
   
-  4,785	Local links
+  7,356	Local links
   
-  916	Internet links
+  1,942	Internet links
   
   0	Graphics
   
@@ -1341,20 +1529,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 618,827 bytes
+  Created d:\Data\Code\ElecNetKit\Documentation\Help\Working\Output\HtmlHelp1\ElecNetKitDocs.chm, 813,615 bytes
   
-  Compression decreased file by 3,091,124 bytes.
+  Compression decreased file by 4,824,540 bytes.
   
-    Last step completed in 00:00:16.7200
+    Last step completed in 00:00:18.4811
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:02.0861
+    Last step completed in 00:00:03.7002
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1363,16 +1551,18 @@ Copied 100 files
 Copied 200 files
 Copied 300 files
 Copied 400 files
-Copied 461 files for the website content
-    Last step completed in 00:00:02.2551
+Copied 500 files
+Copied 600 files
+Copied 605 files for the website content
+    Last step completed in 00:00:01.3441
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.4520
+    Last step completed in 00:00:00.6980
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 01/10/2013 11:04 AM.  Total time: 00:05:38.1563
+Build completed successfully at 01/18/2013 12:32 PM.  Total time: 00:08:07.7049
 
 </buildStep>
 </shfbBuild>

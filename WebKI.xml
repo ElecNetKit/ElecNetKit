@@ -2,6 +2,7 @@
 <HelpKI>
 
   <HelpKINode Title="ActualKVA property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" />
+  <HelpKINode Title="ActualKVAPhased property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVAPhased.htm" />
   <HelpKINode Title="AdaptiveGradient class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
   <HelpKINode Title="AdaptiveGradient class" Url="html/T_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient.htm" />
   <HelpKINode Title="AdaptiveGradient class">
@@ -59,7 +60,10 @@
   <HelpKINode Title="AdaptiveGradientStop.AdaptiveGradientStop constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop__ctor.htm" />
   <HelpKINode Title="AdaptiveGradientStop.Anchor property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
   <HelpKINode Title="AdaptiveGradientStop.Color property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" />
+  <HelpKINode Title="Add method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Add.htm" />
   <HelpKINode Title="Add method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
+  <HelpKINode Title="Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Add.htm" />
+  <HelpKINode Title="Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Add.htm" />
   <HelpKINode Title="Anchor property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
   <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" />
   <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" />
@@ -68,6 +72,7 @@
   <HelpKINode Title="AutoDataReset method" Url="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" />
   <HelpKINode Title="AutoMax property" Url="html/P_ElecNetKit_Util_Limits_AutoMax.htm" />
   <HelpKINode Title="AutoMin property" Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
+  <HelpKINode Title="basePhased field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_basePhased.htm" />
   <HelpKINode Title="BaseVoltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
   <HelpKINode Title="BlueBlackRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" />
   <HelpKINode Title="BlueRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" />
@@ -79,15 +84,18 @@
   <HelpKINode Title="Bus class">
     <HelpKINode Title="about Bus class" Url="html/T_ElecNetKit_NetworkModelling_Bus.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Bus.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Bus.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Bus.htm" />
   </HelpKINode>
   <HelpKINode Title="Bus.BaseVoltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
-  <HelpKINode Title="Bus.Bus constructor" Url="html/M_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
+  <HelpKINode Title="Bus.Bus constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Bus__ctor.htm" />
   <HelpKINode Title="Bus.Location property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" />
+  <HelpKINode Title="Bus.OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_Bus_OnDeserialization.htm" />
   <HelpKINode Title="Bus.Voltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" />
+  <HelpKINode Title="Bus.VoltagePhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePhased.htm" />
   <HelpKINode Title="Bus.VoltagePU property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
+  <HelpKINode Title="Bus.VoltagePUPhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePUPhased.htm" />
   <HelpKINode Title="BusColorGradient property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorGradient.htm" />
   <HelpKINode Title="BusColorTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusColorTransform.htm" />
   <HelpKINode Title="Buses property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Buses.htm" />
@@ -96,7 +104,32 @@
   <HelpKINode Title="BusSizeMin property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeMin.htm" />
   <HelpKINode Title="BusSizeTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusSizeTransform.htm" />
   <HelpKINode Title="BusVisibleTransform property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BusVisibleTransform.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated(Of TFrom, T) class">
+    <HelpKINode Title="about CachedPhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated(Of TFrom, T).CachedPhasedReadOnlyEvaluated constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2__ctor.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated(Of TFrom, T).CacheTransform method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2_CacheTransform.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class">
+    <HelpKINode Title="about CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt;.CachedPhasedReadOnlyEvaluated constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2__ctor.htm" />
+  <HelpKINode Title="CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt;.CacheTransform method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2_CacheTransform.htm" />
   <HelpKINode Title="CacheNetwork property" Url="html/P_ElecNetKit_Simulator_NetworkController_CacheNetwork.htm" />
+  <HelpKINode Title="CacheTransform method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2_CacheTransform.htm" />
   <HelpKINode Title="ChainExperimentor class" Url="html/AllMembers_T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
   <HelpKINode Title="ChainExperimentor class" Url="html/T_ElecNetKit_Experimentation_ChainExperimentor.htm" />
   <HelpKINode Title="ChainExperimentor class">
@@ -109,13 +142,45 @@
   <HelpKINode Title="ChainExperimentor.ChainExperimentor constructor" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" />
   <HelpKINode Title="ChainExperimentor.Experiment method" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
   <HelpKINode Title="ChainExperimentor.Experimentors property" Url="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Clear.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Clear.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Clear.htm" />
   <HelpKINode Title="ClearNetworkCache method" Url="html/M_ElecNetKit_Simulator_NetworkController_ClearNetworkCache.htm" />
   <HelpKINode Title="Color property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Color.htm" />
+  <HelpKINode Title="ComplexExtensions class" Url="html/AllMembers_T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+  <HelpKINode Title="ComplexExtensions class" Url="html/T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+  <HelpKINode Title="ComplexExtensions class">
+    <HelpKINode Title="about ComplexExtensions class" Url="html/T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComplexExtensions.Sum method" Url="html/M_ElecNetKit_Convenience_ComplexExtensions_Sum.htm" />
   <HelpKINode Title="Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" />
+  <HelpKINode Title="Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerConversionElement_Connect.htm" />
+  <HelpKINode Title="Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect.htm" />
+  <HelpKINode Title="Connect3Phase method" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect3Phase.htm" />
+  <HelpKINode Title="ConnectBetween method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_ConnectBetween.htm" />
+  <HelpKINode Title="ConnectedOnAllActivePhases property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedOnAllActivePhases.htm" />
   <HelpKINode Title="ConnectedTo property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" />
+  <HelpKINode Title="ConnectedToAnyPhase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToAnyPhase.htm" />
+  <HelpKINode Title="ConnectedToPhased property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToPhased.htm" />
+  <HelpKINode Title="ConnectionExists method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_ConnectionExists.htm" />
+  <HelpKINode Title="ConnectWye method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerConversionElement_ConnectWye.htm" />
+  <HelpKINode Title="Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Contains.htm" />
+  <HelpKINode Title="Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Contains.htm" />
+  <HelpKINode Title="Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Contains.htm" />
+  <HelpKINode Title="ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_ContainsKey.htm" />
+  <HelpKINode Title="ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_ContainsKey.htm" />
   <HelpKINode Title="ContainsKey method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKey.htm" />
   <HelpKINode Title="ContainsKeyX method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyX.htm" />
   <HelpKINode Title="ContainsKeyY method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_ContainsKeyY.htm" />
+  <HelpKINode Title="CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_CopyTo.htm" />
+  <HelpKINode Title="Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Count.htm" />
+  <HelpKINode Title="Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Count.htm" />
+  <HelpKINode Title="Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Count.htm" />
+  <HelpKINode Title="Count property" Url="html/P_ElecNetKit_Util_Limits_Count.htm" />
   <HelpKINode Title="DifferenceTransform class" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
   <HelpKINode Title="DifferenceTransform class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm" />
   <HelpKINode Title="DifferenceTransform class">
@@ -145,6 +210,9 @@
   <HelpKINode Title="DrawingVisualSerialisers.LoadVisualFromByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
   <HelpKINode Title="DrawingVisualSerialisers.SaveVisualToByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
   <HelpKINode Title="DrawLines method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" />
+  <HelpKINode Title="ElecNetKit.Convenience namespace" Url="html/N_ElecNetKit_Convenience.htm" />
+  <HelpKINode Title="ElecNetKit.Convenience.ComplexExtensions class" Url="html/AllMembers_T_ElecNetKit_Convenience_ComplexExtensions.htm" />
+  <HelpKINode Title="ElecNetKit.Convenience.ComplexExtensions class" Url="html/T_ElecNetKit_Convenience_ComplexExtensions.htm" />
   <HelpKINode Title="ElecNetKit.Engines namespace" Url="html/N_ElecNetKit_Engines.htm" />
   <HelpKINode Title="ElecNetKit.Engines.OpenDSSSimulator class" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
   <HelpKINode Title="ElecNetKit.Engines.OpenDSSSimulator class" Url="html/T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
@@ -213,8 +281,37 @@
   <HelpKINode Title="ElecNetKit.NetworkModelling.Load class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElement class" Url="html/T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElementConnection structure" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkElementConnection structure" Url="html/T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkModel class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing namespace" Url="html/N_ElecNetKit_NetworkModelling_Phasing.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.CachedPhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_CachedPhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.Phased(Of T) interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.Phased&lt;T&gt; interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated(Of TFrom, TTo) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated(Of TFrom, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated&lt;TFrom, TTo&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedEvaluated&lt;TFrom, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedValues(Of T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedValues(Of T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedValues&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.PhasedValues&lt;T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.QueryableCollection(Of TBase, TTo) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.QueryableCollection(Of TBase, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.QueryableCollection&lt;TBase, TTo&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.Phasing.QueryableCollection&lt;TBase, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.PowerConversionElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.PowerConversionElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.PowerDeliveryElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+  <HelpKINode Title="ElecNetKit.NetworkModelling.PowerDeliveryElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm" />
   <HelpKINode Title="ElecNetKit.Simulator namespace" Url="html/N_ElecNetKit_Simulator.htm" />
@@ -236,7 +333,10 @@
   <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
   <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
   <HelpKINode Title="ElecNetKit.Util.TwinKeyDictionary&lt;TKeyX, TKeyY, TValue&gt; class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
+  <HelpKINode Title="Element property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Element.htm" />
   <HelpKINode Title="ElementType property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" />
+  <HelpKINode Title="Equality operator" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_op_Equality.htm" />
+  <HelpKINode Title="Equals method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElementConnection_Equals.htm" />
   <HelpKINode Title="Execute method" Url="html/M_ElecNetKit_Simulator_NetworkController_Execute.htm" />
   <HelpKINode Title="Experiment method" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
   <HelpKINode Title="Experiment method" Url="html/M_ElecNetKit_Experimentation_IExperimentor_Experiment.htm" />
@@ -262,27 +362,35 @@
   <HelpKINode Title="FeederProfileGraph.SelectedElement property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
   <HelpKINode Title="FindNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" />
   <HelpKINode Title="Generation property" Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
+  <HelpKINode Title="GenerationPhased property" Url="html/P_ElecNetKit_NetworkModelling_Generator_GenerationPhased.htm" />
   <HelpKINode Title="Generator class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
   <HelpKINode Title="Generator class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm" />
   <HelpKINode Title="Generator class">
     <HelpKINode Title="about Generator class" Url="html/T_ElecNetKit_NetworkModelling_Generator.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Generator.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Generator.htm" />
   </HelpKINode>
   <HelpKINode Title="Generator.Generation property" Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
-  <HelpKINode Title="Generator.Generator constructor" Url="html/M_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
+  <HelpKINode Title="Generator.GenerationPhased property" Url="html/P_ElecNetKit_NetworkModelling_Generator_GenerationPhased.htm" />
+  <HelpKINode Title="Generator.Generator constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Generator__ctor.htm" />
   <HelpKINode Title="Generators property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Generators.htm" />
   <HelpKINode Title="GetDirectLengthBetweenBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_GetDirectLengthBetweenBuses.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_GetEnumerator.htm" />
   <HelpKINode Title="GetGridSpacings method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacer_GetGridSpacings.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_GetHashCode.htm" />
   <HelpKINode Title="GetNetworkModel method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" />
   <HelpKINode Title="GetNetworkModel method" Url="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" />
   <HelpKINode Title="GetNextValue method" Url="html/M_ElecNetKit_Util_NormalDist_GetNextValue.htm" />
   <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_GetObjectAtLocation.htm" />
   <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_IElementLocatable_GetObjectAtLocation.htm" />
   <HelpKINode Title="GetObjectAtLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_GetObjectAtLocation.htm" />
+  <HelpKINode Title="GetObjectData method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1_GetObjectData.htm" />
   <HelpKINode Title="GetTicks method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" />
+  <HelpKINode Title="getTransform field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_getTransform.htm" />
   <HelpKINode Title="GetVisualChild method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" />
   <HelpKINode Title="GetZ method" Url="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" />
   <HelpKINode Title="Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" />
@@ -352,6 +460,7 @@
   <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_ImgCoords.htm" />
   <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_INetworkGraph_ImgCoords.htm" />
   <HelpKINode Title="ImgCoords property" Url="html/P_ElecNetKit_Graphing_TreeGraph_ImgCoords.htm" />
+  <HelpKINode Title="Inequality operator" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_op_Inequality.htm" />
   <HelpKINode Title="INetworkGraph interface" Url="html/AllMembers_T_ElecNetKit_Graphing_INetworkGraph.htm" />
   <HelpKINode Title="INetworkGraph interface" Url="html/T_ElecNetKit_Graphing_INetworkGraph.htm" />
   <HelpKINode Title="INetworkGraph interface">
@@ -392,6 +501,13 @@
   <HelpKINode Title="ISimulator.GetNetworkModel method" Url="html/M_ElecNetKit_Simulator_ISimulator_GetNetworkModel.htm" />
   <HelpKINode Title="ISimulator.PrepareNetwork method" Url="html/M_ElecNetKit_Simulator_ISimulator_PrepareNetwork.htm" />
   <HelpKINode Title="ISimulator.RunCommand method" Url="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_IsReadOnly.htm" />
+  <HelpKINode Title="Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Item.htm" />
+  <HelpKINode Title="Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Item.htm" />
+  <HelpKINode Title="Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Keys.htm" />
+  <HelpKINode Title="Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Keys.htm" />
   <HelpKINode Title="Length property" Url="html/P_ElecNetKit_NetworkModelling_Line_Length.htm" />
   <HelpKINode Title="LimitMax property" Url="html/P_ElecNetKit_Util_Limits_LimitMax.htm" />
   <HelpKINode Title="LimitMin property" Url="html/P_ElecNetKit_Util_Limits_LimitMin.htm" />
@@ -407,6 +523,7 @@
   <HelpKINode Title="Limits.AutoDataReset method" Url="html/M_ElecNetKit_Util_Limits_AutoDataReset.htm" />
   <HelpKINode Title="Limits.AutoMax property" Url="html/P_ElecNetKit_Util_Limits_AutoMax.htm" />
   <HelpKINode Title="Limits.AutoMin property" Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
+  <HelpKINode Title="Limits.Count property" Url="html/P_ElecNetKit_Util_Limits_Count.htm" />
   <HelpKINode Title="Limits.LimitMax property" Url="html/P_ElecNetKit_Util_Limits_LimitMax.htm" />
   <HelpKINode Title="Limits.LimitMin property" Url="html/P_ElecNetKit_Util_Limits_LimitMin.htm" />
   <HelpKINode Title="Limits.Limits constructor" Url="html/M_ElecNetKit_Util_Limits__ctor.htm" />
@@ -431,12 +548,13 @@
   <HelpKINode Title="Load class">
     <HelpKINode Title="about Load class" Url="html/T_ElecNetKit_NetworkModelling_Load.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Load.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Load__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Load.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Load.htm" />
   </HelpKINode>
   <HelpKINode Title="Load.ActualKVA property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVA.htm" />
-  <HelpKINode Title="Load.Load constructor" Url="html/M_ElecNetKit_NetworkModelling_Load__ctor.htm" />
+  <HelpKINode Title="Load.ActualKVAPhased property" Url="html/P_ElecNetKit_NetworkModelling_Load_ActualKVAPhased.htm" />
+  <HelpKINode Title="Load.Load constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Load__ctor.htm" />
   <HelpKINode Title="Loads property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_Loads.htm" />
   <HelpKINode Title="LoadVisualFromByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
   <HelpKINode Title="Location property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Location.htm" />
@@ -542,11 +660,35 @@
     <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElement.htm" />
   </HelpKINode>
   <HelpKINode Title="NetworkElement.Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Connect.htm" />
+  <HelpKINode Title="NetworkElement.ConnectBetween method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_ConnectBetween.htm" />
+  <HelpKINode Title="NetworkElement.ConnectedOnAllActivePhases property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedOnAllActivePhases.htm" />
   <HelpKINode Title="NetworkElement.ConnectedTo property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedTo.htm" />
+  <HelpKINode Title="NetworkElement.ConnectedToAnyPhase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToAnyPhase.htm" />
+  <HelpKINode Title="NetworkElement.ConnectedToPhased property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ConnectedToPhased.htm" />
+  <HelpKINode Title="NetworkElement.ConnectionExists method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_ConnectionExists.htm" />
   <HelpKINode Title="NetworkElement.Disconnect method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElement_Disconnect.htm" />
   <HelpKINode Title="NetworkElement.ElementType property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ElementType.htm" />
   <HelpKINode Title="NetworkElement.ID property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElement_ID.htm" />
   <HelpKINode Title="NetworkElement.NetworkElement constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement__ctor.htm" />
+  <HelpKINode Title="NetworkElement.OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_OnDeserialization.htm" />
+  <HelpKINode Title="NetworkElementConnection structure" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+  <HelpKINode Title="NetworkElementConnection structure" Url="html/T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+  <HelpKINode Title="NetworkElementConnection structure">
+    <HelpKINode Title="about NetworkElementConnection structure" Url="html/T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_NetworkElementConnection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkElementConnection.Element property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Element.htm" />
+  <HelpKINode Title="NetworkElementConnection.Equality operator" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_op_Equality.htm" />
+  <HelpKINode Title="NetworkElementConnection.Equals method" Url="html/Overload_ElecNetKit_NetworkModelling_NetworkElementConnection_Equals.htm" />
+  <HelpKINode Title="NetworkElementConnection.GetHashCode method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_GetHashCode.htm" />
+  <HelpKINode Title="NetworkElementConnection.Inequality operator" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_op_Inequality.htm" />
+  <HelpKINode Title="NetworkElementConnection.NetworkElementConnection constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection__ctor.htm" />
+  <HelpKINode Title="NetworkElementConnection.Phase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Phase.htm" />
+  <HelpKINode Title="NetworkElementConnection.ToString method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_ToString.htm" />
   <HelpKINode Title="NetworkFilename property" Url="html/P_ElecNetKit_Simulator_NetworkController_NetworkFilename.htm" />
   <HelpKINode Title="NetworkModel class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
   <HelpKINode Title="NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
@@ -586,6 +728,8 @@
   <HelpKINode Title="NormalDist.ToString method" Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
   <HelpKINode Title="NormalDist.Variance property" Url="html/P_ElecNetKit_Util_NormalDist_Variance.htm" />
   <HelpKINode Title="NumSamples property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" />
+  <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_Bus_OnDeserialization.htm" />
+  <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_OnDeserialization.htm" />
   <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
   <HelpKINode Title="OnPropertyChanged method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_OnPropertyChanged.htm" />
   <HelpKINode Title="OpenDSSSimulator class" Url="html/AllMembers_T_ElecNetKit_Engines_OpenDSSSimulator.htm" />
@@ -600,10 +744,162 @@
   <HelpKINode Title="OpenDSSSimulator.GetNetworkModel method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_GetNetworkModel.htm" />
   <HelpKINode Title="OpenDSSSimulator.OpenDSSSimulator constructor" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator__ctor.htm" />
   <HelpKINode Title="OpenDSSSimulator.PrepareNetwork method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
+  <HelpKINode Title="OpenDSSSimulator.ResolveOpenDSSBusString method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_ResolveOpenDSSBusString.htm" />
   <HelpKINode Title="OpenDSSSimulator.ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
   <HelpKINode Title="OpenDSSSimulator.RunCommand method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
+  <HelpKINode Title="Phase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Phase.htm" />
+  <HelpKINode Title="Phased(Of T) interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  <HelpKINode Title="Phased(Of T) interface">
+    <HelpKINode Title="about Phased(Of T) interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Phased&lt;T&gt; interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  <HelpKINode Title="Phased&lt;T&gt; interface">
+    <HelpKINode Title="about Phased&lt;T&gt; interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo) class">
+    <HelpKINode Title="about PhasedEvaluated(Of TFrom, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Add.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Clear.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Contains.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_ContainsKey.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Count.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Item.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Keys.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).PhasedEvaluated constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2__ctor.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Remove.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_TryGetValue.htm" />
+  <HelpKINode Title="PhasedEvaluated(Of TFrom, TTo).Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Values.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt; class">
+    <HelpKINode Title="about PhasedEvaluated&lt;TFrom, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Add.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Clear.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Contains.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_ContainsKey.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Count.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Item.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Keys.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.PhasedEvaluated constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2__ctor.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Remove.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_TryGetValue.htm" />
+  <HelpKINode Title="PhasedEvaluated&lt;TFrom, TTo&gt;.Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Values.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T) class">
+    <HelpKINode Title="about PhasedReadOnlyEvaluated(Of TFrom, T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Add.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).basePhased field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_basePhased.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Clear.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Contains.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_ContainsKey.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Count.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).getTransform field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_getTransform.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Item.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Keys.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).PhasedReadOnlyEvaluated constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2__ctor.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Remove.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_TryGetValue.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated(Of TFrom, T).Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Values.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class">
+    <HelpKINode Title="about PhasedReadOnlyEvaluated&lt;TFrom, T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Add.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.basePhased field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_basePhased.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Clear.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Contains.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.ContainsKey method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_ContainsKey.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_CopyTo.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Count.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_GetEnumerator.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.getTransform field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_getTransform.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_IsReadOnly.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Item property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Item.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Keys property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Keys.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.PhasedReadOnlyEvaluated constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2__ctor.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Remove.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_TryGetValue.htm" />
+  <HelpKINode Title="PhasedReadOnlyEvaluated&lt;TFrom, T&gt;.Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Values.htm" />
+  <HelpKINode Title="PhasedValues(Of T) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="PhasedValues(Of T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="PhasedValues(Of T) class">
+    <HelpKINode Title="about PhasedValues(Of T) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedValues(Of T).GetObjectData method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1_GetObjectData.htm" />
+  <HelpKINode Title="PhasedValues(Of T).PhasedValues constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor.htm" />
+  <HelpKINode Title="PhasedValues&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="PhasedValues&lt;T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  <HelpKINode Title="PhasedValues&lt;T&gt; class">
+    <HelpKINode Title="about PhasedValues&lt;T&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhasedValues&lt;T&gt;.GetObjectData method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1_GetObjectData.htm" />
+  <HelpKINode Title="PhasedValues&lt;T&gt;.PhasedValues constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor.htm" />
   <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" />
   <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" />
+  <HelpKINode Title="PowerConversionElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+  <HelpKINode Title="PowerConversionElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+  <HelpKINode Title="PowerConversionElement class">
+    <HelpKINode Title="about PowerConversionElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_PowerConversionElement__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PowerConversionElement.Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerConversionElement_Connect.htm" />
+  <HelpKINode Title="PowerConversionElement.ConnectWye method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerConversionElement_ConnectWye.htm" />
+  <HelpKINode Title="PowerConversionElement.PowerConversionElement constructor" Url="html/M_ElecNetKit_NetworkModelling_PowerConversionElement__ctor.htm" />
+  <HelpKINode Title="PowerDeliveryElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+  <HelpKINode Title="PowerDeliveryElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+  <HelpKINode Title="PowerDeliveryElement class">
+    <HelpKINode Title="about PowerDeliveryElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PowerDeliveryElement.Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect.htm" />
+  <HelpKINode Title="PowerDeliveryElement.Connect3Phase method" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect3Phase.htm" />
+  <HelpKINode Title="PowerDeliveryElement.PowerDeliveryElement constructor" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement__ctor.htm" />
   <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" />
   <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" />
   <HelpKINode Title="PrepareNetwork method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
@@ -618,14 +914,54 @@
   <HelpKINode Title="ProcessData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_ProcessData.htm" />
   <HelpKINode Title="ProcessData method" Url="html/Overload_ElecNetKit_Util_Limits_ProcessData.htm" />
   <HelpKINode Title="PropertyChanged event" Url="html/E_ElecNetKit_Graphing_Controls_VisualHost_PropertyChanged.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo) class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo) class">
+    <HelpKINode Title="about QueryableCollection(Of TBase, TTo) class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).Add method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Add.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Clear.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Contains.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_CopyTo.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Count.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_GetEnumerator.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_IsReadOnly.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).QueryableCollection constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2__ctor.htm" />
+  <HelpKINode Title="QueryableCollection(Of TBase, TTo).Remove method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Remove.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt; class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt; class">
+    <HelpKINode Title="about QueryableCollection&lt;TBase, TTo&gt; class" Url="html/T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Add method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Add.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Clear.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Contains method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Contains.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.CopyTo method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_CopyTo.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Count.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.GetEnumerator method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_GetEnumerator.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_IsReadOnly.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.QueryableCollection constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2__ctor.htm" />
+  <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Remove method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Remove.htm" />
   <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" />
   <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" />
+  <HelpKINode Title="Remove method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Remove.htm" />
   <HelpKINode Title="Remove method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Remove.htm" />
+  <HelpKINode Title="Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Remove.htm" />
+  <HelpKINode Title="Remove method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Remove.htm" />
   <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_Reset.htm" />
   <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_Reset.htm" />
   <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_MinValue_Reset.htm" />
   <HelpKINode Title="Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" />
   <HelpKINode Title="ResetAutoData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" />
+  <HelpKINode Title="ResolveOpenDSSBusString method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_ResolveOpenDSSBusString.htm" />
   <HelpKINode Title="ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
   <HelpKINode Title="ResultsTransformer property" Url="html/P_ElecNetKit_Simulator_NetworkController_ResultsTransformer.htm" />
   <HelpKINode Title="RingColor property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingColor.htm" />
@@ -656,6 +992,8 @@
   <HelpKINode Title="StaticValue.Reset method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue_Reset.htm" />
   <HelpKINode Title="StaticValue.StaticValue constructor" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_StaticValue__ctor.htm" />
   <HelpKINode Title="StdDev property" Url="html/P_ElecNetKit_Util_NormalDist_StdDev.htm" />
+  <HelpKINode Title="Sum method" Url="html/M_ElecNetKit_Convenience_ComplexExtensions_Sum.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_ToString.htm" />
   <HelpKINode Title="ToString method" Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
   <HelpKINode Title="TraceFromWithCallback method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceFromWithCallback.htm" />
   <HelpKINode Title="TraceWithoutCrossingBuses method" Url="html/M_ElecNetKit_NetworkModelling_Tracing_TraceWithoutCrossingBuses.htm" />
@@ -690,6 +1028,8 @@
   <HelpKINode Title="TreeGraph.TreeGraph constructor" Url="html/M_ElecNetKit_Graphing_TreeGraph__ctor.htm" />
   <HelpKINode Title="TreeGraph.UnscaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledLocation.htm" />
   <HelpKINode Title="TreeGraph.UnscaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" />
+  <HelpKINode Title="TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_TryGetValue.htm" />
+  <HelpKINode Title="TryGetValue method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_TryGetValue.htm" />
   <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/AllMembers_T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
   <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class" Url="html/T_ElecNetKit_Util_TwinKeyDictionary_3.htm" />
   <HelpKINode Title="TwinKeyDictionary(Of TKeyX, TKeyY, TValue) class">
@@ -736,6 +1076,8 @@
   <HelpKINode Title="UnscaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_UnscaledRectangle.htm" />
   <HelpKINode Title="UpdateNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_UpdateNetworkBounds.htm" />
   <HelpKINode Title="UpperLimit property" Url="html/P_ElecNetKit_Graphing_Util_MagicGridSpacings_UpperLimit.htm" />
+  <HelpKINode Title="Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Values.htm" />
+  <HelpKINode Title="Values property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Values.htm" />
   <HelpKINode Title="ValueScaledToLimits method" Url="html/M_ElecNetKit_Util_Limits_ValueScaledToLimits.htm" />
   <HelpKINode Title="ValueTransformableTreeGraph class" Url="html/AllMembers_T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
   <HelpKINode Title="ValueTransformableTreeGraph class" Url="html/T_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph.htm" />
@@ -788,5 +1130,7 @@
   <HelpKINode Title="VisualHost.VisualChildrenCount property" Url="html/P_ElecNetKit_Graphing_Controls_VisualHost_VisualChildrenCount.htm" />
   <HelpKINode Title="VisualHost.VisualHost constructor" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost__ctor.htm" />
   <HelpKINode Title="Voltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_Voltage.htm" />
+  <HelpKINode Title="VoltagePhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePhased.htm" />
   <HelpKINode Title="VoltagePU property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
+  <HelpKINode Title="VoltagePUPhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePUPhased.htm" />
 </HelpKI>
