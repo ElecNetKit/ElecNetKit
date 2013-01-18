@@ -9,6 +9,7 @@ using ElecNetKit.NetworkModelling;
 using ElecNetKit.Util;
 using ElecNetKit.Simulator;
 using System.Numerics;
+using ElecNetKit.NetworkModelling.Phasing;
 
 namespace ElecNetKit.Engines
 {
@@ -92,20 +93,26 @@ namespace ElecNetKit.Engines
             OpenDSSengine.Circuit circuit = dss.ActiveCircuit;
             for (int busIdx = 0; busIdx < circuit.NumBuses; busIdx++)
             {
-                //voltages are stored in OpenDSS as a double[6].
-                // the numbers are stored in complex pairs, for positive,
-                // negative and zero sequence.
-                var voltage = circuit.Buses[busIdx].Voltages;
+                var bus = circuit.Buses[busIdx];
+                // voltages are stored in OpenDSS as a double[2n], where n is the number of phases.
+                // the numbers are stored in complex pairs per phase.
+                var rawVoltage = bus.Voltages;
 
-                String busID = circuit.Buses[busIdx].Name;
+                String busID = bus.Name;
+                var phases = (int[])bus.Nodes;
+                PhasedValues<Complex> voltages = new PhasedValues<Complex>();
+                for (int i = 0; i < phases.Length; i++)
+                {
+                    voltages[phases[i]] = new Complex(rawVoltage[2 * i], rawVoltage[2 * i + 1]);
+                }
 
                 //NOTE NEGATIVE FOR THE BUS Y AXIS. The Y coordinate used
                 // by openDSS is opposite to that used in .net. So flip
                 // it here.
                 results.Add(busID, new Bus(busID,
-                                            new Complex(voltage[0], voltage[1]),
-                                            circuit.Buses[busIdx].kVBase * 1000,
-                                            circuit.Buses[busIdx].Coorddefined ? (Point?)new Point(circuit.Buses[busIdx].x, -circuit.Buses[busIdx].y) : null
+                                            voltages,
+                                            bus.kVBase * 1000,
+                                            bus.Coorddefined ? (Point?)new Point(bus.x, -bus.y) : null
                                           )
                             );
             }
@@ -136,20 +143,13 @@ namespace ElecNetKit.Engines
             do
             {
                 Line line = new Line(lines.Name, lines.Length);
-                String bus;
-                bus = lines.Bus1;
-                if (bus.Contains('.'))
-                    bus = bus.Substring(0, bus.IndexOf('.'));
-                if (Buses.ContainsKey(bus))
+
+                var bus1 = ResolveOpenDSSBusString(lines.Bus1, lines.Phases);
+                var bus2 = ResolveOpenDSSBusString(lines.Bus2, lines.Phases);
+                
+                if (Buses.ContainsKey(bus1.Item1) && Buses.ContainsKey(bus2.Item1))
                 {
-                    line.Connect(Buses[bus]);
-                }
-                bus = lines.Bus2;
-                if (bus.Contains('.'))
-                    bus = bus.Substring(0, bus.IndexOf('.'));
-                if (Buses.ContainsKey(bus))
-                {
-                    line.Connect(Buses[bus]);
+                    line.Connect(Buses[bus1.Item1], bus1.Item2, Buses[bus2.Item1], bus2.Item2);
                 }
                 results.Add(line);
             } while (lines.Next != 0);
@@ -167,7 +167,7 @@ namespace ElecNetKit.Engines
             Collection<Load> results = new Collection<Load>();
             String[] loads = dss.ActiveCircuit.Loads.AllNames;
 
-            //more OpenDSS quirk handling. if there are no generators, OpenDSS returns
+            //more OpenDSS quirk handling. if there are no loads, OpenDSS returns
             // an array of length 1 with the item "NONE". go figure.
             if (loads[0] == "NONE")
             {
@@ -178,18 +178,53 @@ namespace ElecNetKit.Engines
             foreach (String loadName in loads)
             {
                 var dssLoad = dss.ActiveCircuit.CktElements["load." + loadName];
-                String busID = (String)dssLoad.Properties["bus1"].Val;
-                double kW = double.Parse(dssLoad.Properties["kW"].Val);
-                double kvar = double.Parse(dssLoad.Properties["kvar"].Val);
-
-                Load load = new Load(loadName, new Complex(kW, kvar));
-                if (Buses.ContainsKey(busID))
+                if (!dssLoad.Enabled)
+                    continue;
+                var rawPowers = (double[])dssLoad.Powers;
+                var powers = new PhasedValues<Complex>();
+                for (int i = 0; i < dssLoad.NumPhases; i++)
                 {
-                    load.Connect(Buses[busID]);
+                    powers[i + 1] = new Complex(rawPowers[2*i], rawPowers[2*i + 1]);
+                }
+
+                Load load = new Load(loadName, powers);
+
+                var busConnectionInfo = ResolveOpenDSSBusString((String)dssLoad.BusNames[0], dssLoad.NumPhases);
+                if (Buses.ContainsKey(busConnectionInfo.Item1))
+                {
+                    load.ConnectWye(Buses[busConnectionInfo.Item1],powers.Keys,busConnectionInfo.Item2);
                 }
                 results.Add(load);
             }
             return results;
+        }
+
+        /// <summary>
+        /// Translates an OpenDSS bus connection string into a bus ID and a set of phases.
+        /// </summary>
+        /// <param name="busConnString">The bus connection string from OpenDSS.</param>
+        /// <param name="numPhases"></param>
+        /// <returns></returns>
+        protected static Tuple<String, List<int>> ResolveOpenDSSBusString(String busConnString, int numPhases)
+        {
+            var parts = busConnString.Split('.');
+            List<int> phases;
+            //parts[0] is always the actual bus name, the rest is phasing.
+            if (parts.Length == 0)
+                throw new Exception();
+
+            phases = parts.Skip(1).Take(numPhases).Select(phaseStr => int.Parse(phaseStr)).ToList();
+
+            while (phases.Count < numPhases)
+            {
+                var autoFillPhase = (phases.Count > 0) ? phases[phases.Count - 1] + 1 : 1;
+                
+                if (autoFillPhase > 3)
+                    autoFillPhase = 1;
+                
+                phases.Add(autoFillPhase);
+            }
+            return new Tuple<String, List<int>>(parts[0], phases);
         }
 
         /// <summary>
@@ -211,17 +246,22 @@ namespace ElecNetKit.Engines
             //loop through the generators, connect the appropriate buses and add them.
             foreach (String generatorName in generators)
             {
-
-
-                OpenDSSengine.CktElement dss_generator_reference = dss.ActiveCircuit.CktElements["generator." + generatorName];
-                String busID = (String)dss_generator_reference.Properties["bus1"].Val;
-                double[] powers = dss_generator_reference.Powers;
-                Complex dss_gen_amount = new Complex(-(powers[0] + powers[2] + powers[4]), -(powers[1] + powers[3] + powers[5]));
-
-                Generator gen = new Generator(generatorName, dss_gen_amount);
-                if (Buses.ContainsKey(busID))
+                var dssGenerator = dss.ActiveCircuit.CktElements["generator." + generatorName];
+                if (!dssGenerator.Enabled)
+                    continue;
+                var rawPowers = (double[])dssGenerator.Powers;
+                var powers = new PhasedValues<Complex>();
+                for (int i = 0; i < dssGenerator.NumPhases; i++)
                 {
-                    gen.Connect(Buses[busID]);
+                    powers[i + 1] = new Complex(-rawPowers[2 * i], -rawPowers[2 * i + 1]);
+                }
+                Generator gen = new Generator(generatorName, powers);
+
+
+                var busConnectionInfo = ResolveOpenDSSBusString((String)dssGenerator.BusNames[0], dssGenerator.NumPhases);
+                if (Buses.ContainsKey(busConnectionInfo.Item1))
+                {
+                    gen.ConnectWye(Buses[busConnectionInfo.Item1], powers.Keys, busConnectionInfo.Item2);
                 }
                 results.Add(gen);
             }
