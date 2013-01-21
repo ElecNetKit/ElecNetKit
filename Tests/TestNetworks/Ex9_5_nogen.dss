@@ -1,0 +1,47 @@
+clear
+!need to define a new circuit to set the base frequency. go figure.
+new circuit.mycktname
+set defaultbasefrequency=60
+set basefrequency=60
+clear
+
+!Pretty much an ideal voltage source.
+new circuit.Ex9_5 basekv=230 Bus1=b1 pu=1.00 R1=0.0001 X1=0.0001 R0=0.0001 basefreq=60 frequency=60
+
+!the r1 and x1 quantities come from pu values x Zbase.
+! Sbase = 100 MVA, Vbase = 230 kV, Zbase = 529 (Vbase^2/Sbase)
+
+new linecode.A nphases=3 r1=(0.01008 529 *) x1=(0.05040 529 *) c1=(513.9691767 1 *) units=km basefreq=60
+new linecode.B nphases=3 r1=(0.00744 529 *) x1=(0.03720 529 *) c1=(388.6108409 1 *) units=km basefreq=60
+new linecode.C nphases=3 r1=(0.01272 529 *) x1=(0.06360 529 *) c1=(639.3275124 1 *) units=km basefreq=60
+
+!new linecode.zero nphases=3 r1=0.0001 x1=0.0001 units=km basefreq=60
+
+!new line.b0-b1 bus1=b0 bus2=b1 phases=3 linecode=zero length=1 units=km
+
+new line.b1-b2 bus1=b1 bus2=b2 phases=3 linecode=A length=1 units=km
+new line.b1-b3 bus1=b1 bus2=b3 phases=3 linecode=B length=1 units=km
+new line.b2-b4 bus1=b2 bus2=b4 phases=3 linecode=B length=1 units=km
+new line.b3-b4 bus1=b3 bus2=b4 phases=3 linecode=C length=1 units=km
+
+new load.l-b1 bus1=b1 phases=3 kV=230 kW=50000 kVAr=30990 status=fixed Vminpu=0.8 Vmaxpu=1.2
+new load.l-b2 bus1=b2 phases=3 kV=230 kW=170000 kVAr=105350 status=fixed Vminpu=0.8 Vmaxpu=1.2
+new load.l-b3 bus1=b3 phases=3 kV=230 kW=200000 kVAr=123940 status=fixed Vminpu=0.8 Vmaxpu=1.2
+new load.l-b4 bus1=b4 phases=3 kV=230 kW=150000 kVAr=49580 status=fixed Vminpu=0.8 Vmaxpu=1.2
+
+!Add meters on the immediately connected lines so we can measure everything.
+new energymeter.meter1 element=line.b1-b2 terminal=1
+new energymeter.meter2 element=line.b1-b3 terminal=1
+new monitor.mon1 element=line.b1-b2  terminal=1  mode=0  action=save basefreq=60
+new monitor.mon2 element=line.b1-b3  terminal=1  mode=0  action=save basefreq=60
+
+
+Set MaxIter=200
+Set VoltageBases=(230)
+CalcVoltageBases
+
+!Set CktModel=Positive
+Set Tolerance=1e-7 !same as manual load-flow
+solve mode=snap
+
+buscoords Ex9_5_coords.dss

@@ -60,6 +60,7 @@
     <Compile Include="NetworkConnectionTests.cs" />
     <Compile Include="EvaluatedPhasedTests.cs" />
     <Compile Include="OpenDSSTests.cs" />
+    <Compile Include="Sensitivities\SensitivityGeneratorTests.cs" />
     <Compile Include="Util\Limits.cs" />
     <Compile Include="QuickSerialisers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,12 +74,19 @@
       <Project>{f522e1f7-b15c-4b21-9ec2-f941f0998a0b}</Project>
       <Name>ElecNetKit.Engines.OpenDSS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sensitivities\ElecNetKit.Sensitivities.csproj">
+      <Project>{ee71bb1e-9bf6-40b9-94d3-a41d5367a051}</Project>
+      <Name>ElecNetKit.Sensitivities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="TestNetworks\Ex9_5.dss">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="TestNetworks\Ex9_5_coords.dss">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestNetworks\Ex9_5_nogen.dss">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="TestNetworks\Ex9_5_unbal.dss">
