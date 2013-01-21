@@ -49,9 +49,15 @@ namespace ElecNetKit.Simulator
 
         /// <summary>
         /// A flag indicating, if set, that the <see cref="NetworkController"/> should
-        /// only ever calculate the pre-experiment network once.
+        /// only ever obtain the pre-experiment network from the simulator once.
         /// Default value is <c>true</c>.
         /// </summary>
+        /// <remarks>Note that setting <see cref="CacheNetwork"/> to <c>true</c> will
+        /// not persist the modifications made after experimentation. <see cref="CacheNetwork"/>
+        /// is only designed to be used for performance improvement. If you wish to
+        /// combine multiple experiments into one, use <see cref="ChainExperimentor"/>
+        /// instead.
+        /// </remarks>
         public bool CacheNetwork { set; get; }
 
         /// <summary>
@@ -71,6 +77,7 @@ namespace ElecNetKit.Simulator
         public NetworkController(ISimulator sim)
         {
             simulator = sim;
+            CacheNetwork = true;
         }
 
         /// <summary>
@@ -80,9 +87,10 @@ namespace ElecNetKit.Simulator
         /// </summary>
         public void Execute()
         {
+            simulator.PrepareNetwork(NetworkFilename);
+
             if (!CacheNetwork || _initialNetwork == null)
             {
-                simulator.PrepareNetwork(NetworkFilename);
                 _initialNetwork = simulator.GetNetworkModel();
                 Network = _initialNetwork;
             }
