@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace ElecNetKit.Sensitivities
 {
+    /// <summary>
+    /// Runs experiment commands obtained by applying <see cref="String.Format(String,Object[])"/>
+    /// with values specified in <see cref="ExperimentValues"/> to the commands
+    /// specified in <see cref="ExperimentCommands"/>.
+    /// </summary>
     class StringFormatExperimentor : IExperimentor
     {
         public IEnumerable<String> ExperimentCommands { set; get; }
