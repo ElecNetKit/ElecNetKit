@@ -105,8 +105,9 @@ namespace ElecNetKit.Sensitivities
         public void RunPerturbAndObserve()
         {
             controller.NetworkFilename = NetworkMasterFile;
+            controller.ClearNetworkCache();
             controller.CacheNetwork = true;
-
+            controller.ExperimentDriver = null;
             //hook this in here so we can capture the no-change state.
             var observeTransform = new ObserveResultsTransform<TObserve>(ObserveElementQuery, ObserveElementValuesQuery);
             controller.ResultsTransformer = observeTransform;
