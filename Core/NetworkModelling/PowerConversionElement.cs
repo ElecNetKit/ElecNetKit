@@ -62,7 +62,7 @@ namespace ElecNetKit.NetworkModelling
         /// <summary>
         /// Connects this <see cref="PowerConversionElement"/> to a <see cref="Bus"/>.
         /// This is the connection method for three-phase balanced networks. Use
-        /// <see cref="O:ConnectWye"/> and <see cref="Connect(int,Bus,int)"/>
+        /// <see cref="O:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye" /> and <see cref="Connect(int,Bus,int)"/>
         /// for arbitrarily-phased networks.
         /// </summary>
         /// <param name="connectTo">The <see cref="Bus"/> to connect to.</param>
