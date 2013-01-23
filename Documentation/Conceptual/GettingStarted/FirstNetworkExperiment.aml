@@ -39,7 +39,10 @@
         <step>
           <content>
             <para>
-              Add the following references (either from local copies, with <ui>Project | Add Reference...</ui> or with <link xlink:href="http://nuget.org/">NuGet</link>, using <ui>Project | Manage NuGet Packages...</ui>):
+              Add the following references (either from local copies, with <ui>Project | Add Reference...</ui> or with <externalLink>
+                <linkText>NuGet</linkText>
+                <linkUri>http://nuget.org/</linkUri>
+              </externalLink>, using <ui>Project | Manage NuGet Packages...</ui>):
             </para>
             <list class="bullet">
               <listItem>
@@ -123,7 +126,10 @@
           <list class="nobullet">
             <listItem>
               <para>
-                Using either <ui>NuGet</ui> or <ui>Project | Add References...</ui>:
+                Using either <externalLink>
+                <linkText>NuGet</linkText>
+                <linkUri>http://nuget.org/</linkUri>
+              </externalLink> or <ui>Project | Add References...</ui>:
               </para>
               <list class="bullet">
                 <listItem>

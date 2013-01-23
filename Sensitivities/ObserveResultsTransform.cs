@@ -31,9 +31,17 @@ namespace ElecNetKit.Sensitivities
             this.ObserveStrategy = ObserveStrategy;
         }
 
-        Func<NetworkModel, IEnumerable<NetworkElement>> ChooseElementsStrategy;
+        /// <summary>
+        /// A function defining the network elements that
+        /// should be examined.
+        /// </summary>
+        public Func<NetworkModel, IEnumerable<NetworkElement>> ChooseElementsStrategy { private set; get; }
 
-        Func<NetworkElement, T> ObserveStrategy;
+        /// <summary>
+        /// A function that returns a value of type <typeparamref name="T"/>
+        /// for each element specified by <see cref="ChooseElementsStrategy"/>.
+        /// </summary>
+        public Func<NetworkElement, T> ObserveStrategy { private set; get; }
 
         /// <summary>
         /// The data obtained by watching the values specified by <see cref="ObserveStrategy"/>
@@ -43,7 +51,7 @@ namespace ElecNetKit.Sensitivities
         /// The keys in the <see cref="Dictionary{TKey,TValue}"/> returned by <see cref="WatchedElements"/>
         /// are <see cref="Tuple{T1,T2}"/>s, where <see cref="Tuple{T1,T2}.Item1"/> is the ID of the element,
         /// and <see cref="Tuple{T1,T2}.Item1"/> is the type of the element.</value>
-        public Dictionary<IDTypePair,T> WatchedElements {private set; get;}
+        public Dictionary<IDTypePair, T> WatchedElements { private set; get; }
 
         /// <inheritdoc />
         public void PreExperimentHook(NetworkModel Network)
@@ -61,7 +69,7 @@ namespace ElecNetKit.Sensitivities
 
             foreach (var elem in ChooseElementsStrategy(Network))
             {
-               results[new IDTypePair(elem.ID, elem.GetType())] = ObserveStrategy(elem);
+                results[new IDTypePair(elem.ID, elem.GetType())] = ObserveStrategy(elem);
             }
             WatchedElements = results;
         }

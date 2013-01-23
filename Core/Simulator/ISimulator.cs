@@ -27,7 +27,7 @@ namespace ElecNetKit.Simulator
         /// model from <paramref name="filename"/>, ready to be returned as a
         /// <see cref="NetworkModel"/> or experimented upon.
         /// </summary>
-        /// <param name="filename"></param>
+        /// <param name="filename">The filename of the network to prepare.</param>
         void PrepareNetwork(String filename);
 
         /// <summary>

@@ -148,7 +148,8 @@ namespace ElecNetKit.Graphing.Util
         /// Constructs a set of ticks between <see cref="LowerLimit"/> and <see cref="UpperLimit"/>
         /// and spaced by <see cref="Interval"/>.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>A set of ticks between <see cref="LowerLimit"/> and <see cref="UpperLimit"/>
+        /// and spaced by <see cref="Interval"/>.</returns>
         public double[] GetTicks()
         {
             double[] ticks = new double[(int)Math.Round((UpperLimit - LowerLimit) / Interval) + 1];
