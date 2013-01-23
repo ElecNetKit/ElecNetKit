@@ -64,6 +64,7 @@
   <HelpKINode Title="Add method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_Add.htm" />
   <HelpKINode Title="Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Add.htm" />
   <HelpKINode Title="Add method" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Add.htm" />
+  <HelpKINode Title="AfterValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_AfterValues.htm" />
   <HelpKINode Title="Anchor property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientStop_Anchor.htm" />
   <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_IAdaptiveGradientAnchor_AnchorValue.htm" />
   <HelpKINode Title="AnchorValue property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_MaxValue_AnchorValue.htm" />
@@ -74,6 +75,7 @@
   <HelpKINode Title="AutoMin property" Url="html/P_ElecNetKit_Util_Limits_AutoMin.htm" />
   <HelpKINode Title="basePhased field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_basePhased.htm" />
   <HelpKINode Title="BaseVoltage property" Url="html/P_ElecNetKit_NetworkModelling_Bus_BaseVoltage.htm" />
+  <HelpKINode Title="BeforeValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_BeforeValues.htm" />
   <HelpKINode Title="BlueBlackRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueBlackRedGradient.htm" />
   <HelpKINode Title="BlueRedGradient method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_BlueRedGradient.htm" />
   <HelpKINode Title="BuildGradientMap method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_BuildGradientMap.htm" />
@@ -142,6 +144,7 @@
   <HelpKINode Title="ChainExperimentor.ChainExperimentor constructor" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor__ctor.htm" />
   <HelpKINode Title="ChainExperimentor.Experiment method" Url="html/M_ElecNetKit_Experimentation_ChainExperimentor_Experiment.htm" />
   <HelpKINode Title="ChainExperimentor.Experimentors property" Url="html/P_ElecNetKit_Experimentation_ChainExperimentor_Experimentors.htm" />
+  <HelpKINode Title="ChooseElementsStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ChooseElementsStrategy.htm" />
   <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedEvaluated_2_Clear.htm" />
   <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Clear.htm" />
   <HelpKINode Title="Clear method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Clear.htm" />
@@ -181,6 +184,8 @@
   <HelpKINode Title="Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_Count.htm" />
   <HelpKINode Title="Count property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Count.htm" />
   <HelpKINode Title="Count property" Url="html/P_ElecNetKit_Util_Limits_Count.htm" />
+  <HelpKINode Title="dd_dP property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dd_dP.htm" />
+  <HelpKINode Title="dd_dQ property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dd_dQ.htm" />
   <HelpKINode Title="DifferenceTransform class" Url="html/AllMembers_T_ElecNetKit_Transform_DifferenceTransform.htm" />
   <HelpKINode Title="DifferenceTransform class" Url="html/T_ElecNetKit_Transform_DifferenceTransform.htm" />
   <HelpKINode Title="DifferenceTransform class">
@@ -210,6 +215,8 @@
   <HelpKINode Title="DrawingVisualSerialisers.LoadVisualFromByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_LoadVisualFromByteArray.htm" />
   <HelpKINode Title="DrawingVisualSerialisers.SaveVisualToByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
   <HelpKINode Title="DrawLines method" Url="html/M_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_DrawLines.htm" />
+  <HelpKINode Title="dV_dP property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dV_dP.htm" />
+  <HelpKINode Title="dV_dQ property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dV_dQ.htm" />
   <HelpKINode Title="ElecNetKit.Convenience namespace" Url="html/N_ElecNetKit_Convenience.htm" />
   <HelpKINode Title="ElecNetKit.Convenience.ComplexExtensions class" Url="html/AllMembers_T_ElecNetKit_Convenience_ComplexExtensions.htm" />
   <HelpKINode Title="ElecNetKit.Convenience.ComplexExtensions class" Url="html/T_ElecNetKit_Convenience_ComplexExtensions.htm" />
@@ -314,6 +321,23 @@
   <HelpKINode Title="ElecNetKit.NetworkModelling.PowerDeliveryElement class" Url="html/T_ElecNetKit_NetworkModelling_PowerDeliveryElement.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Tracing.htm" />
   <HelpKINode Title="ElecNetKit.NetworkModelling.Tracing class" Url="html/T_ElecNetKit_NetworkModelling_Tracing.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities namespace" Url="html/N_ElecNetKit_Sensitivities.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.ObserveResultsTransform(Of T) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.ObserveResultsTransform(Of T) class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.ObserveResultsTransform&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.ObserveResultsTransform&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.PerturbAndObserveRunner(Of TObserve) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.PerturbAndObserveRunner(Of TObserve) class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.PerturbAndObserveRunner&lt;TObserve&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.PerturbAndObserveRunner&lt;TObserve&gt; class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.SensitivityGenerator(Of T) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.SensitivityGenerator(Of T) class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.SensitivityGenerator&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.SensitivityGenerator&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.VoltageSensitivityToComplexPowerGenerator class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.VoltageSensitivityToComplexPowerGenerator class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.VoltageSensitivityToPQDataSet class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+  <HelpKINode Title="ElecNetKit.Sensitivities.VoltageSensitivityToPQDataSet class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
   <HelpKINode Title="ElecNetKit.Simulator namespace" Url="html/N_ElecNetKit_Simulator.htm" />
   <HelpKINode Title="ElecNetKit.Simulator.ISimulator interface" Url="html/AllMembers_T_ElecNetKit_Simulator_ISimulator.htm" />
   <HelpKINode Title="ElecNetKit.Simulator.ISimulator interface" Url="html/T_ElecNetKit_Simulator_ISimulator.htm" />
@@ -361,6 +385,7 @@
   <HelpKINode Title="FeederProfileGraph.PresentationMode property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_PresentationMode.htm" />
   <HelpKINode Title="FeederProfileGraph.SelectedElement property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
   <HelpKINode Title="FindNetworkBounds method" Url="html/M_ElecNetKit_NetworkModelling_NetworkModel_FindNetworkBounds.htm" />
+  <HelpKINode Title="GenerateSensitivities method" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1_GenerateSensitivities.htm" />
   <HelpKINode Title="Generation property" Url="html/P_ElecNetKit_NetworkModelling_Generator_Generation.htm" />
   <HelpKINode Title="GenerationPhased property" Url="html/P_ElecNetKit_NetworkModelling_Generator_GenerationPhased.htm" />
   <HelpKINode Title="Generator class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_Generator.htm" />
@@ -392,6 +417,7 @@
   <HelpKINode Title="GetTicks method" Url="html/M_ElecNetKit_Graphing_Util_MagicGridSpacings_GetTicks.htm" />
   <HelpKINode Title="getTransform field" Url="html/F_ElecNetKit_NetworkModelling_Phasing_PhasedReadOnlyEvaluated_2_getTransform.htm" />
   <HelpKINode Title="GetVisualChild method" Url="html/M_ElecNetKit_Graphing_Controls_VisualHost_GetVisualChild.htm" />
+  <HelpKINode Title="GetVoltageSensitivityToComplexPower method" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator_GetVoltageSensitivityToComplexPower.htm" />
   <HelpKINode Title="GetZ method" Url="html/M_ElecNetKit_Util_NormalDist_GetZ.htm" />
   <HelpKINode Title="Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHostWindow_Graph.htm" />
   <HelpKINode Title="Graph property" Url="html/P_ElecNetKit_Graphing_Controls_GraphHost_Graph.htm" />
@@ -689,6 +715,7 @@
   <HelpKINode Title="NetworkElementConnection.NetworkElementConnection constructor" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection__ctor.htm" />
   <HelpKINode Title="NetworkElementConnection.Phase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Phase.htm" />
   <HelpKINode Title="NetworkElementConnection.ToString method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElementConnection_ToString.htm" />
+  <HelpKINode Title="NetworkFilename property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_NetworkFilename.htm" />
   <HelpKINode Title="NetworkFilename property" Url="html/P_ElecNetKit_Simulator_NetworkController_NetworkFilename.htm" />
   <HelpKINode Title="NetworkModel class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
   <HelpKINode Title="NetworkModel class" Url="html/T_ElecNetKit_NetworkModelling_NetworkModel.htm" />
@@ -728,6 +755,39 @@
   <HelpKINode Title="NormalDist.ToString method" Url="html/M_ElecNetKit_Util_NormalDist_ToString.htm" />
   <HelpKINode Title="NormalDist.Variance property" Url="html/P_ElecNetKit_Util_NormalDist_Variance.htm" />
   <HelpKINode Title="NumSamples property" Url="html/P_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradientMapBuilder_NumSamples.htm" />
+  <HelpKINode Title="ObserveElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementSelector.htm" />
+  <HelpKINode Title="ObserveElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementValuesSelector.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T) class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T) class">
+    <HelpKINode Title="about ObserveResultsTransform(Of T) class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObserveResultsTransform(Of T).ChooseElementsStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ChooseElementsStrategy.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T).ObserveResultsTransform constructor" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1__ctor.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T).ObserveStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ObserveStrategy.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T).PostExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PostExperimentHook.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T).PreExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PreExperimentHook.htm" />
+  <HelpKINode Title="ObserveResultsTransform(Of T).WatchedElements property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_WatchedElements.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt; class">
+    <HelpKINode Title="about ObserveResultsTransform&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_ObserveResultsTransform_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.ChooseElementsStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ChooseElementsStrategy.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.ObserveResultsTransform constructor" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1__ctor.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.ObserveStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ObserveStrategy.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.PostExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PostExperimentHook.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.PreExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PreExperimentHook.htm" />
+  <HelpKINode Title="ObserveResultsTransform&lt;T&gt;.WatchedElements property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_WatchedElements.htm" />
+  <HelpKINode Title="ObserveStrategy property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_ObserveStrategy.htm" />
   <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_Bus_OnDeserialization.htm" />
   <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_NetworkModelling_NetworkElement_OnDeserialization.htm" />
   <HelpKINode Title="OnDeserialization method" Url="html/M_ElecNetKit_Util_TwinKeyDictionary_3_OnDeserialization.htm" />
@@ -747,6 +807,50 @@
   <HelpKINode Title="OpenDSSSimulator.ResolveOpenDSSBusString method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_ResolveOpenDSSBusString.htm" />
   <HelpKINode Title="OpenDSSSimulator.ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
   <HelpKINode Title="OpenDSSSimulator.RunCommand method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve) class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve) class">
+    <HelpKINode Title="about PerturbAndObserveRunner(Of TObserve) class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).AfterValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_AfterValues.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).BeforeValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_BeforeValues.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).NetworkFilename property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_NetworkFilename.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).ObserveElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).ObserveElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementValuesSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).PerturbAndObserveRunner constructor" Url="html/Overload_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1__ctor.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).PerturbCommands property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbCommands.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).PerturbElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).PerturbElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementValuesSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).PerturbValuesToRecord property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbValuesToRecord.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner(Of TObserve).RunPerturbAndObserve method" Url="html/M_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_RunPerturbAndObserve.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt; class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt; class">
+    <HelpKINode Title="about PerturbAndObserveRunner&lt;TObserve&gt; class" Url="html/T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.AfterValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_AfterValues.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.BeforeValues property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_BeforeValues.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.NetworkFilename property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_NetworkFilename.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.ObserveElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.ObserveElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_ObserveElementValuesSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.PerturbAndObserveRunner constructor" Url="html/Overload_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1__ctor.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.PerturbCommands property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbCommands.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.PerturbElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.PerturbElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementValuesSelector.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.PerturbValuesToRecord property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbValuesToRecord.htm" />
+  <HelpKINode Title="PerturbAndObserveRunner&lt;TObserve&gt;.RunPerturbAndObserve method" Url="html/M_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_RunPerturbAndObserve.htm" />
+  <HelpKINode Title="PerturbCommands property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbCommands.htm" />
+  <HelpKINode Title="PerturbElementSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementSelector.htm" />
+  <HelpKINode Title="PerturbElementValuesSelector property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbElementValuesSelector.htm" />
+  <HelpKINode Title="PerturbValuesToRecord property" Url="html/P_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_PerturbValuesToRecord.htm" />
   <HelpKINode Title="Phase property" Url="html/P_ElecNetKit_NetworkModelling_NetworkElementConnection_Phase.htm" />
   <HelpKINode Title="Phased(Of T) interface" Url="html/T_ElecNetKit_NetworkModelling_Phasing_Phased_1.htm" />
   <HelpKINode Title="Phased(Of T) interface">
@@ -874,6 +978,7 @@
   </HelpKINode>
   <HelpKINode Title="PhasedValues&lt;T&gt;.GetObjectData method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1_GetObjectData.htm" />
   <HelpKINode Title="PhasedValues&lt;T&gt;.PhasedValues constructor" Url="html/Overload_ElecNetKit_NetworkModelling_Phasing_PhasedValues_1__ctor.htm" />
+  <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PostExperimentHook.htm" />
   <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PostExperimentHook.htm" />
   <HelpKINode Title="PostExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PostExperimentHook.htm" />
   <HelpKINode Title="PowerConversionElement class" Url="html/AllMembers_T_ElecNetKit_NetworkModelling_PowerConversionElement.htm" />
@@ -900,6 +1005,7 @@
   <HelpKINode Title="PowerDeliveryElement.Connect method" Url="html/Overload_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect.htm" />
   <HelpKINode Title="PowerDeliveryElement.Connect3Phase method" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement_Connect3Phase.htm" />
   <HelpKINode Title="PowerDeliveryElement.PowerDeliveryElement constructor" Url="html/M_ElecNetKit_NetworkModelling_PowerDeliveryElement__ctor.htm" />
+  <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Sensitivities_ObserveResultsTransform_1_PreExperimentHook.htm" />
   <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_DifferenceTransform_PreExperimentHook.htm" />
   <HelpKINode Title="PreExperimentHook method" Url="html/M_ElecNetKit_Transform_IResultsTransform_PreExperimentHook.htm" />
   <HelpKINode Title="PrepareNetwork method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_PrepareNetwork.htm" />
@@ -950,6 +1056,7 @@
   <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.IsReadOnly property" Url="html/P_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_IsReadOnly.htm" />
   <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.QueryableCollection constructor" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2__ctor.htm" />
   <HelpKINode Title="QueryableCollection&lt;TBase, TTo&gt;.Remove method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Remove.htm" />
+  <HelpKINode Title="RecordedPerturbationSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_RecordedPerturbationSelector.htm" />
   <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_RefreshGraph.htm" />
   <HelpKINode Title="RefreshGraph method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHost_RefreshGraph.htm" />
   <HelpKINode Title="Remove method" Url="html/M_ElecNetKit_NetworkModelling_Phasing_QueryableCollection_2_Remove.htm" />
@@ -963,6 +1070,7 @@
   <HelpKINode Title="ResetAutoData method" Url="html/M_ElecNetKit_Graphing_AdaptiveGradients_AdaptiveGradient_ResetAutoData.htm" />
   <HelpKINode Title="ResolveOpenDSSBusString method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_ResolveOpenDSSBusString.htm" />
   <HelpKINode Title="ResultAccuracy property" Url="html/P_ElecNetKit_Engines_OpenDSSSimulator_ResultAccuracy.htm" />
+  <HelpKINode Title="ResultSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_ResultSelector.htm" />
   <HelpKINode Title="ResultsTransformer property" Url="html/P_ElecNetKit_Simulator_NetworkController_ResultsTransformer.htm" />
   <HelpKINode Title="RingColor property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingColor.htm" />
   <HelpKINode Title="RingDistanceFromCenter property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingDistanceFromCenter.htm" />
@@ -971,11 +1079,38 @@
   <HelpKINode Title="RingThickness property" Url="html/P_ElecNetKit_Graphing_Graphs_ValueTransformableTreeGraph_RingThickness.htm" />
   <HelpKINode Title="RunCommand method" Url="html/M_ElecNetKit_Engines_OpenDSSSimulator_RunCommand.htm" />
   <HelpKINode Title="RunCommand method" Url="html/M_ElecNetKit_Simulator_ISimulator_RunCommand.htm" />
+  <HelpKINode Title="RunPerturbAndObserve method" Url="html/M_ElecNetKit_Sensitivities_PerturbAndObserveRunner_1_RunPerturbAndObserve.htm" />
   <HelpKINode Title="SaveVisualToByteArray method" Url="html/M_ElecNetKit_Graphing_Util_DrawingVisualSerialisers_SaveVisualToByteArray.htm" />
   <HelpKINode Title="ScaledLocation method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledLocation.htm" />
   <HelpKINode Title="ScaledRectangle method" Url="html/M_ElecNetKit_Graphing_TreeGraph_ScaledRectangle.htm" />
   <HelpKINode Title="SelectedElement property" Url="html/P_ElecNetKit_Graphing_Graphs_FeederProfileGraph_SelectedElement.htm" />
   <HelpKINode Title="SelectedElement property" Url="html/P_ElecNetKit_Graphing_IElementSelectable_SelectedElement.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T) class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T) class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T) class">
+    <HelpKINode Title="about SensitivityGenerator(Of T) class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SensitivityGenerator(Of T).GenerateSensitivities method" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1_GenerateSensitivities.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T).RecordedPerturbationSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_RecordedPerturbationSelector.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T).ResultSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_ResultSelector.htm" />
+  <HelpKINode Title="SensitivityGenerator(Of T).SensitivityGenerator constructor" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1__ctor.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt; class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt; class">
+    <HelpKINode Title="about SensitivityGenerator&lt;T&gt; class" Url="html/T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_SensitivityGenerator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt;.GenerateSensitivities method" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1_GenerateSensitivities.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt;.RecordedPerturbationSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_RecordedPerturbationSelector.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt;.ResultSelector property" Url="html/P_ElecNetKit_Sensitivities_SensitivityGenerator_1_ResultSelector.htm" />
+  <HelpKINode Title="SensitivityGenerator&lt;T&gt;.SensitivityGenerator constructor" Url="html/M_ElecNetKit_Sensitivities_SensitivityGenerator_1__ctor.htm" />
   <HelpKINode Title="SourceBus property" Url="html/P_ElecNetKit_NetworkModelling_NetworkModel_SourceBus.htm" />
   <HelpKINode Title="StartGraphHostWindow method" Url="html/M_ElecNetKit_Graphing_Controls_GraphHostWindow_StartGraphHostWindow.htm" />
   <HelpKINode Title="StaticValue class" Url="html/AllMembers_T_ElecNetKit_Graphing_AdaptiveGradients_StaticValue.htm" />
@@ -1133,4 +1268,28 @@
   <HelpKINode Title="VoltagePhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePhased.htm" />
   <HelpKINode Title="VoltagePU property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePU.htm" />
   <HelpKINode Title="VoltagePUPhased property" Url="html/P_ElecNetKit_NetworkModelling_Bus_VoltagePUPhased.htm" />
+  <HelpKINode Title="VoltageSensitivityToComplexPowerGenerator class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+  <HelpKINode Title="VoltageSensitivityToComplexPowerGenerator class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+  <HelpKINode Title="VoltageSensitivityToComplexPowerGenerator class">
+    <HelpKINode Title="about VoltageSensitivityToComplexPowerGenerator class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VoltageSensitivityToComplexPowerGenerator.GetVoltageSensitivityToComplexPower method" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator_GetVoltageSensitivityToComplexPower.htm" />
+  <HelpKINode Title="VoltageSensitivityToComplexPowerGenerator.VoltageSensitivityToComplexPowerGenerator constructor" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToComplexPowerGenerator__ctor.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet class" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet class">
+    <HelpKINode Title="about VoltageSensitivityToPQDataSet class" Url="html/T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VoltageSensitivityToPQDataSet.dd_dP property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dd_dP.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet.dd_dQ property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dd_dQ.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet.dV_dP property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dV_dP.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet.dV_dQ property" Url="html/P_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet_dV_dQ.htm" />
+  <HelpKINode Title="VoltageSensitivityToPQDataSet.VoltageSensitivityToPQDataSet constructor" Url="html/M_ElecNetKit_Sensitivities_VoltageSensitivityToPQDataSet__ctor.htm" />
+  <HelpKINode Title="WatchedElements property" Url="html/P_ElecNetKit_Sensitivities_ObserveResultsTransform_1_WatchedElements.htm" />
 </HelpKI>
