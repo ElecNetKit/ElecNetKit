@@ -82,6 +82,7 @@ namespace ElecNetKit.NetworkModelling.Phasing
         /// Not supported. Always throws a <see cref="NotSupportedException"/>.
         /// </summary>
         /// <param name="item">Not used.</param>
+        /// <returns>Never returns.</returns>
         public bool Remove(TTo item)
         {
             throw new NotSupportedException();

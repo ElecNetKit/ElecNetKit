@@ -228,7 +228,7 @@ namespace ElecNetKit.NetworkModelling
         /// <summary>
         /// Reconstructs the <see cref="NetworkElement"/> after deserialisation.
         /// </summary>
-        /// <param name="sender"></param>
+        /// <param name="sender">This value is unused.</param>
         public virtual void OnDeserialization(object sender)
         {
             _ConnectedToPhasedReadOnly =

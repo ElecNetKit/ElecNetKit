@@ -32,9 +32,9 @@ namespace ElecNetKit.NetworkModelling.Phasing
         /// <summary>
         /// Instantiates a new <see cref="PhasedEvaluated{TFrom, TTo}"/> with the specified transforms and base phased object.
         /// </summary>
-        /// <param name="getTransform">A transform translating values from <see cref="basePhased"/> to this <see cref="PhasedEvaluated{TFrom, TTo}"/>, for get operations.</param>
-        /// <param name="setTransform">A transform translating values from this <see cref="PhasedEvaluated{TFrom, TTo}"/> to <see cref="basePhased"/>, for set operations.</param>
-        /// <param name="basePhased"></param>
+        /// <param name="getTransform">A transform translating values from <paramref name="basePhased"/> to this <see cref="PhasedEvaluated{TFrom, TTo}"/>, for get operations.</param>
+        /// <param name="setTransform">A transform translating values from this <see cref="PhasedEvaluated{TFrom, TTo}"/> to <paramref name="basePhased"/>, for set operations.</param>
+        /// <param name="basePhased">The base phased object from which to get and set values from and to.</param>
         public PhasedEvaluated(Func<TFrom, TTo> getTransform, Func<TTo, TFrom> setTransform, Phased<TFrom> basePhased)
         {
             this.getTransform = getTransform;

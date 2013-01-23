@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ElecNetKit.Core")]
-[assembly: AssemblyDescription("ElecNetKit is a toolkit for building simulation experiments for electrical network models.")]
+[assembly: AssemblyTitle("ElecNetKit.Sensitivities")]
+[assembly: AssemblyDescription("Electrical Network Sensitivity module for ElecNetKit.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Fabian Tamp")]
 [assembly: AssemblyProduct("ElecNetKit")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("19971126-fa7e-4282-a08d-c0d37244817b")]
+[assembly: Guid("35d66878-b7df-41cd-a96c-2288154191ad")]
 
 // Version information for an assembly consists of the following four values:
 //

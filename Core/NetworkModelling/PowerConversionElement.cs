@@ -35,6 +35,7 @@ namespace ElecNetKit.NetworkModelling
         /// <param name="connectTo">The <see cref="Bus"/> that the <see cref="PowerConversionElement"/> should connect to.</param>
         /// <param name="phases">The phases of the <see cref="PowerConversionElement"/> and the active phases of the <see cref="Bus"/>
         /// to connect on.</param>
+        /// <overloads>There are multiple overloads for this method:</overloads>
         public void ConnectWye(Bus connectTo, params int[] phases)
         {
             if (phases.Length == 0)
@@ -61,10 +62,11 @@ namespace ElecNetKit.NetworkModelling
         /// <summary>
         /// Connects this <see cref="PowerConversionElement"/> to a <see cref="Bus"/>.
         /// This is the connection method for three-phase balanced networks. Use
-        /// <see cref="O:ConnectWye"/> and <see cref="Connect(int,Bus,int)"/>
+        /// <see cref="O:ElecNetKit.NetworkModelling.PowerConversionElement.ConnectWye" /> and <see cref="Connect(int,Bus,int)"/>
         /// for arbitrarily-phased networks.
         /// </summary>
         /// <param name="connectTo">The <see cref="Bus"/> to connect to.</param>
+        /// <overloads>There are multiple overloads for this method:</overloads>
         public void Connect(Bus connectTo)
         {
             ConnectWye(connectTo, 1, 2, 3);

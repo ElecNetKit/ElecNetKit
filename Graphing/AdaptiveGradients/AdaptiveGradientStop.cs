@@ -14,7 +14,8 @@ namespace ElecNetKit.Graphing.AdaptiveGradients
     public class AdaptiveGradientStop
     {
         /// <summary>
-        /// 
+        /// The color of the gradient stop. A gradient lookup at <see cref="Anchor"/>
+        /// will return this color.
         /// </summary>
         public Color Color { private set; get; }
 

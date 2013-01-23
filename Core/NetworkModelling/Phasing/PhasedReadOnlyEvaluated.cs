@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 namespace ElecNetKit.NetworkModelling.Phasing
 {
     /// <summary>
-    /// An implementation of <see cref="Phased{T}"/> that is read-only, works with objects
-    /// (as opposed to <see cref="PhasedEvaluated{TFrom,T}"/>, which only works with value types)
-    /// and returns 
+    /// An implementation of <see cref="Phased{T}"/> that is read-only and works with objects
+    /// (as opposed to <see cref="PhasedEvaluated{TFrom,T}"/>, which only works with value types).
     /// </summary>
-    /// <typeparam name="TFrom"></typeparam>
-    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="TFrom">The type to convert from.</typeparam>
+    /// <typeparam name="T">The type fo convert to.</typeparam>
     public class PhasedReadOnlyEvaluated<TFrom,T> : Phased<T>
     {
         /// <summary>
@@ -68,6 +67,7 @@ namespace ElecNetKit.NetworkModelling.Phasing
         /// Not supported. Always throws a <see cref="NotSupportedException"/>.
         /// </summary>
         /// <param name="key">Not used.</param>
+        /// <returns>Never returns.</returns>
         public bool Remove(int key)
         {
             throw new NotSupportedException();
@@ -160,6 +160,7 @@ namespace ElecNetKit.NetworkModelling.Phasing
         /// Not supported. Always throws a <see cref="NotSupportedException"/>.
         /// </summary>
         /// <param name="item">Not used.</param>
+        /// <returns>Never returns.</returns>
         public bool Remove(KeyValuePair<int, T> item)
         {
             throw new NotSupportedException();

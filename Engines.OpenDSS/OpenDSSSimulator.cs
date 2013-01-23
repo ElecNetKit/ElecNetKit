@@ -203,8 +203,8 @@ namespace ElecNetKit.Engines
         /// Translates an OpenDSS bus connection string into a bus ID and a set of phases.
         /// </summary>
         /// <param name="busConnString">The bus connection string from OpenDSS.</param>
-        /// <param name="numPhases"></param>
-        /// <returns></returns>
+        /// <param name="numPhases">The number of phases to consider.</param>
+        /// <returns>A tuple containing the bus ID, and a list of phases.</returns>
         protected static Tuple<String, List<int>> ResolveOpenDSSBusString(String busConnString, int numPhases)
         {
             var parts = busConnString.Split('.');

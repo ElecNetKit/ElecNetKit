@@ -96,6 +96,7 @@
     <Compile Include="TreeGraph.cs" />
     <Compile Include="Util\MagicGridSpacer.cs" />
     <Compile Include="Graphs\ValueTransformableTreeGraph.cs" />
+    <Compile Include="Util\NamespaceDoc.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\ElecNetKit.Core.csproj">
