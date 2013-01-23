@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("ElecNetKit is a toolkit for building simulation experiments for electrical network models.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Fabian Tamp")]
-[assembly: AssemblyProduct("ElecNetKit.Core")]
+[assembly: AssemblyProduct("ElecNetKit")]
 [assembly: AssemblyCopyright("© 2012-13")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
