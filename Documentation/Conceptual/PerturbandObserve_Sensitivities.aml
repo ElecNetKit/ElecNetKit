@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="846f840c-9009-47f2-9838-a8f2f6998a0d" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>One of the core strengths of ElecNetKit lies in data manipulation and transformation. To that effect, the generation of sensitivity data has been found to be incredibly
+      helpful for the purposes of exploring network P-Q-V relationships and planning for the installation of distributed generation, storage, and voltage support systems.</para>
+      <para>ElecNetKit features a module designed for simplifying perturb-and-observe-style experiments, and for generating sensitivity information from these experiments. This module is introduced in this topic.</para>
+    <autoOutline />
+    </introduction>
+    <section address="PerturbAndObserve">
+      <title>Perturb-and-Observe Experiments</title>
+      <content>
+        <!-- Uncomment this to create a sub-section outline
+        <autoOutline /> -->
+        <para>Perturb-and-Observe Experiments are run using the <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1</codeEntityReference> class.</para>
+        <procedure>
+          <title>Setting Up a Perturb-and-Observe Experiment</title>
+          <steps class="bullet">
+            <step>
+              <content>
+                <para>Specify the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.NetworkFilename</codeEntityReference> of the network to run the perturb-and-observe experiment on.</para>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Specify selector functions, that take a <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkModel</codeEntityReference> and return a set of <codeEntityReference qualifyHint="false">T:ElecNetKit.NetworkModelling.NetworkElement</codeEntityReference>s. You should specify a selector function for all elements that are to be perturbed (<codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementSelector</codeEntityReference>) and for all elements that are to be observed (<codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.ObserveElementSelector</codeEntityReference>). It is common to set the observed elements to the buses in the network, for example:</para>
+                <code language="c#">
+                  myPerturbAndObserveRunner.ObserveElementSelector = network => network.Buses.Values;
+                </code>
+                <para>
+                  The choice of <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementSelector</codeEntityReference> is a little more arbitrary due to the way that perturbation commands are issued to the simulator (this will be explained later).
+                </para>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Specify value selector functions <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementValuesSelector</codeEntityReference> and <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.ObserveElementValuesSelector</codeEntityReference>. These take the network elements selected by <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementSelector</codeEntityReference> and <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.ObserveElementSelector</codeEntityReference>, and obtain values that will be observed or used in the perturbation command. For example, if we wish to observe the bus voltages, we can use the statement:</para>
+                <code language="c#">
+                  myPerturbAndObserveRunner.ObserveElementValuesSelector = networkElement => ((Bus)networkElement).Voltage.Magnitude;
+                </code>
+                <para>
+                  As an example of pulling data from perturbation elements to be used in the perturbation command, the following two commands specify perturbation on buses, and select some values to populate the perturbation commands:
+                </para>
+                <code language="c#">
+                  myPerturbAndObserveRunner.PerturbElementSelector = network => network.Buses.Values;
+                  myPerturbAndObserveRunner.PerturbElementValuesSelector = bus => new Object[] {bus.ID};
+                </code>
+                <para>In the above example, only the bus ID is selected. The data that needs to be selected depends upon the specific use case and perturbation commands.</para>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Specify a set of <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbCommands</codeEntityReference>. Each command can have optional placeholders that will be filled in with values from the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementValuesSelector</codeEntityReference> specified earlier. Placeholders are specified as <codeInline>{0}</codeInline>, <codeInline>{1}</codeInline>, <codeInline>{2}</codeInline> etc., where the number between the curly braces is the index in the array of objects returned by the value selector. For example, if the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementValuesSelector</codeEntityReference>
+              returned <codeInline>{25, "myBus", 11}</codeInline>, the command string
+              </para>
+                <code language="c#">
+                  "new Generator.testgenerator-{1} bus1={1} phases=3 model=1 status=fixed kV={2} Vminpu=0.9 Vmaxpu=1.1 kW={0} kvAR=0"
+                </code>
+                <para>would resolve to</para>
+                <code language="c#">
+                  "new Generator.testgenerator-myBus bus1=myBus phases=3 model=1 status=fixed kV=11 Vminpu=0.9 Vmaxpu=1.1 kW=25 kvAR=0"
+                </code>
+                <para>You can set up this command string using the code:</para>
+                <code language="c#">
+                  myPerturbAndObserveRunner.PerturbCommands = new String[] { "new Generator.testgenerator-{1} bus1={1} phases=3 model=1 status=fixed kV={2} Vminpu=0.9 Vmaxpu=1.1 kW={0} kvAR=0"};
+                </code>
+                <alert class="tip">
+                  <para>You can specify multiple commands to be run in sequence by adding a comma and another command immediately before the closing curly brace:
+                </para>
+                  <para>
+                    <codeInline>myPerturbAndObserveRunner.PerturbCommands = new String[] { "command1", "command2"};</codeInline>
+                  </para>
+                </alert>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Now, call <codeEntityReference qualifyHint="false" autoUpgrade="true">M:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.RunPerturbAndObserve</codeEntityReference> to run the perturb-and-observe experiment. The perturbations given by the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbCommands</codeEntityReference> will be applied at each element in <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementSelector</codeEntityReference> individually. The observed values before and after perturbation will be stored in <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.BeforeValues</codeEntityReference> and <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.AfterValues</codeEntityReference>. See the documentation for each of those members for a description of the way that observed data is stored.</para>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+    <section address="Sensitivities">
+      <title>Determining Sensitivities with Perturb-and-Observe Results</title>
+      <content>
+        <para>Once a Perturb-and-Observe experiment has been run, the <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1</codeEntityReference> can be passed to a <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.SensitivityGenerator`1</codeEntityReference> to generate the sensitivities of the observed quantities to the perturbed quantities.</para>
+        <procedure>
+          <title>Generating Sensitivity Information from Perturb-and-Observe Results</title>
+          <steps class="bullet">
+            <step>
+              <content>
+                <para>Instantiate a new <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.SensitivityGenerator`1</codeEntityReference>.</para>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Set the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.SensitivityGenerator`1.ResultSelector</codeEntityReference> to a function that takes the observed results provided by the <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1</codeEntityReference>
+               and transforms them into some numerical quantity that can be converted to <codeEntityReference qualifyHint="false">T:System.Double</codeEntityReference>. For most cases, one of these lines of code will suffice:</para>
+                <code language="c#">
+                  //Use this if you're observing a complex number and the magnitude component is important.
+                  mySensitivityGenerator.ResultSelector = complex => complex.Magnitude;
+                  //Use this if you're observing a simple number (double, int, etc)
+                  mySensitivityGenerator.ResultSelector = x => x;
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Set the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.SensitivityGenerator`1.RecordedPerturbationSelector</codeEntityReference> to obtain a value from the recorded perturbation values. Remember how before we had set of values that we got from <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbElementValuesSelector</codeEntityReference>? These got passed to the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbCommands</codeEntityReference>, and the example we used was <codeInline>{25, "myBus", 11}</codeInline>. We need to extract a numerical value from this array to obtain some kind of quantifiable cause-and-effect relationship. The way to do this is through the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.SensitivityGenerator`1.RecordedPerturbationSelector</codeEntityReference>, but we've got a couple of options:
+                </para>
+                <list class="bullet">
+                  <listItem>
+                    <para>Option 1: Limit what gets recorded by the <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1</codeEntityReference> with the <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1.PerturbValuesToRecord</codeEntityReference> property, and then just select that:</para>
+                    <code language="c#">
+                      //Take {25, "myBus", 11} and only save 25
+                      myPerturbAndObserveRunner.PerturbValuesToRecord = array => array[0];
+                      //do the rest of the setup and call myPerturbAndObserveRunner.RunPerturbAndObserve();
+
+                      //Just pull in that 25
+                      mySensitivityGenerator.RecordedPerturbationSelector = x => x;
+                    </code>
+                  </listItem>
+                  <listItem>
+                    <para>Option 2: Record everything from the perturb-and-observe experiment and then just select the relevant data with <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.SensitivityGenerator`1.RecordedPerturbationSelector</codeEntityReference>:</para>
+                    <code language="c#">
+                      //run the Perturb and Observe experiment without setting PerturbAndObserveRunner.PerturbValuesToRecord
+                      
+                      //pull in that 25, the first recorded element of the array.
+                      mySensitivityGenerator.RecordedPerturbationSelector = data => ((Object[])data)[0];
+                    </code>
+                  </listItem>
+                </list>
+                <para>
+              Option 2 is especially useful for situations in which you would use the same perturb-and-observe results for multiple purposes, including a sensitivity calculation, because no loss of data occurs.
+              </para><alert class="note">
+                <para>
+                The output of <codeEntityReference qualifyHint="false">P:ElecNetKit.Sensitivities.SensitivityGenerator`1.RecordedPerturbationSelector</codeEntityReference> needs to be convertible to <codeEntityReference qualifyHint="false">T:System.Double</codeEntityReference>, and thus needs to be a simple number.</para>
+              </alert>
+            </content>
+            </step>
+            <step>
+              <content>
+                <para>Call <codeEntityReference qualifyHint="false" autoUpgrade="true">M:ElecNetKit.Sensitivities.SensitivityGenerator`1.GenerateSensitivities(ElecNetKit.Sensitivities.PerturbAndObserveRunner{`0})</codeEntityReference>, passing the <codeEntityReference qualifyHint="false">T:ElecNetKit.Sensitivities.PerturbAndObserveRunner`1</codeEntityReference> as a parameter:</para>
+                <code language="c#">
+                  mySensitivityGenerator.GenerateSensitivities(myPerturbAndObserveRunner);
+                </code>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+
+    <relatedTopics>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID"/>
+      <link xlink:href="Other Topic's ID">Link inner text</link>
+
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8270" />
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on CodePlex</linkText>
+          <linkAlternateText>Go to CodePlex</linkAlternateText>
+          <linkUri>http://shfb.codeplex.com</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

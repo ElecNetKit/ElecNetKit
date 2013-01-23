@@ -24,6 +24,7 @@
       <DocumentationSource sourceFile="..\Engines.OpenDSS\ElecNetKit.Engines.OpenDSS.csproj" />
       <DocumentationSource sourceFile="..\Graphing\ElecNetKit.Graphing.csproj" />
       <DocumentationSource sourceFile="..\Core\ElecNetKit.Core.csproj" />
+      <DocumentationSource sourceFile="..\Sensitivities\ElecNetKit.Sensitivities.csproj" />
     </DocumentationSources>
     <HelpAttributes />
     <NamespaceSummaries />
@@ -125,6 +126,11 @@
       <Project>{b5815a66-d475-44b2-8c9a-696718cee002}</Project>
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="..\Sensitivities\ElecNetKit.Sensitivities.csproj">
+      <Name>ElecNetKit.Sensitivities</Name>
+      <Project>{ee71bb1e-9bf6-40b9-94d3-a41d5367a051}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Conceptual\Architecture.aml" />
@@ -134,6 +140,7 @@
     <None Include="Conceptual\GettingStarted\Index.aml" />
     <None Include="Conceptual\GettingStarted\TraversingNetworkModel.aml" />
     <None Include="Conceptual\Graphing.aml" />
+    <None Include="Conceptual\PerturbandObserve_Sensitivities.aml" />
     <None Include="Resources\SampleNetworks.zip" />
   </ItemGroup>
   <ItemGroup>
