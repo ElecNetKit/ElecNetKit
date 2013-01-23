@@ -18,13 +18,13 @@ namespace Tests.Sensitivities
         public void TestSensitivityGenerator()
         {
             PerturbAndObserveRunner<Complex> runner = new PerturbAndObserveRunner<Complex>(new OpenDSSSimulator());
-            runner.NetworkMasterFile = AppDomain.CurrentDomain.BaseDirectory + @"\TestNetworks\Ex9_5_nogen.dss";
+            runner.NetworkFilename = AppDomain.CurrentDomain.BaseDirectory + @"\TestNetworks\Ex9_5_nogen.dss";
             runner.PerturbCommands = new String[] { "new Generator.{0} bus1={1} phases=3 model=1 status=fixed kV={2} Vminpu=0.9 Vmaxpu=1.1 kW={3} kvAR=0" };
-            runner.PerturbElementQuery = network => network.Buses.Values;
-            runner.PerturbElementValuesQuery = elem => { Bus b = (Bus)elem; return new Object[] { "gg-" + b.ID, b.ID, b.BaseVoltage * Math.Sqrt(3) / 1000, 3260 }; };
+            runner.PerturbElementSelector = network => network.Buses.Values;
+            runner.PerturbElementValuesSelector = elem => { Bus b = (Bus)elem; return new Object[] { "gg-" + b.ID, b.ID, b.BaseVoltage * Math.Sqrt(3) / 1000, 3260 }; };
             runner.PerturbValuesToRecord = x => x[3];
-            runner.ObserveElementQuery = network => network.Buses.Values;
-            runner.ObserveElementValuesQuery = elem => ((Bus)elem).Voltage;
+            runner.ObserveElementSelector = network => network.Buses.Values;
+            runner.ObserveElementValuesSelector = elem => ((Bus)elem).Voltage;
             runner.RunPerturbAndObserve();
 
             SensitivityGenerator<Complex> generator = new SensitivityGenerator<Complex>();

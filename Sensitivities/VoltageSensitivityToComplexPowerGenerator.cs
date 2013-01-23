@@ -45,16 +45,16 @@ namespace ElecNetKit.Sensitivities
             controller.Execute();
             var avgLoad = controller.Network.Loads.Select(load=>load.ActualKVA).Aggregate((seed,elem) => seed+elem);
             avgLoad /= controller.Network.Loads.Count;
-            perturbAndObserve.NetworkMasterFile = NetworkMasterFile;
-            perturbAndObserve.ObserveElementQuery = network => network.Buses.Values.Where(bus => bus.ConnectedTo.OfType<Load>().Any());
-            perturbAndObserve.PerturbElementQuery = perturbAndObserve.ObserveElementQuery;
+            perturbAndObserve.NetworkFilename = NetworkMasterFile;
+            perturbAndObserve.ObserveElementSelector = network => network.Buses.Values.Where(bus => bus.ConnectedTo.OfType<Load>().Any());
+            perturbAndObserve.PerturbElementSelector = perturbAndObserve.ObserveElementSelector;
             perturbAndObserve.PerturbCommands = new []{CommandString};
-            perturbAndObserve.ObserveElementValuesQuery = elem => ((Bus)elem).Voltage;
+            perturbAndObserve.ObserveElementValuesSelector = elem => ((Bus)elem).Voltage;
 
             SensitivityGenerator<Complex> generator = new SensitivityGenerator<Complex>();
 
             //real
-            perturbAndObserve.PerturbElementValuesQuery = bus => new Object[] {"inject-"+bus.ID,bus.ID,PerturbationFrac * avgLoad.Real, 0};
+            perturbAndObserve.PerturbElementValuesSelector = bus => new Object[] {"inject-"+bus.ID,bus.ID,PerturbationFrac * avgLoad.Real, 0};
             perturbAndObserve.PerturbValuesToRecord = vars => vars[2];
             perturbAndObserve.RunPerturbAndObserve();
 
@@ -67,7 +67,7 @@ namespace ElecNetKit.Sensitivities
             var PhaseDictionaryReal = generator.GenerateSensitivities(perturbAndObserve);
 
             //imaginary
-            perturbAndObserve.PerturbElementValuesQuery = bus => new Object[] { "inject-" + bus.ID, bus.ID, 0, PerturbationFrac * avgLoad.Imaginary };
+            perturbAndObserve.PerturbElementValuesSelector = bus => new Object[] { "inject-" + bus.ID, bus.ID, 0, PerturbationFrac * avgLoad.Imaginary };
             perturbAndObserve.PerturbValuesToRecord = vars => vars[3];
             perturbAndObserve.RunPerturbAndObserve();
 
