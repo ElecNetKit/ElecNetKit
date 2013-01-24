@@ -10,6 +10,7 @@ using ElecNetKit.Util;
 using ElecNetKit.Simulator;
 using System.Numerics;
 using ElecNetKit.NetworkModelling.Phasing;
+using System.ComponentModel.Composition;
 
 namespace ElecNetKit.Engines
 {
@@ -20,6 +21,7 @@ namespace ElecNetKit.Engines
     /// If you're looking to get information, obtain results etc, use a
     /// <see cref="NetworkController"/> instead.
     /// </summary>
+    [Export(typeof(ISimulator))]
     public class OpenDSSSimulator : ISimulator
     {
         /// <summary>

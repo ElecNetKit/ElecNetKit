@@ -5,6 +5,7 @@ using System.Text;
 
 using ElecNetKit.Experimentation;
 using System.IO;
+using System.ComponentModel.Composition;
 
 namespace ElecNetKit.Experimentation
 {

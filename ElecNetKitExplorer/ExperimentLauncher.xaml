@@ -1,0 +1,39 @@
+﻿<Metro:MetroWindow x:Class="ElecNetKitExplorer.ExperimentLauncher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ExperimentLauncher" Height="300" Width="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Metro:MetroWindow.WindowCommands>
+        <Metro:WindowCommands>
+            <Rectangle Width="20" Height="20">
+                <Rectangle.Resources>
+                    <SolidColorBrush x:Key="BlackBrush" Color="Yellow" Opacity="1" />
+                </Rectangle.Resources>
+                <Rectangle.Fill>
+                    <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_alert}" />
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:Name="toolbarManagePackages" Content="Manage Packages" />
+        </Metro:WindowCommands>
+    </Metro:MetroWindow.WindowCommands>
+    <StackPanel>
+        <TextBlock Text="ElecNetKit Explorer" />
+        <TextBlock Text="Step 1: Choose a Simulator" />
+        <TextBlock Text="Step 2: Choose a Network" />
+        <TextBlock Text="Step 3: Choose an Experiment" />
+        <TextBlock Text="Step 4: Choose a Results Transform" />
+        <Button>Go!</Button>
+    </StackPanel>
+</Metro:MetroWindow>
