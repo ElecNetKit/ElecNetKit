@@ -11,7 +11,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
-                <ResourceDictionary Source="/Resources/Icons.xaml" />
+                <ResourceDictionary Source="/Resources/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -19,10 +19,11 @@
         <Metro:WindowCommands>
             <Rectangle Width="20" Height="20">
                 <Rectangle.Resources>
-                    <SolidColorBrush x:Key="BlackBrush" Color="Yellow" Opacity="1" />
+                    <SolidColorBrush x:Key="FillBrush" Color="Yellow" Opacity="1" />
+                    <SolidColorBrush x:Key="StrokeBrush" Color="Black" Opacity="1" />
                 </Rectangle.Resources>
                 <Rectangle.Fill>
-                    <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_alert}" />
+                    <VisualBrush Stretch="Fill" Visual="{StaticResource icon_alert}" />
                 </Rectangle.Fill>
             </Rectangle>
             <Button x:Name="toolbarManagePackages" Content="Manage Packages" Click="toolbarManagePackages_Click_1" />

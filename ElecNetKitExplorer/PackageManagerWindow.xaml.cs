@@ -39,5 +39,13 @@ namespace ElecNetKitExplorer
             foreach (var filename in dlg.FileNames)
                 App.Instance.Packages.Add(new Package(filename));
         }
+
+        private void btnRemovePackage_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (MessageBoxResult.No == MessageBox.Show(String.Format("Are you sure you wish to remove the package {0}?", ((Package)lstPackages.SelectedItem).Name), "Warning", MessageBoxButton.YesNo))
+                return;
+
+            App.Instance.Packages.Remove((Package)lstPackages.SelectedItem);
+        }
     }
 }

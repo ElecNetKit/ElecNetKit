@@ -3,7 +3,7 @@
         xmlns:Metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                    xmlns:converters="clr-namespace:ElecNetKitExplorer.Converters"
-        Title="ExperimentLauncher" Height="300" Width="300">
+        Title="ExperimentLauncher" Height="300" Width="499">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -12,7 +12,6 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
-                <ResourceDictionary Source="/Resources/Icons.xaml" />
                 <ResourceDictionary Source="/Resources/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <converters:Bool2VisConverter x:Key="Bool2Vis" />
@@ -20,55 +19,44 @@
     </Window.Resources>
     <Metro:MetroWindow.WindowCommands>
         <Metro:WindowCommands>
-            <Rectangle Width="20" Height="20">
-                <Rectangle.Resources>
-                    <SolidColorBrush x:Key="BlackBrush" Color="Yellow" Opacity="1" />
-                </Rectangle.Resources>
-                <Rectangle.Fill>
-                    <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_alert}" />
-                </Rectangle.Fill>
-            </Rectangle>
-            <Button x:Name="toolbarManagePackages" Content="Manage Packages" />
         </Metro:WindowCommands>
     </Metro:MetroWindow.WindowCommands>
-    <Grid>
+    <Grid Margin="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Style="{StaticResource Header}" Margin="0,0,0,5">Packages</TextBlock>
-        <ScrollViewer Grid.Row="1" Margin="0,0,0,5" VerticalScrollBarVisibility="Auto">
-            <ListView MinHeight="100" DataContext="{x:Static Application.Current}" ItemsSource="{Binding Packages}">
+            <ListView Grid.Row="1" DataContext="{x:Static Application.Current}" ItemsSource="{Binding Packages}" x:Name="lstPackages">
                 <ListView.View>
-                    <GridView>
-                        <GridViewColumn>
+                    <GridView AllowsColumnReorder="True">
+                        <GridViewColumn Header="Status">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <Rectangle Width="20" Height="20" Visibility="{Binding Error, Converter={StaticResource Bool2Vis}}">
                                         <Rectangle.Resources>
-                                            <SolidColorBrush x:Key="BlackBrush" Color="Yellow" Opacity="1" />
+                                            <SolidColorBrush x:Key="FillBrush" Color="Yellow" Opacity="1" />
+                                            <SolidColorBrush x:Key="StrokeBrush" Color="Black" Opacity="1" />
                                         </Rectangle.Resources>
                                         <Rectangle.Fill>
-                                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_alert}" />
+                                            <VisualBrush Stretch="Fill" Visual="{StaticResource icon_alert}" />
                                         </Rectangle.Fill>
                                     </Rectangle>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding Name}" />
-                        <GridViewColumn DisplayMemberBinding="{Binding Version}" />
-                        <GridViewColumn DisplayMemberBinding="{Binding DateModified}" />
-                        <GridViewColumn DisplayMemberBinding="{Binding Path}" />
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Version" DisplayMemberBinding="{Binding Version}" />
+                        <GridViewColumn Header="Date Modified" DisplayMemberBinding="{Binding DateModified}" />
+                        <GridViewColumn Header="Path" DisplayMemberBinding="{Binding Path}" />
                     </GridView>
                 </ListView.View>
             </ListView>
-        </ScrollViewer>
-
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
         <StackPanel Orientation="Horizontal" Width="Auto">
             <Button x:Name="btnAddPackage" Content="Add Package" Margin="0,0,10,0" Click="btnAddPackage_Click" />
-            <Button x:Name="btnRemovePackage" Content="Remove Package" />
+            <Button x:Name="btnRemovePackage" Content="Remove Package" Click="btnRemovePackage_Click_1" />
             </StackPanel>
         </StackPanel>
     </Grid>
