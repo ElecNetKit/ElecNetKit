@@ -25,7 +25,7 @@
                     <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_alert}" />
                 </Rectangle.Fill>
             </Rectangle>
-            <Button x:Name="toolbarManagePackages" Content="Manage Packages" />
+            <Button x:Name="toolbarManagePackages" Content="Manage Packages" Click="toolbarManagePackages_Click_1" />
         </Metro:WindowCommands>
     </Metro:MetroWindow.WindowCommands>
     <StackPanel>

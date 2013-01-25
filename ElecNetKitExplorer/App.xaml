@@ -1,7 +1,7 @@
 ﻿<Application x:Class="ElecNetKitExplorer.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="ExperimentLauncher.xaml">
+             StartupUri="ExperimentLauncher.xaml" DispatcherUnhandledException="Application_DispatcherUnhandledException_1" Startup="Application_Startup_1" Exit="Application_Exit_1" >
     <Application.Resources>
          
     </Application.Resources>

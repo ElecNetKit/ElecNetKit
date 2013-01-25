@@ -24,5 +24,10 @@ namespace ElecNetKitExplorer
         {
             InitializeComponent();
         }
+
+        private void toolbarManagePackages_Click_1(object sender, RoutedEventArgs e)
+        {
+            ((App)App.Current).LaunchPackageManager();
+        }
     }
 }
