@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace ElecNetKit.Composition
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class RequiresSimulator : Attribute
+    public class RequiresSimulatorAttribute : Attribute
     {
         public String SimulatorName { private set; get; }
 
-        public RequiresSimulator(String SimulatorName)
+        public RequiresSimulatorAttribute(String SimulatorName)
         {
             this.SimulatorName = SimulatorName;
         }

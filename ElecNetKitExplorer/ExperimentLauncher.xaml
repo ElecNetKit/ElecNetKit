@@ -32,9 +32,12 @@
     <StackPanel>
         <TextBlock Text="ElecNetKit Explorer" />
         <TextBlock Text="Step 1: Choose a Simulator" />
+        <ListView DataContext="{x:Static Application.Current}" ItemsSource="{Binding Simulators}" DisplayMemberPath="TypeNames[0]" x:Name="lstSimulators" />
         <TextBlock Text="Step 2: Choose a Network" />
         <TextBlock Text="Step 3: Choose an Experiment" />
+        <ListView DataContext="{x:Static Application.Current}" ItemsSource="{Binding Experimentors}" DisplayMemberPath="TypeNames[0]" x:Name="lstExperimentors" />
         <TextBlock Text="Step 4: Choose a Results Transform" />
+        <ListView DataContext="{x:Static Application.Current}" ItemsSource="{Binding ResultsTransforms}" DisplayMemberPath="TypeNames[0]" x:Name="lstResultsTransforms" />
         <Button>Go!</Button>
     </StackPanel>
 </Metro:MetroWindow>

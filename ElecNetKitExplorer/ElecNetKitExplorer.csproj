@@ -44,6 +44,7 @@
       <HintPath>..\..\..\Thesis\Code\packages\MahApps.Metro.0.10.1.12-ALPHA\lib\net40\MahApps.Metro.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\Thesis\Code\packages\MahApps.Metro.0.10.1.12-ALPHA\lib\net40\System.Windows.Interactivity.dll</HintPath>
@@ -67,6 +68,8 @@
     </ApplicationDefinition>
     <Compile Include="Converters\Bool2VisConverter.cs" />
     <Compile Include="QuickSerialisers.cs" />
+    <Compile Include="Recomposer.cs" />
+    <Compile Include="StandardFactories.cs" />
     <Page Include="PackageManagerWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -127,6 +130,10 @@
     <ProjectReference Include="..\Core\ElecNetKit.Core.csproj">
       <Project>{98e9dc15-e039-4137-b7c1-d327ce6f16fe}</Project>
       <Name>ElecNetKit.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Engines.OpenDSS\ElecNetKit.Engines.OpenDSS.csproj">
+      <Project>{f522e1f7-b15c-4b21-9ec2-f941f0998a0b}</Project>
+      <Name>ElecNetKit.Engines.OpenDSS</Name>
     </ProjectReference>
     <ProjectReference Include="..\Graphing\ElecNetKit.Graphing.csproj">
       <Project>{b5815a66-d475-44b2-8c9a-696718cee002}</Project>
