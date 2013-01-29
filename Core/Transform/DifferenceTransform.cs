@@ -7,7 +7,6 @@ using ElecNetKit.NetworkModelling;
 using ElecNetKit.Util;
 using ElecNetKit.Transform;
 using System.Numerics;
-using System.ComponentModel.Composition;
 
 namespace ElecNetKit.Transform
 {
@@ -16,7 +15,6 @@ namespace ElecNetKit.Transform
     /// post- experiment network. Saves the computed differences back into the
     /// final <see cref="NetworkModel"/> for processing, traversing or graphing.
     /// </summary>
-    [Export(typeof(IResultsTransform))]
     public class DifferenceTransform : IResultsTransform
     {
         Dictionary<string,Complex> oldVoltages;
