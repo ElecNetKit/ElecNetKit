@@ -17,7 +17,7 @@ ElecNetKit is implemented as a software library, using the Microsoft .NET framew
 You can grab ElecNetKit from the source here at github, or you can get binaries from [NuGet](http://nuget.org/packages?q=ElecNetKit).
 
 #Documentation#
-The [ElecNetKit documentation](http://capnfabs.github.com/ElecNetKit/) contains a number of conceptual and [Getting Started](http://capnfabs.github.com/ElecNetKit/?topic=html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm) topics that you may find helpful. In addition, the docs contains an extensive API documentation. Documentation is also available as a [Compiled HTML Help File](http://capnfabs.github.com/ElecNetKit/ElecNetKitDocs.chm) if you're into that kind of thing.
+The [ElecNetKit documentation](http://elecnetkit.github.io/ElecNetKit/) contains a number of conceptual and [Getting Started](http://elecnetkit.github.io/ElecNetKit/?topic=html/9e5ced0a-ca06-45d2-b65e-27c75e679471.htm) topics that you may find helpful. In addition, the docs contains an extensive API documentation. Documentation is also available as a [Compiled HTML Help File](http://elecnetkit.github.io/ElecNetKit/ElecNetKitDocs.chm) if you're into that kind of thing.
 
 #Licence and Contrib#
 Licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0).
